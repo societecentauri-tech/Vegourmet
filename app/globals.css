@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+/*
+ * Tokens vegourmet — extraits de la page réelle vegourmet.fr (thème « Yummy »).
+ * Palette dominante : terracotta/pêche chaleureux + olive douce + vert accent.
+ * Theming « Plan B web » : variables injectées au :root, consommées via Tailwind v4 @theme.
+ */
+@theme {
+  --color-veg-peach: #e6b170;
+  --color-veg-terracotta: #d98e73;
+  --color-veg-terracotta-dark: #bf7052;
+  --color-veg-coral: #ee9060;
+  --color-veg-olive: #a3a96a;
+  --color-veg-green: #227755;
+  --color-veg-green-bright: #2db68d;
+  --color-veg-ink: #453e3f;
+  --color-veg-ink-soft: #39433f;
+  --color-veg-cream: #f7f3f0;
+  --color-veg-cream-soft: #f0eee9;
+  --color-veg-muted: #8c8c8c;
+
+  --font-heading: "Signika", "PT Sans", system-ui, sans-serif;
+  --font-body: "PT Sans", "Montserrat", system-ui, sans-serif;
+}
+
+:root {
+  --background: var(--color-veg-cream);
+  --foreground: var(--color-veg-ink);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-heading);
+  color: var(--color-veg-ink-soft);
+}
+
+a {
+  color: var(--color-veg-green);
+}
+
+a:hover {
+  color: var(--color-veg-terracotta-dark);
+}
+
+/* Prose éditorial pour le corps des recettes / articles MDX */
+.prose-veg {
+  line-height: 1.7;
+}
+.prose-veg h2 {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.prose-veg h3 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.prose-veg p {
+  margin-bottom: 1rem;
+}
+.prose-veg ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+.prose-veg ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}

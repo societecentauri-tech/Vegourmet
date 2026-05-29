@@ -1,0 +1,32 @@
+{
+  "description": "Manifeste des images vegourmet.fr à migrer (POC images différées). Le src réel sera branché plus tard via bucket S3. Aucune image n'a été téléchargée.",
+  "generatedAt": "2026-05-29",
+  "source": "https://vegourmet.fr",
+  "count": 24,
+  "images": [
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Un-banana-bread-qui-sort-du-fou.jpg", "page": "/recettes/banana-bread-vegan-5-secrets-recette", "alt": "Un banana bread vegan qui sort du four" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/banana-bread-dans-un-linge-blanc.jpg", "page": "/recettes/banana-bread-vegan-5-secrets-recette", "alt": "Un banana bread dans un linge blanc" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/banana-bread-coupe-en-tranches.jpg", "page": "/recettes/banana-bread-vegan-5-secrets-recette", "alt": "Un banana bread coupé en tranches" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/banana-bread-sur-une-assiette-blanche.jpg", "page": "/recettes/banana-bread-vegan-5-secrets-recette", "alt": "Un banana bread sur une assiette blanche" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/avocat-farci-vegan.jpg", "page": "/recettes/avocat-farci-vegan-nouvelle-recette", "alt": "Un avocat farci vegan avec du vinaigre balsamique et des tomates fraiches" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/avocat-farci-quinoa-haricots-rouges.jpg", "page": "/recettes/avocat-farci-vegan-nouvelle-recette", "alt": "Un avocat farci vegan avec du quinoa et des haricots rouges" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/avocat-farci-cajou-assiette-grise.jpg", "page": "/recettes/avocat-farci-vegan-nouvelle-recette", "alt": "Un avocat farci vegan aux noix de cajou dans une assiette grise" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/avocat-farci-restaurant-paris.jpg", "page": "/recettes/avocat-farci-vegan-nouvelle-recette", "alt": "Un avocat farci vegan sur un plat dans un restaurant à Paris" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Un-Baeckeoffe-Vegan-dans-un-plat-qui-sort-du-four.jpg", "page": "/recettes/baeckeoffe-vegan-recette-alsacienne-revisite", "alt": "Un Baeckeoffe Vegan dans un plat qui sort du four" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/baeckeoffe-mijote-plat-emblematique.jpg", "page": "/recettes/baeckeoffe-vegan-recette-alsacienne-revisite", "alt": "Un Baeckeoffe Vegan qui finit de mijoter dans son plat emblématique" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/baeckeoffe-pommes-terre-carottes-repas-famille.jpg", "page": "/recettes/baeckeoffe-vegan-recette-alsacienne-revisite", "alt": "Un magnifique Baeckeoffe Vegan avec des pommes de terre et des carottes pour un repas de famille le dimanche midi" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/baeckeoffe-restaurant-alsace.jpg", "page": "/recettes/baeckeoffe-vegan-recette-alsacienne-revisite", "alt": "Un Baeckeoffe Vegan dans un restaurant en Alsace pour un déjeuner en famille" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Une-casserole-de-bechamel-vegan-sur-une-planche-en-bois-724x1024.png", "page": "/recettes/bechamel-vegan-meilleure-recette-magique", "alt": "Une casserole de béchamel vegan sur une planche en bois" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Des-biscuits-vegan-qui-sortent-du-four-pour-un-gouter-entre-amis.png", "page": "/recettes/biscuits-vegan-meilleure-recette-a-refaire", "alt": "Des biscuits vegan qui sortent du four pour un goûter entre amis" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-Bo-Bun-Vegan-dans-un-restaurant-Vietnamien-724x1024.png", "page": "/recettes/bo-bun-vegan-meilleure-recette-vietnamienne", "alt": "Un Bo Bun Vegan dans un restaurant Vietnamien" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/bolognaise-vegan.jpg", "page": "/recettes/bolognaise-vegan-methode-texture-bluffante", "alt": "Un bol généreux de spaghettis garnis d'une sauce bolognaise vegan riche et texturée" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Vue-densemble-des-ingredients-frais-necessaires-pour-preparer-la-recette-de-bouchee-a-la-reine-vegan-724x1024.jpg", "page": "/recettes/bouchees-a-la-reine-vegan-sauce-cremeuse", "alt": "Vue d'ensemble des ingrédients frais nécessaires pour préparer la recette de bouchée à la reine vegan" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Bowl-cake-vegan-demoule-garni-de-chocolat-fondu-framboises-et-myrtilles-fraiches.jpg", "page": "/recettes/bowl-cake-meilleure-recette-vegan-5-etapes", "alt": "Bowl cake vegan démoulé, garni de chocolat fondu, framboises et myrtilles fraîches" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/brioche-vegan.jpg", "page": "/recettes/brioche-vegan-recette-ultra-moelleuse-tester", "alt": "Une magnifique brioche vegan qui sort du four" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/Un-apero-vegan-colore-et-gourmand-avec-un-assortiment-de-tartinades-comme-du-houmous-720x950.jpg", "page": "/apero-vegan-10-idees-incroyables-a-tester-absolument", "alt": "Un apéro vegan coloré et gourmand avec un assortiment de tartinades comme du houmous" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/aquafaba-mousse-chocolat.jpg", "page": "/aquafaba-9-astuces-magiques-reussir-vos-recettes", "alt": "Une mousse au chocolat vegan faite avec de l'aquafaba" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/Un-pot-de-beurre-vegan-cremeux-sur-une-planche-en-bois-720x950.jpg", "page": "/beurre-vegan-7-secrets-pour-bien-choisir-et-utiliser", "alt": "Un pot de beurre vegan crémeux sur une planche en bois" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/Un-sachet-de-bonbon-vegan-ouvert-sur-une-table-jaune-720x950.png", "page": "/bonbon-vegan-3-ingredients-magiques-gout-parfait", "alt": "Un sachet de bonbon vegan ouvert sur une table jaune" },
+    { "originalUrl": "https://vegourmet.fr/wp-content/uploads/a-propos-chloe.jpg", "page": "/a-propos", "alt": "Chloé qui mange une salade vegan dans le salon" }
+  ]
+}
