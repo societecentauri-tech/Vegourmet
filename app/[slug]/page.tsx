@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { ArticleFaq } from "@/components/ArticleFaq";
 import { ArticleHeader } from "@/components/ArticleHeader";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { Faq } from "@/components/Faq";
 import { JsonLd } from "@/components/JsonLd";
 import { MdxContent } from "@/components/MdxContent";
+import { RelatedArticles } from "@/components/RelatedArticles";
 import {
   getAllArticles,
   getArticleBySlug,
+  getReadingTime,
+  getRelatedArticles,
   getReservedRootSlugs,
 } from "@/lib/content";
 import {
@@ -57,6 +59,8 @@ export default async function ArticlePage({ params }: PageProps) {
   if (!article) notFound();
 
   const fm = article.frontmatter;
+  const readingTime = getReadingTime(article.content);
+  const related = getRelatedArticles(fm);
   const breadcrumb = [
     { name: "Accueil", url: `${SITE_URL}/` },
     { name: "Blog", url: `${SITE_URL}/blog` },
@@ -64,30 +68,21 @@ export default async function ArticlePage({ params }: PageProps) {
   ];
 
   return (
-    <article className="mx-auto max-w-3xl px-4 py-8">
+    <>
       <JsonLd data={buildArticleJsonLd(article)} />
       <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
 
-      <Breadcrumb
-        items={breadcrumb.map((b) => ({
-          name: b.name,
-          href: b.url.replace(SITE_URL, "") || "/",
-        }))}
-      />
+      <article className="vg-single">
+        <ArticleHeader article={fm} readingTime={readingTime} />
 
-      <div className="mt-6">
-        <ArticleHeader article={fm} />
-      </div>
+        <div className="vg-content-wrap">
+          <MdxContent source={article.content} />
 
-      <div className="mt-10">
-        <MdxContent source={article.content} />
-      </div>
-
-      {fm.faq && fm.faq.length > 0 && (
-        <div className="mt-10">
-          <Faq items={fm.faq} />
+          {fm.faq && fm.faq.length > 0 && <ArticleFaq items={fm.faq} />}
         </div>
-      )}
-    </article>
+      </article>
+
+      <RelatedArticles articles={related} />
+    </>
   );
 }

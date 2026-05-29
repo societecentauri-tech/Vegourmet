@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RecipeCard } from "@/components/RecipeCard";
+import { ListingHeader } from "@/components/ListingHeader";
+import { RecipeGrid, recipeToListingItem } from "@/components/RecipeGrid";
 import { getAllRecipes } from "@/lib/content";
 import { SITE_URL } from "@/lib/seo";
 
@@ -13,26 +13,16 @@ export const metadata: Metadata = {
 
 export default function RecipesIndexPage() {
   const recipes = getAllRecipes();
+  const items = recipes.map((recipe) => recipeToListingItem(recipe.frontmatter));
 
   return (
-    <div className="mx-auto max-w-5xl px-4 py-8">
-      <Breadcrumb
-        items={[
-          { name: "Accueil", href: "/" },
-          { name: "Recettes", href: "/recettes" },
-        ]}
+    <div className="vg-archive">
+      <ListingHeader
+        eyebrow="Recettes"
+        title="Toutes nos recettes vegan"
+        description={`${recipes.length} recettes faciles et gourmandes, 100 % végétales.`}
       />
-      <h1 className="mt-6 font-heading text-3xl font-bold sm:text-4xl">
-        Toutes nos recettes vegan
-      </h1>
-      <p className="mt-2 text-veg-ink/75">
-        {recipes.length} recettes faciles et gourmandes, 100 % végétales.
-      </p>
-      <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {recipes.map((recipe) => (
-          <RecipeCard key={recipe.frontmatter.slug} recipe={recipe.frontmatter} />
-        ))}
-      </div>
+      <RecipeGrid items={items} />
     </div>
   );
 }

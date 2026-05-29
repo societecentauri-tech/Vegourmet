@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { Faq } from "@/components/Faq";
-import { IngredientList } from "@/components/IngredientList";
 import { JsonLd } from "@/components/JsonLd";
 import { MdxContent } from "@/components/MdxContent";
-import { RecipeHeader } from "@/components/RecipeHeader";
-import { StepList } from "@/components/StepList";
+import { RecipeArticleHeader } from "@/components/RecipeArticleHeader";
+import { RecipeDeliciousCard } from "@/components/RecipeDeliciousCard";
+import { RecipeFaq } from "@/components/RecipeFaq";
 import { getAllRecipes, getRecipeBySlug } from "@/lib/content";
+import "@/components/recipe.css";
 import {
   SITE_URL,
   buildBreadcrumbJsonLd,
@@ -56,7 +56,7 @@ export default async function RecipePage({ params }: PageProps) {
   ];
 
   return (
-    <article className="mx-auto max-w-3xl px-4 py-8">
+    <article className="vg-recipe mx-auto max-w-3xl px-4 py-8">
       <JsonLd data={buildRecipeJsonLd(recipe)} />
       <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
 
@@ -68,24 +68,20 @@ export default async function RecipePage({ params }: PageProps) {
       />
 
       <div className="mt-6">
-        <RecipeHeader recipe={fm} />
+        <RecipeArticleHeader recipe={fm} />
       </div>
 
-      <div className="mt-10">
+      <div className="mt-8">
         <MdxContent source={recipe.content} />
       </div>
 
       <div className="mt-10">
-        <IngredientList ingredients={fm.ingredients} />
-      </div>
-
-      <div className="mt-10">
-        <StepList steps={fm.steps} />
+        <RecipeDeliciousCard recipe={fm} />
       </div>
 
       {fm.faq && fm.faq.length > 0 && (
         <div className="mt-10">
-          <Faq items={fm.faq} />
+          <RecipeFaq items={fm.faq} />
         </div>
       )}
     </article>

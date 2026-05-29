@@ -1,0 +1,1 @@
+- [Vegourmet theme port](theme-vegourmet.md) — Port fidèle Yummy Bites + WP Delicious, palette --vg-*, polices next/font Signika/PT Sans/Montserrat

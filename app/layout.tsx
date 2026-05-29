@@ -1,13 +1,36 @@
 import type { Metadata } from "next";
+import { Signika, PT_Sans, Montserrat } from "next/font/google";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SITE_NAME, SITE_URL } from "@/lib/seo";
 import "./globals.css";
 
+/* Polices Vegourmet (thème Yummy Bites) : Signika titres + logo, PT Sans corps, Montserrat secondaire. */
+const signika = Signika({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-vg-title",
+  display: "swap",
+});
+
+const ptSans = PT_Sans({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-vg-body",
+  display: "swap",
+});
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-vg-alt",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Vegourmet — Recettes Vegan Faciles & Gourmandes",
+    default: "Recettes Vegan Faciles & Gourmandes - Vegourmet",
     template: "%s | Vegourmet",
   },
   description:
@@ -24,19 +47,15 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="fr">
-      <head>
-        {/* Polices vegourmet : Signika (titres) + PT Sans (corps), source Google Fonts. */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Signika:wght@400;600;700&family=PT+Sans:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html
+      lang="fr"
+      className={`${signika.variable} ${ptSans.variable} ${montserrat.variable}`}
+    >
       <body className="flex min-h-screen flex-col">
         <SiteHeader />
-        <main className="flex-1">{children}</main>
+        <main id="primary" className="flex-1">
+          {children}
+        </main>
         <SiteFooter />
       </body>
     </html>

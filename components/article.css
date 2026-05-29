@@ -1,0 +1,287 @@
+/*
+ * Styles scopés du template ARTICLE — fidèles au thème « Yummy Bites » + WP Delicious.
+ * Reproduit l'apparence du vrai vegourmet.fr (cf. .reference/html/article.html).
+ * Importé localement par les composants Article*. Ne touche pas globals.css.
+ */
+
+/* Conteneur d'article single */
+.vg-single {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+
+/* En-tête : pastille catégorie + titre + méta */
+.vg-entry-header {
+  text-align: left;
+}
+
+.vg-cat-links a {
+  display: inline-block;
+  margin-bottom: 12px;
+  border-radius: 99px;
+  line-height: 1.4;
+  padding: 5px 14px;
+  font-size: 0.77em;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--vg-cat-color, var(--vg-cat, #8a5a44));
+  transition: background-color 0.25s ease;
+}
+
+.vg-cat-links a:hover {
+  background-color: var(--vg-cat2, #d96f54);
+  color: #fff;
+}
+
+.vg-entry-title {
+  font-family: "Signika", system-ui, sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--vg-title, #2c3e50);
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  margin: 4px 0 16px;
+}
+
+.vg-entry-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 16px;
+  color: var(--vg-ink, #453e3f);
+  opacity: 0.85;
+  font-size: 0.875rem;
+}
+
+.vg-entry-meta .vg-author {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.vg-entry-meta .vg-author-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--vg-terracotta, #d98e73), var(--vg-gold, #e6b170));
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.vg-entry-meta .vg-dot::before {
+  content: "•";
+  margin-right: 16px;
+  opacity: 0.4;
+}
+
+/* Image hero */
+.vg-hero {
+  margin: 24px 0 0;
+}
+
+/* Corps éditorial */
+.vg-content-wrap {
+  margin-top: 30px;
+}
+
+.vg-entry-content {
+  color: var(--vg-ink, #453e3f);
+  font-family: "PT Sans", system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.75;
+}
+
+.vg-entry-content > * + * {
+  margin-top: 1.1em;
+}
+
+.vg-entry-content h2,
+.vg-entry-content h3,
+.vg-entry-content h4 {
+  font-family: "Signika", system-ui, sans-serif;
+  color: var(--vg-terracotta, #d98e73);
+  line-height: 1.3;
+  margin-top: 1.8em;
+  margin-bottom: 0.4em;
+  font-weight: 700;
+}
+
+.vg-entry-content h2 {
+  font-size: 1.6rem;
+}
+
+.vg-entry-content h3 {
+  font-size: 1.3rem;
+}
+
+.vg-entry-content h4 {
+  font-size: 1.12rem;
+  color: var(--vg-cat, #8a5a44);
+}
+
+.vg-entry-content a {
+  color: var(--vg-terracotta, #d98e73);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.vg-entry-content a:hover {
+  color: var(--vg-cat2, #d96f54);
+}
+
+.vg-entry-content ul,
+.vg-entry-content ol {
+  padding-left: 1.4em;
+}
+
+.vg-entry-content ul {
+  list-style: disc;
+}
+
+.vg-entry-content ol {
+  list-style: decimal;
+}
+
+.vg-entry-content li + li {
+  margin-top: 0.4em;
+}
+
+.vg-entry-content strong {
+  color: var(--vg-title, #2c3e50);
+}
+
+/* Encadrés (panels Gutenberg vegourmet) */
+.vg-entry-content .vegourmet-panel-primary,
+.vg-panel-primary {
+  background: rgba(217, 142, 115, 0.12);
+  border-left: 3px solid var(--vg-terracotta, #d98e73);
+  padding: 20px;
+  margin: 24px 0;
+  border-radius: 6px;
+}
+
+.vg-entry-content .vegourmet-panel-secondary,
+.vg-panel-secondary {
+  background: rgba(163, 169, 106, 0.12);
+  border-left: 3px solid #a3a96a;
+  padding: 20px;
+  margin: 24px 0;
+  border-radius: 6px;
+}
+
+/* Citation stylée */
+.vg-entry-content blockquote,
+.vg-blockquote {
+  background: #fff;
+  border-left: none;
+  border-top: 3px solid var(--vg-terracotta, #d98e73);
+  padding: 14px 18px;
+  margin: 24px 0;
+  font-style: italic;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.vg-entry-content blockquote p {
+  margin: 0;
+}
+
+.vg-entry-content figure {
+  margin: 24px 0;
+}
+
+/* Section FAQ (dr-faqs-section-blog) */
+.vg-faq-section {
+  margin-top: 40px;
+}
+
+.vg-faq-title {
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--vg-title, #2c3e50);
+  margin-bottom: 16px;
+}
+
+.vg-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.vg-faq-item {
+  border: 1px solid #f0eee9;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.vg-faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  padding: 16px 18px;
+  font-family: "Signika", system-ui, sans-serif;
+  font-weight: 600;
+  color: var(--vg-title, #2c3e50);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.vg-faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.vg-faq-item summary::after {
+  content: "+";
+  font-size: 1.3rem;
+  color: var(--vg-terracotta, #d98e73);
+  line-height: 1;
+  transition: transform 0.2s ease;
+}
+
+.vg-faq-item[open] summary::after {
+  content: "−";
+}
+
+.vg-faq-content {
+  padding: 0 18px 16px;
+  color: var(--vg-ink, #453e3f);
+  line-height: 1.7;
+}
+
+/* Articles connexes */
+.vg-related {
+  max-width: 760px;
+  margin: 48px auto 0;
+  padding: 0 16px;
+}
+
+.vg-related-title {
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--vg-title, #2c3e50);
+  margin-bottom: 20px;
+}
+
+.vg-related-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 640px) {
+  .vg-related-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

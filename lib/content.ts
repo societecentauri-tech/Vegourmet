@@ -64,6 +64,31 @@ export function getArticleBySlug(slug: string): Article | null {
   return article ?? null;
 }
 
+/** Estime un temps de lecture en français (~200 mots/min) à partir du corps MDX. */
+export function getReadingTime(content: string): string {
+  const words = content.trim().split(/\s+/).filter(Boolean).length;
+  const minutes = Math.max(1, Math.round(words / 200));
+  return `${minutes} min de lecture`;
+}
+
+/**
+ * Articles connexes : même catégorie d'abord, complétés par les plus récents.
+ * Exclut l'article courant et la page « à-propos ».
+ */
+export function getRelatedArticles(
+  current: ArticleFrontmatter,
+  limit = 3,
+): ArticleFrontmatter[] {
+  const others = getAllArticles()
+    .map((a) => a.frontmatter)
+    .filter((a) => a.slug !== current.slug && a.slug !== "a-propos");
+
+  const sameCategory = others.filter((a) => a.category === current.category);
+  const rest = others.filter((a) => a.category !== current.category);
+
+  return [...sameCategory, ...rest].slice(0, limit);
+}
+
 /** Slugs racine connus = articles. Sert à éviter toute collision avec les routes statiques. */
 export function getReservedRootSlugs(): Set<string> {
   return new Set([

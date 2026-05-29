@@ -1,0 +1,430 @@
+/*
+ * recipe.css — Styles scopés à la page recette vegourmet.fr (POC pixel-perfect).
+ * Reproduction du thème « Yummy Bites » + recipe card du plugin WP Delicious.
+ * Utilise les variables --vg-* définies globalement par le shell ; fallback hex partout.
+ */
+
+.vg-recipe {
+  --vg-c-bg: var(--vg-bg, #f7f3f0);
+  --vg-c-terra: var(--vg-terracotta, #d98e73);
+  --vg-c-terra-hover: var(--vg-terracotta-hover, #bf7052);
+  --vg-c-gold: var(--vg-gold, #e6b170);
+  --vg-c-ink: var(--vg-ink, #453e3f);
+  --vg-c-title: var(--vg-title, #2c3e50);
+  --vg-c-cat: var(--vg-cat, #8a5a44);
+  --vg-c-olive: var(--vg-olive, #a3a96a);
+  --vg-card-bg: #fffdfb;
+  --vg-card-cream: #fbf6f1;
+  --vg-card-border: #ecddd3;
+  color: var(--vg-c-ink);
+  font-family: "PT Sans", system-ui, sans-serif;
+}
+
+/* ---------- En-tête article ---------- */
+.vg-article-head {
+  margin-bottom: 1.75rem;
+}
+.vg-article-cat {
+  display: inline-block;
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--vg-c-cat);
+  margin-bottom: 0.5rem;
+}
+.vg-article-title {
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: clamp(1.8rem, 4.2vw, 2.6rem);
+  font-weight: 600;
+  line-height: 1.18;
+  color: var(--vg-c-title);
+  margin: 0 0 0.65rem;
+}
+.vg-article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.9rem;
+  font-size: 0.86rem;
+  color: rgba(69, 62, 63, 0.7);
+}
+.vg-article-meta .vg-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--vg-c-terra);
+  display: inline-block;
+}
+.vg-article-meta strong {
+  font-weight: 600;
+  color: var(--vg-c-ink);
+}
+
+/* ---------- Jump-to-recipe ---------- */
+.vg-jump {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.25rem 0 0;
+  padding: 0.55rem 1.1rem;
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--vg-c-terra);
+  border: 1px solid var(--vg-c-terra);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.25s ease, border-color 0.25s ease;
+}
+.vg-jump:hover {
+  background: var(--vg-c-terra-hover);
+  border-color: var(--vg-c-terra-hover);
+}
+
+/* ---------- Recipe Card (WP Delicious) ---------- */
+.vg-card {
+  background: var(--vg-card-bg);
+  border: 1px solid var(--vg-card-border);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px -22px rgba(69, 62, 63, 0.45);
+}
+.vg-card__top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+}
+.vg-card__media {
+  position: relative;
+  width: 34%;
+  min-width: 220px;
+  flex: 1 1 220px;
+}
+.vg-card__media .vg-print {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+}
+.vg-card__head {
+  flex: 2 1 320px;
+  padding: 1.6rem 1.75rem 1.25rem;
+}
+.vg-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: rgba(69, 62, 63, 0.75);
+  margin-bottom: 0.75rem;
+}
+.vg-stars {
+  display: inline-flex;
+  gap: 1px;
+  color: var(--vg-c-gold);
+}
+.vg-stars svg {
+  width: 16px;
+  height: 16px;
+}
+.vg-rating .vg-rating-num {
+  font-weight: 700;
+  color: var(--vg-c-ink);
+}
+.vg-card__title {
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--vg-c-title);
+  margin: 0 0 0.7rem;
+}
+.vg-byline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.1rem;
+  font-size: 0.82rem;
+  color: rgba(69, 62, 63, 0.72);
+}
+.vg-byline .vg-byline__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.vg-byline svg {
+  width: 15px;
+  height: 15px;
+  fill: rgba(69, 62, 63, 0.5);
+  flex-shrink: 0;
+}
+.vg-byline .vg-byline__label {
+  font-weight: 600;
+  color: var(--vg-c-ink);
+}
+
+/* Print button */
+.vg-print {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.45rem 0.85rem;
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--vg-c-terra);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+.vg-print:hover {
+  background: var(--vg-c-terra-hover);
+}
+.vg-print svg {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+
+/* Bandeau meta temps/portions/difficulté */
+.vg-meta-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid var(--vg-card-border);
+  background: var(--vg-card-cream);
+}
+.vg-meta-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 1rem 0.65rem;
+  text-align: center;
+  border-right: 1px solid var(--vg-card-border);
+}
+.vg-meta-cell:last-child {
+  border-right: none;
+}
+.vg-meta-cell svg {
+  width: 22px;
+  height: 22px;
+  fill: var(--vg-c-terra);
+}
+.vg-meta-cell .vg-meta-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(69, 62, 63, 0.6);
+}
+.vg-meta-cell .vg-meta-value {
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--vg-c-title);
+}
+
+/* Sections internes (Description, Ingrédients, Instructions, Notes, Nutrition) */
+.vg-section {
+  padding: 1.5rem 1.75rem;
+  border-top: 1px solid var(--vg-card-border);
+}
+.vg-section__title {
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--vg-c-terra);
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgba(217, 142, 115, 0.25);
+}
+
+/* Ingrédients */
+.vg-ingredients {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.1rem;
+}
+.vg-ingredient {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.7rem;
+  padding: 0.55rem 0.4rem;
+  border-bottom: 1px dashed rgba(236, 221, 211, 0.9);
+}
+.vg-ingredient:last-child {
+  border-bottom: none;
+}
+.vg-ingredient input[type="checkbox"] {
+  margin-top: 0.2rem;
+  width: 1.05rem;
+  height: 1.05rem;
+  accent-color: var(--vg-c-terra);
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.vg-ingredient label {
+  cursor: pointer;
+  line-height: 1.5;
+}
+.vg-ingredient .vg-ing-qty {
+  font-weight: 700;
+  color: var(--vg-c-terra);
+}
+.vg-ingredient input:checked + label {
+  text-decoration: line-through;
+  color: rgba(69, 62, 63, 0.45);
+}
+
+/* Instructions */
+.vg-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: vg-step;
+  display: grid;
+  gap: 1.1rem;
+}
+.vg-step {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+}
+.vg-step::before {
+  counter-increment: vg-step;
+  content: counter(vg-step);
+  flex-shrink: 0;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #fff;
+  background: var(--vg-c-terra);
+  border-radius: 50%;
+}
+.vg-step p {
+  margin: 0;
+  line-height: 1.65;
+  padding-top: 0.25rem;
+}
+
+/* Notes */
+.vg-notes p {
+  margin: 0;
+  line-height: 1.65;
+  color: rgba(69, 62, 63, 0.88);
+}
+
+/* Nutrition */
+.vg-nutrition {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 0.75rem;
+}
+.vg-nutri-cell {
+  text-align: center;
+  padding: 0.85rem 0.5rem;
+  background: var(--vg-card-cream);
+  border: 1px solid var(--vg-card-border);
+  border-radius: 8px;
+}
+.vg-nutri-cell .vg-nutri-value {
+  display: block;
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--vg-c-terra);
+}
+.vg-nutri-cell .vg-nutri-label {
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(69, 62, 63, 0.6);
+}
+
+/* Mots-clés / tags */
+.vg-keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.vg-keyword {
+  font-size: 0.78rem;
+  padding: 0.3rem 0.7rem;
+  background: rgba(217, 142, 115, 0.12);
+  color: var(--vg-c-cat);
+  border-radius: 999px;
+}
+
+/* ---------- FAQ ---------- */
+.vg-faqs {
+  display: grid;
+  gap: 0.75rem;
+}
+.vg-faq {
+  border: 1px solid var(--vg-card-border);
+  border-radius: 10px;
+  background: var(--vg-card-bg);
+  overflow: hidden;
+}
+.vg-faq > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--vg-c-title);
+  list-style: none;
+}
+.vg-faq > summary::-webkit-details-marker {
+  display: none;
+}
+.vg-faq > summary::after {
+  content: "+";
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--vg-c-terra);
+  transition: transform 0.25s ease;
+  line-height: 1;
+}
+.vg-faq[open] > summary::after {
+  transform: rotate(45deg);
+}
+.vg-faq__content {
+  padding: 0 1.25rem 1.1rem;
+  line-height: 1.65;
+  color: rgba(69, 62, 63, 0.85);
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 640px) {
+  .vg-card__media {
+    width: 100%;
+    flex-basis: 100%;
+  }
+  .vg-meta-bar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .vg-meta-cell:nth-child(2) {
+    border-right: none;
+  }
+  .vg-meta-cell:nth-child(1),
+  .vg-meta-cell:nth-child(2) {
+    border-bottom: 1px solid var(--vg-card-border);
+  }
+}

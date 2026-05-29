@@ -1,38 +1,122 @@
 import Link from "next/link";
 
-/** Pied de page global. */
+/* Menus du footer — liens repris des widgets de colophon de vegourmet.fr. */
+const LIENS_UTILES = [
+  { href: "/recette-type/petit-dejeuner-vegan", label: "Petit Déjeuner Vegan" },
+  { href: "/recette-type/apero-vegan", label: "Apéro Vegan" },
+  { href: "/recette-type/plat-vegan", label: "Plat Vegan" },
+  { href: "/recette-type/dessert-vegan", label: "Dessert Vegan" },
+  { href: "/recette-type/snack-vegan", label: "Snack Vegan" },
+];
+
+const ACCES_RAPIDE = [
+  { href: "/recettes", label: "Recettes" },
+  { href: "/blog", label: "Blog" },
+  { href: "/contactez-nous", label: "Contactez-nous" },
+  { href: "/a-propos", label: "À propos" },
+];
+
+const SUIVEZ_NOUS = [
+  { href: "https://www.facebook.com/profile.php?id=61568255593913", label: "Facebook" },
+  { href: "https://x.com/VegourmetOff", label: "Twitter" },
+  { href: "https://www.instagram.com/vegourmetoff/", label: "Instagram" },
+  { href: "https://fr.pinterest.com/vegourmetoff/", label: "Pinterest" },
+];
+
+/** Pied de page global (port du colophon « site-footer » du thème Yummy Bites). */
 export function SiteFooter() {
   return (
-    <footer className="mt-16 border-t border-veg-cream-soft bg-veg-cream-soft">
-      <div className="mx-auto max-w-5xl px-4 py-10 text-sm text-veg-ink/80">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="font-heading text-lg font-bold text-veg-terracotta-dark">
-              Vegourmet
-            </p>
-            <p className="text-veg-muted">Recettes vegan faciles &amp; gourmandes</p>
+    <footer
+      id="colophon"
+      className="site-footer"
+      itemScope
+      itemType="https://schema.org/WPFooter"
+    >
+      <div className="footer-t">
+        <div className="vg-container">
+          <div className="footer-grid">
+            <div className="col">
+              <p className="footer-brand">Vegourmet</p>
+              <p>
+                Vegourmet est un blog culinaire proposant des recettes vegan
+                délicieuses et faciles à suivre pour toutes les occasions, du
+                petit-déjeuner au dîner. Une excellente ressource pour les
+                cuisiniers en quête d&apos;inspiration pour sublimer la cuisine
+                vegan.
+              </p>
+            </div>
+
+            <div className="col">
+              <h2 className="widget-title">Liens utiles</h2>
+              <ul className="menu">
+                {LIENS_UTILES.map((item) => (
+                  <li key={item.href}>
+                    <Link href={item.href}>{item.label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="col">
+              <h2 className="widget-title">Accès rapide</h2>
+              <ul className="menu">
+                {ACCES_RAPIDE.map((item) => (
+                  <li key={item.href}>
+                    <Link href={item.href}>{item.label}</Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="col">
+              <h2 className="widget-title">Suivez-nous</h2>
+              <ul className="menu">
+                {SUIVEZ_NOUS.map((item) => (
+                  <li key={item.href}>
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="nofollow noopener noreferrer"
+                    >
+                      {item.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <ul className="flex flex-wrap gap-4">
-            <li>
-              <Link href="/recettes" className="hover:text-veg-terracotta-dark">
-                Recettes
-              </Link>
-            </li>
-            <li>
-              <Link href="/blog" className="hover:text-veg-terracotta-dark">
-                Blog
-              </Link>
-            </li>
-            <li>
-              <Link href="/a-propos" className="hover:text-veg-terracotta-dark">
-                À propos
-              </Link>
-            </li>
-          </ul>
         </div>
-        <p className="mt-6 text-xs text-veg-muted">
-          © {new Date().getFullYear()} Vegourmet — POC migration stack Centauri Next.js 16.
-        </p>
+      </div>
+
+      <div className="footer-b">
+        <div className="vg-container">
+          <div className="footer-bottom-t">
+            <div className="site-info">
+              <span className="copyright">
+                © Copyright {new Date().getFullYear()}{" "}
+                <Link href="/">Vegourmet</Link>. Tous droits réservés.
+              </span>
+            </div>
+            <nav className="footer-navigation" aria-label="Liens légaux">
+              <ul className="nav-menu">
+                <li>
+                  <Link href="/mentions-legales-politique-de-confidentialite">
+                    Mentions Légales &amp; Politique de Confidentialité
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div className="footer-disclosure">
+        <div className="vg-container">
+          <p>
+            <strong>Affiliation :</strong> Certains articles contiennent des
+            liens d&apos;affiliation.
+          </p>
+        </div>
       </div>
     </footer>
   );
