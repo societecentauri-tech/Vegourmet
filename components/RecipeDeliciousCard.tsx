@@ -1,4 +1,4 @@
-import { Placeholder } from "./Placeholder";
+import { SmartImage } from "./SmartImage";
 import { RecipePrintButton } from "./RecipePrintButton";
 import {
   AuthorIcon,
@@ -49,6 +49,7 @@ export function RecipeDeliciousCard({ recipe }: RecipeDeliciousCardProps) {
     steps,
     nutrition,
     tags,
+    heroImage,
   } = recipe;
 
   const hasNutrition =
@@ -62,7 +63,8 @@ export function RecipeDeliciousCard({ recipe }: RecipeDeliciousCardProps) {
     >
       <div className="vg-card__top">
         <div className="vg-card__media">
-          <Placeholder
+          <SmartImage
+            src={heroImage?.src}
             alt={title}
             ratio="3 / 4"
             className="h-full w-full rounded-none border-0"
@@ -77,7 +79,11 @@ export function RecipeDeliciousCard({ recipe }: RecipeDeliciousCardProps) {
               ))}
             </span>
             <span>
-              <span className="vg-rating-num">4,9</span> sur 5
+              <span className="vg-rating-num">4,9</span>
+              <span className="vg-rating-sep" aria-hidden="true">
+                /
+              </span>
+              10 avis
             </span>
           </span>
 

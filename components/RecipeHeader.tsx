@@ -1,5 +1,5 @@
 import type { RecipeFrontmatter } from "@/lib/types";
-import { Placeholder } from "./Placeholder";
+import { SmartImage } from "./SmartImage";
 
 interface RecipeHeaderProps {
   recipe: RecipeFrontmatter;
@@ -41,7 +41,7 @@ export function RecipeHeader({ recipe }: RecipeHeaderProps) {
         </p>
       </div>
 
-      <Placeholder alt={recipe.title} ratio="3 / 4" className="max-w-md" />
+      <SmartImage src={recipe.heroImage?.src} alt={recipe.title} ratio="3 / 4" className="max-w-md" />
 
       <dl className="grid grid-cols-2 gap-3 rounded-2xl border border-veg-cream-soft bg-white p-4 sm:grid-cols-5">
         {meta.map((item) => (

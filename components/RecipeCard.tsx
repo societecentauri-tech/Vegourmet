@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { RecipeFrontmatter } from "@/lib/types";
-import { Placeholder } from "./Placeholder";
+import { SmartImage } from "./SmartImage";
 
 interface RecipeCardProps {
   recipe: RecipeFrontmatter;
@@ -11,7 +11,7 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
   return (
     <article className="group flex flex-col overflow-hidden rounded-2xl border border-veg-cream-soft bg-white shadow-sm transition hover:shadow-md">
       <Link href={`/recettes/${recipe.slug}`} className="block">
-        <Placeholder alt={recipe.title} ratio="4 / 3" className="rounded-b-none border-0" />
+        <SmartImage src={recipe.heroImage?.src} alt={recipe.title} ratio="4 / 3" className="rounded-b-none border-0" />
       </Link>
       <div className="flex flex-1 flex-col gap-2 p-4">
         <div className="flex flex-wrap gap-2 text-xs">

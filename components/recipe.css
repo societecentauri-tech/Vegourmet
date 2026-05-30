@@ -24,6 +24,16 @@
 .vg-article-head {
   margin-bottom: 1.75rem;
 }
+.vg-article-banner {
+  background: var(--vg-banner-bg, #f6f3ef);
+  border-radius: 14px;
+  padding: 1.6rem 1.75rem 1.5rem;
+  margin-bottom: 1.4rem;
+}
+.vg-article-hero {
+  margin: 0 0 1.25rem;
+  max-width: 30rem;
+}
 .vg-article-cat {
   display: inline-block;
   font-family: "Signika", system-ui, sans-serif;
@@ -31,7 +41,7 @@
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--vg-c-cat);
+  color: var(--vg-cat-color, var(--vg-c-cat));
   margin-bottom: 0.5rem;
 }
 .vg-article-title {
@@ -49,6 +59,17 @@
   gap: 0.4rem 0.9rem;
   font-size: 0.86rem;
   color: rgba(69, 62, 63, 0.7);
+}
+.vg-article-meta__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.vg-article-meta__item svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--vg-c-terra);
+  flex-shrink: 0;
 }
 .vg-article-meta .vg-dot {
   width: 4px;
@@ -82,6 +103,11 @@
 .vg-jump:hover {
   background: var(--vg-c-terra-hover);
   border-color: var(--vg-c-terra-hover);
+}
+.vg-jump svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
 }
 
 /* ---------- Recipe Card (WP Delicious) ---------- */
@@ -132,6 +158,10 @@
 .vg-rating .vg-rating-num {
   font-weight: 700;
   color: var(--vg-c-ink);
+}
+.vg-rating .vg-rating-sep {
+  margin: 0 0.35rem;
+  color: rgba(69, 62, 63, 0.4);
 }
 .vg-card__title {
   font-family: "Signika", system-ui, sans-serif;

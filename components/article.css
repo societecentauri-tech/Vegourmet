@@ -11,9 +11,9 @@
   padding: 32px 16px 64px;
 }
 
-/* En-tête : pastille catégorie + titre + méta */
+/* En-tête : pastille catégorie + titre + méta (centré, comme le single réel) */
 .vg-entry-header {
-  text-align: left;
+  text-align: center;
 }
 
 .vg-cat-links a {
@@ -38,16 +38,17 @@
 .vg-entry-title {
   font-family: "Signika", system-ui, sans-serif;
   font-weight: 700;
-  line-height: 1.25;
+  line-height: 1.2;
   color: var(--vg-title, #2c3e50);
-  font-size: clamp(1.8rem, 4vw, 2.4rem);
-  margin: 4px 0 16px;
+  font-size: clamp(2rem, 5vw, 2.875rem);
+  margin: 16px 0;
 }
 
 .vg-entry-meta {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 6px 16px;
   color: var(--vg-ink, #453e3f);
   opacity: 0.85;
@@ -80,9 +81,21 @@
   opacity: 0.4;
 }
 
-/* Image hero */
+/* Image hero — portrait 720x950 du thème, centrée et plafonnée en hauteur */
 .vg-hero {
-  margin: 24px 0 0;
+  margin: 32px auto 0;
+  text-align: center;
+}
+
+.vg-hero img,
+.vg-hero > * {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+/* Le corps éditorial revient en alignement gauche */
+.vg-content-wrap {
+  text-align: left;
 }
 
 /* Corps éditorial */

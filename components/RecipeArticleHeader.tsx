@@ -1,4 +1,6 @@
-import { Placeholder } from "./Placeholder";
+import { SmartImage } from "./SmartImage";
+import { AuthorIcon, CalendarIcon, GoToIcon } from "./RecipeIcons";
+import { getCategoryColor } from "@/lib/categoryStyle";
 import type { RecipeFrontmatter } from "@/lib/types";
 
 interface RecipeArticleHeaderProps {
@@ -21,28 +23,42 @@ function formatDate(iso: string): string {
  * Catégorie, titre H1, méta auteur/date, image hero, puis bouton « Aller à la recette ».
  */
 export function RecipeArticleHeader({ recipe }: RecipeArticleHeaderProps) {
-  const { title, category, author, datePublished } = recipe;
+  const { title, category, author, datePublished, heroImage } = recipe;
 
   return (
     <header className="vg-article-head">
-      {category && <span className="vg-article-cat">{category}</span>}
+      <div className="vg-article-banner">
+        {category && (
+          <span
+            className="vg-article-cat"
+            style={{ ["--vg-cat-color" as string]: getCategoryColor(category) }}
+          >
+            {category}
+          </span>
+        )}
 
-      <h1 className="vg-article-title">{title}</h1>
+        <h1 className="vg-article-title">{title}</h1>
 
-      <div className="vg-article-meta">
-        <span>
-          Par <strong>{author}</strong>
-        </span>
-        <span className="vg-dot" aria-hidden="true" />
-        <time dateTime={datePublished}>{formatDate(datePublished)}</time>
+        <div className="vg-article-meta">
+          <span className="vg-article-meta__item">
+            <AuthorIcon />
+            Par <strong>{author}</strong>
+          </span>
+          <span className="vg-dot" aria-hidden="true" />
+          <span className="vg-article-meta__item">
+            <CalendarIcon />
+            <time dateTime={datePublished}>{formatDate(datePublished)}</time>
+          </span>
+        </div>
       </div>
 
-      <div style={{ margin: "1.4rem 0 1.25rem" }}>
-        <Placeholder alt={title} ratio="16 / 9" />
+      <div className="vg-article-hero">
+        <SmartImage src={heroImage?.src} alt={title} ratio="3 / 4" />
       </div>
 
       <a href="#recette" className="vg-jump">
         Aller à la recette
+        <GoToIcon />
       </a>
     </header>
   );

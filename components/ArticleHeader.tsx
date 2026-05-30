@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { ArticleFrontmatter } from "@/lib/types";
 import { getCategoryColor, getCategoryHref } from "@/lib/categoryStyle";
-import { Placeholder } from "./Placeholder";
+import { SmartImage } from "./SmartImage";
 import "./article.css";
 
 interface ArticleHeaderProps {
@@ -58,7 +58,7 @@ export function ArticleHeader({ article, readingTime }: ArticleHeaderProps) {
       </div>
 
       <div className="vg-hero">
-        <Placeholder alt={article.title} ratio="16 / 9" />
+        <SmartImage src={article.heroImage?.src} alt={article.title} ratio="720 / 950" />
       </div>
     </header>
   );

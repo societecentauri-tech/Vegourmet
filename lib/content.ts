@@ -102,11 +102,4 @@ export function getReservedRootSlugs(): Set<string> {
 }
 
 /** Normalise un libellé taxo en slug (ex: « Dessert Vegan » -> « dessert-vegan »). */
-export function slugifyTaxo(value: string): string {
-  return value
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "");
-}
+export { slugifyTaxo } from "./slug";

@@ -34,55 +34,70 @@ export function SiteFooter() {
     >
       <div className="footer-t">
         <div className="vg-container">
-          <div className="footer-grid">
+          <div className="footer-grid grid column-4">
             <div className="col">
-              <p className="footer-brand">Vegourmet</p>
+              <div className="widget widget_media_image">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/brand/logo-vegourmet.png"
+                  width={500}
+                  height={159}
+                  className="footer-logo"
+                  alt="Vegourmet"
+                />
+              </div>
               <p>
                 Vegourmet est un blog culinaire proposant des recettes vegan
                 délicieuses et faciles à suivre pour toutes les occasions, du
-                petit-déjeuner au dîner. Une excellente ressource pour les
-                cuisiniers en quête d&apos;inspiration pour sublimer la cuisine
-                vegan.
+                petit-déjeuner au dîner. Ce blog est une excellente ressource
+                pour les cuisiniers en quête d&apos;inspiration pour sublimer la
+                cuisine vegan.
               </p>
             </div>
 
             <div className="col">
-              <h2 className="widget-title">Liens utiles</h2>
-              <ul className="menu">
-                {LIENS_UTILES.map((item) => (
-                  <li key={item.href}>
-                    <Link href={item.href}>{item.label}</Link>
-                  </li>
-                ))}
-              </ul>
+              <section className="widget widget_nav_menu">
+                <h2 className="widget-title">Liens utiles</h2>
+                <ul className="menu">
+                  {LIENS_UTILES.map((item) => (
+                    <li key={item.href} className="menu-item">
+                      <Link href={item.href}>{item.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
             </div>
 
             <div className="col">
-              <h2 className="widget-title">Accès rapide</h2>
-              <ul className="menu">
-                {ACCES_RAPIDE.map((item) => (
-                  <li key={item.href}>
-                    <Link href={item.href}>{item.label}</Link>
-                  </li>
-                ))}
-              </ul>
+              <section className="widget widget_nav_menu">
+                <h2 className="widget-title">Accès rapide</h2>
+                <ul className="menu">
+                  {ACCES_RAPIDE.map((item) => (
+                    <li key={item.href} className="menu-item">
+                      <Link href={item.href}>{item.label}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
             </div>
 
             <div className="col">
-              <h2 className="widget-title">Suivez-nous</h2>
-              <ul className="menu">
-                {SUIVEZ_NOUS.map((item) => (
-                  <li key={item.href}>
-                    <a
-                      href={item.href}
-                      target="_blank"
-                      rel="nofollow noopener noreferrer"
-                    >
-                      {item.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              <section className="widget widget_nav_menu">
+                <h2 className="widget-title">Suivez-nous</h2>
+                <ul className="menu">
+                  {SUIVEZ_NOUS.map((item) => (
+                    <li key={item.href} className="menu-item">
+                      <a
+                        href={item.href}
+                        target="_blank"
+                        rel="nofollow noopener noreferrer"
+                      >
+                        {item.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </section>
             </div>
           </div>
         </div>
