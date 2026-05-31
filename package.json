@@ -21,7 +21,10 @@
     "@types/node": "24.7.0",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.1",
+    "cheerio": "^1.2.0",
     "tailwindcss": "4.3.0",
+    "turndown": "^7.2.4",
+    "turndown-plugin-gfm": "^1.0.2",
     "typescript": "5.9.3"
   }
 }

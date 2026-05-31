@@ -1,0 +1,1725 @@
+{
+  "labels": {
+    "category": {
+      "actualites-et-tendances": "actualites et tendances",
+      "conseils-et-astuces": "conseils et astuces",
+      "guides-pratiques": "guides pratiques",
+      "inspiration-et-lifestyle": "inspiration et lifestyle"
+    },
+    "recette-style": {
+      "americaine": "americaine",
+      "europeenne": "europeenne",
+      "inde": "inde",
+      "moyen-orient": "moyen orient"
+    },
+    "recette-thematique": {
+      "froid": "froid",
+      "repas-rapide": "repas rapide",
+      "sans-gluten": "sans gluten",
+      "sans-soja": "sans soja"
+    },
+    "recette-type": {
+      "apero-vegan": "apero vegan",
+      "dessert-vegan": "dessert vegan",
+      "petit-dejeuner-vegan": "petit dejeuner vegan",
+      "plat-vegan": "plat vegan",
+      "snack-vegan": "snack vegan"
+    }
+  },
+  "map": {
+    "sables-de-noel-vegan-recette-fetes-reussies": {
+      "recette-style": [
+        "americaine",
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "poutine-vegan-recette-quebecoise-familiale": {
+      "recette-style": [
+        "americaine"
+      ],
+      "recette-thematique": [
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "cinnamon-rolls-vegan-meilleure-recette-5": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "nuggets-vegan-meilleure-recette-facon-kfc-7": {
+      "recette-style": [
+        "americaine"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "pain-perdu-vegan-meilleure-recette-3-minutes": {
+      "recette-style": [
+        "americaine"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "petit-dejeuner-vegan"
+      ]
+    },
+    "milkshake-vegan-meilleure-recette-ete-7-mins": {
+      "recette-style": [
+        "americaine"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "pudding-de-chia-4-astuces-recette-parfaite": {
+      "recette-style": [
+        "americaine"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "petit-dejeuner-vegan"
+      ]
+    },
+    "cheesecake-vegan-5-secrets-irresistible": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "banana-bread-vegan-5-secrets-recette": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "muffins-vegan-5-ingredients-texture-parfaite": {
+      "recette-style": [
+        "americaine"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "snack-vegan"
+      ]
+    },
+    "gaufres-vegan-5-etapes-recette-parfaite": {
+      "recette-style": [
+        "americaine"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "petit-dejeuner-vegan"
+      ]
+    },
+    "crepes-vegan-7-secrets-recette-parfaite": {
+      "recette-style": [
+        "americaine"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "petit-dejeuner-vegan"
+      ]
+    },
+    "pancakes-vegan-3-secrets-irresistibles": {
+      "recette-style": [
+        "americaine"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "petit-dejeuner-vegan"
+      ]
+    },
+    "burger-vegan-4-secrets-recette-parfaite": {
+      "recette-style": [
+        "americaine"
+      ],
+      "recette-thematique": [
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "bouchees-a-la-reine-vegan-sauce-cremeuse": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "butternut-farcie-vegan-guide-ne-plus-rater": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "salade-cesar-vegan-3-secrets-sauce-cremeuse": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "raviolis-vegan-secrets-pate-maison-inratable": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "taboule-vegan-3-secrets-une-semoule-aerienne": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "carbonara-vegan-3-secrets-sauce-cremeuse": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "canneles-vegan-meilleure-recette-bordelaise": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "gratin-de-chou-fleur-vegan-recette-cremeuse": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "flan-vegan-recette-championne-du-monde": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "tiramisu-vegan-5-etapes-irresistible": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "muffins-sales-vegan-recette-simple-rapide": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "cookies-vegan-10-minutes-chrono": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "panna-cotta-vegan-recette-expresse-15-mins": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "cookies-vegan-sans-gluten-meilleure-recette": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "riz-au-lait-vegan-recette-ultra-cremeuse": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "tarte-aux-pommes-vegan-meilleure-recette": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "risotto-vegan-recette-la-plus-cremeuse": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "curry-de-pois-chiches-la-recette-ideale": {
+      "recette-style": [
+        "americaine",
+        "europeenne",
+        "inde",
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "apero-vegan",
+        "dessert-vegan",
+        "petit-dejeuner-vegan",
+        "plat-vegan",
+        "snack-vegan"
+      ]
+    },
+    "salade-de-riz-vegan-astuces-riz-non-collant": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "bolognaise-vegan-methode-texture-bluffante": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "tarama-vegan-secrets-pour-un-apero-bluffant": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "tzatziki-vegan-texture-ferme-garantie": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "scones-vegan-recette-parfaite-brunch": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "caramel-vegan-recette-rapide-desserts-sucres": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "champignons-farcis-vegan-facile-et-rapide": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "snack-vegan"
+      ]
+    },
+    "frangipane-vegan-recette-galette-des-rois": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "petit-dejeuner-vegan"
+      ]
+    },
+    "pain-d-epices-vegan-recette-de-fin-dannee": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "madeleines-vegan-meilleure-recette-moelleuse": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "snack-vegan"
+      ]
+    },
+    "lemon-curd-vegan-recette-ideale-tarte-citron": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "fraisier-vegan-classique-de-la-patisserie": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "tarte-au-citron-vegan-recette-patissier-pro": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "energy-balls-la-meilleure-recette-healthy": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "snack-vegan"
+      ]
+    },
+    "hachis-parmentier-vegan-recette-hyper-facile": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "moelleux-au-chocolat-vegan-recette-facile": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "banana-bread-vegan-aux-pepites-de-chocolat": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "snack-vegan"
+      ]
+    },
+    "tarte-a-la-courgette-vegan-facile-gourmande": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "avocat-farci-vegan-nouvelle-recette": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "baeckeoffe-vegan-recette-alsacienne-revisite": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "galette-de-sarrasin-vegan-recette-breteonne": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "ganache-vegan-recette-ultra-facile-revisitee": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "potimarron-farci-vegan-recette-automne": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "creme-au-chocolat-vegan-recette-cremeuse": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "quenelles-vegan-meilleure-recette-lyonnaise": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "choucroute-vegan-meilleure-recette-familiale": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "polenta-vegan-recette-cremeuse-champignons": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "salade-de-pates-vegan-recette-facile": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "mascarpone-vegan-recette-star-desserts": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "tourte-vegan-recette-facile-champignons": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "buche-de-noel-vegan-recette-toute-famille": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "creme-citron-vegan-desserts-inratables": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "creme-au-beurre-vegan-recette-secrete": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "pate-a-choux-vegan-recette-choux-parfaits": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "porridge-vegan-recette-dejeuner-healthy": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "petit-dejeuner-vegan"
+      ]
+    },
+    "crumble-sale-vegan-recette-reconfortante": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "cookies-flocons-davoine-vegan-recette": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "snack-vegan"
+      ]
+    },
+    "gratin-d-endives-vegan-recette-familiale": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "ganache-chocolat-vegan-recette-inratable": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "rocher-coco-vegan-recette-express-cuisson": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "cake-aux-legumes-vegan-recette-parfaite": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "ravioles-vegan-recette-facile-version-maison": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "buddha-bowl-vegan-recette-complete-saine": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "financier-vegan-recette-parfaite-moelleuse": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "snack-vegan"
+      ]
+    },
+    "brookies-vegan-recette-alliance-incroyable": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "snack-vegan"
+      ]
+    },
+    "creme-brulee-vegan-recette-facile": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "quiche-aux-poireaux-vegan-recette-fondante": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "tarte-tatin-vegan-recette-traditionnelle": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "cake-au-citron-vegan-meilleure-recette-2025": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "snack-vegan"
+      ]
+    },
+    "pot-au-feu-vegan-meilleure-recette-grandmere": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "mayonnaise-vegan-recette-sauce-emblematique": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "salade-vegan-recette-1-decouvrir-cette-annee": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "gateau-au-chocolat-vegan-recette-moelleuse": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "wraps-vegan-meilleure-recette-10-minutes": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "bechamel-vegan-meilleure-recette-magique": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "quiche-vegan-secrets-recette-inratable": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "lasagnes-vegan-meilleure-recette-bolognaise": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "crumble-vegan-recette-fondre-tout-le-monde": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "brioche-vegan-recette-ultra-moelleuse-tester": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "carrot-cake-vegan-recette-moelleuse": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "gratin-dauphinois-vegan-recette-preferee-fr": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "cake-aux-olives-vegan-meilleure-recette": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "biscuits-vegan-meilleure-recette-a-refaire": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "poivrons-farcis-vegan-recette-preferee-fr": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "cassoulet-vegan-meilleure-recette-plaisir": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "gateau-au-yaourt-vegan-recette-facile-etapes": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "omelette-vegan-decouvrez-preparer-7-minutes": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "petit-dejeuner-vegan"
+      ]
+    },
+    "clafoutis-vegan-recette-facile-10-mins": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "tartiflette-vegan-meilleure-recette-6-etapes": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "courgette-farcie-vegan-recette-facile": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "tomates-farcies-vegan-recette-traditionnelle": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "boudin-blanc-vegan-decouvrez-recette-etapes": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "gratin-de-courgettes-vegan-recette-expresse": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "paella-vegan-meilleure-recette-espagnole-10": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "flan-de-courgette-vegan-la-meilleure-recette": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "bowl-cake-meilleure-recette-vegan-5-etapes": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "petit-dejeuner-vegan"
+      ]
+    },
+    "brownie-vegan-3-secrets-texture-parfaite": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "mousse-au-chocolat-vegan-3-astuces": {
+      "recette-style": [
+        "europeenne"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide",
+        "sans-soja"
+      ],
+      "recette-type": [
+        "dessert-vegan"
+      ]
+    },
+    "samoussas-vegan-meilleure-recette-indienne": {
+      "recette-style": [
+        "inde"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "dahl-de-lentilles-corail-recette-complete-30": {
+      "recette-style": [
+        "inde"
+      ],
+      "recette-thematique": [
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "houmous-4-secrets-pour-une-recette-parfaite": {
+      "recette-style": [
+        "inde"
+      ],
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "moussaka-vegan-secrets-pour-reussir-recette": {
+      "recette-style": [
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "tajine-vegan-recette-coup-de-coeur-famille": {
+      "recette-style": [
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "kebab-vegan-recette-geniale-sans-voix": {
+      "recette-style": [
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "snack-vegan"
+      ]
+    },
+    "couscous-vegan-meilleure-recette-maghreb": {
+      "recette-style": [
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "falafels-4-astuces-magiques-recette-parfaite": {
+      "recette-style": [
+        "moyen-orient"
+      ],
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "snack-vegan"
+      ]
+    },
+    "spring-rolls-vegan-meilleure-recette-asie": {
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "rouleaux-de-printemps-vegan-recette-vietnam": {
+      "recette-thematique": [
+        "froid",
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "guacamole-la-meilleure-recette-en-5-minutes": {
+      "recette-thematique": [
+        "froid"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "riz-cantonais-vegan-meilleure-recette": {
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "maki-vegan-meilleure-recette-japonaise": {
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "mafe-vegan-meilleure-recette-ragout-africain": {
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "kimchi-vegan-meilleure-recette-authentique": {
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "gyozas-vegan-meilleure-reccette-voyage": {
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "curry-vert-vegan-recette-thai-facile": {
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "fajitas-vegan-meilleure-recette-mexicaine": {
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "bo-bun-vegan-meilleure-recette-vietnamienne": {
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "pesto-vegan-meilleure-recette-italienne-4": {
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "burrito-vegan-meilleure-crette-mexicaine-9": {
+      "recette-thematique": [
+        "repas-rapide"
+      ],
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "chili-sin-carne-vegan-la-meilleure-recette": {
+      "recette-thematique": [
+        "repas-rapide",
+        "sans-gluten"
+      ],
+      "recette-type": [
+        "plat-vegan"
+      ]
+    },
+    "onigiris-vegan-3-secrets-riz-qui-tient-enfin": {
+      "recette-type": [
+        "apero-vegan"
+      ]
+    },
+    "pad-thai-vegan-decouvrez-meilleure-recette": {
+      "recette-type": [
+        "plat-vegan"
+      ]
+    }
+  }
+}

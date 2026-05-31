@@ -1,0 +1,2018 @@
+[
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Chloe-salon-e1731175779937.jpg",
+    "slug": "a-propos",
+    "type": "page",
+    "context": "hero",
+    "alt": "À propos"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/Un-apero-vegan-colore-et-gourmand-avec-un-assortiment-de-tartinades-comme-du-houmous.jpg",
+    "slug": "apero-vegan-10-idees-incroyables-a-tester-absolument",
+    "type": "page",
+    "context": "hero",
+    "alt": "Apéro Vegan : 10 Idées Incroyables à Tester Absolument"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/01/Une-mousse-au-chocolat-vegan-faite-avec-de-laquafaba.jpg",
+    "slug": "aquafaba-9-astuces-magiques-reussir-vos-recettes",
+    "type": "page",
+    "context": "hero",
+    "alt": "Aquafaba : 9 Astuces Magiques pour Réussir Vos Recettes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/Un-pot-de-beurre-vegan-cremeux-sur-une-planche-en-bois.jpg",
+    "slug": "beurre-vegan-7-secrets-pour-bien-choisir-et-utiliser",
+    "type": "page",
+    "context": "hero",
+    "alt": "Beurre vegan : 7 secrets pour bien le choisir et l’utiliser"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/Un-sachet-de-bonbon-vegan-ouvert-sur-une-table-jaune-724x1024.png",
+    "slug": "bonbon-vegan-3-ingredients-magiques-gout-parfait",
+    "type": "page",
+    "context": "hero",
+    "alt": "Bonbon vegan : 3 Ingrédients Magiques pour un Goût Parfait"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/cropped-Fav-ivon-Vegourmet.png",
+    "slug": "blog",
+    "type": "page",
+    "context": "hero",
+    "alt": "Blog"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/Un-gateau-au-chocolat-vegan.jpg",
+    "slug": "chocolat-vegan-5-avantages-surprenants-votre-sante",
+    "type": "page",
+    "context": "hero",
+    "alt": "Chocolat vegan : 5 avantages surprenants pour votre santé"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/cropped-Fav-ivon-Vegourmet.png",
+    "slug": "contactez-nous",
+    "type": "page",
+    "context": "hero",
+    "alt": "Contactez-nous"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Creer-un-blog-de-cuisine-vegan.jpg",
+    "slug": "comment-creer-un-blog-de-cuisine-qui-cartonne",
+    "type": "page",
+    "context": "hero",
+    "alt": "Comment créer un blog de cuisine qui cartonne (vraiment)"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Creer-un-blog-de-cuisine-vegan-724x1024.jpg",
+    "slug": "comment-creer-un-blog-de-cuisine-qui-cartonne",
+    "type": "page",
+    "context": "in-content",
+    "alt": "Créer un blog de cuisine vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/Un-burger-gourmand-avec-un-steak-de-pois-chiches-issue-dun-fast-food-vegan.jpg",
+    "slug": "fast-food-vegan-6-secrets-pour-un-burger-parfait",
+    "type": "page",
+    "context": "hero",
+    "alt": "Fast Food Vegan : 6 Secrets pour un Burger Parfait"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Les-desserts-vegan-sous-forme-de-gateau-au-chocolat.jpg",
+    "slug": "desserts-vegan-10-secrets-gratuit-pour-reussir",
+    "type": "page",
+    "context": "hero",
+    "alt": "Desserts Vegan : 10 Secrets Gratuits pour Réussir"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/01/Des-mac-and-cheese-au-fromage-vegan.jpg",
+    "slug": "fromage-vegan-7-raisons-de-l-adopter-des-aujourdhui",
+    "type": "page",
+    "context": "hero",
+    "alt": "Fromage Vegan : 7 Raisons de l’Adopter Dès Aujourd’hui"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/01/Une-glace-vegan-avec-de-la-noix-de-coco-et-des-fruits-rouges-1.jpg",
+    "slug": "glace-vegan-15-idees-faciles-sublimer-vos-desserts",
+    "type": "page",
+    "context": "hero",
+    "alt": "Glace Vegan : 15 Idées Faciles Pour Sublimer Vos Desserts"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/01/Un-verre-de-lait-vegetal-sur-une-table-en-bois.jpg",
+    "slug": "lait-vegetal-guide-ultime-alternatives-vegan",
+    "type": "page",
+    "context": "hero",
+    "alt": "Lait végétal : Le guide ultime des alternatives vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Le-meilleur-seitan-qui-vient-detre-cuisine-sur-un-plat-accompagne-dune-salade-verte.jpg",
+    "slug": "le-meilleur-seitan-guide-comparatif-marques-2025",
+    "type": "page",
+    "context": "hero",
+    "alt": "Le Meilleur Seitan : Guide et Comparatif des Marques en 2025"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/Un-gateau-vegan-aux-fruits-rouges.jpg",
+    "slug": "gateau-vegan-7-conseils-pour-une-texture-incroyable",
+    "type": "page",
+    "context": "hero",
+    "alt": "Gâteau vegan : 7 conseils pour une texture incroyable"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Une-cuillere-de-la-meilleure-margarine-pour-la-patisserie.jpg",
+    "slug": "meilleure-margarine-pour-la-patisserie-guide-complet",
+    "type": "page",
+    "context": "hero",
+    "alt": "La meilleure margarine pour la pâtisserie ? Guide complet"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/La-meilleure-margarine-pour-la-sante-dans-un-bol.jpg",
+    "slug": "meilleure-margarine-pour-la-sante-guide-complet",
+    "type": "page",
+    "context": "hero",
+    "alt": "Meilleure Margarine Pour La Santé : Mon Guide 100% Testé"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Une-femme-buvant-la-meilleure-proteine-vegan-pendant-sa-seance-de-sport.jpg",
+    "slug": "meilleure-proteine-vegan-guide-complet-2025",
+    "type": "page",
+    "context": "hero",
+    "alt": "La meilleure protéine vegan : Guide Complet pour 2025"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Les-meilleures-proteines-vegetales-musculation.jpg",
+    "slug": "les-meilleures-proteines-vegetales-musculation",
+    "type": "page",
+    "context": "hero",
+    "alt": "Les Meilleures protéines végétales pour la musculation"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/la-meilleure-whey-vegan-pour-la-musculation-en-2025.jpg",
+    "slug": "meilleure-whey-vegan-guide-complet-choisir-2025",
+    "type": "page",
+    "context": "hero",
+    "alt": "Meilleure whey vegan : Guide complet pour choisir en 2025"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Le-meilleur-fromage-vegan-sur-une-planche-en-bois.jpg",
+    "slug": "meilleur-fromage-vegan-decouvrez-guide-complet-2025",
+    "type": "page",
+    "context": "hero",
+    "alt": "Meilleur Fromage Vegan : Découvrez Le Guide Complet 2025"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Un-magnifique-plat-asiatique-a-base-du-meilleur-hache-vegetal.jpg",
+    "slug": "meilleur-hache-vegetal-avis-test-complet-2025",
+    "type": "page",
+    "context": "hero",
+    "alt": "Le Meilleur Haché Végétal : Avis et Test Complet 2025"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Un-entrainement-de-muscu-apres-avoir-bu-le-Meilleur-Lait-Vegetal-Pour-La-Musculation.jpg",
+    "slug": "meilleur-lait-vegetal-pour-la-musculation-guide",
+    "type": "page",
+    "context": "hero",
+    "alt": "Meilleur Lait Végétal Pour La Musculation : Le Vrai Gagnant"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Un-chocolat-avec-le-Meilleur-lait-vegetal-pour-le-chocolat-chaud.jpg",
+    "slug": "meilleur-lait-vegetal-pour-le-chocolat-chaud-guide",
+    "type": "page",
+    "context": "hero",
+    "alt": "Meilleur lait végétal pour le chocolat chaud : Guide complet"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Le-meilleur-lait-vegetal-pour-maigrir-dans-un-verre.jpg",
+    "slug": "meilleur-lait-vegetal-pour-maigrir-guide-comparatif",
+    "type": "page",
+    "context": "hero",
+    "alt": "Meilleur Lait Végétal Pour Maigrir : Voici Le Top 3 Gagnant"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Le-meilleur-steak-vegetal-dans-un-delicieux-burger.jpg",
+    "slug": "meilleur-steak-vegetal-guide-comparatif-avis-complet",
+    "type": "page",
+    "context": "hero",
+    "alt": "Le Meilleur Steak Végétal : Guide Comparatif et Avis Complet"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Le-meilleur-lait-vegetal-pour-cafe-sur-une-terrasse-parisienne.jpg",
+    "slug": "meilleur-lait-vegetal-pour-cafe-guide-complet-2025",
+    "type": "page",
+    "context": "hero",
+    "alt": "Le meilleur lait végétal pour café : Guide complet 2025"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Le-meilleur-tempeh-servi-dans-un-petit-bol-pour-un-apero-vegan.jpg",
+    "slug": "meilleur-tempeh-avis-et-guide-complet-2025",
+    "type": "page",
+    "context": "hero",
+    "alt": "Le Meilleur Tempeh : Avis et Guide Complet 2025"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Gros-plan-sur-un-latte-vegetal-a-la-mousse-parfaite-illustrant-le-resultat-du-meilleur-lait-vegetal-pour-mousser.jpg",
+    "slug": "meilleur-lait-vegetal-pour-mousser-guide-complet",
+    "type": "page",
+    "context": "hero",
+    "alt": "Meilleur lait végétal pour mousser : 4 secrets de Barista"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Le-meilleur-tofu-cuisine-pour-une-recette-asiatique.jpg",
+    "slug": "meilleur-tofu-guide-complet-pour-le-choisir",
+    "type": "page",
+    "context": "hero",
+    "alt": "Meilleur Tofu : Guide Complet Pour Le Choisir"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/Un-coeur-en-bois-avec-une-inscription-omega-3-724x1024.png",
+    "slug": "omega-3-vegan-7-bienfaits-extraordinaires-votre-sante",
+    "type": "page",
+    "context": "hero",
+    "alt": "Oméga 3 vegan : 7 bienfaits extraordinaires pour votre santé"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Un-bloc-du-meilleur-tofu-fume-en-France.jpg",
+    "slug": "meilleur-tofu-fume-guide-ultime-pour-vos-plats-vegan",
+    "type": "page",
+    "context": "hero",
+    "alt": "Meilleur Tofu Fumé : Guide Ultime pour vos Plats Vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Le-meilleur-yaourt-vegetal-dans-un-pot-en-verre.jpg",
+    "slug": "meilleur-yaourt-vegetal-avis-tests-guide-complet",
+    "type": "page",
+    "context": "hero",
+    "alt": "Le Meilleur Yaourt Végétal : Avis, Tests et Guide Complet"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Un-avocat-farci-vegan-avec-du-vinaigre-balsamique-et-des-tomates-fraiches-.jpg",
+    "slug": "avocat-farci-vegan-nouvelle-recette",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Baeckeoffe Vegan : La Meilleure Recette Alsacienne Revisitée"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/02/Bol-de-Buddha-bowl-aux-proteines-vegetales-avec-quinoa-pois-chiches-rotis-avocat-et-legumes-croquants-saupoudre-de-graines-de-sesame.jpg",
+    "slug": "proteines-vegetales-7-bienfaits-incroyables-sante",
+    "type": "page",
+    "context": "hero",
+    "alt": "Protéines végétales : 7 bienfaits incroyables sur la santé"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Quel-est-le-meilleur-lait-vegetal-pour-la-sante-Le-voici-dans-une-carafe.jpg",
+    "slug": "quel-est-le-meilleur-lait-vegetal-pour-la-sante",
+    "type": "page",
+    "context": "hero",
+    "alt": "Quel est le meilleur lait végétal pour la santé ? Notre Avis"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/cropped-Fav-ivon-Vegourmet.png",
+    "slug": "mentions-legales-politique-de-confidentialite",
+    "type": "page",
+    "context": "hero",
+    "alt": "Mentions Légales & Politique de Confidentialité"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Un-banana-bread-qui-sort-du-fou.jpg",
+    "slug": "banana-bread-vegan-5-secrets-recette",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Muffins Vegan : 5 Ingrédients Clés pour une Texture Parfaite"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Un-Baeckeoffe-Vegan-dans-un-plat-qui-sort-du-four.jpg",
+    "slug": "baeckeoffe-vegan-recette-alsacienne-revisite",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Galette de Sarrasin Vegan : La Meilleure Recette Bretonne"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Une-casserole-de-bechamel-vegan-sur-une-planche-en-bois-724x1024.png",
+    "slug": "bechamel-vegan-meilleure-recette-magique",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Samoussas vegan - La Meilleure Recette Indienne de 2025"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Une-casserole-de-bechamel-vegan-sur-une-planche-en-bois-724x1024.png",
+    "slug": "bechamel-vegan-meilleure-recette-magique",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une casserole de béchamel vegan sur une planche en bois"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Des-biscuits-vegan-qui-sortent-du-four-pour-un-gouter-entre-amis-724x1024.png",
+    "slug": "biscuits-vegan-meilleure-recette-a-refaire",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Poivrons Farcis Vegan : La Recette Préférée des Français"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Un-bol-genereux-de-spaghettis-garnis-dune-sauce-bolognaise-vegan-riche-et-texturee.jpg",
+    "slug": "bolognaise-vegan-methode-texture-bluffante",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Onigiris Vegan : 3 Secrets Pour un Riz Qui Tient Enfin !"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-Bo-Bun-Vegan-dans-un-restaurant-Vietnamien-724x1024.png",
+    "slug": "bo-bun-vegan-meilleure-recette-vietnamienne",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Risotto Vegan : Recette aux Champignons la Plus Crémeuse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-Bo-Bun-Vegan-dans-un-restaurant-Vietnamien-724x1024.png",
+    "slug": "bo-bun-vegan-meilleure-recette-vietnamienne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un Bo Bun Vegan dans un restaurant Vietnamien"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-boudin-blanc-vegan-pret-a-etre-deguste-724x1024.png",
+    "slug": "boudin-blanc-vegan-decouvrez-recette-etapes",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Gratin de Courgettes Vegan : Recette Expresse en 10 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Vue-densemble-des-ingredients-frais-necessaires-pour-preparer-la-recette-de-bouchee-a-la-reine-vegan.jpg",
+    "slug": "bouchees-a-la-reine-vegan-sauce-cremeuse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Butternut Farcie Vegan : Le Guide Pour Ne Plus La Rater"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Vue-densemble-des-ingredients-frais-necessaires-pour-preparer-la-recette-de-bouchee-a-la-reine-vegan-724x1024.jpg",
+    "slug": "bouchees-a-la-reine-vegan-sauce-cremeuse",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Vue d'ensemble des ingrédients frais nécessaires pour préparer la recette de bouchée à la reine vegan."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Une-magnifique-brioche-vegan-qui-sort-du-four-724x1024.png",
+    "slug": "brioche-vegan-recette-ultra-moelleuse-tester",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Carrot Cake Vegan : Recette Moelleuse et Gourmande"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Un-Banana-Bread-Vegan-aux-Pepites-de-Chocolat-qui-sort-du-four.jpg",
+    "slug": "banana-bread-vegan-aux-pepites-de-chocolat",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Maki Vegan : La Meilleure Recette De Sushis Japonais"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Un-brownie-vegan-sur-du-papier-sulfurise.jpg",
+    "slug": "brownie-vegan-3-secrets-texture-parfaite",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Gaufres Vegan : 5 Étapes Simples pour une Recette Parfaite"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/De-magnifiques-parts-de-brookies-vegan-empilees-les-unes-sur-les-autres.jpg",
+    "slug": "brookies-vegan-recette-alliance-incroyable",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Crème Brûlée Vegan : Une Recette Facile et Réconfortante"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Bowl-cake-vegan-demoule-garni-de-chocolat-fondu-framboises-et-myrtilles-fraiches.jpg",
+    "slug": "bowl-cake-meilleure-recette-vegan-5-etapes",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Chili sin carne : La Meilleure Recette Mexicaine"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Un-burger-vegan-tenu-par-une-personne-1.jpg",
+    "slug": "burger-vegan-4-secrets-recette-parfaite",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Cookies Vegan : 10 Mins Chrono pour un Dessert Inoubliable"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Une-buche-de-noel-vegan-avec-une-ganache-au-chocolat.jpg",
+    "slug": "buche-de-noel-vegan-recette-toute-famille",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Crème Citron Vegan : La Recette Pour des Desserts Inratables"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-magnifique-burrito-vegan-avec-des-legumes-724x1024.png",
+    "slug": "burrito-vegan-meilleure-crette-mexicaine-9",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Pain Perdu Vegan : La meilleure recette en 3 minutes chrono"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Une-butternut-farcie-vegan-rotie-nappee-dune-sauce-cremeuse-au-soja-presentee-sur-une-table-rustique.jpg",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Salade César Vegan : 3 Secrets pour une Sauce Ultra-Crémeuse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Preparation-de-la-butternut-farcie-vegan-evidage-de-la-courge-a-cote-de-champignons-frais-et-doignons.jpg",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Préparation de la butternut farcie vegan évidage de la courge à côté de champignons frais et d'oignons."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Garnissage-de-la-butternut-farcie-vegan-avec-une-farce-onctueuse-au-riz-champignons-et-creme-vegetale.jpg",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Garnissage de la butternut farcie vegan avec une farce onctueuse au riz, champignons et crème végétale."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Plat-final-de-butternut-farcie-vegan-fumant-et-dore-decore-de-thym-frais-avant-detre-servi.jpg",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Plat final de butternut farcie vegan, fumant et doré, décoré de thym frais avant d'être servi."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Deux-tomates-farcies-vegan-pour-un-diner-dans-un-restaurant-chic.png",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Tomates farcies vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Des-poivrons-farcis-vegan-qui-sortent-du-four.png",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Poivrons farcis vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-plat-de-courgette-farcie-vegan-qui-sort-du-four.png",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Courgette farcie vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Une-butternut-farcie-vegan-rotie-nappee-dune-sauce-cremeuse-au-soja-presentee-sur-une-table-rustique-724x1024.jpg",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une butternut farcie vegan rôtie, nappée d'une sauce crémeuse au soja, présentée sur une table rustique."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/plugins/delicious-recipes/assets/images/pinit-sm.png",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "pinit"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Bloc-couteaux-ESSENTIELB.webp",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Bloc couteaux ESSENTIELB"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Poele-en-fonte.webp",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Poêle en fonte"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Balance-de-cuisine-numerique.webp",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "context": "in-content",
+    "alt": ""
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Un-magnifique-buddha-bowl-vegan-avec-des-legumineuses-des-fruits-frais-et-des-legumes-colores.jpg",
+    "slug": "buddha-bowl-vegan-recette-complete-saine",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Financier Vegan : Recette Parfaite Simple et Ultra Moelleuse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Un-magnifique-buddha-bowl-vegan-avec-des-legumineuses-des-fruits-frais-et-des-legumes-colores-724x1024.jpg",
+    "slug": "buddha-bowl-vegan-recette-complete-saine",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un magnifique buddha bowl vegan avec des légumineuses, des fruits frais et des légumes colorés"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/plugins/delicious-recipes/assets/images/pinit-sm.png",
+    "slug": "buddha-bowl-vegan-recette-complete-saine",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "pinit"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Cake-Aux-Legumes-Vegan-La-Recette-Parfaite-Et-Ultra-Facile-presente-entier-avec-une-tranche-coupee-sur-un-presentoir-rustique.jpg",
+    "slug": "cake-aux-legumes-vegan-recette-parfaite",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Ravioles Vegan : Recette Facile Pour Une Version 100% Maison"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Photo-verticale-dun-cake-aux-olives-vegan-entier-forme-rectangulaire-avec-une-tranche-coupee-revelant-une-mie-tres-aeree.jpg",
+    "slug": "cake-aux-olives-vegan-meilleure-recette",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Bo Bun Vegan : La Meilleure Recette Vietnamienne à Découvrir"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Des-canneles-vegan-sur-une-planche-en-pierre-grise.jpg",
+    "slug": "canneles-vegan-meilleure-recette-bordelaise",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Brookies Vegan : La Recette De Cette Alliance Incroyable"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Des-canneles-vegan-sur-une-planche-en-pierre-grise-724x1024.jpg",
+    "slug": "canneles-vegan-meilleure-recette-bordelaise",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Des cannelés vegan sur une planche en pierre grise"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/12/Un-magnifique-caramel-vegan-dans-un-pot-en-verre.jpg",
+    "slug": "caramel-vegan-recette-rapide-desserts-sucres",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Champignons Farcis Vegan : Recette Facile et Rapide"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/12/Un-magnifique-caramel-vegan-dans-un-pot-en-verre-724x1024.jpg",
+    "slug": "caramel-vegan-recette-rapide-desserts-sucres",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un magnifique caramel vegan dans un pot en verre"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Bol-genereux-de-carbonara-vegan-bien-cremeuse-avec-lardons-de-tofu-fume-et-poivre-noir.jpg",
+    "slug": "carbonara-vegan-3-secrets-sauce-cremeuse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Salade De Riz Vegan : 3 Astuces Pour Un Riz Non Collant"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Un-cake-au-citron-vegan-ultra-moelleux-avec-des-graines-de-pavot.jpg",
+    "slug": "cake-au-citron-vegan-meilleure-recette-2025",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Kebab Vegan : Recette Géniale Qui Vous Laissera Sans Voix"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Un-cake-au-citron-vegan-ultra-moelleux-avec-des-graines-de-pavot-724x1024.jpg",
+    "slug": "cake-au-citron-vegan-meilleure-recette-2025",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un cake au citron vegan ultra moelleux avec des graines de pavot"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Une-part-de-carrot-cake-vegan-dans-une-assiette-blanche-en-dessert-724x1024.png",
+    "slug": "carrot-cake-vegan-recette-moelleuse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Gratin Dauphinois Vegan : La Recette Préférée des Français"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-magnifique-cassoulet-vegan-dans-une-marmitte-724x1024.png",
+    "slug": "cassoulet-vegan-meilleure-recette-plaisir",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Gâteau au yaourt vegan : Recette facile en moins de 7 étapes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/12/Des-champignons-farcis-vegan-qui-sortent-du-four.jpg",
+    "slug": "champignons-farcis-vegan-facile-et-rapide",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Frangipane Vegan : Recette Facile Pour La Galette Des Rois"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Un-cheesecake-vegan-sur-fond-bleu.jpg",
+    "slug": "cheesecake-vegan-5-secrets-irresistible",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Banana Bread Vegan : 5 Secrets pour une Recette Parfaite"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Un-chili-sin-carne-qui-mijote-dans-une-poele-en-fonte.jpg",
+    "slug": "chili-sin-carne-vegan-la-meilleure-recette",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Dahl de Lentilles Corail : La Meilleure Recette Ultra Facile"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Un-chili-sin-carne-qui-mijote-dans-une-poele-en-fonte-724x1024.jpg",
+    "slug": "chili-sin-carne-vegan-la-meilleure-recette",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un chili sin carne qui mijote dans une poêle en fonte"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/plugins/delicious-recipes/assets/images/pinit-sm.png",
+    "slug": "chili-sin-carne-vegan-la-meilleure-recette",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "pinit"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Une-choucroute-vegan-dans-un-restaurant-a-Paris.jpg",
+    "slug": "choucroute-vegan-meilleure-recette-familiale",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Kimchi Vegan : La Meilleure Recette Authentique et Facile"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Une-choucroute-vegan-dans-un-restaurant-a-Paris-724x1024.jpg",
+    "slug": "choucroute-vegan-meilleure-recette-familiale",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une choucroute vegan dans un restaurant à Paris"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-clafoutis-vegan-a-la-cerise-dans-deux-moule-blanc-avec-un-peu-de-sucre-glace-en-topping-724x1024.png",
+    "slug": "clafoutis-vegan-recette-facile-10-mins",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Tartiflette Vegan : La meilleure recette en 6 étapes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-clafoutis-vegan-a-la-cerise-dans-deux-moule-blanc-avec-un-peu-de-sucre-glace-en-topping-724x1024.png",
+    "slug": "clafoutis-vegan-recette-facile-10-mins",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un clafoutis vegan à la cerise dans deux moule blanc avec un peu de sucre glace en topping"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/plugins/delicious-recipes/assets/images/pinit-sm.png",
+    "slug": "clafoutis-vegan-recette-facile-10-mins",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "pinit"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Des-cookies-flocons-davoine-vegan-les-uns-sur-les-autres.jpg",
+    "slug": "cookies-flocons-davoine-vegan-recette",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Poutine Vegan : La Meilleure Recette Québécoise Familiale"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Des-cookies-flocons-davoine-vegan-les-uns-sur-les-autres-724x1024.jpg",
+    "slug": "cookies-flocons-davoine-vegan-recette",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Des cookies flocons d'avoine vegan les uns sur les autres"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Image-principale-de-cookies-vegan-sur-un-plateau-de-cuisson.jpg",
+    "slug": "cookies-vegan-10-minutes-chrono",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Burger Vegan : 4 Secrets pour une Recette Parfaite"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Image-principale-de-cookies-vegan-sur-un-plateau-de-cuisson.jpg",
+    "slug": "cookies-vegan-10-minutes-chrono",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un plateau de cookies vegan sorant du four"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-couscous-vegan-servi-dans-un-restaurant-marocain-724x1024.png",
+    "slug": "couscous-vegan-meilleure-recette-maghreb",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Cinnamon Rolls Vegan : La meilleure recette en 5 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Des-Cinnamon-Rolls-Vegan-avec-un-glacage-blanc-au-sucre-724x1024.png",
+    "slug": "cinnamon-rolls-vegan-meilleure-recette-5",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Cassoulet Vegan : La meilleure recette pour se faire plaisir"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Des-muffins-avec-une-Creme-Au-Beurre-Vegan-bien-onctueuse-sur-le-dessus.jpg",
+    "slug": "creme-au-beurre-vegan-recette-secrete",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Pâte à choux vegan : La Recette Pour Des Choux Parfaits"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Des-muffins-avec-une-Creme-Au-Beurre-Vegan-bien-onctueuse-sur-le-dessus-724x1024.jpg",
+    "slug": "creme-au-beurre-vegan-recette-secrete",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Des muffins avec une Crème Au Beurre Vegan bien onctueuse sur le dessus"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-plat-de-courgette-farcie-vegan-qui-sort-du-four-724x1024.png",
+    "slug": "courgette-farcie-vegan-recette-facile",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Muffins Salés Vegan : Une recette simple et rapide en 8 mins"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Un-pot-de-Creme-au-Chocolat-Vegan.jpg",
+    "slug": "creme-au-chocolat-vegan-recette-cremeuse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Quenelles Vegan : La Meilleure Recette Lyonnaise Réinventée"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Une-creme-citron-vegan-dans-un-petit-pot-en-verre.jpg",
+    "slug": "creme-citron-vegan-desserts-inratables",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Crème Au Beurre Vegan : Recette Secrète Ultra Rapide"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Une-creme-citron-vegan-dans-un-petit-pot-en-verre-724x1024.jpg",
+    "slug": "creme-citron-vegan-desserts-inratables",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une crème citron vegan dans un petit pot en verre"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Une-creme-brulee-vegan-dans-une-jolie-assiette-pour-un-dessert-gourmand.jpg",
+    "slug": "creme-brulee-vegan-recette-facile",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Quiche aux Poireaux Vegan : La Meilleure Recette Fondante"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Des-Cookies-Vegan-Sans-Gluten-empiles-sur-une-table-en-bois-1.jpg",
+    "slug": "cookies-vegan-sans-gluten-meilleure-recette",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Riz Au Lait Vegan : Découvrez La Recette Ultra Crémeuse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Des-Cookies-Vegan-Sans-Gluten-empiles-sur-une-table-en-bois-1-724x1024.jpg",
+    "slug": "cookies-vegan-sans-gluten-meilleure-recette",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Des Cookies Vegan Sans Gluten empilés sur une table en bois"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/plugins/delicious-recipes/assets/images/pinit-sm.png",
+    "slug": "cookies-vegan-sans-gluten-meilleure-recette",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "pinit"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Une-haute-pile-de-crepes-vegan-dorees-et-garnies-de-fruits-avec-du-sirop-derable-qui-coule-sur-les-bords.jpg",
+    "slug": "crepes-vegan-7-secrets-recette-parfaite",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Pancakes Vegan : 3 Secrets pour les Rendre Irrésistibles"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Un-crumble-sale-vegan-qui-sort-du-four-dans-un-plat-en-verre.jpg",
+    "slug": "crumble-sale-vegan-recette-reconfortante",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Cookies Flocons d'Avoine Vegan : Recette Facile et Gourmande"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-magnifique-crumble-vegan-aux-pommes-dans-un-restaurant-Parisien-724x1024.png",
+    "slug": "crumble-vegan-recette-fondre-tout-le-monde",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Brioche Vegan : Recette Ultra Moelleuse à Tester Absolument"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-magnifique-crumble-vegan-aux-pommes-dans-un-restaurant-Parisien-724x1024.png",
+    "slug": "crumble-vegan-recette-fondre-tout-le-monde",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un magnifique crumble vegan aux pommes dans un restaurant Parisien"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Un-dahl-de-lentilles-corail-accompagne-de-riz-basmati-min-724x1024.jpg",
+    "slug": "dahl-de-lentilles-corail-recette-complete-30",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Guacamole Maison : 3 Secrets pour une Texture qui Claque"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Un-dahl-de-lentilles-corail-accompagne-de-riz-basmati-min-724x1024.jpg",
+    "slug": "dahl-de-lentilles-corail-recette-complete-30",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un dahl de lentilles corail accompagné de riz basmati-min"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Gros-plan-sur-des-Energy-balls-au-chocolat-et-coco-dont-une-est-coupee-pour-montrer-la-texture-dense-et-fondante.jpg",
+    "slug": "energy-balls-la-meilleure-recette-healthy",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Hachis Parmentier Vegan : La Meilleure Recette Hyper Facile"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Un-curry-vert-vegan-bien-epice-dans-un-restaurant-Thai.jpg",
+    "slug": "curry-vert-vegan-recette-thai-facile",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Salade de Pâtes Vegan : Recette Ultra Facile Pour l'été"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Des-fajitas-vegan-dans-un-restaurant-mexicain-a-Paris-724x1024.png",
+    "slug": "fajitas-vegan-meilleure-recette-mexicaine",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Cake aux Olives Vegan : Le Secret du Moelleux"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-curry-de-pois-chiches-qui-mijote-dans-une-casserole.jpg",
+    "slug": "curry-de-pois-chiches-la-recette-ideale",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Bowl Cake : Ta Recette Saine et Moelleuse en 5 Minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Des-falafels-maison-avec-une-sauce-a-la-grenade-724x1024.png",
+    "slug": "falafels-4-astuces-magiques-recette-parfaite",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Houmous : Mes 4 Secrets Pour Une Texture Ultra Crémeuse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Un-flan-vegan-a-la-vanille-lors-dun-diner-au-restaurant.jpg",
+    "slug": "flan-vegan-recette-championne-du-monde",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Energy Balls : Ma Technique pour une Texture Top"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Un-financier-vegan-sur-une-grille-de-refroidissement-qui-sort-du-four.png",
+    "slug": "financier-vegan-recette-parfaite-moelleuse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Spring Rolls Vegan : La Meilleure Recette Asiatique"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Un-financier-vegan-sur-une-grille-de-refroidissement-qui-sort-du-four-724x1024.png",
+    "slug": "financier-vegan-recette-parfaite-moelleuse",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un financier vegan sur une grille de refroidissement qui sort du four"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-flan-de-courgette-vegan-accompagne-de-tomates-cerises-724x1024.png",
+    "slug": "flan-de-courgette-vegan-la-meilleure-recette",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Curry de Pois Chiches : La Meilleure Recette Indienne"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-flan-de-courgette-vegan-accompagne-de-tomates-cerises-724x1024.png",
+    "slug": "flan-de-courgette-vegan-la-meilleure-recette",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un flan de courgette vegan accompagné de tomates cerises"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Gros-plan-sur-une-galette-de-sarrasin-vegan-pliee-en-carre-avec-du-fromage-vegetal-fondu-qui-deborde-genereusement.jpg",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Ganache Vegan : La Meilleure Recette Ultra Facile Revisitée"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Preparation-dune-galette-de-sarrasin-vegan-dans-la-poele-garnie-de-tofu-epinards-et-fromage-juste-avant-le-pliage.jpg",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Préparation d'une galette de sarrasin vegan dans la poêle, garnie de tofu, épinards et fromage juste avant le pliage."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Galette-de-sarrasin-vegan-complete-genereusement-garnie-de-tofu-fume-champignons-et-fromage-vegetal-fondant.jpg",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Galette de sarrasin vegan complète généreusement garnie de tofu fumé, champignons et fromage végétal fondant."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Galette-de-sarrasin-vegan-pliee-avec-le-centre-ouvert-laissant-voir-une-garniture-genereuse-de-champignons-tofu-et-fromage-fondu.jpg",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Galette de sarrasin vegan pliée avec le centre ouvert, laissant voir une garniture généreuse de champignons, tofu et fromage fondu."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Crepes-vegan-au-centre-dune-table.jpg",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Crêpes vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Panckes-vegan-avec-du-sirop-derable.jpg",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Pancakes vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Une-omelette-vegan-avec-de-la-salade-verte.png",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Omelette vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Gros-plan-sur-une-galette-de-sarrasin-vegan-pliee-en-carre-avec-du-fromage-vegetal-fondu-qui-deborde-genereusement-724x1024.jpg",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Gros plan sur une galette de sarrasin vegan pliée en carré, avec du fromage végétal fondu qui déborde généreusement."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/plugins/delicious-recipes/assets/images/pinit-sm.png",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "pinit"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Saladier-en-Inox.webp",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Saladier en Inox"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Fouet-de-cuisine.webp",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Fouet de cuisine"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Poele-en-fonte.webp",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Poêle en fonte"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Balance-de-cuisine-numerique.webp",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": ""
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Pinceau-de-cuisine.webp",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Pinceau de cuisine"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Une-magnifique-ganache-chocolat-vegan-pour-un-gateau-delicieux.jpg",
+    "slug": "ganache-chocolat-vegan-recette-inratable",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Rocher Coco Vegan : Recette Express Sans Cuisson"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Une-magnifique-ganache-chocolat-vegan-pour-un-gateau-delicieux-724x1024.jpg",
+    "slug": "ganache-chocolat-vegan-recette-inratable",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une magnifique ganache chocolat vegan pour un gâteau délicieux"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Una-galette-des-rois-avec-de-la-frangipane-vegan.jpg",
+    "slug": "frangipane-vegan-recette-galette-des-rois",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Pain d'épices Vegan : La Meilleure Recette De Fin d'Année"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Un-fraisier-vegan-dans-une-assiette-blanche-lors-dun-diner-au-restaurant.jpg",
+    "slug": "fraisier-vegan-classique-de-la-patisserie",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Tarte Au Citron Vegan : La Recette Digne D'un Pâtissier Pro"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Une-ganache-vegan-au-chocolat-pour-un-gateau-danniversaire.jpg",
+    "slug": "ganache-vegan-recette-ultra-facile-revisitee",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Potimarron Farci Vegan : La Recette Aux Saveurs D'automne"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-gratin-dauphinois-vegan-qui-sort-du-four-724x1024.png",
+    "slug": "gratin-dauphinois-vegan-recette-preferee-fr",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Fajitas Vegan : La Meilleure Recette Mexicaine en 8 Minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Une-part-de-gateau-au-chocolat-vegan.jpg",
+    "slug": "gateau-au-chocolat-vegan-recette-moelleuse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Wraps Vegan : La Meilleure Recette en Moins de 10 Minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Un-gratin-de-chou-fleur-vegan-qui-sort-du-four.jpg",
+    "slug": "gratin-de-chou-fleur-vegan-recette-cremeuse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Lemon Curd Vegan : Recette Idéale Pour Une Tarte Au Citron"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-gateau-au-yaourt-vegan-servi-dans-un-restaurant-Parisien-724x1024.png",
+    "slug": "gateau-au-yaourt-vegan-recette-facile-etapes",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Nuggets Vegan : La meilleure recette façon KFC en 7 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Des-gaufres-vegan-sur-une-assiette-avec-des-couvert-en-or.jpg",
+    "slug": "gaufres-vegan-5-etapes-recette-parfaite",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Mousse au Chocolat Vegan : 3 Astuces Incontournables"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-magnifique-gratin-de-courgettes-vegan-qui-sort-du-four-724x1024.png",
+    "slug": "gratin-de-courgettes-vegan-recette-expresse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Paella Vegan : La meilleure recette espagnole en 10 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Un-Gratin-dEndives-Vegan-dans-un-beau-plat-blanc-et-vert.jpg",
+    "slug": "gratin-d-endives-vegan-recette-familiale",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Ganache Chocolat Vegan : Recette Inratable et Ultra Facile"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Un-guacamole-maison-avec-une-feuille-de-menthe-724x1024.png",
+    "slug": "guacamole-la-meilleure-recette-en-5-minutes",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Falafels : La Recette Au Four Croustillante et Saine"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Un-guacamole-maison-avec-une-feuille-de-menthe-724x1024.png",
+    "slug": "guacamole-la-meilleure-recette-en-5-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un guacamole maison avec une feuille de menthe"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Une-superbe-assiette-de-Gyozas-Vegan-pour-un-moment-de-partage.jpg",
+    "slug": "gyozas-vegan-meilleure-reccette-voyage",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Curry Vert Vegan : La Meilleure Recette Thaï Ultra Facile"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Un-kimchi-vegan-dans-un-bol-blanc.jpg",
+    "slug": "kimchi-vegan-meilleure-recette-authentique",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Polenta Vegan : Recette Crémeuse Aux Champignons Facile"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Un-kimchi-vegan-dans-un-bol-blanc-724x1024.jpg",
+    "slug": "kimchi-vegan-meilleure-recette-authentique",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un kimchi vegan dans un bol blanc"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Un-Hachis-Parmentier-Vegan-pour-un-diner-en-famille.jpg",
+    "slug": "hachis-parmentier-vegan-recette-hyper-facile",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Moelleux au Chocolat Vegan : Recette Ultra Facile"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Un-Hachis-Parmentier-Vegan-pour-un-diner-en-famille-724x1024.jpg",
+    "slug": "hachis-parmentier-vegan-recette-hyper-facile",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un Hachis Parmentier Vegan pour un diner en famille"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Gros-plan-sur-un-bol-de-houmous-maison-cremeux.jpg",
+    "slug": "houmous-4-secrets-pour-une-recette-parfaite",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Pudding de Chia : 4 Astuces pour une Recette Parfaite"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Un-kebab-vegan-avec-des-oignons-du-seitan-des-concombres-et-une-sauce-blanche.jpg",
+    "slug": "kebab-vegan-recette-geniale-sans-voix",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Pot-au-Feu Vegan : Fini Le Bouillon Fade, Voici Mon Secret"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Des-lasagnes-vegan-qui-sortent-du-four-724x1024.png",
+    "slug": "lasagnes-vegan-meilleure-recette-bolognaise",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Pad Thaï Vegan : Découvrez La Meilleure Recette Thaïlandaise"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Un-Lemon-Curd-Vegan-bien-acide-pour-garnir-une-tarte-au-citron.jpg",
+    "slug": "lemon-curd-vegan-recette-ideale-tarte-citron",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Fraisier Vegan : Redécouvrez ce Classique de La Pâtisserie"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Des-madeleines-vegan-dans-un-bol-avec-un-cafe.jpg",
+    "slug": "madeleines-vegan-meilleure-recette-moelleuse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Cookies Vegan Sans Gluten : La Meilleure Recette Vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Un-mafe-vegan-pour-un-repas-en-tete-a-tete.jpg",
+    "slug": "mafe-vegan-meilleure-recette-ragout-africain",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Tarte à La Courgette Vegan : Recette Facile et Gourmande"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Une-sauce-mayonnaise-vegan-pour-un-apero-entre-amies.jpg",
+    "slug": "mayonnaise-vegan-recette-sauce-emblematique",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Salade Vegan - La Recette N°1 à Découvrir Cette Année"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Des-maki-vegan-avec-des-legumes-et-du-tofu.jpg",
+    "slug": "maki-vegan-meilleure-recette-japonaise",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Mafé Vegan : La Meilleure Recette Du Ragoût Africain"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Bol-de-Mascarpone-Vegan-cremeux-et-ferme-pret-pour-un-tiramisu.jpg",
+    "slug": "mascarpone-vegan-recette-star-desserts",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Tajine Vegan : Ma Recette Coup De Cœur Pour Toute La Famille"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Bol-de-Mascarpone-Vegan-cremeux-et-ferme-pret-pour-un-tiramisu-724x1024.jpg",
+    "slug": "mascarpone-vegan-recette-star-desserts",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Bol de Mascarpone Vegan crémeux et ferme, prêt pour un tiramisu."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Une-mousse-au-chocolat-vegan-avec-des-framboises-dans-des-verrines.jpg",
+    "slug": "mousse-au-chocolat-vegan-3-astuces",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Crêpes Vegan : 7 secrets pour une texture parfaite"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-milkshake-vegan-a-la-fraise-rafraichissant-724x1024.png",
+    "slug": "milkshake-vegan-meilleure-recette-ete-7-mins",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Flan de Courgette Vegan : La Meilleure Recette en 9 étapes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Une-part-de-moelleux-au-chocolat-vegan-sur-une-assiette-lors-dun-dejeuner.jpg",
+    "slug": "moelleux-au-chocolat-vegan-recette-facile",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Banana Bread Vegan aux Pépites de Chocolat : Recette Facile"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Une-magnifique-moussaka-vegan-dans-un-plat-qui-sort-du-four.jpg",
+    "slug": "moussaka-vegan-secrets-pour-reussir-recette",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Caramel Vegan : Recette Rapide Pour Vos Desserts Sucrés"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Des-muffins-sales-vegan-qui-sortent-du-four-pour-un-apero-dinatoire-724x1024.png",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Tomates Farcies Vegan : Recette Traditionnelle en 12 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Plusieurs-muffins-sales-vegan-qui-sont-disposes-sur-une-table-blanche-1024x576.png",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Plusieurs muffins salés vegan qui sont disposés sur une table blanche"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Une-recette-de-muffins-sales-vegan-avec-des-tomates-cerises-1024x576.png",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une recette de muffins salés vegan avec des tomates cerises"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Des-muffins-sales-vegan-aux-olives-et-aux-tomates-sechees-1024x576.png",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Des muffins salés vegan aux olives et aux tomates séchées"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Un-houmous-maison-avec-du-paprika-en-toppings.png",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Houmous vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Des-falafels-maison-avec-une-sauce-a-la-grenade.png",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Falafels vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Un-guacamole-maison-avec-une-feuille-de-menthe.png",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Guacamole vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Des-muffins-sales-vegan-qui-sortent-du-four-pour-un-apero-dinatoire-724x1024.png",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Des muffins salés vegan qui sortent du four pour un apéro dinatoire"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/plugins/delicious-recipes/assets/images/pinit-sm.png",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "pinit"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Balance-de-cuisine-numerique.webp",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": ""
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Moule-a-muffins.webp",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Moule à muffins"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Saladier-en-Inox.webp",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Saladier en Inox"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Batteur-Electrique.webp",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Batteur Electrique"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Maryse.webp",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Maryse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Planche-a-decouper.webp",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "context": "in-content",
+    "alt": ""
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Des-muffins-vegan-aux-pepites-de-chocolat.jpg",
+    "slug": "muffins-vegan-5-ingredients-texture-parfaite",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Tiramisu Vegan : 5 Étapes pour un Dessert Irrésistible"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Une-omelette-vegan-avec-de-la-salade-verte-724x1024.png",
+    "slug": "omelette-vegan-decouvrez-preparer-7-minutes",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Clafoutis Vegan : Une recette facile en moins de 10 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Gros-plan-vertical-sur-une-pile-de-trois-onigiris-vegan-triangulaires-faits-maison-sur-une-assiette-en-ceramique-rustique.jpg",
+    "slug": "onigiris-vegan-3-secrets-riz-qui-tient-enfin",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Tarama Vegan : 3 Secrets pour un Apéro Bluffant"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-pad-thai-vegan-incroyable-dans-un-restaurant-a-Bangkok-724x1024.png",
+    "slug": "pad-thai-vegan-decouvrez-meilleure-recette",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Crumble Vegan : La Recette Qui Fait Fondre Tout Le Monde"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Une-paella-vegan-en-fin-de-cuisson-prete-a-etre-servie-724x1024.png",
+    "slug": "paella-vegan-meilleure-recette-espagnole-10",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Milkshake Vegan : La Meilleure Recette de l'été en 7 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Une-pile-de-nuggets-vegan-maison-avec-des-feuilles-de-salade-verte-pour-une-touche-de-couleur-724x1024.png",
+    "slug": "nuggets-vegan-meilleure-recette-facon-kfc-7",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Pesto Vegan : La meilleure recette italienne en 4 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Une-recette-de-pain-perdu-vegan-avec-des-fraises-en-accompagnement-724x1024.png",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Omelette Vegan : Découvrez comment la préparer en 7 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Deux-tranches-de-pain-perdu-vegan-avec-du-sirop-derable-1024x576.png",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Deux tranches de pain perdu vegan avec du sirop d'érable"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Des-morceaux-de-pain-perdu-vegan-dans-une-assiette-blanche-sur-une-table-1024x576.png",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Des morceaux de pain perdu vegan dans une assiette blanche sur une table"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/12/Un-magnifique-caramel-vegan-dans-un-pot-en-verre.jpg",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Caramel vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Panckes-vegan-avec-du-sirop-derable.jpg",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Pancakes vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Crepes-vegan-au-centre-dune-table.jpg",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Crêpes vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Une-recette-de-pain-perdu-vegan-avec-des-fraises-en-accompagnement-724x1024.png",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une recette de pain perdu vegan avec des fraises en accompagnement"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/plugins/delicious-recipes/assets/images/pinit-sm.png",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "pinit"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Balance-de-cuisine-numerique.webp",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": ""
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Poele-en-fonte.webp",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Poêle en fonte"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Saladier-en-Inox.webp",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Saladier en Inox"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Fouet-de-cuisine.webp",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Fouet de cuisine"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Maryse.webp",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Maryse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Bloc-couteaux-ESSENTIELB.webp",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Bloc couteaux ESSENTIELB"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Planche-a-decouper.webp",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "context": "in-content",
+    "alt": ""
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Panckes-vegan-avec-du-sirop-derable.jpg",
+    "slug": "pancakes-vegan-3-secrets-irresistibles",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Burger Vegan : 4 Secrets pour une Recette Parfaite"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Panckes-vegan-avec-du-sirop-derable.jpg",
+    "slug": "pancakes-vegan-3-secrets-irresistibles",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Pancakes vegan avec du sirop d'érable"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Une-panna-cotta-vegan-aux-myrtilles-qui-sort-du-frigo-724x1024.png",
+    "slug": "panna-cotta-vegan-recette-expresse-15-mins",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Couscous Vegan : La Meilleure Recette aux Saveurs du Maghreb"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Une-panna-cotta-vegan-aux-myrtilles-qui-sort-du-frigo-724x1024.png",
+    "slug": "panna-cotta-vegan-recette-expresse-15-mins",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une panna cotta vegan aux myrtilles qui sort du frigo"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Une-pate-a-choux-vegan-pour-des-choux-parfaits.jpg",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Porridge Vegan : Recette Pour Un Petit-Déjeuner Healthy"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Un-choux-avec-de-la-pate-a-choux-vegan-tres-gourmande.jpg",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un choux avec de la pâte à choux vegan très gourmande"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Des-viennoiseries-avec-de-la-pate-a-choux-vegan.jpg",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Des viennoiseries avec de la pâte à choux vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/De-magnifique-choux-a-base-de-pate-a-choux-vegan-dans-une-assiette-a-dessert.jpg",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "De magnifique choux à base de pâte à choux vegan dans une assiette à dessert"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Des-muffins-avec-une-Creme-Au-Beurre-Vegan-bien-onctueuse-sur-le-dessus.jpg",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Crème Au Beurre Vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Des-gaufres-vegan-sur-une-assiette-avec-des-couvert-en-or.jpg",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Gaufres Vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Panckes-vegan-avec-du-sirop-derable.jpg",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Pancakes Vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Une-pate-a-choux-vegan-pour-des-choux-parfaits-724x1024.jpg",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une pâte à choux vegan pour des choux parfaits"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/plugins/delicious-recipes/assets/images/pinit-sm.png",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "pinit"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/casserolespoignee.webp",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "casseroles+poignée"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Maryse.webp",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Maryse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Fouet-de-cuisine.webp",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Fouet de cuisine"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/11/Batteur-Electrique.webp",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Batteur Electrique"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Poche-a-douilles-DE-BUYER.webp",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Poche à douilles DE BUYER"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Un-pesto-vegan-fait-maison-avec-des-tartines-de-pain-frais-724x1024.png",
+    "slug": "pesto-vegan-meilleure-recette-italienne-4",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Burrito Vegan : La meilleure recette mexicaine en 9 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Des-poivrons-farcis-vegan-qui-sortent-du-four-724x1024.png",
+    "slug": "poivrons-farcis-vegan-recette-preferee-fr",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Panna Cotta Vegan : Recette Expresse en moins de 15 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Des-poivrons-farcis-vegan-qui-sortent-du-four-724x1024.png",
+    "slug": "poivrons-farcis-vegan-recette-preferee-fr",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Des poivrons farcis vegan qui sortent du four"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Un-Pain-depice-Vegan-qui-sort-du-four-dans-un-papier-sulfurise.jpg",
+    "slug": "pain-d-epices-vegan-recette-de-fin-dannee",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Madeleines Vegan : La Meilleure Recette Ultra Moelleuse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Une-polenta-vegan-aux-champignons-de-Paris.jpg",
+    "slug": "polenta-vegan-recette-cremeuse-champignons",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Gyozas Vegan : La Meilleure Recette Pour Vous Faire Voyager"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Un-porridge-vegan-chocolat-banane-pour-un-petit-dejeuner-healthy.jpg",
+    "slug": "porridge-vegan-recette-dejeuner-healthy",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Crumble Salé Vegan : Recette Réconfortante qui Change Tout"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Un-porridge-vegan-chocolat-banane-pour-un-petit-dejeuner-healthy-724x1024.jpg",
+    "slug": "porridge-vegan-recette-dejeuner-healthy",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un porridge vegan chocolat banane pour un petit déjeuner healthy"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Bol-genereux-et-fumant-de-pot-au-feu-vegan-au-bouillon-brun-intense.jpg",
+    "slug": "pot-au-feu-vegan-meilleure-recette-grandmere",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Mayonnaise Vegan - La Recette De Cette Sauce Emblématique"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Un-superbe-pudding-de-chia-aux-myrtilles-724x1024.png",
+    "slug": "pudding-de-chia-4-astuces-recette-parfaite",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Cheesecake vegan : 5 secrets pour une version irrésistible"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Des-quenelles-vegan-a-la-truffe-dans-un-plat-noir-en-fonte.jpg",
+    "slug": "quenelles-vegan-meilleure-recette-lyonnaise",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Choucroute Vegan : La Meilleure Recette De Ce Plat Familiale"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Des-quenelles-vegan-a-la-truffe-dans-un-plat-noir-en-fonte-724x1024.jpg",
+    "slug": "quenelles-vegan-meilleure-recette-lyonnaise",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Des quenelles vegan à la truffe dans un plat noir en fonte"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Une-magnifique-quiche-vegan-au-tofu.jpg",
+    "slug": "quiche-vegan-secrets-recette-inratable",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Lasagnes Vegan : La Meilleure Recette à la Bolognaise"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Des-Ravioles-Vegan-prepares-sur-une-planche-en-bois-avec-un-rouleau-a-patisserie-et-du-thym.jpg",
+    "slug": "ravioles-vegan-recette-facile-version-maison",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Buddha Bowl Vegan : Recette Complète Saine et Facile"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Un-potimarron-farci-vegan-au-quinoa-pour-un-repas-dautomne.jpg",
+    "slug": "potimarron-farci-vegan-recette-automne",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Crème au Chocolat Vegan : La Recette Ultra Crémeuse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Une-magnifique-poutine-vegan-dans-une-barquette-en-carton.jpg",
+    "slug": "poutine-vegan-recette-quebecoise-familiale",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Gratin d'Endives Vegan : La Recette Familiale Réconfortante"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Une-magnifique-poutine-vegan-dans-une-barquette-en-carton-724x1024.jpg",
+    "slug": "poutine-vegan-recette-quebecoise-familiale",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une magnifique poutine vegan dans une barquette en carton"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Trois-parts-de-quiche-aux-poireaux-vegan-les-unes-sur-les-autres-dans-une-assiette-blanche.jpg",
+    "slug": "quiche-aux-poireaux-vegan-recette-fondante",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Tarte Tatin Vegan : Une Recette Traditionnelle Revisitée"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Assiette-genereuse-et-fumante-de-raviolis-vegan-maison-sauce-cremeuse-aux-champignons.jpg",
+    "slug": "raviolis-vegan-secrets-pate-maison-inratable",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Taboulé Vegan : 3 Secrets Pour Une Semoule Aérienne"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-risotto-vegan-aux-champignons-de-Paris-dans-une-assiette-creuse-724x1024.png",
+    "slug": "risotto-vegan-recette-la-plus-cremeuse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Biscuits Vegan : La Meilleure Recette à Refaire Chez Vous"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/05/Un-risotto-vegan-aux-champignons-de-Paris-dans-une-assiette-creuse-724x1024.png",
+    "slug": "risotto-vegan-recette-la-plus-cremeuse",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un risotto vegan aux champignons de Paris dans une assiette creuse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Un-riz-au-lait-vegan-avec-une-gousse-de-vanille-sur-une-table-en-bois.jpg",
+    "slug": "riz-au-lait-vegan-recette-ultra-cremeuse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Tarte Aux Pommes Vegan : La Meilleure Recette Ultra Facile"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Une-belle-assiette-de-rocher-coco-vegan-avec-du-cafe.jpg",
+    "slug": "rocher-coco-vegan-recette-express-cuisson",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Cake aux légumes vegan : le secret d'une mie aérée et souple"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/3-rouleaux-de-printemps-vegan-sur-une-planche-en-granite-pour-un-apero-entre-amies-724x1024.png",
+    "slug": "rouleaux-de-printemps-vegan-recette-vietnam",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Béchamel Vegan : La Meilleur Recette De Cette Sauce Magique"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Des-Sables-de-Noel-Vegan-avec-un-peu-de-farine-pour-des-fetes-de-fin-dannee-reussies.jpg",
+    "slug": "sables-de-noel-vegan-recette-fetes-reussies",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Tourte Vegan : Recette Ultra Facile Aux Champignons"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Une-photo-verticale-gourmande-dune-salade-cesar-vegan-complete-dans-un-bol.jpg",
+    "slug": "salade-cesar-vegan-3-secrets-sauce-cremeuse",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Raviolis Vegan : 3 Secrets Pour Une Pâte Maison Inratable"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Une-Salade-de-Pates-Vegan-dans-un-bol-en-ceramique-sur-une-table-avec-une-nappe.jpg",
+    "slug": "salade-de-pates-vegan-recette-facile",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Mascarpone Vegan : La Texture Parfaite enfin Réussie"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/09/Une-Salade-de-Pates-Vegan-dans-un-bol-en-ceramique-sur-une-table-avec-une-nappe-724x1024.jpg",
+    "slug": "salade-de-pates-vegan-recette-facile",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une Salade de Pâtes Vegan dans un bol en céramique sur une table avec une nappe"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Un-riz-cantonais-vegan-dans-un-bol-pour-un-dejeuner.jpg",
+    "slug": "riz-cantonais-vegan-meilleure-recette",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Scones Vegan : Recette Parfaite Pour Un Brunch Inoubliable"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Un-riz-cantonais-vegan-dans-un-bol-pour-un-dejeuner-724x1024.jpg",
+    "slug": "riz-cantonais-vegan-meilleure-recette",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Un riz cantonais vegan dans un bol pour un déjeuner"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Gros-plan-sur-un-saladier-de-salade-de-riz-vegan-bien-melangee-montrant-uniquement-du-riz-tofu-tomates-pois-oignons-et-olives.jpg",
+    "slug": "salade-de-riz-vegan-astuces-riz-non-collant",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Bolognaise Vegan : Ma Méthode Pour Une Texture Bluffante"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Gros-plan-sur-un-saladier-de-salade-de-riz-vegan-bien-melangee-montrant-uniquement-du-riz-tofu-tomates-pois-oignons-et-olives-724x1024.jpg",
+    "slug": "salade-de-riz-vegan-astuces-riz-non-collant",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Gros plan sur un saladier de salade de riz vegan bien mélangée, montrant uniquement du riz, tofu, tomates, pois, oignons et olives."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Une-salade-vegan-pour-une-recette-rafraichissante-en-ete-1.jpg",
+    "slug": "salade-vegan-recette-1-decouvrir-cette-annee",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Gâteau au Chocolat Vegan : Recette Ultra Moelleuse et Facile"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Des-samoussas-vegan-facon-indienne-bien-chaud-dans-un-panier-724x1024.png",
+    "slug": "samoussas-vegan-meilleure-recette-indienne",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Quiche Vegan : Tous les Secrets de ma Recette Inratable"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Deux-scones-vegan-empiles-lun-sur-lautre-sur-une-table-en-bois.jpg",
+    "slug": "scones-vegan-recette-parfaite-brunch",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Moussaka Vegan : 4 Secrets Pour Réussir Cette Recette"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Deux-scones-vegan-empiles-lun-sur-lautre-sur-une-table-en-bois-724x1024.jpg",
+    "slug": "scones-vegan-recette-parfaite-brunch",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Deux scones vegan empilés l'un sur l'autre sur une table en bois"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Un-Tajine-vegan-aux-legumes-encore-chaud.jpg",
+    "slug": "tajine-vegan-recette-coup-de-coeur-famille",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Sablés de Noël Vegan : La Recette Pour Des Fêtes Réussies"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Tarama-vegan-cremeux-dans-un-bol-avec-un-blini-qui-trempe-dedans-pret-pour-lapero.jpg",
+    "slug": "tarama-vegan-secrets-pour-un-apero-bluffant",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Tzatziki Vegan : Texture Ferme Garantie (3 Astuces)"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Tarama-vegan-cremeux-dans-un-bol-avec-un-blini-qui-trempe-dedans-pret-pour-lapero-724x1024.jpg",
+    "slug": "tarama-vegan-secrets-pour-un-apero-bluffant",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Tarama vegan crémeux dans un bol avec un blini qui trempe dedans, prêt pour l'apéro."
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Des-spring-rolls-vegan-aux-legumes.jpg",
+    "slug": "spring-rolls-vegan-meilleure-recette-asie",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Cannelés Vegan : La Meilleure Recette Bordelaise Revisitée"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Une-Tarte-a-La-Courgette-Vegan-sur-un-plat-en-bois-pour-un-diner.jpg",
+    "slug": "tarte-a-la-courgette-vegan-facile-gourmande",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Avocat Farci Vegan : La Nouvelle Recette Qui Cartonne"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/10/Une-Tarte-a-La-Courgette-Vegan-sur-un-plat-en-bois-pour-un-diner-724x1024.jpg",
+    "slug": "tarte-a-la-courgette-vegan-facile-gourmande",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une Tarte à La Courgette Vegan sur un plat en bois pour un diner"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Un-bol-genereux-de-taboule-vegan-aux-herbes-fraiches-texture-aeree-pret-a-etre-deguste.jpg",
+    "slug": "taboule-vegan-3-secrets-une-semoule-aerienne",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Carbonara Vegan : 3 Secrets Pour Une Sauce Crémeuse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Une-Tarte-Au-Citron-Vegan-avec-une-belle-meringue.jpg",
+    "slug": "tarte-au-citron-vegan-recette-patissier-pro",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Flan Vegan : La Recette Championne du Monde Enfin Dévoilée"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Une-Tarte-Au-Citron-Vegan-avec-une-belle-meringue-724x1024.jpg",
+    "slug": "tarte-au-citron-vegan-recette-patissier-pro",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une Tarte Au Citron Vegan avec une belle meringue"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Tiramisu-vegan-sur-une-table-blanche.jpg",
+    "slug": "tiramisu-vegan-5-etapes-irresistible",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Brownie Vegan : 3 Secrets pour une Texture Parfaite"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/07/Une-tarte-tatin-vegan-qui-vient-de-sortir-du-four-avec-de-jolies-pommes-caramelisees.jpg",
+    "slug": "tarte-tatin-vegan-recette-traditionnelle",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Cake au Citron Vegan : La Meilleure Recette Moelleuse 2025"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Une-tartiflette-vegan-qui-sort-du-four-724x1024.png",
+    "slug": "tartiflette-vegan-meilleure-recette-6-etapes",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Courgette Farcie Vegan : Recette facile en 10 minutes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/04/Deux-tomates-farcies-vegan-pour-un-diner-dans-un-restaurant-chic-724x1024.png",
+    "slug": "tomates-farcies-vegan-recette-traditionnelle",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Boudin Blanc Vegan : Découvrez cette recette en 5 étapes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Une-Tarte-Aux-Pommes-Vegan-bien-doree-qui-sort-du-four.jpg",
+    "slug": "tarte-aux-pommes-vegan-meilleure-recette",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Gratin de Chou-Fleur Vegan : La Recette Ultra Crémeuse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/11/Une-Tarte-Aux-Pommes-Vegan-bien-doree-qui-sort-du-four-724x1024.jpg",
+    "slug": "tarte-aux-pommes-vegan-meilleure-recette",
+    "type": "recette",
+    "context": "in-content",
+    "alt": "Une Tarte Aux Pommes Vegan bien dorée qui sort du four"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/08/Une-jolie-Tourte-Vegan-bien-doree-qui-sort-du-four.jpg",
+    "slug": "tourte-vegan-recette-facile-champignons",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Bûche de Noël Vegan : Une Recette Pour Toute La Famille"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/06/Des-wraps-vegan-coupes-en-deux-sur-une-planche-en-bois.jpg",
+    "slug": "wraps-vegan-meilleure-recette-10-minutes",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Rouleaux de Printemps Vegan : La Vraie Recette Vietnamienne"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Une-vue-de-differents-plats-dans-un-restaurant-vegan.jpg",
+    "slug": "restaurant-vegan-9-astuces-une-experience-inoubliable",
+    "type": "page",
+    "context": "hero",
+    "alt": "Restaurant Vegan : 9 Astuces pour Une Expérience Inoubliable"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/01/Un-sandwich-vegan-colore-et-appetissant-garni-davocat-tomates-cerises-concombre-et-tofu-marine-servi-sur-une-planche-en-bois-avec-une-sauce-onctueuse-a-cote.jpg",
+    "slug": "sandwich-vegan-7-recettes-faciles-ultra-gourmandes",
+    "type": "page",
+    "context": "hero",
+    "alt": "Sandwich Vegan : 7 Recettes Faciles et Ultra-Gourmandes"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2026/01/Un-Tzatziki-Vegan-bien-cremeux-dans-un-bol-noir-avec-un-concombre-et-un-citron-en-decoration.jpg",
+    "slug": "tzatziki-vegan-texture-ferme-garantie",
+    "type": "recette",
+    "context": "hero",
+    "alt": "Riz Cantonais Vegan : La Meilleure Recette Ultra Savoureuse"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/01/Un-repas-vegan.jpg",
+    "slug": "vegan-7-secrets-essentiels-reussir-sa-transition",
+    "type": "page",
+    "context": "hero",
+    "alt": "Vegan : 7 Secrets Essentiels pour Réussir sa Transition"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/01/Des-blocs-de-Seitan-sur-une-planche-en-bois.jpg",
+    "slug": "seitan-7-secrets-extraordinaires-pepite-vegan",
+    "type": "page",
+    "context": "hero",
+    "alt": "Seitan : 7 Secrets Extraordinaires de cette Pépite Vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/01/Un-plat-a-base-de-tempeh.jpg",
+    "slug": "tempeh-7-facons-revolutionner-vos-recettes-vegan",
+    "type": "page",
+    "context": "hero",
+    "alt": "Tempeh : 7 Façons de Révolutionner vos Recettes Vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/03/Un-plat-vegan-et-vegetarien-a-base-de-quinoa.jpg",
+    "slug": "vegan-et-vegetarien-7-revelations-extraordinaires",
+    "type": "page",
+    "context": "hero",
+    "alt": "Vegan et Végétarien : 7 Révélations Extraordinaires"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2024/12/Tofu-dans-un-bol-en-ceramic-beige.jpg",
+    "slug": "tofu-9-raisons-adopter-or-blanc-cuisine-vegan",
+    "type": "page",
+    "context": "hero",
+    "alt": "Le tofu : 9 raisons d’adopter l’or blanc de la cuisine vegan"
+  },
+  {
+    "originalUrl": "https://vegourmet.fr/wp-content/uploads/2025/01/Un-bol-de-yaourt-vegetal-garni-de-fruits-frais-granola-croustillant-et-graines-de-chia-presente-sur-une-table-en-bois-avec-une-lumiere-douce-du-matin.jpg",
+    "slug": "yaourt-vegetal-10-raisons-de-l-adopter-maintenant",
+    "type": "page",
+    "context": "hero",
+    "alt": "Yaourt Végétal : 10 Raisons de l’Adopter Maintenant"
+  }
+]

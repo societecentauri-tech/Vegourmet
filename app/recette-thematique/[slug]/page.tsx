@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
 import { TaxonomyPage } from "@/components/TaxonomyPage";
 import { SITE_URL } from "@/lib/seo";
-import { resolveTaxoLabel } from "@/lib/taxonomy";
+import { resolveTaxoLabel, taxoSlugs } from "@/lib/taxonomy";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
 export function generateStaticParams(): { slug: string }[] {
-  return [{ slug: "sans-soja" }];
+  return taxoSlugs("recette-thematique").map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({

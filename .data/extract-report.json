@@ -1,0 +1,1805 @@
+[
+  {
+    "url": "https://vegourmet.fr/",
+    "type": "home",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/a-propos",
+    "type": "page",
+    "status": "OK",
+    "slug": "a-propos",
+    "bodyChars": 3389,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/apero-vegan-10-idees-incroyables-a-tester-absolument",
+    "type": "page",
+    "status": "OK",
+    "slug": "apero-vegan-10-idees-incroyables-a-tester-absolument",
+    "bodyChars": 22725,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/aquafaba-9-astuces-magiques-reussir-vos-recettes",
+    "type": "page",
+    "status": "OK",
+    "slug": "aquafaba-9-astuces-magiques-reussir-vos-recettes",
+    "bodyChars": 12134,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/category/actualites-et-tendances",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/category/conseils-et-astuces",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/category/guides-pratiques",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/category/inspiration-et-lifestyle",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/beurre-vegan-7-secrets-pour-bien-choisir-et-utiliser",
+    "type": "page",
+    "status": "OK",
+    "slug": "beurre-vegan-7-secrets-pour-bien-choisir-et-utiliser",
+    "bodyChars": 10359,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/bonbon-vegan-3-ingredients-magiques-gout-parfait",
+    "type": "page",
+    "status": "OK",
+    "slug": "bonbon-vegan-3-ingredients-magiques-gout-parfait",
+    "bodyChars": 13053,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/blog",
+    "type": "page",
+    "status": "OK",
+    "slug": "blog",
+    "bodyChars": 117,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/chocolat-vegan-5-avantages-surprenants-votre-sante",
+    "type": "page",
+    "status": "OK",
+    "slug": "chocolat-vegan-5-avantages-surprenants-votre-sante",
+    "bodyChars": 9051,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/contactez-nous",
+    "type": "page",
+    "status": "OK",
+    "slug": "contactez-nous",
+    "bodyChars": 147,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/comment-creer-un-blog-de-cuisine-qui-cartonne",
+    "type": "page",
+    "status": "OK",
+    "slug": "comment-creer-un-blog-de-cuisine-qui-cartonne",
+    "bodyChars": 20246,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/fast-food-vegan-6-secrets-pour-un-burger-parfait",
+    "type": "page",
+    "status": "OK",
+    "slug": "fast-food-vegan-6-secrets-pour-un-burger-parfait",
+    "bodyChars": 12676,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/desserts-vegan-10-secrets-gratuit-pour-reussir",
+    "type": "page",
+    "status": "OK",
+    "slug": "desserts-vegan-10-secrets-gratuit-pour-reussir",
+    "bodyChars": 9514,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/fromage-vegan-7-raisons-de-l-adopter-des-aujourdhui",
+    "type": "page",
+    "status": "OK",
+    "slug": "fromage-vegan-7-raisons-de-l-adopter-des-aujourdhui",
+    "bodyChars": 16006,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/glace-vegan-15-idees-faciles-sublimer-vos-desserts",
+    "type": "page",
+    "status": "OK",
+    "slug": "glace-vegan-15-idees-faciles-sublimer-vos-desserts",
+    "bodyChars": 11614,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/lait-vegetal-guide-ultime-alternatives-vegan",
+    "type": "page",
+    "status": "OK",
+    "slug": "lait-vegetal-guide-ultime-alternatives-vegan",
+    "bodyChars": 29175,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/le-meilleur-seitan-guide-comparatif-marques-2025",
+    "type": "page",
+    "status": "OK",
+    "slug": "le-meilleur-seitan-guide-comparatif-marques-2025",
+    "bodyChars": 9445,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/gateau-vegan-7-conseils-pour-une-texture-incroyable",
+    "type": "page",
+    "status": "OK",
+    "slug": "gateau-vegan-7-conseils-pour-une-texture-incroyable",
+    "bodyChars": 11585,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleure-margarine-pour-la-patisserie-guide-complet",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleure-margarine-pour-la-patisserie-guide-complet",
+    "bodyChars": 11475,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleure-margarine-pour-la-sante-guide-complet",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleure-margarine-pour-la-sante-guide-complet",
+    "bodyChars": 13317,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleure-proteine-vegan-guide-complet-2025",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleure-proteine-vegan-guide-complet-2025",
+    "bodyChars": 26383,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/les-meilleures-proteines-vegetales-musculation",
+    "type": "page",
+    "status": "OK",
+    "slug": "les-meilleures-proteines-vegetales-musculation",
+    "bodyChars": 24348,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleure-whey-vegan-guide-complet-choisir-2025",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleure-whey-vegan-guide-complet-choisir-2025",
+    "bodyChars": 25759,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-fromage-vegan-decouvrez-guide-complet-2025",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-fromage-vegan-decouvrez-guide-complet-2025",
+    "bodyChars": 18740,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-hache-vegetal-avis-test-complet-2025",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-hache-vegetal-avis-test-complet-2025",
+    "bodyChars": 17207,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-lait-vegetal-pour-la-musculation-guide",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-lait-vegetal-pour-la-musculation-guide",
+    "bodyChars": 14566,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-lait-vegetal-pour-le-chocolat-chaud-guide",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-lait-vegetal-pour-le-chocolat-chaud-guide",
+    "bodyChars": 15312,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-lait-vegetal-pour-maigrir-guide-comparatif",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-lait-vegetal-pour-maigrir-guide-comparatif",
+    "bodyChars": 14983,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-steak-vegetal-guide-comparatif-avis-complet",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-steak-vegetal-guide-comparatif-avis-complet",
+    "bodyChars": 18450,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-lait-vegetal-pour-cafe-guide-complet-2025",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-lait-vegetal-pour-cafe-guide-complet-2025",
+    "bodyChars": 14367,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-tempeh-avis-et-guide-complet-2025",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-tempeh-avis-et-guide-complet-2025",
+    "bodyChars": 12349,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-lait-vegetal-pour-mousser-guide-complet",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-lait-vegetal-pour-mousser-guide-complet",
+    "bodyChars": 16921,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-tofu-guide-complet-pour-le-choisir",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-tofu-guide-complet-pour-le-choisir",
+    "bodyChars": 16713,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/omega-3-vegan-7-bienfaits-extraordinaires-votre-sante",
+    "type": "page",
+    "status": "OK",
+    "slug": "omega-3-vegan-7-bienfaits-extraordinaires-votre-sante",
+    "bodyChars": 13418,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-tofu-fume-guide-ultime-pour-vos-plats-vegan",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-tofu-fume-guide-ultime-pour-vos-plats-vegan",
+    "bodyChars": 16498,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/meilleur-yaourt-vegetal-avis-tests-guide-complet",
+    "type": "page",
+    "status": "OK",
+    "slug": "meilleur-yaourt-vegetal-avis-tests-guide-complet",
+    "bodyChars": 14268,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes",
+    "type": "recettes-index",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/avocat-farci-vegan-nouvelle-recette",
+    "type": "recette",
+    "status": "OK",
+    "slug": "avocat-farci-vegan-nouvelle-recette",
+    "ingredients": 10,
+    "steps": 16,
+    "bodyChars": 9593,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/proteines-vegetales-7-bienfaits-incroyables-sante",
+    "type": "page",
+    "status": "OK",
+    "slug": "proteines-vegetales-7-bienfaits-incroyables-sante",
+    "bodyChars": 25427,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/quel-est-le-meilleur-lait-vegetal-pour-la-sante",
+    "type": "page",
+    "status": "OK",
+    "slug": "quel-est-le-meilleur-lait-vegetal-pour-la-sante",
+    "bodyChars": 22264,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/mentions-legales-politique-de-confidentialite",
+    "type": "page",
+    "status": "OK",
+    "slug": "mentions-legales-politique-de-confidentialite",
+    "bodyChars": 23869,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/banana-bread-vegan-5-secrets-recette",
+    "type": "recette",
+    "status": "OK",
+    "slug": "banana-bread-vegan-5-secrets-recette",
+    "ingredients": 14,
+    "steps": 12,
+    "bodyChars": 13312,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/baeckeoffe-vegan-recette-alsacienne-revisite",
+    "type": "recette",
+    "status": "OK",
+    "slug": "baeckeoffe-vegan-recette-alsacienne-revisite",
+    "ingredients": 13,
+    "steps": 16,
+    "bodyChars": 11058,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/bechamel-vegan-meilleure-recette-magique",
+    "type": "recette",
+    "status": "OK",
+    "slug": "bechamel-vegan-meilleure-recette-magique",
+    "ingredients": 6,
+    "steps": 16,
+    "bodyChars": 12075,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/biscuits-vegan-meilleure-recette-a-refaire",
+    "type": "recette",
+    "status": "OK",
+    "slug": "biscuits-vegan-meilleure-recette-a-refaire",
+    "ingredients": 9,
+    "steps": 20,
+    "bodyChars": 11620,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/bolognaise-vegan-methode-texture-bluffante",
+    "type": "recette",
+    "status": "OK",
+    "slug": "bolognaise-vegan-methode-texture-bluffante",
+    "ingredients": 11,
+    "steps": 18,
+    "bodyChars": 9855,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/bo-bun-vegan-meilleure-recette-vietnamienne",
+    "type": "recette",
+    "status": "OK",
+    "slug": "bo-bun-vegan-meilleure-recette-vietnamienne",
+    "ingredients": 13,
+    "steps": 20,
+    "bodyChars": 10224,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/boudin-blanc-vegan-decouvrez-recette-etapes",
+    "type": "recette",
+    "status": "OK",
+    "slug": "boudin-blanc-vegan-decouvrez-recette-etapes",
+    "ingredients": 11,
+    "steps": 12,
+    "bodyChars": 10730,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/bouchees-a-la-reine-vegan-sauce-cremeuse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "bouchees-a-la-reine-vegan-sauce-cremeuse",
+    "ingredients": 11,
+    "steps": 20,
+    "bodyChars": 10532,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/brioche-vegan-recette-ultra-moelleuse-tester",
+    "type": "recette",
+    "status": "OK",
+    "slug": "brioche-vegan-recette-ultra-moelleuse-tester",
+    "ingredients": 10,
+    "steps": 20,
+    "bodyChars": 11207,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/banana-bread-vegan-aux-pepites-de-chocolat",
+    "type": "recette",
+    "status": "OK",
+    "slug": "banana-bread-vegan-aux-pepites-de-chocolat",
+    "ingredients": 10,
+    "steps": 20,
+    "bodyChars": 11904,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/brownie-vegan-3-secrets-texture-parfaite",
+    "type": "recette",
+    "status": "OK",
+    "slug": "brownie-vegan-3-secrets-texture-parfaite",
+    "ingredients": 13,
+    "steps": 14,
+    "bodyChars": 11242,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/brookies-vegan-recette-alliance-incroyable",
+    "type": "recette",
+    "status": "OK",
+    "slug": "brookies-vegan-recette-alliance-incroyable",
+    "ingredients": 14,
+    "steps": 20,
+    "bodyChars": 13280,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/bowl-cake-meilleure-recette-vegan-5-etapes",
+    "type": "recette",
+    "status": "OK",
+    "slug": "bowl-cake-meilleure-recette-vegan-5-etapes",
+    "ingredients": 6,
+    "steps": 12,
+    "bodyChars": 8903,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/burger-vegan-4-secrets-recette-parfaite",
+    "type": "recette",
+    "status": "OK",
+    "slug": "burger-vegan-4-secrets-recette-parfaite",
+    "ingredients": 10,
+    "steps": 16,
+    "bodyChars": 12796,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/buche-de-noel-vegan-recette-toute-famille",
+    "type": "recette",
+    "status": "OK",
+    "slug": "buche-de-noel-vegan-recette-toute-famille",
+    "ingredients": 15,
+    "steps": 16,
+    "bodyChars": 17419,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/burrito-vegan-meilleure-crette-mexicaine-9",
+    "type": "recette",
+    "status": "OK",
+    "slug": "burrito-vegan-meilleure-crette-mexicaine-9",
+    "ingredients": 12,
+    "steps": 10,
+    "bodyChars": 10551,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/butternut-farcie-vegan-guide-ne-plus-rater",
+    "type": "recette",
+    "status": "OK",
+    "slug": "butternut-farcie-vegan-guide-ne-plus-rater",
+    "ingredients": 10,
+    "steps": 16,
+    "bodyChars": 9072,
+    "images": 12
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/buddha-bowl-vegan-recette-complete-saine",
+    "type": "recette",
+    "status": "OK",
+    "slug": "buddha-bowl-vegan-recette-complete-saine",
+    "ingredients": 21,
+    "steps": 20,
+    "bodyChars": 16354,
+    "images": 3
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/cake-aux-legumes-vegan-recette-parfaite",
+    "type": "recette",
+    "status": "OK",
+    "slug": "cake-aux-legumes-vegan-recette-parfaite",
+    "ingredients": 11,
+    "steps": 20,
+    "bodyChars": 11114,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/cake-aux-olives-vegan-meilleure-recette",
+    "type": "recette",
+    "status": "OK",
+    "slug": "cake-aux-olives-vegan-meilleure-recette",
+    "ingredients": 9,
+    "steps": 20,
+    "bodyChars": 9070,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/canneles-vegan-meilleure-recette-bordelaise",
+    "type": "recette",
+    "status": "OK",
+    "slug": "canneles-vegan-meilleure-recette-bordelaise",
+    "ingredients": 7,
+    "steps": 20,
+    "bodyChars": 9485,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/caramel-vegan-recette-rapide-desserts-sucres",
+    "type": "recette",
+    "status": "OK",
+    "slug": "caramel-vegan-recette-rapide-desserts-sucres",
+    "ingredients": 6,
+    "steps": 20,
+    "bodyChars": 11955,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/carbonara-vegan-3-secrets-sauce-cremeuse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "carbonara-vegan-3-secrets-sauce-cremeuse",
+    "ingredients": 7,
+    "steps": 20,
+    "bodyChars": 8065,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/cake-au-citron-vegan-meilleure-recette-2025",
+    "type": "recette",
+    "status": "OK",
+    "slug": "cake-au-citron-vegan-meilleure-recette-2025",
+    "ingredients": 12,
+    "steps": 20,
+    "bodyChars": 14199,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/carrot-cake-vegan-recette-moelleuse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "carrot-cake-vegan-recette-moelleuse",
+    "ingredients": 14,
+    "steps": 20,
+    "bodyChars": 13568,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/cassoulet-vegan-meilleure-recette-plaisir",
+    "type": "recette",
+    "status": "OK",
+    "slug": "cassoulet-vegan-meilleure-recette-plaisir",
+    "ingredients": 14,
+    "steps": 16,
+    "bodyChars": 12070,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/champignons-farcis-vegan-facile-et-rapide",
+    "type": "recette",
+    "status": "OK",
+    "slug": "champignons-farcis-vegan-facile-et-rapide",
+    "ingredients": 13,
+    "steps": 20,
+    "bodyChars": 11883,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/cheesecake-vegan-5-secrets-irresistible",
+    "type": "recette",
+    "status": "OK",
+    "slug": "cheesecake-vegan-5-secrets-irresistible",
+    "ingredients": 14,
+    "steps": 22,
+    "bodyChars": 13142,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/chili-sin-carne-vegan-la-meilleure-recette",
+    "type": "recette",
+    "status": "OK",
+    "slug": "chili-sin-carne-vegan-la-meilleure-recette",
+    "ingredients": 11,
+    "steps": 16,
+    "bodyChars": 10991,
+    "images": 3
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/choucroute-vegan-meilleure-recette-familiale",
+    "type": "recette",
+    "status": "OK",
+    "slug": "choucroute-vegan-meilleure-recette-familiale",
+    "ingredients": 10,
+    "steps": 20,
+    "bodyChars": 11484,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/clafoutis-vegan-recette-facile-10-mins",
+    "type": "recette",
+    "status": "OK",
+    "slug": "clafoutis-vegan-recette-facile-10-mins",
+    "ingredients": 8,
+    "steps": 12,
+    "bodyChars": 12459,
+    "images": 3
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/cookies-flocons-davoine-vegan-recette",
+    "type": "recette",
+    "status": "OK",
+    "slug": "cookies-flocons-davoine-vegan-recette",
+    "ingredients": 11,
+    "steps": 18,
+    "bodyChars": 10406,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/cookies-vegan-10-minutes-chrono",
+    "type": "recette",
+    "status": "OK",
+    "slug": "cookies-vegan-10-minutes-chrono",
+    "ingredients": 9,
+    "steps": 8,
+    "bodyChars": 9884,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/couscous-vegan-meilleure-recette-maghreb",
+    "type": "recette",
+    "status": "OK",
+    "slug": "couscous-vegan-meilleure-recette-maghreb",
+    "ingredients": 18,
+    "steps": 20,
+    "bodyChars": 14509,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/cinnamon-rolls-vegan-meilleure-recette-5",
+    "type": "recette",
+    "status": "OK",
+    "slug": "cinnamon-rolls-vegan-meilleure-recette-5",
+    "ingredients": 11,
+    "steps": 20,
+    "bodyChars": 13268,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/creme-au-beurre-vegan-recette-secrete",
+    "type": "recette",
+    "status": "OK",
+    "slug": "creme-au-beurre-vegan-recette-secrete",
+    "ingredients": 5,
+    "steps": 20,
+    "bodyChars": 11454,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/courgette-farcie-vegan-recette-facile",
+    "type": "recette",
+    "status": "OK",
+    "slug": "courgette-farcie-vegan-recette-facile",
+    "ingredients": 10,
+    "steps": 14,
+    "bodyChars": 10142,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/creme-au-chocolat-vegan-recette-cremeuse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "creme-au-chocolat-vegan-recette-cremeuse",
+    "ingredients": 7,
+    "steps": 20,
+    "bodyChars": 12194,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/creme-citron-vegan-desserts-inratables",
+    "type": "recette",
+    "status": "OK",
+    "slug": "creme-citron-vegan-desserts-inratables",
+    "ingredients": 7,
+    "steps": 20,
+    "bodyChars": 11481,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/creme-brulee-vegan-recette-facile",
+    "type": "recette",
+    "status": "OK",
+    "slug": "creme-brulee-vegan-recette-facile",
+    "ingredients": 8,
+    "steps": 20,
+    "bodyChars": 11299,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/cookies-vegan-sans-gluten-meilleure-recette",
+    "type": "recette",
+    "status": "OK",
+    "slug": "cookies-vegan-sans-gluten-meilleure-recette",
+    "ingredients": 11,
+    "steps": 20,
+    "bodyChars": 12298,
+    "images": 3
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/crepes-vegan-7-secrets-recette-parfaite",
+    "type": "recette",
+    "status": "OK",
+    "slug": "crepes-vegan-7-secrets-recette-parfaite",
+    "ingredients": 6,
+    "steps": 16,
+    "bodyChars": 9951,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/crumble-sale-vegan-recette-reconfortante",
+    "type": "recette",
+    "status": "OK",
+    "slug": "crumble-sale-vegan-recette-reconfortante",
+    "ingredients": 14,
+    "steps": 20,
+    "bodyChars": 11012,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/crumble-vegan-recette-fondre-tout-le-monde",
+    "type": "recette",
+    "status": "OK",
+    "slug": "crumble-vegan-recette-fondre-tout-le-monde",
+    "ingredients": 10,
+    "steps": 20,
+    "bodyChars": 12666,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/dahl-de-lentilles-corail-recette-complete-30",
+    "type": "recette",
+    "status": "OK",
+    "slug": "dahl-de-lentilles-corail-recette-complete-30",
+    "ingredients": 11,
+    "steps": 20,
+    "bodyChars": 13502,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/energy-balls-la-meilleure-recette-healthy",
+    "type": "recette",
+    "status": "OK",
+    "slug": "energy-balls-la-meilleure-recette-healthy",
+    "ingredients": 6,
+    "steps": 14,
+    "bodyChars": 8692,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/curry-vert-vegan-recette-thai-facile",
+    "type": "recette",
+    "status": "OK",
+    "slug": "curry-vert-vegan-recette-thai-facile",
+    "ingredients": 12,
+    "steps": 20,
+    "bodyChars": 11676,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/fajitas-vegan-meilleure-recette-mexicaine",
+    "type": "recette",
+    "status": "OK",
+    "slug": "fajitas-vegan-meilleure-recette-mexicaine",
+    "ingredients": 15,
+    "steps": 20,
+    "bodyChars": 10542,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/curry-de-pois-chiches-la-recette-ideale",
+    "type": "recette",
+    "status": "OK",
+    "slug": "curry-de-pois-chiches-la-recette-ideale",
+    "ingredients": 13,
+    "steps": 20,
+    "bodyChars": 12805,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/falafels-4-astuces-magiques-recette-parfaite",
+    "type": "recette",
+    "status": "OK",
+    "slug": "falafels-4-astuces-magiques-recette-parfaite",
+    "ingredients": 11,
+    "steps": 20,
+    "bodyChars": 8590,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/flan-vegan-recette-championne-du-monde",
+    "type": "recette",
+    "status": "OK",
+    "slug": "flan-vegan-recette-championne-du-monde",
+    "ingredients": 11,
+    "steps": 20,
+    "bodyChars": 14601,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/financier-vegan-recette-parfaite-moelleuse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "financier-vegan-recette-parfaite-moelleuse",
+    "ingredients": 8,
+    "steps": 20,
+    "bodyChars": 10470,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/flan-de-courgette-vegan-la-meilleure-recette",
+    "type": "recette",
+    "status": "OK",
+    "slug": "flan-de-courgette-vegan-la-meilleure-recette",
+    "ingredients": 11,
+    "steps": 18,
+    "bodyChars": 11051,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/galette-de-sarrasin-vegan-recette-breteonne",
+    "type": "recette",
+    "status": "OK",
+    "slug": "galette-de-sarrasin-vegan-recette-breteonne",
+    "ingredients": 11,
+    "steps": 20,
+    "bodyChars": 16246,
+    "images": 14
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/ganache-chocolat-vegan-recette-inratable",
+    "type": "recette",
+    "status": "OK",
+    "slug": "ganache-chocolat-vegan-recette-inratable",
+    "ingredients": 5,
+    "steps": 20,
+    "bodyChars": 10862,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/frangipane-vegan-recette-galette-des-rois",
+    "type": "recette",
+    "status": "OK",
+    "slug": "frangipane-vegan-recette-galette-des-rois",
+    "ingredients": 12,
+    "steps": 20,
+    "bodyChars": 18121,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/fraisier-vegan-classique-de-la-patisserie",
+    "type": "recette",
+    "status": "OK",
+    "slug": "fraisier-vegan-classique-de-la-patisserie",
+    "ingredients": 15,
+    "steps": 20,
+    "bodyChars": 17012,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/ganache-vegan-recette-ultra-facile-revisitee",
+    "type": "recette",
+    "status": "OK",
+    "slug": "ganache-vegan-recette-ultra-facile-revisitee",
+    "ingredients": 4,
+    "steps": 20,
+    "bodyChars": 15680,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/gratin-dauphinois-vegan-recette-preferee-fr",
+    "type": "recette",
+    "status": "OK",
+    "slug": "gratin-dauphinois-vegan-recette-preferee-fr",
+    "ingredients": 8,
+    "steps": 20,
+    "bodyChars": 9520,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/gateau-au-chocolat-vegan-recette-moelleuse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "gateau-au-chocolat-vegan-recette-moelleuse",
+    "ingredients": 10,
+    "steps": 20,
+    "bodyChars": 12103,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/gratin-de-chou-fleur-vegan-recette-cremeuse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "gratin-de-chou-fleur-vegan-recette-cremeuse",
+    "ingredients": 15,
+    "steps": 20,
+    "bodyChars": 12596,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/gateau-au-yaourt-vegan-recette-facile-etapes",
+    "type": "recette",
+    "status": "OK",
+    "slug": "gateau-au-yaourt-vegan-recette-facile-etapes",
+    "ingredients": 8,
+    "steps": 14,
+    "bodyChars": 13622,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/gaufres-vegan-5-etapes-recette-parfaite",
+    "type": "recette",
+    "status": "OK",
+    "slug": "gaufres-vegan-5-etapes-recette-parfaite",
+    "ingredients": 11,
+    "steps": 12,
+    "bodyChars": 13042,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/gratin-de-courgettes-vegan-recette-expresse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "gratin-de-courgettes-vegan-recette-expresse",
+    "ingredients": 12,
+    "steps": 12,
+    "bodyChars": 11089,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/gratin-d-endives-vegan-recette-familiale",
+    "type": "recette",
+    "status": "OK",
+    "slug": "gratin-d-endives-vegan-recette-familiale",
+    "ingredients": 9,
+    "steps": 20,
+    "bodyChars": 12016,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/guacamole-la-meilleure-recette-en-5-minutes",
+    "type": "recette",
+    "status": "OK",
+    "slug": "guacamole-la-meilleure-recette-en-5-minutes",
+    "ingredients": 9,
+    "steps": 20,
+    "bodyChars": 12577,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/gyozas-vegan-meilleure-reccette-voyage",
+    "type": "recette",
+    "status": "OK",
+    "slug": "gyozas-vegan-meilleure-reccette-voyage",
+    "ingredients": 13,
+    "steps": 14,
+    "bodyChars": 10968,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/kimchi-vegan-meilleure-recette-authentique",
+    "type": "recette",
+    "status": "OK",
+    "slug": "kimchi-vegan-meilleure-recette-authentique",
+    "ingredients": 12,
+    "steps": 20,
+    "bodyChars": 13548,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/hachis-parmentier-vegan-recette-hyper-facile",
+    "type": "recette",
+    "status": "OK",
+    "slug": "hachis-parmentier-vegan-recette-hyper-facile",
+    "ingredients": 18,
+    "steps": 20,
+    "bodyChars": 11609,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/houmous-4-secrets-pour-une-recette-parfaite",
+    "type": "recette",
+    "status": "OK",
+    "slug": "houmous-4-secrets-pour-une-recette-parfaite",
+    "ingredients": 8,
+    "steps": 16,
+    "bodyChars": 8402,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/kebab-vegan-recette-geniale-sans-voix",
+    "type": "recette",
+    "status": "OK",
+    "slug": "kebab-vegan-recette-geniale-sans-voix",
+    "ingredients": 19,
+    "steps": 16,
+    "bodyChars": 14947,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/lasagnes-vegan-meilleure-recette-bolognaise",
+    "type": "recette",
+    "status": "OK",
+    "slug": "lasagnes-vegan-meilleure-recette-bolognaise",
+    "ingredients": 16,
+    "steps": 20,
+    "bodyChars": 11319,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/lemon-curd-vegan-recette-ideale-tarte-citron",
+    "type": "recette",
+    "status": "OK",
+    "slug": "lemon-curd-vegan-recette-ideale-tarte-citron",
+    "ingredients": 8,
+    "steps": 20,
+    "bodyChars": 12597,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/madeleines-vegan-meilleure-recette-moelleuse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "madeleines-vegan-meilleure-recette-moelleuse",
+    "ingredients": 10,
+    "steps": 20,
+    "bodyChars": 18460,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/mafe-vegan-meilleure-recette-ragout-africain",
+    "type": "recette",
+    "status": "OK",
+    "slug": "mafe-vegan-meilleure-recette-ragout-africain",
+    "ingredients": 13,
+    "steps": 20,
+    "bodyChars": 11639,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/mayonnaise-vegan-recette-sauce-emblematique",
+    "type": "recette",
+    "status": "OK",
+    "slug": "mayonnaise-vegan-recette-sauce-emblematique",
+    "ingredients": 7,
+    "steps": 14,
+    "bodyChars": 12517,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/maki-vegan-meilleure-recette-japonaise",
+    "type": "recette",
+    "status": "OK",
+    "slug": "maki-vegan-meilleure-recette-japonaise",
+    "ingredients": 15,
+    "steps": 20,
+    "bodyChars": 11489,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/mascarpone-vegan-recette-star-desserts",
+    "type": "recette",
+    "status": "OK",
+    "slug": "mascarpone-vegan-recette-star-desserts",
+    "ingredients": 6,
+    "steps": 20,
+    "bodyChars": 11793,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/mousse-au-chocolat-vegan-3-astuces",
+    "type": "recette",
+    "status": "OK",
+    "slug": "mousse-au-chocolat-vegan-3-astuces",
+    "ingredients": 5,
+    "steps": 10,
+    "bodyChars": 10703,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/milkshake-vegan-meilleure-recette-ete-7-mins",
+    "type": "recette",
+    "status": "OK",
+    "slug": "milkshake-vegan-meilleure-recette-ete-7-mins",
+    "ingredients": 8,
+    "steps": 24,
+    "bodyChars": 12524,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/moelleux-au-chocolat-vegan-recette-facile",
+    "type": "recette",
+    "status": "OK",
+    "slug": "moelleux-au-chocolat-vegan-recette-facile",
+    "ingredients": 14,
+    "steps": 20,
+    "bodyChars": 11601,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/moussaka-vegan-secrets-pour-reussir-recette",
+    "type": "recette",
+    "status": "OK",
+    "slug": "moussaka-vegan-secrets-pour-reussir-recette",
+    "ingredients": 18,
+    "steps": 20,
+    "bodyChars": 10525,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/muffins-sales-vegan-recette-simple-rapide",
+    "type": "recette",
+    "status": "OK",
+    "slug": "muffins-sales-vegan-recette-simple-rapide",
+    "ingredients": 9,
+    "steps": 16,
+    "bodyChars": 9471,
+    "images": 15
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/muffins-vegan-5-ingredients-texture-parfaite",
+    "type": "recette",
+    "status": "OK",
+    "slug": "muffins-vegan-5-ingredients-texture-parfaite",
+    "ingredients": 8,
+    "steps": 12,
+    "bodyChars": 11873,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/omelette-vegan-decouvrez-preparer-7-minutes",
+    "type": "recette",
+    "status": "OK",
+    "slug": "omelette-vegan-decouvrez-preparer-7-minutes",
+    "ingredients": 10,
+    "steps": 14,
+    "bodyChars": 13057,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/onigiris-vegan-3-secrets-riz-qui-tient-enfin",
+    "type": "recette",
+    "status": "OK",
+    "slug": "onigiris-vegan-3-secrets-riz-qui-tient-enfin",
+    "ingredients": 9,
+    "steps": 20,
+    "bodyChars": 8902,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/pad-thai-vegan-decouvrez-meilleure-recette",
+    "type": "recette",
+    "status": "OK",
+    "slug": "pad-thai-vegan-decouvrez-meilleure-recette",
+    "ingredients": 14,
+    "steps": 20,
+    "bodyChars": 12749,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/paella-vegan-meilleure-recette-espagnole-10",
+    "type": "recette",
+    "status": "OK",
+    "slug": "paella-vegan-meilleure-recette-espagnole-10",
+    "ingredients": 11,
+    "steps": 10,
+    "bodyChars": 11069,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/nuggets-vegan-meilleure-recette-facon-kfc-7",
+    "type": "recette",
+    "status": "OK",
+    "slug": "nuggets-vegan-meilleure-recette-facon-kfc-7",
+    "ingredients": 11,
+    "steps": 16,
+    "bodyChars": 12200,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/pain-perdu-vegan-meilleure-recette-3-minutes",
+    "type": "recette",
+    "status": "OK",
+    "slug": "pain-perdu-vegan-meilleure-recette-3-minutes",
+    "ingredients": 7,
+    "steps": 10,
+    "bodyChars": 9675,
+    "images": 15
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/pancakes-vegan-3-secrets-irresistibles",
+    "type": "recette",
+    "status": "OK",
+    "slug": "pancakes-vegan-3-secrets-irresistibles",
+    "ingredients": 11,
+    "steps": 8,
+    "bodyChars": 13338,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/panna-cotta-vegan-recette-expresse-15-mins",
+    "type": "recette",
+    "status": "OK",
+    "slug": "panna-cotta-vegan-recette-expresse-15-mins",
+    "ingredients": 8,
+    "steps": 20,
+    "bodyChars": 11090,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/pate-a-choux-vegan-recette-choux-parfaits",
+    "type": "recette",
+    "status": "OK",
+    "slug": "pate-a-choux-vegan-recette-choux-parfaits",
+    "ingredients": 6,
+    "steps": 20,
+    "bodyChars": 11680,
+    "images": 14
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/pesto-vegan-meilleure-recette-italienne-4",
+    "type": "recette",
+    "status": "OK",
+    "slug": "pesto-vegan-meilleure-recette-italienne-4",
+    "ingredients": 8,
+    "steps": 14,
+    "bodyChars": 12124,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/poivrons-farcis-vegan-recette-preferee-fr",
+    "type": "recette",
+    "status": "OK",
+    "slug": "poivrons-farcis-vegan-recette-preferee-fr",
+    "ingredients": 13,
+    "steps": 20,
+    "bodyChars": 11207,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/pain-d-epices-vegan-recette-de-fin-dannee",
+    "type": "recette",
+    "status": "OK",
+    "slug": "pain-d-epices-vegan-recette-de-fin-dannee",
+    "ingredients": 15,
+    "steps": 20,
+    "bodyChars": 12707,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/polenta-vegan-recette-cremeuse-champignons",
+    "type": "recette",
+    "status": "OK",
+    "slug": "polenta-vegan-recette-cremeuse-champignons",
+    "ingredients": 10,
+    "steps": 20,
+    "bodyChars": 12700,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/porridge-vegan-recette-dejeuner-healthy",
+    "type": "recette",
+    "status": "OK",
+    "slug": "porridge-vegan-recette-dejeuner-healthy",
+    "ingredients": 8,
+    "steps": 20,
+    "bodyChars": 11357,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/pot-au-feu-vegan-meilleure-recette-grandmere",
+    "type": "recette",
+    "status": "OK",
+    "slug": "pot-au-feu-vegan-meilleure-recette-grandmere",
+    "ingredients": 13,
+    "steps": 20,
+    "bodyChars": 10266,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/pudding-de-chia-4-astuces-recette-parfaite",
+    "type": "recette",
+    "status": "OK",
+    "slug": "pudding-de-chia-4-astuces-recette-parfaite",
+    "ingredients": 12,
+    "steps": 24,
+    "bodyChars": 14489,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/quenelles-vegan-meilleure-recette-lyonnaise",
+    "type": "recette",
+    "status": "OK",
+    "slug": "quenelles-vegan-meilleure-recette-lyonnaise",
+    "ingredients": 17,
+    "steps": 20,
+    "bodyChars": 13933,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/quiche-vegan-secrets-recette-inratable",
+    "type": "recette",
+    "status": "OK",
+    "slug": "quiche-vegan-secrets-recette-inratable",
+    "ingredients": 16,
+    "steps": 20,
+    "bodyChars": 12850,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/ravioles-vegan-recette-facile-version-maison",
+    "type": "recette",
+    "status": "OK",
+    "slug": "ravioles-vegan-recette-facile-version-maison",
+    "ingredients": 14,
+    "steps": 20,
+    "bodyChars": 13187,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/potimarron-farci-vegan-recette-automne",
+    "type": "recette",
+    "status": "OK",
+    "slug": "potimarron-farci-vegan-recette-automne",
+    "ingredients": 15,
+    "steps": 20,
+    "bodyChars": 10449,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/poutine-vegan-recette-quebecoise-familiale",
+    "type": "recette",
+    "status": "OK",
+    "slug": "poutine-vegan-recette-quebecoise-familiale",
+    "ingredients": 17,
+    "steps": 21,
+    "bodyChars": 10076,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/quiche-aux-poireaux-vegan-recette-fondante",
+    "type": "recette",
+    "status": "OK",
+    "slug": "quiche-aux-poireaux-vegan-recette-fondante",
+    "ingredients": 11,
+    "steps": 20,
+    "bodyChars": 13131,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/raviolis-vegan-secrets-pate-maison-inratable",
+    "type": "recette",
+    "status": "OK",
+    "slug": "raviolis-vegan-secrets-pate-maison-inratable",
+    "ingredients": 7,
+    "steps": 20,
+    "bodyChars": 8633,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/risotto-vegan-recette-la-plus-cremeuse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "risotto-vegan-recette-la-plus-cremeuse",
+    "ingredients": 12,
+    "steps": 20,
+    "bodyChars": 12419,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/riz-au-lait-vegan-recette-ultra-cremeuse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "riz-au-lait-vegan-recette-ultra-cremeuse",
+    "ingredients": 8,
+    "steps": 20,
+    "bodyChars": 13700,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/rocher-coco-vegan-recette-express-cuisson",
+    "type": "recette",
+    "status": "OK",
+    "slug": "rocher-coco-vegan-recette-express-cuisson",
+    "ingredients": 6,
+    "steps": 14,
+    "bodyChars": 10638,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/rouleaux-de-printemps-vegan-recette-vietnam",
+    "type": "recette",
+    "status": "OK",
+    "slug": "rouleaux-de-printemps-vegan-recette-vietnam",
+    "ingredients": 16,
+    "steps": 16,
+    "bodyChars": 13381,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/sables-de-noel-vegan-recette-fetes-reussies",
+    "type": "recette",
+    "status": "OK",
+    "slug": "sables-de-noel-vegan-recette-fetes-reussies",
+    "ingredients": 8,
+    "steps": 20,
+    "bodyChars": 10171,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/salade-cesar-vegan-3-secrets-sauce-cremeuse",
+    "type": "recette",
+    "status": "OK",
+    "slug": "salade-cesar-vegan-3-secrets-sauce-cremeuse",
+    "ingredients": 12,
+    "steps": 12,
+    "bodyChars": 9228,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/salade-de-pates-vegan-recette-facile",
+    "type": "recette",
+    "status": "OK",
+    "slug": "salade-de-pates-vegan-recette-facile",
+    "ingredients": 11,
+    "steps": 20,
+    "bodyChars": 11529,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/riz-cantonais-vegan-meilleure-recette",
+    "type": "recette",
+    "status": "OK",
+    "slug": "riz-cantonais-vegan-meilleure-recette",
+    "ingredients": 12,
+    "steps": 20,
+    "bodyChars": 9396,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/salade-de-riz-vegan-astuces-riz-non-collant",
+    "type": "recette",
+    "status": "OK",
+    "slug": "salade-de-riz-vegan-astuces-riz-non-collant",
+    "ingredients": 9,
+    "steps": 16,
+    "bodyChars": 9065,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/salade-vegan-recette-1-decouvrir-cette-annee",
+    "type": "recette",
+    "status": "OK",
+    "slug": "salade-vegan-recette-1-decouvrir-cette-annee",
+    "ingredients": 14,
+    "steps": 20,
+    "bodyChars": 11260,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/samoussas-vegan-meilleure-recette-indienne",
+    "type": "recette",
+    "status": "OK",
+    "slug": "samoussas-vegan-meilleure-recette-indienne",
+    "ingredients": 13,
+    "steps": 20,
+    "bodyChars": 12517,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/scones-vegan-recette-parfaite-brunch",
+    "type": "recette",
+    "status": "OK",
+    "slug": "scones-vegan-recette-parfaite-brunch",
+    "ingredients": 9,
+    "steps": 20,
+    "bodyChars": 8135,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/tajine-vegan-recette-coup-de-coeur-famille",
+    "type": "recette",
+    "status": "OK",
+    "slug": "tajine-vegan-recette-coup-de-coeur-famille",
+    "ingredients": 16,
+    "steps": 20,
+    "bodyChars": 11849,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/tarama-vegan-secrets-pour-un-apero-bluffant",
+    "type": "recette",
+    "status": "OK",
+    "slug": "tarama-vegan-secrets-pour-un-apero-bluffant",
+    "ingredients": 8,
+    "steps": 20,
+    "bodyChars": 8571,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/spring-rolls-vegan-meilleure-recette-asie",
+    "type": "recette",
+    "status": "OK",
+    "slug": "spring-rolls-vegan-meilleure-recette-asie",
+    "ingredients": 12,
+    "steps": 20,
+    "bodyChars": 12073,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/tarte-a-la-courgette-vegan-facile-gourmande",
+    "type": "recette",
+    "status": "OK",
+    "slug": "tarte-a-la-courgette-vegan-facile-gourmande",
+    "ingredients": 14,
+    "steps": 16,
+    "bodyChars": 13310,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/taboule-vegan-3-secrets-une-semoule-aerienne",
+    "type": "recette",
+    "status": "OK",
+    "slug": "taboule-vegan-3-secrets-une-semoule-aerienne",
+    "ingredients": 10,
+    "steps": 20,
+    "bodyChars": 9345,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/tarte-au-citron-vegan-recette-patissier-pro",
+    "type": "recette",
+    "status": "OK",
+    "slug": "tarte-au-citron-vegan-recette-patissier-pro",
+    "ingredients": 15,
+    "steps": 20,
+    "bodyChars": 13594,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/tiramisu-vegan-5-etapes-irresistible",
+    "type": "recette",
+    "status": "OK",
+    "slug": "tiramisu-vegan-5-etapes-irresistible",
+    "ingredients": 10,
+    "steps": 16,
+    "bodyChars": 12529,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/tarte-tatin-vegan-recette-traditionnelle",
+    "type": "recette",
+    "status": "OK",
+    "slug": "tarte-tatin-vegan-recette-traditionnelle",
+    "ingredients": 9,
+    "steps": 20,
+    "bodyChars": 10598,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/tartiflette-vegan-meilleure-recette-6-etapes",
+    "type": "recette",
+    "status": "OK",
+    "slug": "tartiflette-vegan-meilleure-recette-6-etapes",
+    "ingredients": 10,
+    "steps": 14,
+    "bodyChars": 10988,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recette-style/americaine",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recette-style/europeenne",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recette-style/inde",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recette-style/moyen-orient",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/tomates-farcies-vegan-recette-traditionnelle",
+    "type": "recette",
+    "status": "OK",
+    "slug": "tomates-farcies-vegan-recette-traditionnelle",
+    "ingredients": 12,
+    "steps": 10,
+    "bodyChars": 11275,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/tarte-aux-pommes-vegan-meilleure-recette",
+    "type": "recette",
+    "status": "OK",
+    "slug": "tarte-aux-pommes-vegan-meilleure-recette",
+    "ingredients": 11,
+    "steps": 20,
+    "bodyChars": 13025,
+    "images": 2
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/tourte-vegan-recette-facile-champignons",
+    "type": "recette",
+    "status": "OK",
+    "slug": "tourte-vegan-recette-facile-champignons",
+    "ingredients": 12,
+    "steps": 20,
+    "bodyChars": 12798,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recette-thematique/froid",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recette-thematique/repas-rapide",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recette-thematique/sans-gluten",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recette-thematique/sans-soja",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recette-type/apero-vegan",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recette-type/dessert-vegan",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recette-type/petit-dejeuner-vegan",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recette-type/plat-vegan",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recette-type/snack-vegan",
+    "type": "taxo",
+    "status": "app-generated"
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/wraps-vegan-meilleure-recette-10-minutes",
+    "type": "recette",
+    "status": "OK",
+    "slug": "wraps-vegan-meilleure-recette-10-minutes",
+    "ingredients": 13,
+    "steps": 20,
+    "bodyChars": 10647,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/restaurant-vegan-9-astuces-une-experience-inoubliable",
+    "type": "page",
+    "status": "OK",
+    "slug": "restaurant-vegan-9-astuces-une-experience-inoubliable",
+    "bodyChars": 56123,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/sandwich-vegan-7-recettes-faciles-ultra-gourmandes",
+    "type": "page",
+    "status": "OK",
+    "slug": "sandwich-vegan-7-recettes-faciles-ultra-gourmandes",
+    "bodyChars": 16353,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/recettes/tzatziki-vegan-texture-ferme-garantie",
+    "type": "recette",
+    "status": "OK",
+    "slug": "tzatziki-vegan-texture-ferme-garantie",
+    "ingredients": 9,
+    "steps": 16,
+    "bodyChars": 9278,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/vegan-7-secrets-essentiels-reussir-sa-transition",
+    "type": "page",
+    "status": "OK",
+    "slug": "vegan-7-secrets-essentiels-reussir-sa-transition",
+    "bodyChars": 19984,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/seitan-7-secrets-extraordinaires-pepite-vegan",
+    "type": "page",
+    "status": "OK",
+    "slug": "seitan-7-secrets-extraordinaires-pepite-vegan",
+    "bodyChars": 10944,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/wp-login.php",
+    "type": "page",
+    "status": "OK",
+    "slug": "wp-login.php",
+    "bodyChars": 0,
+    "images": 0
+  },
+  {
+    "url": "https://vegourmet.fr/tempeh-7-facons-revolutionner-vos-recettes-vegan",
+    "type": "page",
+    "status": "OK",
+    "slug": "tempeh-7-facons-revolutionner-vos-recettes-vegan",
+    "bodyChars": 22547,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/vegan-et-vegetarien-7-revelations-extraordinaires",
+    "type": "page",
+    "status": "OK",
+    "slug": "vegan-et-vegetarien-7-revelations-extraordinaires",
+    "bodyChars": 16841,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/tofu-9-raisons-adopter-or-blanc-cuisine-vegan",
+    "type": "page",
+    "status": "OK",
+    "slug": "tofu-9-raisons-adopter-or-blanc-cuisine-vegan",
+    "bodyChars": 28446,
+    "images": 1
+  },
+  {
+    "url": "https://vegourmet.fr/yaourt-vegetal-10-raisons-de-l-adopter-maintenant",
+    "type": "page",
+    "status": "OK",
+    "slug": "yaourt-vegetal-10-raisons-de-l-adopter-maintenant",
+    "bodyChars": 19154,
+    "images": 1
+  }
+]

@@ -46,6 +46,13 @@ export interface RecipeFrontmatter {
   tags: string[];
   heroImage: HeroImage;
   faq?: FaqItem[];
+  /** Appartenances aux taxonomies WP (source : pages d'archive vegourmet.fr). */
+  taxonomies?: {
+    "recette-type": string[];
+    "recette-style": string[];
+    "recette-thematique": string[];
+    category: string[];
+  };
 }
 
 export interface ArticleFrontmatter {
@@ -56,6 +63,8 @@ export interface ArticleFrontmatter {
   author: string;
   tags: string[];
   category: string;
+  /** Slug de la catégorie WP de l'article (source : archives /category/*). */
+  categorySlug?: string;
   heroImage: HeroImage;
   faq?: FaqItem[];
 }
