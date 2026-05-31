@@ -792,6 +792,117 @@ a:hover {
   width: 20px;
   height: 2px;
   background: var(--vg-terracotta-hover);
+  transition: transform 0.25s ease, opacity 0.2s ease;
+}
+
+/* Hamburger -> croix quand ouvert */
+.mobile-toggle.is-open .bar:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.mobile-toggle.is-open .bar:nth-child(2) {
+  opacity: 0;
+}
+.mobile-toggle.is-open .bar:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+/* Overlay sombre derrière le tiroir */
+.mobile-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(40, 30, 25, 0.45);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+  z-index: 998;
+}
+.mobile-overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Tiroir latéral */
+.mobile-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100dvh;
+  width: min(82vw, 340px);
+  background: var(--vg-cream, #f7f3f0);
+  box-shadow: -8px 0 30px rgba(0, 0, 0, 0.18);
+  transform: translateX(100%);
+  transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 999;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.mobile-drawer.is-open {
+  transform: translateX(0);
+}
+.mobile-drawer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.mobile-drawer-title {
+  font-family: var(--vg-font-title, "Signika", sans-serif);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--vg-text, #453e3f);
+}
+.mobile-drawer-close {
+  border: none;
+  background: none;
+  font-size: 30px;
+  line-height: 1;
+  color: var(--vg-text, #453e3f);
+  cursor: pointer;
+  padding: 0 4px;
+}
+.mobile-menu {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0 32px;
+}
+.mobile-menu-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.mobile-menu-link {
+  display: block;
+  padding: 14px 20px;
+  font-family: var(--vg-font-title, "Signika", sans-serif);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--vg-text, #453e3f);
+  text-decoration: none;
+}
+.mobile-menu-link:hover {
+  color: var(--vg-terracotta, #d98e73);
+}
+.mobile-submenu {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 8px 20px;
+}
+.mobile-submenu-link {
+  display: block;
+  padding: 9px 20px;
+  font-size: 14px;
+  color: #6b6360;
+  text-decoration: none;
+}
+.mobile-submenu-link:hover {
+  color: var(--vg-terracotta, #d98e73);
+}
+
+/* Cache le tiroir tant que le hamburger n'est pas visible (desktop) */
+@media (min-width: 861px) {
+  .mobile-overlay,
+  .mobile-drawer {
+    display: none;
+  }
 }
 
 @media (max-width: 1024px) {

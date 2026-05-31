@@ -1,38 +1,6 @@
 import Link from "next/link";
-
-/* Navigation principale — libellés et liens repris du <nav> réel de vegourmet.fr. */
-interface NavItem {
-  href: string;
-  label: string;
-  children?: { href: string; label: string }[];
-}
-
-const NAV_ITEMS: NavItem[] = [
-  {
-    href: "/recettes",
-    label: "Recettes",
-    children: [
-      { href: "/recette-type/petit-dejeuner-vegan", label: "Petit Déjeuner Vegan" },
-      { href: "/recette-type/apero-vegan", label: "Apéro Vegan" },
-      { href: "/recette-type/plat-vegan", label: "Plat Vegan" },
-      { href: "/recette-type/dessert-vegan", label: "Dessert Vegan" },
-      { href: "/recette-type/snack-vegan", label: "Snack Vegan" },
-    ],
-  },
-  {
-    href: "/blog",
-    label: "Blog",
-    children: [
-      { href: "/category/guides-pratiques", label: "Guides pratiques" },
-      { href: "/category/conseils-et-astuces", label: "Conseils et astuces" },
-      { href: "/category/actualites-et-tendances", label: "Actualités & tendances" },
-      { href: "/category/inspiration-et-lifestyle", label: "Inspiration & Lifestyle" },
-    ],
-  },
-  { href: "/contactez-nous", label: "Contactez-nous" },
-  { href: "/a-propos", label: "À propos" },
-  { href: "/comment-creer-un-blog-de-cuisine-qui-cartonne", label: "Ressources" },
-];
+import { NAV_ITEMS } from "@/lib/nav";
+import { MobileNav } from "./MobileNav";
 
 /* Réseaux sociaux — icônes SVG fidèles aux <svg.tasty-icon> du header réel. */
 const SOCIALS: { href: string; label: string; path: string; viewBox: string }[] = [
@@ -182,15 +150,7 @@ export function SiteHeader() {
               </ul>
             </div>
 
-            <button
-              type="button"
-              className="mobile-toggle"
-              aria-label="Ouvrir le menu"
-            >
-              <span className="bar" />
-              <span className="bar" />
-              <span className="bar" />
-            </button>
+            <MobileNav />
           </div>
         </div>
       </div>
