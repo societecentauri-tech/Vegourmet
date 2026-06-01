@@ -38,11 +38,17 @@ interface BestRecipesProps {
 export function BestRecipes({ items }: BestRecipesProps) {
   const [active, setActive] = useState<string>("all");
 
+  // Cap à 8 cartes : la grille « meilleures recettes » est une vitrine, pas un
+  // listing exhaustif (le bouton « Voir toutes les recettes » mène à /recettes).
+  const MAX_BEST = 8;
   const filtered = useMemo(() => {
-    if (active === "all") return items;
-    return items.filter((item) =>
-      item.tags.some((tag) => tag.toLowerCase() === active),
-    );
+    const base =
+      active === "all"
+        ? items
+        : items.filter((item) =>
+            item.tags.some((tag) => tag.toLowerCase() === active),
+          );
+    return base.slice(0, MAX_BEST);
   }, [active, items]);
 
   return (

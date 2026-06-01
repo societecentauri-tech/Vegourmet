@@ -6,6 +6,7 @@ import {
   getCategoryStyle,
 } from "@/lib/categoryStyle";
 import { SmartImage } from "./SmartImage";
+import { formatDureeFr } from "@/lib/duration";
 import "./listing.css";
 
 /** Élément normalisé affiché dans la grille de listing. */
@@ -161,7 +162,7 @@ export function ItemCard({ item }: ItemCardProps) {
             {item.totalTime && (
               <span>
                 <ClockIcon />
-                {item.totalTime}
+                {formatDureeFr(item.totalTime)}
               </span>
             )}
             {item.difficulty && (

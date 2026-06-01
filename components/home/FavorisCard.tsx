@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { SmartImage } from "@/components/SmartImage";
+import { formatDureeFr } from "@/lib/duration";
 
 /** Carte favoris — données déjà mappées côté serveur (plain object). */
 export interface FavorisItem {
@@ -104,7 +105,7 @@ export function FavorisCard({ item }: FavorisCardProps) {
             {item.totalTime && (
               <span className="vgh-fav-puce cook-time">
                 <ClockIcon />
-                <span className="vgh-fav-puce-text">{item.totalTime}</span>
+                <span className="vgh-fav-puce-text">{formatDureeFr(item.totalTime)}</span>
               </span>
             )}
             {item.difficulty && (

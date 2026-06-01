@@ -12,6 +12,7 @@ import {
   TimerIcon,
 } from "./RecipeIcons";
 import type { RecipeFrontmatter } from "@/lib/types";
+import { formatDureeFr } from "@/lib/duration";
 
 interface RecipeDeliciousCardProps {
   recipe: RecipeFrontmatter;
@@ -115,17 +116,17 @@ export function RecipeDeliciousCard({ recipe }: RecipeDeliciousCardProps) {
         <div className="vg-meta-cell">
           <ClockIcon />
           <span className="vg-meta-label">Préparation</span>
-          <span className="vg-meta-value">{prepTime}</span>
+          <span className="vg-meta-value">{formatDureeFr(prepTime)}</span>
         </div>
         <div className="vg-meta-cell">
           <FireIcon />
           <span className="vg-meta-label">Cuisson</span>
-          <span className="vg-meta-value">{cookTime}</span>
+          <span className="vg-meta-value">{formatDureeFr(cookTime)}</span>
         </div>
         <div className="vg-meta-cell">
           <TimerIcon />
           <span className="vg-meta-label">Totale</span>
-          <span className="vg-meta-value">{totalTime}</span>
+          <span className="vg-meta-value">{formatDureeFr(totalTime)}</span>
         </div>
         <div className="vg-meta-cell">
           <ServingsIcon />

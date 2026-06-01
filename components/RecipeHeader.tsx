@@ -1,5 +1,6 @@
 import type { RecipeFrontmatter } from "@/lib/types";
 import { SmartImage } from "./SmartImage";
+import { formatDureeFr } from "@/lib/duration";
 
 interface RecipeHeaderProps {
   recipe: RecipeFrontmatter;
@@ -13,9 +14,9 @@ interface MetaItem {
 /** En-tête de page recette : titre, méta (temps/portions/difficulté), hero. */
 export function RecipeHeader({ recipe }: RecipeHeaderProps) {
   const meta: MetaItem[] = [
-    { label: "Préparation", value: recipe.prepTime },
-    { label: "Cuisson", value: recipe.cookTime },
-    { label: "Total", value: recipe.totalTime },
+    { label: "Préparation", value: formatDureeFr(recipe.prepTime) },
+    { label: "Cuisson", value: formatDureeFr(recipe.cookTime) },
+    { label: "Total", value: formatDureeFr(recipe.totalTime) },
     { label: "Portions", value: recipe.servings },
     { label: "Difficulté", value: recipe.difficulty },
   ].filter((m) => m.value);

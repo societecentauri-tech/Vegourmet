@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { RecipeFrontmatter } from "@/lib/types";
 import { SmartImage } from "./SmartImage";
+import { formatDureeFr } from "@/lib/duration";
 
 interface RecipeCardProps {
   recipe: RecipeFrontmatter;
@@ -19,7 +20,7 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
             {recipe.category}
           </span>
           <span className="rounded-full bg-veg-peach/30 px-2 py-0.5 text-veg-terracotta-dark">
-            {recipe.totalTime}
+            {formatDureeFr(recipe.totalTime)}
           </span>
         </div>
         <h3 className="font-heading text-lg font-semibold leading-snug">
