@@ -32,7 +32,7 @@ export function SmartImage({
       alt={alt}
       loading="lazy"
       decoding="async"
-      className={`h-full w-full overflow-hidden rounded-2xl object-cover ${className}`}
+      className={`w-full overflow-hidden rounded-2xl object-cover ${className}`}
       style={{ aspectRatio: ratio }}
     />
   );

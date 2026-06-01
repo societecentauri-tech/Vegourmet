@@ -11,6 +11,7 @@ import "@/components/recipe.css";
 import {
   SITE_URL,
   buildBreadcrumbJsonLd,
+  buildFaqJsonLd,
   buildRecipeJsonLd,
 } from "@/lib/seo";
 
@@ -59,6 +60,9 @@ export default async function RecipePage({ params }: PageProps) {
     <article className="vg-recipe mx-auto max-w-3xl px-4 py-8">
       <JsonLd data={buildRecipeJsonLd(recipe)} />
       <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
+      {fm.faq && fm.faq.length > 0 ? (
+        <JsonLd data={buildFaqJsonLd(fm.faq)!} />
+      ) : null}
 
       <Breadcrumb
         items={breadcrumb.map((b) => ({

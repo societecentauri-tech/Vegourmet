@@ -9,6 +9,8 @@ import {
   type TaggedListingItem,
 } from "@/components/home/BestRecipes";
 import { QuickRecipesCta } from "@/components/home/QuickRecipesCta";
+import { JsonLd } from "@/components/JsonLd";
+import { buildOrganizationJsonLd, buildWebSiteJsonLd } from "@/lib/seo";
 import "@/components/home.css";
 
 /**
@@ -46,6 +48,8 @@ export default function HomePage() {
 
   return (
     <>
+      <JsonLd data={buildWebSiteJsonLd()} />
+      <JsonLd data={buildOrganizationJsonLd()} />
       <NewsletterBand />
       <FavorisSection items={favorisItems} />
       <AboutChloe />

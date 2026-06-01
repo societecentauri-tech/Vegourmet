@@ -5,6 +5,7 @@ import { resolveTaxoLabel, taxoSlugs } from "@/lib/taxonomy";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ page?: string }>;
 }
 
 export function generateStaticParams(): { slug: string }[] {
@@ -23,7 +24,8 @@ export async function generateMetadata({
   };
 }
 
-export default async function RecetteThematiquePage({ params }: PageProps) {
+export default async function RecetteThematiquePage({ params, searchParams }: PageProps) {
   const { slug } = await params;
-  return <TaxonomyPage kind="recette-thematique" slug={slug} />;
+  const { page } = await searchParams;
+  return <TaxonomyPage kind="recette-thematique" slug={slug} page={page} />;
 }

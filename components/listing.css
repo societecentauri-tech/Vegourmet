@@ -83,8 +83,13 @@
   display: block;
 }
 
-/* Le Placeholder hérite du ratio 3/4 du thème via cette classe */
+/* Le Placeholder hérite du ratio 3/4 du thème via cette classe.
+ * aspect-ratio réserve la hauteur AVANT chargement (anti-CLS / anti-collapse). */
 .vg-item-thumb .vg-thumb-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
   border-radius: 6px;
   overflow: hidden;
 }
@@ -113,9 +118,12 @@
   transition: transform 0.25s ease;
 }
 
+/* display:block supprime le gap de baseline du SVG inline -> vrai centrage */
 .vg-item-cat-link svg {
-  width: 20px;
-  height: 20px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
 }
 
 .vg-item:hover .vg-item-cat-link {

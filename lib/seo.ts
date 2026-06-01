@@ -37,6 +37,8 @@ export function buildRecipeJsonLd(recipe: Recipe): Record<string, unknown> {
     "@type": "Recipe",
     name: fm.title,
     description: fm.description,
+    // `image` est REQUIS par Google pour l'éligibilité aux rich results recette.
+    ...(fm.heroImage?.src && { image: [fm.heroImage.src] }),
     author: { "@type": "Person", name: fm.author },
     datePublished: fm.datePublished,
     prepTime: toIsoDuration(fm.prepTime),
@@ -68,15 +70,26 @@ export function buildRecipeJsonLd(recipe: Recipe): Record<string, unknown> {
     };
   }
 
-  if (fm.faq && fm.faq.length > 0) {
-    jsonLd.mainEntity = fm.faq.map((item) => ({
+  // NB : la FAQ n'est PAS posée sur le Recipe (mainEntity=Questions est invalide).
+  // Elle est émise séparément via buildFaqJsonLd() en tant que FAQPage.
+
+  return jsonLd;
+}
+
+/** JSON-LD FAQPage autonome (valide). À émettre à côté du Recipe/Article si FAQ. */
+export function buildFaqJsonLd(
+  faq: { q: string; a: string }[],
+): Record<string, unknown> | null {
+  if (!faq || faq.length === 0) return null;
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((item) => ({
       "@type": "Question",
       name: item.q,
       acceptedAnswer: { "@type": "Answer", text: item.a },
-    }));
-  }
-
-  return jsonLd;
+    })),
+  };
 }
 
 /** JSON-LD schema.org Article pour les guides/articles racine. */
@@ -88,6 +101,7 @@ export function buildArticleJsonLd(article: Article): Record<string, unknown> {
     "@type": "Article",
     headline: fm.title,
     description: fm.description,
+    ...(fm.heroImage?.src && { image: [fm.heroImage.src] }),
     author: { "@type": "Person", name: fm.author },
     datePublished: fm.datePublished,
     keywords: fm.tags.join(", "),
@@ -98,6 +112,10 @@ export function buildArticleJsonLd(article: Article): Record<string, unknown> {
       "@type": "Organization",
       name: SITE_NAME,
       url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/brand/logo-vegourmet.png`,
+      },
     },
   };
 }
@@ -115,5 +133,66 @@ export function buildBreadcrumbJsonLd(
       name: item.name,
       item: item.url,
     })),
+  };
+}
+
+/** JSON-LD WebSite (+ SearchAction) — pour la home. */
+export function buildWebSiteJsonLd(): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE_NAME,
+    url: SITE_URL,
+    inLanguage: "fr-FR",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${SITE_URL}/recettes?s={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+}
+
+/** JSON-LD Organization — pour la home. */
+export function buildOrganizationJsonLd(): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: `${SITE_URL}/brand/logo-vegourmet.png`,
+    sameAs: [
+      "https://www.facebook.com/profile.php?id=61568255593913",
+      "https://www.instagram.com/vegourmetoff/",
+      "https://x.com/VegourmetOff",
+      "https://fr.pinterest.com/vegourmetoff/",
+    ],
+  };
+}
+
+/** JSON-LD CollectionPage + ItemList — pour /recettes, /blog et les taxonomies. */
+export function buildCollectionJsonLd(
+  name: string,
+  url: string,
+  items: { name: string; url: string }[],
+): Record<string, unknown> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name,
+    url,
+    inLanguage: "fr-FR",
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: items.length,
+      itemListElement: items.map((item, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: item.name,
+        url: item.url,
+      })),
+    },
   };
 }
