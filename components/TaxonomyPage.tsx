@@ -37,9 +37,7 @@ export function TaxonomyPage({ kind, slug, page }: TaxonomyPageProps) {
   const basePath = `/${kind}/${slug}`;
   const url = `${SITE_URL}${basePath}`;
 
-  const description = `Toutes nos recettes et idées vegan de la ${getTaxoTitle(
-    kind,
-  ).toLowerCase()} « ${label} » : ${totalItems} contenu${
+  const description = `Toutes nos recettes et idées vegan « ${label} » : ${totalItems} contenu${
     totalItems > 1 ? "s" : ""
   } à découvrir.`;
 
