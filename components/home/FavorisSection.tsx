@@ -1,44 +1,55 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { RecipeGrid, type ListingItem } from "@/components/RecipeGrid";
+import { useState } from "react";
+import { FavorisCard, type FavorisItem } from "./FavorisCard";
 
-/** Onglet de filtre : « Toutes » + une entrée par catégorie réelle. */
-interface FilterTab {
-  /** Identifiant interne (catégorie exacte ou "all"). */
-  value: string;
+/** Onglet de la section favoris : exactement 3, non liés aux catégories. */
+type TabKey = "featured" | "populaires" | "dernieres";
+
+interface Tab {
+  key: TabKey;
   label: string;
 }
 
+const TABS: Tab[] = [
+  { key: "featured", label: "Featured" },
+  { key: "populaires", label: "Populaires" },
+  { key: "dernieres", label: "Dernières" },
+];
+
 interface FavorisSectionProps {
-  /** Recettes normalisées (déjà transformées côté serveur). */
-  items: ListingItem[];
+  /**
+   * Les 3 jeux de 4 cartes, déjà constitués côté serveur :
+   *   - featured  : 4 recettes mises en avant (curation déterministe) ;
+   *   - populaires: 4 autres recettes (sous-ensemble déterministe distinct) ;
+   *   - dernieres : 4 recettes les plus récentes (tri datePublished desc).
+   */
+  featured: FavorisItem[];
+  populaires: FavorisItem[];
+  dernieres: FavorisItem[];
 }
 
 /**
  * FavorisSection — « Les favoris de nos lecteurs » (#featured_area_section).
- * Sur-titre + titre centrés, rangée d'onglets de filtre par catégorie,
- * grille de cartes (composant partagé RecipeGrid) filtrée côté client.
+ *
+ * Les onglets NE sont PAS des catégories : ce sont exactement
+ * « Featured / Populaires / Dernières », chacun affichant 4 cartes.
+ * Au changement d'onglet, les cartes sont re-montées (`key={active}`) pour
+ * rejouer l'animation CSS (fade + léger slide-up, ~300 ms).
  */
-export function FavorisSection({ items }: FavorisSectionProps) {
-  // Construit la liste des onglets depuis les catégories réellement présentes.
-  const tabs = useMemo<FilterTab[]>(() => {
-    const categories = Array.from(new Set(items.map((item) => item.category)));
-    return [
-      { value: "all", label: "Toutes" },
-      ...categories.map((category) => ({ value: category, label: category })),
-    ];
-  }, [items]);
+export function FavorisSection({
+  featured,
+  populaires,
+  dernieres,
+}: FavorisSectionProps) {
+  const [active, setActive] = useState<TabKey>("featured");
 
-  const [active, setActive] = useState<string>("all");
-
-  const filtered = useMemo(
-    () =>
-      active === "all"
-        ? items
-        : items.filter((item) => item.category === active),
-    [active, items],
-  );
+  const items: Record<TabKey, FavorisItem[]> = {
+    featured,
+    populaires,
+    dernieres,
+  };
+  const current = items[active];
 
   return (
     <section
@@ -51,30 +62,42 @@ export function FavorisSection({ items }: FavorisSectionProps) {
           <span className="vgh-subtitle">Sélection gourmande</span>
           <h2 id="vgh-favoris-title">Les favoris de nos lecteurs</h2>
           <p>
-            Parcourez quelques-unes des recettes vegan les plus populaires
-            parmi les lecteurs.
+            Parcourez quelques-unes des recettes vegan les plus appréciées par
+            nos lecteurs.
           </p>
         </header>
 
-        <div className="vgh-filters" role="group" aria-label="Filtrer par catégorie">
-          {tabs.map((tab) => (
+        <div
+          className="vgh-filters vgh-tabs"
+          role="tablist"
+          aria-label="Sélection de recettes"
+        >
+          {TABS.map((tab) => (
             <button
-              key={tab.value}
+              key={tab.key}
               type="button"
-              className="vgh-filter"
-              aria-pressed={active === tab.value}
-              onClick={() => setActive(tab.value)}
+              role="tab"
+              id={`vgh-tab-${tab.key}`}
+              aria-selected={active === tab.key}
+              aria-controls="vgh-favoris-panel"
+              className="vgh-filter vgh-tab"
+              onClick={() => setActive(tab.key)}
             >
               {tab.label}
             </button>
           ))}
         </div>
 
-        <div className="vgh-grid-4">
-          <RecipeGrid
-            items={filtered}
-            emptyMessage="Aucune recette dans cette catégorie pour le moment."
-          />
+        <div
+          key={active}
+          id="vgh-favoris-panel"
+          role="tabpanel"
+          aria-labelledby={`vgh-tab-${active}`}
+          className="vgh-grid-4 vgh-fav-grid vgh-fav-anim"
+        >
+          {current.map((item) => (
+            <FavorisCard key={item.slug} item={item} />
+          ))}
         </div>
       </div>
     </section>
