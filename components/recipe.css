@@ -477,6 +477,13 @@
 .vg-recipe-main {
   min-width: 0;
 }
+/* Quand .vg-single (article) est la colonne principale de la grille,
+ * on neutralise sa largeur centrée pour qu'il remplisse la colonne. */
+.vg-single.vg-recipe-main {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
 
 /* Méta haute : Totale / Difficulté */
 .vg-article-stats {

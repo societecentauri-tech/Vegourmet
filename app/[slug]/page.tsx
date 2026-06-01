@@ -2,9 +2,12 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ArticleFaq } from "@/components/ArticleFaq";
 import { ArticleHeader } from "@/components/ArticleHeader";
+import { Breadcrumb } from "@/components/Breadcrumb";
 import { JsonLd } from "@/components/JsonLd";
 import { MdxContent } from "@/components/MdxContent";
+import { RecipeSidebar } from "@/components/RecipeSidebar";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import "@/components/recipe.css";
 import {
   getAllArticles,
   getArticleBySlug,
@@ -72,15 +75,28 @@ export default async function ArticlePage({ params }: PageProps) {
       <JsonLd data={buildArticleJsonLd(article)} />
       <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
 
-      <article className="vg-single">
-        <ArticleHeader article={fm} readingTime={readingTime} />
+      <div className="vg-recipe-layout">
+        <Breadcrumb
+          items={breadcrumb.map((b) => ({
+            name: b.name,
+            href: b.url.replace(SITE_URL, "") || "/",
+          }))}
+        />
 
-        <div className="vg-content-wrap">
-          <MdxContent source={article.content} />
+        <div className="vg-recipe-grid">
+          <article className="vg-single vg-recipe-main">
+            <ArticleHeader article={fm} readingTime={readingTime} />
 
-          {fm.faq && fm.faq.length > 0 && <ArticleFaq items={fm.faq} />}
+            <div className="vg-content-wrap">
+              <MdxContent source={article.content} />
+
+              {fm.faq && fm.faq.length > 0 && <ArticleFaq items={fm.faq} />}
+            </div>
+          </article>
+
+          <RecipeSidebar />
         </div>
-      </article>
+      </div>
 
       <RelatedArticles articles={related} />
     </>
