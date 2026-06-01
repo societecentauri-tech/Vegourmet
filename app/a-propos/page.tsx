@@ -4,6 +4,7 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { JsonLd } from "@/components/JsonLd";
 import { SmartImage } from "@/components/SmartImage";
+import { SocialLinks } from "@/components/SocialLinks";
 import { getArticleBySlug } from "@/lib/content";
 import { SITE_URL, buildBreadcrumbJsonLd } from "@/lib/seo";
 import "@/components/about.css";
@@ -32,7 +33,17 @@ interface Section {
  *  (les photos sont posées dans la mise en page en colonnes, pas en pleine largeur). */
 function splitSections(content: string): { preamble: string; sections: Section[] } {
   const parts = content.split(/^## /m);
-  const clean = (s: string) => s.replace(/!\[[^\]]*\]\([^)]*\)/g, "").trim();
+  const clean = (s: string) =>
+    s
+      // retire les images inline (placées en colonnes dans la mise en page)
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
+      // retire les puces de liens sociaux (rendues en icônes via <SocialLinks/>)
+      .replace(
+        /^[-*]\s*\[(?:Facebook|Twitter|X|Instagram|Pinterest|TikTok|YouTube|LinkedIn)\]\([^)]+\)\s*$/gim,
+        "",
+      )
+      .replace(/\n{3,}/g, "\n\n")
+      .trim();
   const preamble = clean(parts[0] ?? "");
   const sections = parts.slice(1).map((chunk) => {
     const nl = chunk.indexOf("\n");
@@ -93,6 +104,7 @@ export default async function AProposPage() {
         <div className="about-col-text vg-entry-content">
           {preamble ? <MDXRemote source={preamble} /> : null}
           {intro ? <MDXRemote source={intro.body} /> : null}
+          <SocialLinks className="about-socials" />
         </div>
         <div className="about-col-media">
           <SmartImage

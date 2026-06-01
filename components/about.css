@@ -44,6 +44,38 @@
   line-height: 1.8;
 }
 
+/* Rangée d'icônes réseaux sociaux (remplace les anciens liens texte) */
+.vg-socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 18px 0 0;
+  padding: 0;
+}
+.vg-socials li {
+  margin: 0;
+}
+.vg-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--vg-section2, #f4e0d6);
+  color: var(--vg-terracotta-hover, #bf7052);
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+.vg-socials a:hover {
+  background: var(--vg-terracotta, #d98e73);
+  color: #fff;
+  transform: translateY(-2px);
+}
+.vg-socials svg {
+  display: block;
+}
+
 /* Bande pleine largeur (philosophie) */
 .about-band {
   text-align: center;
