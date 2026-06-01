@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { NAV_ITEMS } from "@/lib/nav";
 import { MobileNav } from "./MobileNav";
+import { HeaderSearch } from "./HeaderSearch";
 
 /* Réseaux sociaux — icônes SVG fidèles aux <svg.tasty-icon> du header réel. */
 const SOCIALS: { href: string; label: string; path: string; viewBox: string }[] = [
@@ -87,42 +88,7 @@ export function SiteHeader() {
               </ul>
             </nav>
 
-            <div className="header-search">
-              <button
-                type="button"
-                className="search-toggle"
-                aria-label="Rechercher"
-                aria-expanded="false"
-              >
-                <svg
-                  width="21"
-                  height="20"
-                  viewBox="0 0 21 20"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M9.83325 16.6667C13.9754 16.6667 17.3333 13.3089 17.3333 9.16675C17.3333 5.02461 13.9754 1.66675 9.83325 1.66675C5.69112 1.66675 2.33325 5.02461 2.33325 9.16675C2.33325 13.3089 5.69112 16.6667 9.83325 16.6667Z"
-                    stroke="inherit"
-                    fill="none"
-                    strokeOpacity="0.9"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                  <path
-                    d="M18.1665 17.5L15.6665 15"
-                    stroke="inherit"
-                    fill="none"
-                    strokeOpacity="0.9"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
+            <HeaderSearch />
 
             <div className="header-social">
               <ul className="yummy-networks" aria-label="Réseaux sociaux">

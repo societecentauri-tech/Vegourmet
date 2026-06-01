@@ -35,6 +35,8 @@ export function RecipeFinder() {
             className="vgh-search-form"
             role="search"
             aria-label="Rechercher une recette"
+            action="/recettes"
+            method="get"
           >
             <label className="vgh-sr-only" htmlFor="vgh-search-field">
               Rechercher une recette
@@ -45,7 +47,7 @@ export function RecipeFinder() {
               name="s"
               placeholder="Rechercher…"
             />
-            <button type="button">Rechercher</button>
+            <button type="submit">Rechercher</button>
           </form>
 
           <div className="vgh-chips">

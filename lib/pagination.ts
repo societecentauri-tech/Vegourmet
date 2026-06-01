@@ -24,7 +24,10 @@ export function paginate<T>(items: T[], rawPage: unknown): Paginated<T> {
   };
 }
 
-/** Construit l'URL d'une page (page 1 = chemin nu, sinon ?page=N). */
+/** Construit l'URL d'une page (page 1 = chemin nu, sinon ...page=N).
+ *  Gère un basePath ayant déjà une query string (utilise & au lieu de ?). */
 export function pageHref(basePath: string, page: number): string {
-  return page <= 1 ? basePath : `${basePath}?page=${page}`;
+  if (page <= 1) return basePath;
+  const sep = basePath.includes("?") ? "&" : "?";
+  return `${basePath}${sep}page=${page}`;
 }
