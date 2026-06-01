@@ -98,6 +98,7 @@ export function getReservedRootSlugs(): Set<string> {
     "recette-style",
     "recette-thematique",
     "category",
+    "a-propos",
   ]);
 }
 

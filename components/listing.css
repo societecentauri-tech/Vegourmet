@@ -255,6 +255,16 @@
   cursor: default;
 }
 
+.vg-page-gap {
+  display: inline-flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-width: 24px;
+  height: 40px;
+  color: #b3aca6;
+  font-weight: 600;
+}
+
 /* État vide */
 .vg-empty {
   margin-top: 40px;

@@ -1,0 +1,122 @@
+/* Page « À propos » — mise en page fidèle au thème (colonnes image/texte). */
+
+.vg-about {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 8px 20px 64px;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 24px 0 8px;
+}
+.about-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--vg-terracotta, #d98e73);
+  margin: 0 0 10px;
+}
+.about-title {
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 700;
+  color: var(--vg-title, #2c3e50);
+  margin: 0;
+}
+
+/* Lignes image / texte en 2 colonnes */
+.about-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(24px, 5vw, 64px);
+  align-items: center;
+  margin: 48px 0;
+}
+.about-col-media .about-photo {
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 14px 40px rgba(40, 30, 25, 0.16);
+}
+.about-col-text {
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+/* Bande pleine largeur (philosophie) */
+.about-band {
+  text-align: center;
+  max-width: 760px;
+  margin: 56px auto;
+}
+.about-h2 {
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  font-weight: 700;
+  color: var(--vg-title, #2c3e50);
+  margin: 0 0 16px;
+}
+.about-prose {
+  font-size: 1.02rem;
+  line-height: 1.8;
+}
+
+/* Accroche mission mise en avant */
+.about-quote {
+  background: var(--vg-section2, #f4e0d6);
+  border-radius: 20px;
+  padding: clamp(32px, 5vw, 56px);
+  text-align: center;
+  margin: 56px 0;
+}
+.about-quote > p:first-child {
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: clamp(1.25rem, 2.6vw, 1.7rem);
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--vg-terracotta-hover, #bf7052);
+  margin: 0;
+  position: relative;
+}
+.about-quote > p:first-child::before {
+  content: "“";
+  font-size: 2.4em;
+  line-height: 0;
+  vertical-align: -0.4em;
+  color: var(--vg-terracotta, #d98e73);
+  margin-right: 6px;
+}
+
+/* Galerie de fin */
+.about-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 48px;
+}
+.about-gallery .about-photo {
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(40, 30, 25, 0.12);
+}
+
+/* Mobile : on empile, l'image passe AVANT le texte pour rester chaleureux */
+@media (max-width: 768px) {
+  .about-row,
+  .about-row.is-reverse {
+    grid-template-columns: 1fr;
+  }
+  .about-row .about-col-media {
+    order: -1;
+  }
+  .about-row.is-reverse .about-col-media {
+    order: -1;
+  }
+  .about-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-gallery .about-photo:last-child {
+    display: none;
+  }
+}
