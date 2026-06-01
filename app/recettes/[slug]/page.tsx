@@ -6,6 +6,7 @@ import { MdxContent } from "@/components/MdxContent";
 import { RecipeArticleHeader } from "@/components/RecipeArticleHeader";
 import { RecipeDeliciousCard } from "@/components/RecipeDeliciousCard";
 import { RecipeFaq } from "@/components/RecipeFaq";
+import { RecipeSidebar } from "@/components/RecipeSidebar";
 import { getAllRecipes, getRecipeBySlug } from "@/lib/content";
 import "@/components/recipe.css";
 import {
@@ -57,7 +58,7 @@ export default async function RecipePage({ params }: PageProps) {
   ];
 
   return (
-    <article className="vg-recipe mx-auto max-w-3xl px-4 py-8">
+    <div className="vg-recipe-layout">
       <JsonLd data={buildRecipeJsonLd(recipe)} />
       <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
       {fm.faq && fm.faq.length > 0 ? (
@@ -71,23 +72,27 @@ export default async function RecipePage({ params }: PageProps) {
         }))}
       />
 
-      <div className="mt-6">
-        <RecipeArticleHeader recipe={fm} />
-      </div>
+      <div className="vg-recipe-grid">
+        <article className="vg-recipe vg-recipe-main">
+          <RecipeArticleHeader recipe={fm} />
 
-      <div className="mt-8">
-        <MdxContent source={recipe.content} />
-      </div>
+          <div className="mt-8">
+            <MdxContent source={recipe.content} />
+          </div>
 
-      <div className="mt-10">
-        <RecipeDeliciousCard recipe={fm} />
-      </div>
+          <div className="mt-10">
+            <RecipeDeliciousCard recipe={fm} />
+          </div>
 
-      {fm.faq && fm.faq.length > 0 && (
-        <div className="mt-10">
-          <RecipeFaq items={fm.faq} />
-        </div>
-      )}
-    </article>
+          {fm.faq && fm.faq.length > 0 && (
+            <div className="mt-10">
+              <RecipeFaq items={fm.faq} />
+            </div>
+          )}
+        </article>
+
+        <RecipeSidebar />
+      </div>
+    </div>
   );
 }

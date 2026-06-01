@@ -458,3 +458,198 @@
     border-bottom: 1px solid var(--vg-card-border);
   }
 }
+
+/* ----------------------------------------------------------------------- */
+/* Layout 2 colonnes (contenu + sidebar) — fidèle au single recipe du thème */
+/* ----------------------------------------------------------------------- */
+.vg-recipe-layout {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 24px 20px 64px;
+}
+.vg-recipe-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 330px;
+  gap: 48px;
+  align-items: start;
+  margin-top: 18px;
+}
+.vg-recipe-main {
+  min-width: 0;
+}
+
+/* Méta haute : Totale / Difficulté */
+.vg-article-stats {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 14px;
+  font-size: 0.95rem;
+  color: var(--vg-c-ink, #453e3f);
+}
+.vg-article-stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.vg-article-stat svg {
+  width: 18px;
+  height: 18px;
+  color: var(--vg-c-terra, #d98e73);
+}
+.vg-article-stat strong {
+  color: var(--vg-c-title, #2c3e50);
+}
+.vg-article-stats-sep {
+  width: 1px;
+  height: 18px;
+  background: var(--vg-card-border, #ecddd3);
+}
+
+/* Paire de boutons (Aller à la recette + Imprimer) */
+.vg-article-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+.vg-btn-print {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 1.1rem;
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--vg-c-terra, #d98e73);
+  background: transparent;
+  border: 1px solid var(--vg-c-terra, #d98e73);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+.vg-btn-print:hover {
+  background: var(--vg-c-terra, #d98e73);
+  color: #fff;
+}
+.vg-btn-print svg {
+  width: 17px;
+  height: 17px;
+}
+
+/* Sidebar */
+.vg-sidebar {
+  position: sticky;
+  top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.vg-widget {
+  background: #fff;
+  border: 1px solid var(--vg-card-border, #ecddd3);
+  border-radius: 14px;
+  padding: 22px;
+  text-align: center;
+}
+.vg-widget-title {
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--vg-c-title, #2c3e50);
+  margin: 0 0 16px;
+  position: relative;
+  padding-bottom: 12px;
+}
+.vg-widget-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 46px;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--vg-c-terra, #d98e73);
+}
+.vg-widget-about-photo img {
+  width: 100%;
+  border-radius: 12px;
+}
+.vg-widget-about-text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--vg-c-ink, #453e3f);
+  margin: 16px 0 12px;
+}
+.vg-widget-about-link {
+  display: inline-block;
+  font-family: "Signika", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--vg-c-terra, #d98e73);
+  text-decoration: none;
+}
+.vg-widget-about-link:hover {
+  color: var(--vg-c-terra-hover, #bf7052);
+}
+
+/* Encart CTA newsletter */
+.vg-widget-cta {
+  background: var(--vg-section2, #f4e0d6);
+  border-color: transparent;
+}
+.vg-widget-cta-eyebrow {
+  display: block;
+  font-family: "Signika", system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--vg-c-terra-hover, #bf7052);
+  margin-bottom: 10px;
+}
+.vg-widget-cta-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--vg-c-ink, #453e3f);
+  margin: 0 0 16px;
+}
+.vg-widget-cta-btn {
+  display: inline-block;
+  padding: 0.55rem 1.4rem;
+  font-family: "Signika", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #fff;
+  background: var(--vg-c-terra, #d98e73);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.25s ease;
+}
+.vg-widget-cta-btn:hover {
+  background: var(--vg-c-terra-hover, #bf7052);
+}
+
+/* Mobile : la sidebar passe sous le contenu */
+@media (max-width: 980px) {
+  .vg-recipe-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .vg-sidebar {
+    position: static;
+  }
+}
+
+/* Impression : on masque la sidebar et les actions */
+@media print {
+  .vg-sidebar,
+  .vg-article-actions {
+    display: none;
+  }
+  .vg-recipe-grid {
+    grid-template-columns: 1fr;
+  }
+}
