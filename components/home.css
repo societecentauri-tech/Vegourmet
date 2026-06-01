@@ -412,7 +412,8 @@
   flex-direction: row;
   align-items: center;
   gap: 0;
-  background-color: rgba(217, 188, 168, 0.18);
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(40, 30, 25, 0.08);
   border-radius: 16px;
   overflow: hidden;
   opacity: 0;
