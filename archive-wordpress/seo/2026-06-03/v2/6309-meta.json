@@ -1,0 +1,26 @@
+{
+  "target_page_id": 1885,
+  "slug": "guacamole-la-meilleure-recette-en-5-minutes",
+  "title": "Recette Guacamole Maison : la vraie méthode en 10 min",
+  "title_len": 53,
+  "meta": "Marre du guacamole tout mou ? Ma recette maison simple, version traditionnelle mexicaine sans tomate incluse. Crémeux, vert, prêt en 10 minutes.",
+  "meta_len": 144,
+  "word_count": 950,
+  "image_count": 6,
+  "reused_images": 6,
+  "new_images_needed": [],
+  "internal_links": [
+    "https://vegourmet.fr/recettes/houmous-4-secrets-pour-une-recette-parfaite/",
+    "https://vegourmet.fr/recettes/burrito-vegan-meilleure-crette-mexicaine-9/",
+    "/recettes/wraps-vegans-faciles/ (À VÉRIFIER — slug à confirmer)",
+    "/recettes/nachos-maison/ (À VÉRIFIER — slug à confirmer)"
+  ],
+  "changelog": [
+    "Intro IA générique supprimée : remplacée par une anecdote personnelle Chloé ancrée (Leila, Montpellier, anniversaire) — pilier E-E-A-T inexistant dans le live.",
+    "Structure live (h3 'régions' + h3 'accompagnements' + listes encyclopédiques) entièrement supprimée : tournures IA Guide 'explorons ensemble ce voyage géographique' → corps fluide recette sans h2 dans le corps.",
+    "Champ lexical GSC réinjecté : guacamole maison, recette guacamole traditionnel, recette guacamole sans tomate, comment faire du guacamole, comme au Mexique, simple/rapide — tous absents du live.",
+    "Vouvoiement du live corrigé en tutoiement Chloé partout (ex : 'J'espère que vous apprécierez' → 'Tu peux conserver').",
+    "FAQ resserrée sur 4 vraies requêtes GSC à fort volume (comment faire maison, sans tomate, comme au Mexique, pourquoi ça noircit) vs 5 questions génériques de la v1.",
+    "6 images live réutilisées telles quelles, repositionnées aux bons moments narratifs (ingrédients → préparation → texture/citron → apéro convivial → chili combo → falafels/lien recette liée) ; alts des 2 dernières enrichis pour mieux décrire le contexte."
+  ]
+}

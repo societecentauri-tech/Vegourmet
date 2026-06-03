@@ -1,0 +1,32 @@
+{
+  "target_page_id": 2428,
+  "slug": "meilleure-margarine-pour-la-sante-guide-complet",
+  "title": "Meilleure margarine pour la santé : classement 2026",
+  "title_len": 51,
+  "meta": "Quelle margarine choisir en 2026 ? Chloé compare les meilleures marques non hydrogénées, sans huile de palme, anti-cholestérol : tableau + conseils usage.",
+  "meta_len": 154,
+  "word_count": 1895,
+  "image_count": 8,
+  "reused_images": 7,
+  "new_images_needed": [
+    {
+      "slot": "section classement personnel (avant FAQ)",
+      "prompt_fr": "Vue plongeante sur trois pots de margarine bio ouverts (colza, coco, tournesol-karité) disposés sur une table en bois clair, cuillère en bois posée à côté, lumière naturelle douce, style éditorial culinaire",
+      "alt": "Comparatif de pots de margarine bio non hydrogénée ouverts sur une table en bois clair, vue plongeante"
+    }
+  ],
+  "internal_links": [
+    "https://vegourmet.fr/beurre-vegan-7-secrets-pour-bien-choisir-et-utiliser/",
+    "https://vegourmet.fr/meilleur-lait-vegetal-pour-cafe-guide-complet-2025/",
+    "https://vegourmet.fr/omega-3-vegan-7-bienfaits-extraordinaires-votre-sante/",
+    "/recettes/pancakes-vegan-3-secrets-irresistibles/ (à vérifier)",
+    "/recettes/brioche-vegan-recette-ultra-moelleuse-tester/ (à vérifier)"
+  ],
+  "changelog": [
+    "Intro réécrite en voix Chloé authentique (anecdote mère + cholestérol, Lyon, détails concrets) — remplace l'intro impersonnelle du v1 et le début trop abrupt du live",
+    "Tableau comparatif enrichi : 8 marques vs 3 en v1, ajout colonnes 'Sans palme' et 'Usage idéal', note de prudence intégrée pour Bonneterre/Vitaquell (saturés élevés)",
+    "4 nouvelles sections H2 calquées sur requêtes GSC à fort volume : cholestérol (1637 + 1425 imp.), hydrogénée/non (1496 imp.), pâtisserie (738 imp.), sans palme (581 imp.)",
+    "FAQ étendue à 5 Q/R avec balisage Schema.org FAQPage inline, couvrant les 5 variantes de requêtes longue traîne les plus fréquentes",
+    "Disclaimer santé intégré naturellement en bas de page (ton Chloé, pas juridique), sans casser la fluidité"
+  ]
+}
