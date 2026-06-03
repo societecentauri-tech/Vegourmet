@@ -1,0 +1,27 @@
+{
+  "target_page_id": 2458,
+  "slug": "meilleur-lait-vegetal-pour-cafe-guide-complet-2025",
+  "title": "Meilleur lait végétal pour café : comparatif et conseils",
+  "title_len": 56,
+  "meta": "Lait végétal qui tranche dans le café ? Je t'explique pourquoi et quel lait choisir selon ton usage : latte, cappuccino, café filtre ou glacé.",
+  "meta_len": 142,
+  "word_count": 2025,
+  "image_count": 8,
+  "reused_images": 8,
+  "new_images_needed": [],
+  "internal_links": [
+    "/meilleur-lait-vegetal-pour-mousser-guide-complet/",
+    "/meilleur-lait-vegetal-pour-la-musculation-guide/",
+    "/meilleur-lait-vegetal-pour-maigrir-guide-comparatif/",
+    "/quel-est-le-meilleur-lait-vegetal-pour-la-sante/",
+    "/lait-vegetal-guide-ultime-alternatives-vegan/"
+  ],
+  "changelog": [
+    "Structure recentrée sur l'intention café (suppression section vs lait de vache générique hors-sujet, refonte section nutrition trop généraliste).",
+    "Ajout de deux nouvelles sections H2 ciblant des requêtes GSC à fort volume : 'Quel lait végétal mousse le mieux ?' et 'Versions barista : c'est quoi la différence ?'.",
+    "Tableau comparatif HTML enrichi (7 laits vs 3 dans le live, colonne Tenue à la chaleur ajoutée) pour couvrir les requêtes comparatives.",
+    "FAQ portée à 5 questions issues directement des requêtes GSC LAIT_CAFE (tranchage, mousse, avoine vs soja, café au lait, température), avec balisage schema.org FAQPage.",
+    "Maillage interne renforcé : 5 liens vers le cluster lait végétal existant (mousse, musculation, maigrir, santé, guide ultime) vs 2 liens dans le live.",
+    "Note cannibalisation : c'est bien un rework de la page ID 2458 (même slug conservé) — aucun nouvel article créé, pas de risque de cannibalisation."
+  ]
+}

@@ -1,0 +1,7021 @@
+{
+  "dimensionHeaders": [
+    {
+      "name": "pagePath"
+    }
+  ],
+  "metricHeaders": [
+    {
+      "name": "sessions",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "screenPageViews",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "totalUsers",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "engagedSessions",
+      "type": "TYPE_INTEGER"
+    },
+    {
+      "name": "averageSessionDuration",
+      "type": "TYPE_SECONDS"
+    }
+  ],
+  "rows": [
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/guacamole-la-meilleure-recette-en-5-minutes/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4866"
+        },
+        {
+          "value": "5114"
+        },
+        {
+          "value": "4206"
+        },
+        {
+          "value": "1445"
+        },
+        {
+          "value": "60.492651787916159"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2236"
+        },
+        {
+          "value": "5046"
+        },
+        {
+          "value": "1746"
+        },
+        {
+          "value": "1700"
+        },
+        {
+          "value": "75.707258048747775"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/muffins-sales-vegan-recette-simple-rapide/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3910"
+        },
+        {
+          "value": "4215"
+        },
+        {
+          "value": "2877"
+        },
+        {
+          "value": "1514"
+        },
+        {
+          "value": "88.470545164450144"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/galette-de-sarrasin-vegan-recette-breteonne/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3695"
+        },
+        {
+          "value": "3825"
+        },
+        {
+          "value": "2841"
+        },
+        {
+          "value": "1265"
+        },
+        {
+          "value": "82.552560963464146"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pudding-de-chia-4-astuces-recette-parfaite/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3496"
+        },
+        {
+          "value": "3526"
+        },
+        {
+          "value": "2877"
+        },
+        {
+          "value": "999"
+        },
+        {
+          "value": "66.564474244279182"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tiramisu-vegan-5-etapes-irresistible/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2825"
+        },
+        {
+          "value": "3002"
+        },
+        {
+          "value": "2382"
+        },
+        {
+          "value": "1121"
+        },
+        {
+          "value": "66.778920482477872"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pate-a-choux-vegan-recette-choux-parfaits/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2659"
+        },
+        {
+          "value": "2837"
+        },
+        {
+          "value": "1858"
+        },
+        {
+          "value": "1003"
+        },
+        {
+          "value": "106.75886790297102"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleure-margarine-pour-la-sante-guide-complet/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2424"
+        },
+        {
+          "value": "2552"
+        },
+        {
+          "value": "2208"
+        },
+        {
+          "value": "1296"
+        },
+        {
+          "value": "126.04933407425742"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/panna-cotta-vegan-recette-expresse-15-mins/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2075"
+        },
+        {
+          "value": "2157"
+        },
+        {
+          "value": "1583"
+        },
+        {
+          "value": "746"
+        },
+        {
+          "value": "109.98477447277109"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/nuggets-vegan-meilleure-recette-facon-kfc-7/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2056"
+        },
+        {
+          "value": "2130"
+        },
+        {
+          "value": "1447"
+        },
+        {
+          "value": "780"
+        },
+        {
+          "value": "86.494598103599216"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/courgette-farcie-vegan-recette-facile/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1973"
+        },
+        {
+          "value": "2067"
+        },
+        {
+          "value": "1722"
+        },
+        {
+          "value": "817"
+        },
+        {
+          "value": "88.894696336036489"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cake-aux-legumes-vegan-recette-parfaite/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1901"
+        },
+        {
+          "value": "2010"
+        },
+        {
+          "value": "1452"
+        },
+        {
+          "value": "807"
+        },
+        {
+          "value": "99.122417139400312"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/bo-bun-vegan-meilleure-recette-vietnamienne/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1845"
+        },
+        {
+          "value": "1910"
+        },
+        {
+          "value": "1400"
+        },
+        {
+          "value": "697"
+        },
+        {
+          "value": "83.08360460704607"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cake-aux-olives-vegan-meilleure-recette/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1786"
+        },
+        {
+          "value": "1898"
+        },
+        {
+          "value": "1267"
+        },
+        {
+          "value": "794"
+        },
+        {
+          "value": "106.57843951455767"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/clafoutis-vegan-recette-facile-10-mins/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1681"
+        },
+        {
+          "value": "1835"
+        },
+        {
+          "value": "1252"
+        },
+        {
+          "value": "661"
+        },
+        {
+          "value": "100.07296393218323"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/mascarpone-vegan-recette-star-desserts/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1702"
+        },
+        {
+          "value": "1809"
+        },
+        {
+          "value": "1238"
+        },
+        {
+          "value": "734"
+        },
+        {
+          "value": "94.897271378378377"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/crumble-sale-vegan-recette-reconfortante/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1675"
+        },
+        {
+          "value": "1725"
+        },
+        {
+          "value": "1330"
+        },
+        {
+          "value": "703"
+        },
+        {
+          "value": "71.429573240597009"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/couscous-vegan-meilleure-recette-maghreb/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1479"
+        },
+        {
+          "value": "1539"
+        },
+        {
+          "value": "1128"
+        },
+        {
+          "value": "637"
+        },
+        {
+          "value": "101.53433887356321"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/chili-sin-carne-vegan-la-meilleure-recette/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1476"
+        },
+        {
+          "value": "1513"
+        },
+        {
+          "value": "1112"
+        },
+        {
+          "value": "553"
+        },
+        {
+          "value": "88.998036936314364"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/canneles-vegan-meilleure-recette-bordelaise/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1354"
+        },
+        {
+          "value": "1492"
+        },
+        {
+          "value": "778"
+        },
+        {
+          "value": "510"
+        },
+        {
+          "value": "128.34924355243723"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/creme-au-beurre-vegan-recette-secrete/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1355"
+        },
+        {
+          "value": "1456"
+        },
+        {
+          "value": "927"
+        },
+        {
+          "value": "525"
+        },
+        {
+          "value": "143.87839312693728"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/ganache-chocolat-vegan-recette-inratable/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1322"
+        },
+        {
+          "value": "1418"
+        },
+        {
+          "value": "980"
+        },
+        {
+          "value": "577"
+        },
+        {
+          "value": "95.9900400763994"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/gratin-de-courgettes-vegan-recette-expresse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1317"
+        },
+        {
+          "value": "1412"
+        },
+        {
+          "value": "1009"
+        },
+        {
+          "value": "563"
+        },
+        {
+          "value": "105.00729802809417"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/rocher-coco-vegan-recette-express-cuisson/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1260"
+        },
+        {
+          "value": "1358"
+        },
+        {
+          "value": "1036"
+        },
+        {
+          "value": "540"
+        },
+        {
+          "value": "79.607731457936509"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/wraps-vegan-meilleure-recette-10-minutes/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1249"
+        },
+        {
+          "value": "1326"
+        },
+        {
+          "value": "1080"
+        },
+        {
+          "value": "596"
+        },
+        {
+          "value": "79.3550740256205"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/poivrons-farcis-vegan-recette-preferee-fr/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1244"
+        },
+        {
+          "value": "1291"
+        },
+        {
+          "value": "1005"
+        },
+        {
+          "value": "499"
+        },
+        {
+          "value": "83.52415744292604"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/apero-vegan-10-idees-incroyables-a-tester-absolument/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1273"
+        },
+        {
+          "value": "1286"
+        },
+        {
+          "value": "1153"
+        },
+        {
+          "value": "640"
+        },
+        {
+          "value": "78.9875639332286"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/baeckeoffe-vegan-recette-alsacienne-revisite/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1179"
+        },
+        {
+          "value": "1278"
+        },
+        {
+          "value": "828"
+        },
+        {
+          "value": "493"
+        },
+        {
+          "value": "112.71586463528412"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/bechamel-vegan-meilleure-recette-magique/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1234"
+        },
+        {
+          "value": "1233"
+        },
+        {
+          "value": "961"
+        },
+        {
+          "value": "523"
+        },
+        {
+          "value": "82.023599290113452"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/crumble-vegan-recette-fondre-tout-le-monde/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1179"
+        },
+        {
+          "value": "1224"
+        },
+        {
+          "value": "769"
+        },
+        {
+          "value": "437"
+        },
+        {
+          "value": "77.698085785411365"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/potimarron-farci-vegan-recette-automne/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1134"
+        },
+        {
+          "value": "1206"
+        },
+        {
+          "value": "889"
+        },
+        {
+          "value": "456"
+        },
+        {
+          "value": "92.470079580246917"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cassoulet-vegan-meilleure-recette-plaisir/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1075"
+        },
+        {
+          "value": "1171"
+        },
+        {
+          "value": "786"
+        },
+        {
+          "value": "409"
+        },
+        {
+          "value": "91.159531452093034"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "917"
+        },
+        {
+          "value": "1142"
+        },
+        {
+          "value": "796"
+        },
+        {
+          "value": "702"
+        },
+        {
+          "value": "52.165818847328246"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/brioche-vegan-recette-ultra-moelleuse-tester/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1109"
+        },
+        {
+          "value": "1138"
+        },
+        {
+          "value": "754"
+        },
+        {
+          "value": "506"
+        },
+        {
+          "value": "104.43181521550946"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/houmous-4-secrets-pour-une-recette-parfaite/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1043"
+        },
+        {
+          "value": "1086"
+        },
+        {
+          "value": "883"
+        },
+        {
+          "value": "379"
+        },
+        {
+          "value": "72.667829440076716"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/buche-de-noel-vegan-recette-toute-famille/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "984"
+        },
+        {
+          "value": "1081"
+        },
+        {
+          "value": "697"
+        },
+        {
+          "value": "502"
+        },
+        {
+          "value": "130.15073393089432"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/flan-vegan-recette-championne-du-monde/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1023"
+        },
+        {
+          "value": "1059"
+        },
+        {
+          "value": "647"
+        },
+        {
+          "value": "558"
+        },
+        {
+          "value": "107.63091663929619"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/quiche-vegan-secrets-recette-inratable/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "979"
+        },
+        {
+          "value": "1016"
+        },
+        {
+          "value": "740"
+        },
+        {
+          "value": "477"
+        },
+        {
+          "value": "88.4926320990807"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/gateau-au-yaourt-vegan-recette-facile-etapes/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "937"
+        },
+        {
+          "value": "1005"
+        },
+        {
+          "value": "696"
+        },
+        {
+          "value": "428"
+        },
+        {
+          "value": "185.46073997225187"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/dahl-de-lentilles-corail-recette-complete-30/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1002"
+        },
+        {
+          "value": "992"
+        },
+        {
+          "value": "747"
+        },
+        {
+          "value": "472"
+        },
+        {
+          "value": "101.61318450998004"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/carrot-cake-vegan-recette-moelleuse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "920"
+        },
+        {
+          "value": "956"
+        },
+        {
+          "value": "646"
+        },
+        {
+          "value": "399"
+        },
+        {
+          "value": "98.242077648913053"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/gratin-dauphinois-vegan-recette-preferee-fr/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "916"
+        },
+        {
+          "value": "949"
+        },
+        {
+          "value": "636"
+        },
+        {
+          "value": "358"
+        },
+        {
+          "value": "95.390003172489088"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-tofu-guide-complet-pour-le-choisir/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "914"
+        },
+        {
+          "value": "920"
+        },
+        {
+          "value": "790"
+        },
+        {
+          "value": "451"
+        },
+        {
+          "value": "91.755813562363244"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tartiflette-vegan-meilleure-recette-6-etapes/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "895"
+        },
+        {
+          "value": "916"
+        },
+        {
+          "value": "720"
+        },
+        {
+          "value": "416"
+        },
+        {
+          "value": "62.396261985474858"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/boudin-blanc-vegan-decouvrez-recette-etapes/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "856"
+        },
+        {
+          "value": "905"
+        },
+        {
+          "value": "704"
+        },
+        {
+          "value": "389"
+        },
+        {
+          "value": "69.127689330607467"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/bowl-cake-meilleure-recette-vegan-5-etapes/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "831"
+        },
+        {
+          "value": "871"
+        },
+        {
+          "value": "697"
+        },
+        {
+          "value": "357"
+        },
+        {
+          "value": "60.005392581227433"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/quiche-aux-poireaux-vegan-recette-fondante/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "834"
+        },
+        {
+          "value": "867"
+        },
+        {
+          "value": "634"
+        },
+        {
+          "value": "378"
+        },
+        {
+          "value": "94.862193087529988"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/financier-vegan-recette-parfaite-moelleuse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "816"
+        },
+        {
+          "value": "857"
+        },
+        {
+          "value": "567"
+        },
+        {
+          "value": "384"
+        },
+        {
+          "value": "120.23797441299021"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/curry-de-pois-chiches-la-recette-ideale/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "823"
+        },
+        {
+          "value": "845"
+        },
+        {
+          "value": "623"
+        },
+        {
+          "value": "425"
+        },
+        {
+          "value": "105.75203848724179"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/ganache-vegan-recette-ultra-facile-revisitee/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "765"
+        },
+        {
+          "value": "811"
+        },
+        {
+          "value": "585"
+        },
+        {
+          "value": "355"
+        },
+        {
+          "value": "114.17813195424836"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cookies-vegan-10-minutes-chrono/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "770"
+        },
+        {
+          "value": "803"
+        },
+        {
+          "value": "668"
+        },
+        {
+          "value": "328"
+        },
+        {
+          "value": "53.243727675324678"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/frangipane-vegan-recette-galette-des-rois/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "737"
+        },
+        {
+          "value": "790"
+        },
+        {
+          "value": "511"
+        },
+        {
+          "value": "296"
+        },
+        {
+          "value": "86.47271614246948"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/quenelles-vegan-meilleure-recette-lyonnaise/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "739"
+        },
+        {
+          "value": "784"
+        },
+        {
+          "value": "470"
+        },
+        {
+          "value": "351"
+        },
+        {
+          "value": "94.18093524627875"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cheesecake-vegan-5-secrets-irresistible/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "763"
+        },
+        {
+          "value": "781"
+        },
+        {
+          "value": "600"
+        },
+        {
+          "value": "439"
+        },
+        {
+          "value": "98.36854444298821"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/sables-de-noel-vegan-recette-fetes-reussies/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "733"
+        },
+        {
+          "value": "778"
+        },
+        {
+          "value": "506"
+        },
+        {
+          "value": "281"
+        },
+        {
+          "value": "107.60589517598908"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-yaourt-vegetal-avis-tests-guide-complet/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "747"
+        },
+        {
+          "value": "774"
+        },
+        {
+          "value": "688"
+        },
+        {
+          "value": "424"
+        },
+        {
+          "value": "92.745137554216868"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pot-au-feu-vegan-meilleure-recette-grandmere/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "675"
+        },
+        {
+          "value": "755"
+        },
+        {
+          "value": "551"
+        },
+        {
+          "value": "311"
+        },
+        {
+          "value": "99.219751134814814"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/gaufres-vegan-5-etapes-recette-parfaite/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "719"
+        },
+        {
+          "value": "754"
+        },
+        {
+          "value": "647"
+        },
+        {
+          "value": "425"
+        },
+        {
+          "value": "59.250206961057032"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/flan-de-courgette-vegan-la-meilleure-recette/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "721"
+        },
+        {
+          "value": "752"
+        },
+        {
+          "value": "586"
+        },
+        {
+          "value": "333"
+        },
+        {
+          "value": "76.7525791331484"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/gateau-au-chocolat-vegan-recette-moelleuse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "643"
+        },
+        {
+          "value": "743"
+        },
+        {
+          "value": "565"
+        },
+        {
+          "value": "404"
+        },
+        {
+          "value": "113.23470730015551"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/madeleines-vegan-meilleure-recette-moelleuse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "691"
+        },
+        {
+          "value": "716"
+        },
+        {
+          "value": "455"
+        },
+        {
+          "value": "296"
+        },
+        {
+          "value": "103.4134230781476"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-lait-vegetal-pour-maigrir-guide-comparatif/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "713"
+        },
+        {
+          "value": "715"
+        },
+        {
+          "value": "633"
+        },
+        {
+          "value": "335"
+        },
+        {
+          "value": "96.378650758765772"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/lasagnes-vegan-meilleure-recette-bolognaise/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "678"
+        },
+        {
+          "value": "708"
+        },
+        {
+          "value": "506"
+        },
+        {
+          "value": "328"
+        },
+        {
+          "value": "106.68643620206488"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/plat-vegan/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "585"
+        },
+        {
+          "value": "684"
+        },
+        {
+          "value": "462"
+        },
+        {
+          "value": "527"
+        },
+        {
+          "value": "50.862485777777785"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/dessert-vegan/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "506"
+        },
+        {
+          "value": "678"
+        },
+        {
+          "value": "413"
+        },
+        {
+          "value": "498"
+        },
+        {
+          "value": "54.563947213438738"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pain-perdu-vegan-meilleure-recette-3-minutes/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "624"
+        },
+        {
+          "value": "652"
+        },
+        {
+          "value": "491"
+        },
+        {
+          "value": "248"
+        },
+        {
+          "value": "76.182926564102573"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-lait-vegetal-pour-mousser-guide-complet/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "627"
+        },
+        {
+          "value": "638"
+        },
+        {
+          "value": "544"
+        },
+        {
+          "value": "330"
+        },
+        {
+          "value": "122.77219443381179"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tomates-farcies-vegan-recette-traditionnelle/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "614"
+        },
+        {
+          "value": "626"
+        },
+        {
+          "value": "531"
+        },
+        {
+          "value": "317"
+        },
+        {
+          "value": "74.233295449511388"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/creme-citron-vegan-desserts-inratables/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "567"
+        },
+        {
+          "value": "600"
+        },
+        {
+          "value": "424"
+        },
+        {
+          "value": "248"
+        },
+        {
+          "value": "100.4872230723104"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/gratin-d-endives-vegan-recette-familiale/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "573"
+        },
+        {
+          "value": "584"
+        },
+        {
+          "value": "454"
+        },
+        {
+          "value": "213"
+        },
+        {
+          "value": "70.770141275741722"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-steak-vegetal-guide-comparatif-avis-complet/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "543"
+        },
+        {
+          "value": "568"
+        },
+        {
+          "value": "484"
+        },
+        {
+          "value": "304"
+        },
+        {
+          "value": "86.027760270718218"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/brownie-vegan-3-secrets-texture-parfaite/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "543"
+        },
+        {
+          "value": "561"
+        },
+        {
+          "value": "462"
+        },
+        {
+          "value": "310"
+        },
+        {
+          "value": "90.580804690607735"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/fajitas-vegan-meilleure-recette-mexicaine/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "565"
+        },
+        {
+          "value": "560"
+        },
+        {
+          "value": "452"
+        },
+        {
+          "value": "266"
+        },
+        {
+          "value": "84.687714946902659"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/ravioles-vegan-recette-facile-version-maison/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "542"
+        },
+        {
+          "value": "559"
+        },
+        {
+          "value": "408"
+        },
+        {
+          "value": "239"
+        },
+        {
+          "value": "110.32926437822879"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pad-thai-vegan-decouvrez-meilleure-recette/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "541"
+        },
+        {
+          "value": "559"
+        },
+        {
+          "value": "389"
+        },
+        {
+          "value": "208"
+        },
+        {
+          "value": "92.710435608133082"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/mafe-vegan-meilleure-recette-ragout-africain/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "519"
+        },
+        {
+          "value": "545"
+        },
+        {
+          "value": "373"
+        },
+        {
+          "value": "247"
+        },
+        {
+          "value": "116.48278405973025"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/omelette-vegan-decouvrez-preparer-7-minutes/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "499"
+        },
+        {
+          "value": "542"
+        },
+        {
+          "value": "418"
+        },
+        {
+          "value": "287"
+        },
+        {
+          "value": "112.15305156112225"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cookies-flocons-davoine-vegan-recette/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "526"
+        },
+        {
+          "value": "540"
+        },
+        {
+          "value": "434"
+        },
+        {
+          "value": "253"
+        },
+        {
+          "value": "59.116026110266162"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/samoussas-vegan-meilleure-recette-indienne/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "516"
+        },
+        {
+          "value": "532"
+        },
+        {
+          "value": "404"
+        },
+        {
+          "value": "261"
+        },
+        {
+          "value": "106.1475092751938"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/gratin-de-chou-fleur-vegan-recette-cremeuse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "487"
+        },
+        {
+          "value": "517"
+        },
+        {
+          "value": "381"
+        },
+        {
+          "value": "268"
+        },
+        {
+          "value": "128.8685625523614"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/creme-brulee-vegan-recette-facile/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "470"
+        },
+        {
+          "value": "512"
+        },
+        {
+          "value": "356"
+        },
+        {
+          "value": "240"
+        },
+        {
+          "value": "90.160287708510637"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleure-margarine-pour-la-patisserie-guide-complet/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "478"
+        },
+        {
+          "value": "506"
+        },
+        {
+          "value": "440"
+        },
+        {
+          "value": "299"
+        },
+        {
+          "value": "175.33717903347281"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cake-au-citron-vegan-meilleure-recette-2025/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "484"
+        },
+        {
+          "value": "505"
+        },
+        {
+          "value": "339"
+        },
+        {
+          "value": "237"
+        },
+        {
+          "value": "110.8961781301653"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pesto-vegan-meilleure-recette-italienne-4/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "508"
+        },
+        {
+          "value": "504"
+        },
+        {
+          "value": "400"
+        },
+        {
+          "value": "244"
+        },
+        {
+          "value": "84.0898862972441"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleure-proteine-vegan-guide-complet-2025/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "499"
+        },
+        {
+          "value": "499"
+        },
+        {
+          "value": "433"
+        },
+        {
+          "value": "330"
+        },
+        {
+          "value": "166.40047832464927"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/sandwich-vegan-7-recettes-faciles-ultra-gourmandes/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "485"
+        },
+        {
+          "value": "492"
+        },
+        {
+          "value": "430"
+        },
+        {
+          "value": "317"
+        },
+        {
+          "value": "167.58405497731957"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/maki-vegan-meilleure-recette-japonaise/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "480"
+        },
+        {
+          "value": "478"
+        },
+        {
+          "value": "382"
+        },
+        {
+          "value": "267"
+        },
+        {
+          "value": "114.54239351458334"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/paella-vegan-meilleure-recette-espagnole-10/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "440"
+        },
+        {
+          "value": "472"
+        },
+        {
+          "value": "324"
+        },
+        {
+          "value": "177"
+        },
+        {
+          "value": "91.565357020454542"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-lait-vegetal-pour-la-musculation-guide/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "452"
+        },
+        {
+          "value": "461"
+        },
+        {
+          "value": "395"
+        },
+        {
+          "value": "211"
+        },
+        {
+          "value": "99.275655570796474"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/biscuits-vegan-meilleure-recette-a-refaire/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "444"
+        },
+        {
+          "value": "460"
+        },
+        {
+          "value": "370"
+        },
+        {
+          "value": "233"
+        },
+        {
+          "value": "97.870603835585584"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tajine-vegan-recette-coup-de-coeur-famille/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "439"
+        },
+        {
+          "value": "460"
+        },
+        {
+          "value": "274"
+        },
+        {
+          "value": "267"
+        },
+        {
+          "value": "80.817083674259678"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tourte-vegan-recette-facile-champignons/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "443"
+        },
+        {
+          "value": "457"
+        },
+        {
+          "value": "320"
+        },
+        {
+          "value": "199"
+        },
+        {
+          "value": "83.880858830699779"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/hachis-parmentier-vegan-recette-hyper-facile/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "434"
+        },
+        {
+          "value": "442"
+        },
+        {
+          "value": "346"
+        },
+        {
+          "value": "255"
+        },
+        {
+          "value": "88.080509440092172"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/muffins-vegan-5-ingredients-texture-parfaite/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "420"
+        },
+        {
+          "value": "437"
+        },
+        {
+          "value": "316"
+        },
+        {
+          "value": "259"
+        },
+        {
+          "value": "109.8355868047619"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tarama-vegan-secrets-pour-un-apero-bluffant/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "413"
+        },
+        {
+          "value": "425"
+        },
+        {
+          "value": "377"
+        },
+        {
+          "value": "126"
+        },
+        {
+          "value": "27.202247232445522"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/riz-au-lait-vegan-recette-ultra-cremeuse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "404"
+        },
+        {
+          "value": "419"
+        },
+        {
+          "value": "288"
+        },
+        {
+          "value": "213"
+        },
+        {
+          "value": "166.64153974257428"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/choucroute-vegan-meilleure-recette-familiale/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "397"
+        },
+        {
+          "value": "409"
+        },
+        {
+          "value": "320"
+        },
+        {
+          "value": "196"
+        },
+        {
+          "value": "88.68820809319898"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/aquafaba-9-astuces-magiques-reussir-vos-recettes/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "398"
+        },
+        {
+          "value": "407"
+        },
+        {
+          "value": "351"
+        },
+        {
+          "value": "259"
+        },
+        {
+          "value": "97.502327123115577"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tarte-tatin-vegan-recette-traditionnelle/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "378"
+        },
+        {
+          "value": "405"
+        },
+        {
+          "value": "251"
+        },
+        {
+          "value": "136"
+        },
+        {
+          "value": "123.13605869312168"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/apero-vegan/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "313"
+        },
+        {
+          "value": "394"
+        },
+        {
+          "value": "286"
+        },
+        {
+          "value": "302"
+        },
+        {
+          "value": "57.970867194888172"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/milkshake-vegan-meilleure-recette-ete-7-mins/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "391"
+        },
+        {
+          "value": "391"
+        },
+        {
+          "value": "314"
+        },
+        {
+          "value": "145"
+        },
+        {
+          "value": "54.169845319693088"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/dessert-vegan/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "316"
+        },
+        {
+          "value": "383"
+        },
+        {
+          "value": "244"
+        },
+        {
+          "value": "285"
+        },
+        {
+          "value": "38.128181987341776"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/kimchi-vegan-meilleure-recette-authentique/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "368"
+        },
+        {
+          "value": "378"
+        },
+        {
+          "value": "284"
+        },
+        {
+          "value": "153"
+        },
+        {
+          "value": "68.600167540760864"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/moelleux-au-chocolat-vegan-recette-facile/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "347"
+        },
+        {
+          "value": "361"
+        },
+        {
+          "value": "297"
+        },
+        {
+          "value": "225"
+        },
+        {
+          "value": "583.69947053890485"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/falafels-4-astuces-magiques-recette-parfaite/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "357"
+        },
+        {
+          "value": "356"
+        },
+        {
+          "value": "267"
+        },
+        {
+          "value": "186"
+        },
+        {
+          "value": "84.027138361344541"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/mayonnaise-vegan-recette-sauce-emblematique/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "316"
+        },
+        {
+          "value": "351"
+        },
+        {
+          "value": "274"
+        },
+        {
+          "value": "207"
+        },
+        {
+          "value": "112.96688160126583"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/kebab-vegan-recette-geniale-sans-voix/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "349"
+        },
+        {
+          "value": "350"
+        },
+        {
+          "value": "286"
+        },
+        {
+          "value": "180"
+        },
+        {
+          "value": "79.463390965616043"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/petit-dejeuner-vegan/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "291"
+        },
+        {
+          "value": "345"
+        },
+        {
+          "value": "264"
+        },
+        {
+          "value": "278"
+        },
+        {
+          "value": "66.430019687285224"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/beurre-vegan-7-secrets-pour-bien-choisir-et-utiliser/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "343"
+        },
+        {
+          "value": "336"
+        },
+        {
+          "value": "307"
+        },
+        {
+          "value": "223"
+        },
+        {
+          "value": "98.268968457725933"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cookies-vegan-sans-gluten-meilleure-recette/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "328"
+        },
+        {
+          "value": "332"
+        },
+        {
+          "value": "231"
+        },
+        {
+          "value": "143"
+        },
+        {
+          "value": "69.833317871951223"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pain-d-epices-vegan-recette-de-fin-dannee/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "316"
+        },
+        {
+          "value": "330"
+        },
+        {
+          "value": "210"
+        },
+        {
+          "value": "155"
+        },
+        {
+          "value": "80.7718724493671"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "304"
+        },
+        {
+          "value": "329"
+        },
+        {
+          "value": "293"
+        },
+        {
+          "value": "177"
+        },
+        {
+          "value": "29.7900313125"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/gyozas-vegan-meilleure-reccette-voyage/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "319"
+        },
+        {
+          "value": "327"
+        },
+        {
+          "value": "168"
+        },
+        {
+          "value": "189"
+        },
+        {
+          "value": "70.304722902821311"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/creme-au-chocolat-vegan-recette-cremeuse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "293"
+        },
+        {
+          "value": "303"
+        },
+        {
+          "value": "243"
+        },
+        {
+          "value": "195"
+        },
+        {
+          "value": "116.52129718771329"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/desserts-vegan-10-secrets-gratuit-pour-reussir/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "273"
+        },
+        {
+          "value": "293"
+        },
+        {
+          "value": "247"
+        },
+        {
+          "value": "196"
+        },
+        {
+          "value": "133.04165443223442"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/risotto-vegan-recette-la-plus-cremeuse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "286"
+        },
+        {
+          "value": "292"
+        },
+        {
+          "value": "228"
+        },
+        {
+          "value": "143"
+        },
+        {
+          "value": "126.75786182517483"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/crepes-vegan-7-secrets-recette-parfaite/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "281"
+        },
+        {
+          "value": "291"
+        },
+        {
+          "value": "238"
+        },
+        {
+          "value": "192"
+        },
+        {
+          "value": "105.28811900355873"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/gateau-vegan-7-conseils-pour-une-texture-incroyable/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "277"
+        },
+        {
+          "value": "289"
+        },
+        {
+          "value": "236"
+        },
+        {
+          "value": "163"
+        },
+        {
+          "value": "82.275372075812271"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/yaourt-vegetal-10-raisons-de-l-adopter-maintenant/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "283"
+        },
+        {
+          "value": "288"
+        },
+        {
+          "value": "259"
+        },
+        {
+          "value": "124"
+        },
+        {
+          "value": "99.6211449646643"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/curry-vert-vegan-recette-thai-facile/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "277"
+        },
+        {
+          "value": "285"
+        },
+        {
+          "value": "229"
+        },
+        {
+          "value": "159"
+        },
+        {
+          "value": "101.30453696389891"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/plat-vegan/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "253"
+        },
+        {
+          "value": "281"
+        },
+        {
+          "value": "223"
+        },
+        {
+          "value": "249"
+        },
+        {
+          "value": "38.871968079051385"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/caramel-vegan-recette-rapide-desserts-sucres/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "265"
+        },
+        {
+          "value": "277"
+        },
+        {
+          "value": "181"
+        },
+        {
+          "value": "133"
+        },
+        {
+          "value": "104.76249371320755"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleure-whey-vegan-guide-complet-choisir-2025/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "274"
+        },
+        {
+          "value": "275"
+        },
+        {
+          "value": "220"
+        },
+        {
+          "value": "180"
+        },
+        {
+          "value": "185.43569417518248"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/dessert-vegan/page/3/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "233"
+        },
+        {
+          "value": "274"
+        },
+        {
+          "value": "201"
+        },
+        {
+          "value": "228"
+        },
+        {
+          "value": "43.583573815450642"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cinnamon-rolls-vegan-meilleure-recette-5/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "237"
+        },
+        {
+          "value": "254"
+        },
+        {
+          "value": "192"
+        },
+        {
+          "value": "136"
+        },
+        {
+          "value": "71.5876717257384"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/page/3/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "230"
+        },
+        {
+          "value": "254"
+        },
+        {
+          "value": "221"
+        },
+        {
+          "value": "122"
+        },
+        {
+          "value": "26.177225026086955"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tarte-au-citron-vegan-recette-patissier-pro/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "245"
+        },
+        {
+          "value": "249"
+        },
+        {
+          "value": "181"
+        },
+        {
+          "value": "155"
+        },
+        {
+          "value": "117.24346022857144"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/quel-est-le-meilleur-lait-vegetal-pour-la-sante/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "240"
+        },
+        {
+          "value": "245"
+        },
+        {
+          "value": "216"
+        },
+        {
+          "value": "148"
+        },
+        {
+          "value": "119.63223429583333"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/contactez-nous/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "238"
+        },
+        {
+          "value": "239"
+        },
+        {
+          "value": "236"
+        },
+        {
+          "value": "235"
+        },
+        {
+          "value": "38.372416033613447"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/snack-vegan/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "212"
+        },
+        {
+          "value": "238"
+        },
+        {
+          "value": "201"
+        },
+        {
+          "value": "207"
+        },
+        {
+          "value": "37.374029103773587"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/polenta-vegan-recette-cremeuse-champignons/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "219"
+        },
+        {
+          "value": "235"
+        },
+        {
+          "value": "169"
+        },
+        {
+          "value": "119"
+        },
+        {
+          "value": "100.46903913242009"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pancakes-vegan-3-secrets-irresistibles/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "209"
+        },
+        {
+          "value": "234"
+        },
+        {
+          "value": "186"
+        },
+        {
+          "value": "173"
+        },
+        {
+          "value": "106.7063980813397"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/banana-bread-vegan-5-secrets-recette/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "230"
+        },
+        {
+          "value": "233"
+        },
+        {
+          "value": "202"
+        },
+        {
+          "value": "158"
+        },
+        {
+          "value": "76.354733434782588"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/plat-vegan/page/3/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "196"
+        },
+        {
+          "value": "230"
+        },
+        {
+          "value": "171"
+        },
+        {
+          "value": "193"
+        },
+        {
+          "value": "34.483700020408158"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/burrito-vegan-meilleure-crette-mexicaine-9/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "231"
+        },
+        {
+          "value": "226"
+        },
+        {
+          "value": "186"
+        },
+        {
+          "value": "132"
+        },
+        {
+          "value": "76.750261961038959"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/rouleaux-de-printemps-vegan-recette-vietnam/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "211"
+        },
+        {
+          "value": "223"
+        },
+        {
+          "value": "173"
+        },
+        {
+          "value": "108"
+        },
+        {
+          "value": "144.61683122748815"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/porridge-vegan-recette-dejeuner-healthy/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "216"
+        },
+        {
+          "value": "222"
+        },
+        {
+          "value": "181"
+        },
+        {
+          "value": "114"
+        },
+        {
+          "value": "82.937075152777766"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/champignons-farcis-vegan-facile-et-rapide/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "211"
+        },
+        {
+          "value": "220"
+        },
+        {
+          "value": "179"
+        },
+        {
+          "value": "133"
+        },
+        {
+          "value": "109.89187663033175"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/mousse-au-chocolat-vegan-3-astuces/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "207"
+        },
+        {
+          "value": "219"
+        },
+        {
+          "value": "186"
+        },
+        {
+          "value": "154"
+        },
+        {
+          "value": "87.617252681159414"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/energy-balls-la-meilleure-recette-healthy/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "216"
+        },
+        {
+          "value": "218"
+        },
+        {
+          "value": "180"
+        },
+        {
+          "value": "124"
+        },
+        {
+          "value": "80.440523805555557"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/lemon-curd-vegan-recette-ideale-tarte-citron/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "207"
+        },
+        {
+          "value": "217"
+        },
+        {
+          "value": "154"
+        },
+        {
+          "value": "109"
+        },
+        {
+          "value": "103.53719541062802"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/comment-creer-un-blog-de-cuisine-qui-cartonne/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "196"
+        },
+        {
+          "value": "212"
+        },
+        {
+          "value": "167"
+        },
+        {
+          "value": "161"
+        },
+        {
+          "value": "240.53320006122448"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/poutine-vegan-recette-quebecoise-familiale/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "200"
+        },
+        {
+          "value": "211"
+        },
+        {
+          "value": "162"
+        },
+        {
+          "value": "118"
+        },
+        {
+          "value": "122.053431425"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-fromage-vegan-decouvrez-guide-complet-2025/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "209"
+        },
+        {
+          "value": "209"
+        },
+        {
+          "value": "186"
+        },
+        {
+          "value": "145"
+        },
+        {
+          "value": "107.48023009569378"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-lait-vegetal-pour-le-chocolat-chaud-guide/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "205"
+        },
+        {
+          "value": "209"
+        },
+        {
+          "value": "178"
+        },
+        {
+          "value": "110"
+        },
+        {
+          "value": "100.09827325365855"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/spring-rolls-vegan-meilleure-recette-asie/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "199"
+        },
+        {
+          "value": "208"
+        },
+        {
+          "value": "167"
+        },
+        {
+          "value": "95"
+        },
+        {
+          "value": "84.602206040200983"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-hache-vegetal-avis-test-complet-2025/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "197"
+        },
+        {
+          "value": "203"
+        },
+        {
+          "value": "177"
+        },
+        {
+          "value": "134"
+        },
+        {
+          "value": "145.74016050253806"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/brookies-vegan-recette-alliance-incroyable/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "188"
+        },
+        {
+          "value": "198"
+        },
+        {
+          "value": "132"
+        },
+        {
+          "value": "83"
+        },
+        {
+          "value": "78.841400601063825"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/lait-vegetal-guide-ultime-alternatives-vegan/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "201"
+        },
+        {
+          "value": "197"
+        },
+        {
+          "value": "182"
+        },
+        {
+          "value": "140"
+        },
+        {
+          "value": "115.9331357313433"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/burger-vegan-4-secrets-recette-parfaite/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "178"
+        },
+        {
+          "value": "188"
+        },
+        {
+          "value": "147"
+        },
+        {
+          "value": "131"
+        },
+        {
+          "value": "147.13098429213483"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/fraisier-vegan-classique-de-la-patisserie/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "185"
+        },
+        {
+          "value": "183"
+        },
+        {
+          "value": "145"
+        },
+        {
+          "value": "126"
+        },
+        {
+          "value": "91.072359156756761"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/dessert-vegan/page/4/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "166"
+        },
+        {
+          "value": "180"
+        },
+        {
+          "value": "151"
+        },
+        {
+          "value": "161"
+        },
+        {
+          "value": "55.720937680722884"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/plat-vegan/page/4/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "158"
+        },
+        {
+          "value": "177"
+        },
+        {
+          "value": "136"
+        },
+        {
+          "value": "156"
+        },
+        {
+          "value": "64.613364822784817"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/page/4/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "162"
+        },
+        {
+          "value": "170"
+        },
+        {
+          "value": "158"
+        },
+        {
+          "value": "88"
+        },
+        {
+          "value": "22.988580055555556"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/avocat-farci-vegan-nouvelle-recette/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "162"
+        },
+        {
+          "value": "169"
+        },
+        {
+          "value": "134"
+        },
+        {
+          "value": "79"
+        },
+        {
+          "value": "72.097958123456792"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "138"
+        },
+        {
+          "value": "169"
+        },
+        {
+          "value": "110"
+        },
+        {
+          "value": "128"
+        },
+        {
+          "value": "26.414227260869566"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tarte-a-la-courgette-vegan-facile-gourmande/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "165"
+        },
+        {
+          "value": "166"
+        },
+        {
+          "value": "124"
+        },
+        {
+          "value": "92"
+        },
+        {
+          "value": "91.344311539393942"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/banana-bread-vegan-aux-pepites-de-chocolat/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "161"
+        },
+        {
+          "value": "164"
+        },
+        {
+          "value": "108"
+        },
+        {
+          "value": "62"
+        },
+        {
+          "value": "90.026282155279489"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/salade-de-pates-vegan-recette-facile/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "162"
+        },
+        {
+          "value": "163"
+        },
+        {
+          "value": "138"
+        },
+        {
+          "value": "87"
+        },
+        {
+          "value": "83.375190802469135"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/apero-vegan/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "146"
+        },
+        {
+          "value": "160"
+        },
+        {
+          "value": "133"
+        },
+        {
+          "value": "145"
+        },
+        {
+          "value": "68.695136869863"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/a-propos/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "150"
+        },
+        {
+          "value": "158"
+        },
+        {
+          "value": "129"
+        },
+        {
+          "value": "133"
+        },
+        {
+          "value": "91.816375713333329"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/glace-vegan-15-idees-faciles-sublimer-vos-desserts/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "150"
+        },
+        {
+          "value": "153"
+        },
+        {
+          "value": "127"
+        },
+        {
+          "value": "90"
+        },
+        {
+          "value": "110.17024351333333"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tarte-aux-pommes-vegan-meilleure-recette/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "141"
+        },
+        {
+          "value": "149"
+        },
+        {
+          "value": "109"
+        },
+        {
+          "value": "82"
+        },
+        {
+          "value": "54.547640056737585"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/page/8/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "139"
+        },
+        {
+          "value": "145"
+        },
+        {
+          "value": "137"
+        },
+        {
+          "value": "43"
+        },
+        {
+          "value": "10.363155604316546"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-lait-vegetal-pour-cafe-guide-complet-2025/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "137"
+        },
+        {
+          "value": "136"
+        },
+        {
+          "value": "122"
+        },
+        {
+          "value": "94"
+        },
+        {
+          "value": "147.07093042335768"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/proteines-vegetales-7-bienfaits-incroyables-sante/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "122"
+        },
+        {
+          "value": "123"
+        },
+        {
+          "value": "114"
+        },
+        {
+          "value": "77"
+        },
+        {
+          "value": "110.59472981967212"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/salade-cesar-vegan-3-secrets-sauce-cremeuse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "109"
+        },
+        {
+          "value": "120"
+        },
+        {
+          "value": "88"
+        },
+        {
+          "value": "78"
+        },
+        {
+          "value": "109.99946460550458"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/riz-cantonais-vegan-meilleure-recette/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "118"
+        },
+        {
+          "value": "116"
+        },
+        {
+          "value": "90"
+        },
+        {
+          "value": "62"
+        },
+        {
+          "value": "40.41438190677966"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/le-meilleur-seitan-guide-comparatif-marques-2025/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "111"
+        },
+        {
+          "value": "111"
+        },
+        {
+          "value": "90"
+        },
+        {
+          "value": "68"
+        },
+        {
+          "value": "123.92931113513514"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/bouchees-a-la-reine-vegan-sauce-cremeuse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "96"
+        },
+        {
+          "value": "109"
+        },
+        {
+          "value": "81"
+        },
+        {
+          "value": "78"
+        },
+        {
+          "value": "105.07512477083334"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/tofu-9-raisons-adopter-or-blanc-cuisine-vegan/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "110"
+        },
+        {
+          "value": "102"
+        },
+        {
+          "value": "92"
+        },
+        {
+          "value": "70"
+        },
+        {
+          "value": "152.34242234545454"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/buddha-bowl-vegan-recette-complete-saine/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "94"
+        },
+        {
+          "value": "100"
+        },
+        {
+          "value": "85"
+        },
+        {
+          "value": "57"
+        },
+        {
+          "value": "114.30729730851063"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/page/5/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "93"
+        },
+        {
+          "value": "98"
+        },
+        {
+          "value": "85"
+        },
+        {
+          "value": "67"
+        },
+        {
+          "value": "32.871865892473117"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/plat-vegan/page/5/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "92"
+        },
+        {
+          "value": "94"
+        },
+        {
+          "value": "75"
+        },
+        {
+          "value": "85"
+        },
+        {
+          "value": "28.328966130434779"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/scones-vegan-recette-parfaite-brunch/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "88"
+        },
+        {
+          "value": "93"
+        },
+        {
+          "value": "61"
+        },
+        {
+          "value": "60"
+        },
+        {
+          "value": "103.1913040340909"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/butternut-farcie-vegan-guide-ne-plus-rater/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "92"
+        },
+        {
+          "value": "91"
+        },
+        {
+          "value": "80"
+        },
+        {
+          "value": "48"
+        },
+        {
+          "value": "43.97451776086956"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/category/guides-pratiques/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "71"
+        },
+        {
+          "value": "87"
+        },
+        {
+          "value": "67"
+        },
+        {
+          "value": "67"
+        },
+        {
+          "value": "36.83942111267605"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/carbonara-vegan-3-secrets-sauce-cremeuse/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "84"
+        },
+        {
+          "value": "85"
+        },
+        {
+          "value": "66"
+        },
+        {
+          "value": "45"
+        },
+        {
+          "value": "56.2624878452381"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/omega-3-vegan-7-bienfaits-extraordinaires-votre-sante/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "83"
+        },
+        {
+          "value": "85"
+        },
+        {
+          "value": "69"
+        },
+        {
+          "value": "52"
+        },
+        {
+          "value": "131.92057048192774"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/page/6/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "72"
+        },
+        {
+          "value": "79"
+        },
+        {
+          "value": "65"
+        },
+        {
+          "value": "55"
+        },
+        {
+          "value": "36.700609111111106"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-tempeh-avis-et-guide-complet-2025/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "72"
+        },
+        {
+          "value": "77"
+        },
+        {
+          "value": "68"
+        },
+        {
+          "value": "58"
+        },
+        {
+          "value": "181.49114841666668"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/seitan-7-secrets-extraordinaires-pepite-vegan/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "72"
+        },
+        {
+          "value": "74"
+        },
+        {
+          "value": "64"
+        },
+        {
+          "value": "58"
+        },
+        {
+          "value": "114.943418"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/meilleur-tofu-fume-guide-ultime-pour-vos-plats-vegan/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "69"
+        },
+        {
+          "value": "71"
+        },
+        {
+          "value": "62"
+        },
+        {
+          "value": "50"
+        },
+        {
+          "value": "127.49610436231885"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/category/conseils-et-astuces/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "57"
+        },
+        {
+          "value": "70"
+        },
+        {
+          "value": "54"
+        },
+        {
+          "value": "50"
+        },
+        {
+          "value": "36.680474210526313"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/raviolis-vegan-secrets-pate-maison-inratable/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "72"
+        },
+        {
+          "value": "69"
+        },
+        {
+          "value": "57"
+        },
+        {
+          "value": "48"
+        },
+        {
+          "value": "58.063597750000014"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/author/vegourmetcontact/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "54"
+        },
+        {
+          "value": "69"
+        },
+        {
+          "value": "51"
+        },
+        {
+          "value": "53"
+        },
+        {
+          "value": "103.05759253703702"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/fromage-vegan/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "58"
+        },
+        {
+          "value": "67"
+        },
+        {
+          "value": "55"
+        },
+        {
+          "value": "57"
+        },
+        {
+          "value": "17.544924482758621"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/page/7/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "55"
+        },
+        {
+          "value": "66"
+        },
+        {
+          "value": "52"
+        },
+        {
+          "value": "44"
+        },
+        {
+          "value": "22.142865054545457"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/moussaka-vegan-secrets-pour-reussir-recette/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "67"
+        },
+        {
+          "value": "64"
+        },
+        {
+          "value": "37"
+        },
+        {
+          "value": "50"
+        },
+        {
+          "value": "83.463433194029847"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/page/9/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "53"
+        },
+        {
+          "value": "59"
+        },
+        {
+          "value": "50"
+        },
+        {
+          "value": "35"
+        },
+        {
+          "value": "41.048081113207544"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/bolognaise-vegan-methode-texture-bluffante/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "54"
+        },
+        {
+          "value": "58"
+        },
+        {
+          "value": "50"
+        },
+        {
+          "value": "43"
+        },
+        {
+          "value": "99.115309166666677"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/salade-vegan-recette-1-decouvrir-cette-annee/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "57"
+        },
+        {
+          "value": "57"
+        },
+        {
+          "value": "50"
+        },
+        {
+          "value": "44"
+        },
+        {
+          "value": "59.397340280701748"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/onigiris-vegan-3-secrets-riz-qui-tient-enfin/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "45"
+        },
+        {
+          "value": "45"
+        },
+        {
+          "value": "42"
+        },
+        {
+          "value": "31"
+        },
+        {
+          "value": "75.0171656"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/tempeh-7-facons-revolutionner-vos-recettes-vegan/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "44"
+        },
+        {
+          "value": "41"
+        },
+        {
+          "value": "39"
+        },
+        {
+          "value": "32"
+        },
+        {
+          "value": "178.31173088636362"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/mentions-legales-politique-de-confidentialite/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "34"
+        },
+        {
+          "value": "41"
+        },
+        {
+          "value": "28"
+        },
+        {
+          "value": "27"
+        },
+        {
+          "value": "115.40834523529412"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/taboule-vegan-3-secrets-une-semoule-aerienne/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "38"
+        },
+        {
+          "value": "40"
+        },
+        {
+          "value": "31"
+        },
+        {
+          "value": "27"
+        },
+        {
+          "value": "42.093443657894738"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/boutique/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "34"
+        },
+        {
+          "value": "40"
+        },
+        {
+          "value": "32"
+        },
+        {
+          "value": "29"
+        },
+        {
+          "value": "36.141946382352941"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/page/10/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "33"
+        },
+        {
+          "value": "38"
+        },
+        {
+          "value": "28"
+        },
+        {
+          "value": "31"
+        },
+        {
+          "value": "47.8191436969697"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/fromage-vegan-7-raisons-de-l-adopter-des-aujourdhui/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "40"
+        },
+        {
+          "value": "37"
+        },
+        {
+          "value": "37"
+        },
+        {
+          "value": "34"
+        },
+        {
+          "value": "137.844480125"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/les-meilleures-proteines-vegetales-musculation/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "35"
+        },
+        {
+          "value": "34"
+        },
+        {
+          "value": "31"
+        },
+        {
+          "value": "25"
+        },
+        {
+          "value": "135.83850957142855"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tzatziki-vegan-texture-ferme-garantie/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "33"
+        },
+        {
+          "value": "34"
+        },
+        {
+          "value": "29"
+        },
+        {
+          "value": "26"
+        },
+        {
+          "value": "133.50240206060607"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/salade-de-riz-vegan-astuces-riz-non-collant/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "34"
+        },
+        {
+          "value": "33"
+        },
+        {
+          "value": "31"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "125.74937973529413"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/repas-rapide/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "31"
+        },
+        {
+          "value": "31"
+        },
+        {
+          "value": "27"
+        },
+        {
+          "value": "29"
+        },
+        {
+          "value": "27.33135935483871"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/category/inspiration-et-lifestyle/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "24"
+        },
+        {
+          "value": "26"
+        },
+        {
+          "value": "23"
+        },
+        {
+          "value": "22"
+        },
+        {
+          "value": "25.651440000000004"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pate-a-choux-vegan-recette-choux-parfaits/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "22"
+        },
+        {
+          "value": "26"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "11"
+        },
+        {
+          "value": "231.63635790909092"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/snack-vegan/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "26"
+        },
+        {
+          "value": "25"
+        },
+        {
+          "value": "23"
+        },
+        {
+          "value": "24"
+        },
+        {
+          "value": "11.087711192307692"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/vegan-7-secrets-essentiels-reussir-sa-transition/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "24"
+        },
+        {
+          "value": "25"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "17"
+        },
+        {
+          "value": "97.0683115"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/category/actualites-et-tendances/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "21"
+        },
+        {
+          "value": "23"
+        },
+        {
+          "value": "21"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "46.867509047619045"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "17"
+        },
+        {
+          "value": "20"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "17"
+        },
+        {
+          "value": "45.167671352941177"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/restaurant-vegan-9-astuces-une-experience-inoubliable/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "18"
+        },
+        {
+          "value": "17"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "189.34191283333334"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/chocolat-vegan-5-avantages-surprenants-votre-sante/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "15"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "15"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "76.662768333333332"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/bonbon-vegan-3-ingredients-magiques-gout-parfait/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "14"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "14"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "28.577145071428571"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/gateau-au-chocolat-vegan-recette-moelleuse/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "53.09989425"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/moussaka-vegan-secrets-pour-reussir-recette/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "13"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "72.2514915"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/salade-de-riz-vegan-astuces-riz-non-collant/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "12"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "639.055933"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/fast-food-vegan-6-secrets-pour-un-burger-parfait/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "11"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "113.92985619999999"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/page/12/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "9"
+        },
+        {
+          "value": "11"
+        },
+        {
+          "value": "9"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "13.451442"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pudding-de-chia-4-astuces-recette-parfaite/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "11"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "125.497394"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/raviolis-vegan-secrets-pate-maison-inratable/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "11"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "80.4250715"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/sans-gluten/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "10"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "9"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "12.8597374"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/champignons-farcis-vegan-facile-et-rapide/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "78.958979"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cookies-vegan-sans-gluten-meilleure-recette/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "42.03435266666667"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/curry-vert-vegan-recette-thai-facile/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "64.910851"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/frangipane-vegan-recette-galette-des-rois/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "53.218320333333331"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/gyozas-vegan-meilleure-reccette-voyage/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "55.340391000000004"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/madeleines-vegan-meilleure-recette-moelleuse/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "55.503019"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/mascarpone-vegan-recette-star-desserts/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "72.693411666666663"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/mayonnaise-vegan-recette-sauce-emblematique/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "51.034695666666664"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pain-d-epices-vegan-recette-de-fin-dannee/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "51.801842333333333"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pot-au-feu-vegan-meilleure-recette-grandmere/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "49.469504666666666"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/riz-au-lait-vegan-recette-ultra-cremeuse/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "52.741142333333329"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/salade-de-pates-vegan-recette-facile/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "71.834983333333341"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/salade-vegan-recette-1-decouvrir-cette-annee/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "86.388238"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tarte-aux-pommes-vegan-meilleure-recette/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "72.312301333333338"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/wraps-vegan-meilleure-recette-10-minutes/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "47.356020666666666"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/caramel-vegan-recette-rapide-desserts-sucres/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "80.23447"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/bolognaise-vegan-methode-texture-bluffante/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "197.959627"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/bouchees-a-la-reine-vegan-sauce-cremeuse/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "156.827272"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/butternut-farcie-vegan-guide-ne-plus-rater/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "166.705331"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/carbonara-vegan-3-secrets-sauce-cremeuse/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "206.810971"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/onigiris-vegan-3-secrets-riz-qui-tient-enfin/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "158.630736"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/riz-cantonais-vegan-meilleure-recette/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "152.998455"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/salade-cesar-vegan-3-secrets-sauce-cremeuse/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "161.194978"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/scones-vegan-recette-parfaite-brunch/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "169.462975"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/taboule-vegan-3-secrets-une-semoule-aerienne/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "165.818975"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tarama-vegan-secrets-pour-un-apero-bluffant/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "172.792777"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tzatziki-vegan-texture-ferme-garantie/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "10"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "182.817497"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/page/11/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "9"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "28.903853714285713"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "18.219817"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/vegan-et-vegetarien-7-revelations-extraordinaires/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "8"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "95.795011"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/froid/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "7"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "10.646361"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/page/3/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "4"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "54.096675"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/gratin-de-chou-fleur-vegan-recette-cremeuse/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "78.868147"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/kebab-vegan-recette-geniale-sans-voix/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "7"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "62.989187"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/page/4/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "39.638812200000004"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/category/guides-pratiques/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "45.403515399999996"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/polenta-vegan-recette-cremeuse-champignons/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "6"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "41.0710525"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/sans-soja/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "8.456546"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/repas-rapide/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "21.714078333333333"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/tajine-vegan-recette-coup-de-coeur-famille/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "4"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "62.429674"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/proteine/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "22.321892333333334"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cake-au-citron-vegan-meilleure-recette-2025/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "37.989101"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/houmous-4-secrets-pour-une-recette-parfaite/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "44.656211"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/kebab-vegan-recette-genaiel-sans-voix/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "37.961423"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/pad-thai-vegan-decouvrez-meilleure-recette/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "4.3188223333333333"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/rocher-coco-vegan-recette-express-cuisson/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "3"
+        },
+        {
+          "value": "56.167685333333331"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/page/3/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "19.27316"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-style/americaine/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/cookies-flocons-davoine-vegan-recette/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "11.781926"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/category/actualites-et-tendances/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "30.602499"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/category/conseils-et-astuces/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "50.886077"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/glucide/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "26.58329"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/clafoutis-vegan-recette-facile-10-mins/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "3.202527"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/author/vegourmetcontact/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "33.259388"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/author/vegourmetcontact/page/3/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "25.280013"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/author/vegourmetcontact/page/4/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "27.044796"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/author/vegourmetcontact/page/5/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "8.212364"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/category/guides-pratiques/page/3/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "27.181713"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-style/asie/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1.384689"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-style/europeenne/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "11.462368"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-style/moyen-orient/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "12.606819"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/repas-rapide/page/10/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1.848672"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/repas-rapide/page/3/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "20.659463"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/sans-gluten/page/2/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "18.780344"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/sans-gluten/page/3/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "11.439879"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-thematique/sans-gluten/page/4/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "14.129929"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recette-type/dessert-vegan/page/5/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "6.991299"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/chili-sin-carne-vegan-la-meilleure-recette/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "50.093597"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/courgette-farcie-vegan-recette-facile/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "7.774175"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/ganache-chocolat-vegan-recette-inratable/comment-page-1/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "6.133796"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/recettes/kebab-vegan-recette-genaiel-sans-voix/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "1"
+        },
+        {
+          "value": "21.869217"
+        }
+      ]
+    }
+  ],
+  "rowCount": 291,
+  "metadata": {
+    "currencyCode": "EUR",
+    "timeZone": "Europe/Paris"
+  },
+  "kind": "analyticsData#runReport"
+}
