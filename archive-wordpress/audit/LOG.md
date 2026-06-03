@@ -145,6 +145,7 @@ Le prix annoncé par la vendeuse est de **4 000 €** (info révélée en cours 
 | `STACK.md` | Inventaire stack technique live + estimation coûts annuels (~650 €/an) + décision hébergement |
 | `template.typ` | Template Typst dédié (charte Centauri navy + gold) |
 | `output/audit-vegourmet-v1.pdf` | PDF final 34 pages |
+| `FLIPPA-TRANSACTION-LOG.md` | Retranscription verbatim de l'échange Flippa (listing #13173766), credentials caviardés — pièce d'audit/contractuelle + actions sécurité post-hand-over |
 
 ## Historique
 
@@ -154,3 +155,4 @@ Le prix annoncé par la vendeuse est de **4 000 €** (info révélée en cours 
 | 2026-05-28 | Négociation finale 2 000 USD + APA v1 + v2 signés + audit mentions légales + audit profil vendeur (Vietnam, persona fictif, red flags PayPal/Escrow) |
 | 2026-05-29 | Détection live stack complète + création checklist transfert accès `TRANSFERT-ACCES.md` (Titan Email, Cloudflare APO, Popup Maker PRO, Grow.me/Mediavine confirmés) |
 | 2026-05-29 | Création `STACK.md` : inventaire technique + estimation coûts annuels (~650 €/an, fourchette 450–1 300 €) + décision hébergement (pas de self-host, migration directe Next.js M+3, pilotage Claude REST API + sandbox jetable) |
+| 2026-06-03 | Closing payé (Escrow validé) + hand-over des accès en direct (Pinterest/Instagram/Facebook/WordPress/Cloudflare/Titan/X/TikTok, partiel) ; archivage de l'échange Flippa complet dans `FLIPPA-TRANSACTION-LOG.md` (credentials caviardés) ; TODO sécurité : rotation de tous les mots de passe + retrait moyens de récupération vendeur + finalisation transferts incomplets |
