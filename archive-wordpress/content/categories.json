@@ -1,0 +1,232 @@
+[
+ {
+  "id": 16143,
+  "count": 10,
+  "description": "",
+  "link": "https://vegourmet.fr/category/actualites-et-tendances/",
+  "name": "Actualités &amp; tendances",
+  "slug": "actualites-et-tendances",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "image_url": "",
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/categories/16143",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/posts?categories=16143"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 16110,
+  "count": 10,
+  "description": "",
+  "link": "https://vegourmet.fr/category/conseils-et-astuces/",
+  "name": "Conseils et astuces",
+  "slug": "conseils-et-astuces",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "image_url": "",
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/categories/16110",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/posts?categories=16110"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 16144,
+  "count": 11,
+  "description": "",
+  "link": "https://vegourmet.fr/category/guides-pratiques/",
+  "name": "Guides pratiques",
+  "slug": "guides-pratiques",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "image_url": "",
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/categories/16144",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/posts?categories=16144"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 16109,
+  "count": 9,
+  "description": "",
+  "link": "https://vegourmet.fr/category/inspiration-et-lifestyle/",
+  "name": "Inspiration &amp; Lifestyle",
+  "slug": "inspiration-et-lifestyle",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "image_url": "",
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/categories/16109",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/posts?categories=16109"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 16080,
+  "count": 0,
+  "description": "",
+  "link": "https://vegourmet.fr/category/non-classe/",
+  "name": "Non classé",
+  "slug": "non-classe",
+  "taxonomy": "category",
+  "parent": 0,
+  "meta": [],
+  "image_url": "",
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/categories/16080",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/categories"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/taxonomies/category"
+    }
+   ],
+   "wp:post_type": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/posts?categories=16080"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+]
