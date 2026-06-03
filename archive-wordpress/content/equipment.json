@@ -1,0 +1,3126 @@
+[
+ {
+  "id": 4292,
+  "date": "2025-11-25T05:39:50",
+  "date_gmt": "2025-11-25T04:39:50",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=4292"
+  },
+  "modified": "2025-11-25T05:39:52",
+  "modified_gmt": "2025-11-25T04:39:52",
+  "slug": "moule-a-madeleine",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/moule-a-madeleine/",
+  "title": {
+   "rendered": "Moule à madeleine"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 4293,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/4292",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/4293"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=4292"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=4292"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 4162,
+  "date": "2025-10-17T11:24:04",
+  "date_gmt": "2025-10-17T09:24:04",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=4162"
+  },
+  "modified": "2025-11-25T05:39:03",
+  "modified_gmt": "2025-11-25T04:39:03",
+  "slug": "tapis-a-maki",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/tapis-a-maki/",
+  "title": {
+   "rendered": "Tapis à maki"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 4163,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/4162",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/4163"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=4162"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=4162"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3551,
+  "date": "2025-07-28T18:33:16",
+  "date_gmt": "2025-07-28T16:33:16",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3551"
+  },
+  "modified": "2025-07-28T18:33:18",
+  "modified_gmt": "2025-07-28T16:33:18",
+  "slug": "moule-a-financier-tefal",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/moule-a-financier-tefal/",
+  "title": {
+   "rendered": "Moule à financier TEFAL"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3552,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3551",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3552"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3551"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3551"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3420,
+  "date": "2025-07-21T19:44:54",
+  "date_gmt": "2025-07-21T17:44:54",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3420"
+  },
+  "modified": "2025-07-21T19:44:56",
+  "modified_gmt": "2025-07-21T17:44:56",
+  "slug": "moule-a-cannele-tefal",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/moule-a-cannele-tefal/",
+  "title": {
+   "rendered": "Moule à cannelé TEFAL"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3421,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3420",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3421"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3420"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3420"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3250,
+  "date": "2025-07-07T20:09:53",
+  "date_gmt": "2025-07-07T18:09:53",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3250"
+  },
+  "modified": "2025-07-07T20:09:55",
+  "modified_gmt": "2025-07-07T18:09:55",
+  "slug": "marmite-en-fonte-tefal",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/marmite-en-fonte-tefal/",
+  "title": {
+   "rendered": "Marmite en Fonte TEFAL"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3251,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3250",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3251"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3250"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3250"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3022,
+  "date": "2025-06-29T15:51:38",
+  "date_gmt": "2025-06-29T13:51:38",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3022"
+  },
+  "modified": "2025-06-29T15:51:40",
+  "modified_gmt": "2025-06-29T13:51:40",
+  "slug": "robot-patissier-kitchenaid",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/robot-patissier-kitchenaid/",
+  "title": {
+   "rendered": "Robot pâtissier KITCHENAID"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3023,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3022",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3023"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3022"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3022"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3020,
+  "date": "2025-06-29T15:47:27",
+  "date_gmt": "2025-06-29T13:47:27",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3020"
+  },
+  "modified": "2025-06-29T15:47:29",
+  "modified_gmt": "2025-06-29T13:47:29",
+  "slug": "rapeur-trancheur-moulinex",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/rapeur-trancheur-moulinex/",
+  "title": {
+   "rendered": "Râpeur trancheur MOULINEX"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3021,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3020",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3021"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3020"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3020"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3018,
+  "date": "2025-06-29T15:44:33",
+  "date_gmt": "2025-06-29T13:44:33",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3018"
+  },
+  "modified": "2025-06-29T15:45:34",
+  "modified_gmt": "2025-06-29T13:45:34",
+  "slug": "mandoline-multifonction",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/mandoline-multifonction/",
+  "title": {
+   "rendered": "Mandoline multifonction ESSENTIELB"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3019,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3018",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3019"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3018"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3018"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3014,
+  "date": "2025-06-29T15:28:22",
+  "date_gmt": "2025-06-29T13:28:22",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3014"
+  },
+  "modified": "2025-06-29T15:28:25",
+  "modified_gmt": "2025-06-29T13:28:25",
+  "slug": "passoire-zwilling-en-inox",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/passoire-zwilling-en-inox/",
+  "title": {
+   "rendered": "Passoire ZWILLING en inox"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3015,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3014",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3015"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3014"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3014"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3012,
+  "date": "2025-06-29T15:26:53",
+  "date_gmt": "2025-06-29T13:26:53",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3012"
+  },
+  "modified": "2025-06-29T15:27:38",
+  "modified_gmt": "2025-06-29T13:27:38",
+  "slug": "cocotte-tefal-en-fonte",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/cocotte-tefal-en-fonte/",
+  "title": {
+   "rendered": "Cocotte TEFAL en fonte"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3013,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3012",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3013"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3012"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3012"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3010,
+  "date": "2025-06-29T15:21:57",
+  "date_gmt": "2025-06-29T13:21:57",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3010"
+  },
+  "modified": "2025-06-29T15:21:59",
+  "modified_gmt": "2025-06-29T13:21:59",
+  "slug": "bocal-en-verre-hermetique",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/bocal-en-verre-hermetique/",
+  "title": {
+   "rendered": "Bocal en verre hermétique"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3011,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3010",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3011"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3010"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3010"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3008,
+  "date": "2025-06-29T15:20:26",
+  "date_gmt": "2025-06-29T13:20:26",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3008"
+  },
+  "modified": "2025-06-29T15:20:28",
+  "modified_gmt": "2025-06-29T13:20:28",
+  "slug": "mortier-et-pilon-pebbly",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/mortier-et-pilon-pebbly/",
+  "title": {
+   "rendered": "Mortier et pilon PEBBLY"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3009,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3008",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3009"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3008"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3008"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3005,
+  "date": "2025-06-29T14:04:55",
+  "date_gmt": "2025-06-29T12:04:55",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3005"
+  },
+  "modified": "2025-06-29T14:04:56",
+  "modified_gmt": "2025-06-29T12:04:56",
+  "slug": "moule-a-tarte-de-buyer",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/moule-a-tarte-de-buyer/",
+  "title": {
+   "rendered": "Moule à tarte DE BUYER"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3006,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3005",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3006"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3005"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3005"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 3000,
+  "date": "2025-06-29T13:51:33",
+  "date_gmt": "2025-06-29T11:51:33",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=3000"
+  },
+  "modified": "2025-06-29T13:51:35",
+  "modified_gmt": "2025-06-29T11:51:35",
+  "slug": "plat-au-four-emile-henry",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/plat-au-four-emile-henry/",
+  "title": {
+   "rendered": "Plat au four EMILE HENRY"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 3002,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/3000",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/3002"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=3000"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=3000"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2998,
+  "date": "2025-06-29T13:46:06",
+  "date_gmt": "2025-06-29T11:46:06",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2998"
+  },
+  "modified": "2025-06-29T13:47:11",
+  "modified_gmt": "2025-06-29T11:47:11",
+  "slug": "poche-a-douilles-de-buyer",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/poche-a-douilles-de-buyer/",
+  "title": {
+   "rendered": "Poches à douilles DE BUYER"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2999,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2998",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2999"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2998"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2998"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2996,
+  "date": "2025-06-29T13:44:55",
+  "date_gmt": "2025-06-29T11:44:55",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2996"
+  },
+  "modified": "2025-06-29T13:47:15",
+  "modified_gmt": "2025-06-29T11:47:15",
+  "slug": "paille-pick-and-drink",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/paille-pick-and-drink/",
+  "title": {
+   "rendered": "Pailles PICK AND DRINK"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2997,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2996",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2997"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2996"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2996"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2993,
+  "date": "2025-06-29T13:33:57",
+  "date_gmt": "2025-06-29T11:33:57",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2993"
+  },
+  "modified": "2025-06-29T13:33:59",
+  "modified_gmt": "2025-06-29T11:33:59",
+  "slug": "casseroles-poignee-tefal",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/casseroles-poignee-tefal/",
+  "title": {
+   "rendered": "Casseroles + poignée Tefal"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2994,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2993",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2994"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2993"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2993"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2990,
+  "date": "2025-06-29T13:31:48",
+  "date_gmt": "2025-06-29T11:31:48",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2990"
+  },
+  "modified": "2025-06-29T13:31:50",
+  "modified_gmt": "2025-06-29T11:31:50",
+  "slug": "cuillere-brabantia-en-bois",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/cuillere-brabantia-en-bois/",
+  "title": {
+   "rendered": "Cuillère BRABANTIA en bois"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2991,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2990",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2991"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2990"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2990"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2987,
+  "date": "2025-06-29T13:28:12",
+  "date_gmt": "2025-06-29T11:28:12",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2987"
+  },
+  "modified": "2025-06-29T13:28:14",
+  "modified_gmt": "2025-06-29T11:28:14",
+  "slug": "bloc-couteaux-essentielb",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/bloc-couteaux-essentielb/",
+  "title": {
+   "rendered": "Bloc couteaux ESSENTIELB"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2988,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2987",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2988"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2987"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2987"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2985,
+  "date": "2025-06-29T13:26:30",
+  "date_gmt": "2025-06-29T11:26:30",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2985"
+  },
+  "modified": "2025-06-29T13:27:25",
+  "modified_gmt": "2025-06-29T11:27:25",
+  "slug": "presse-ail-cleanforce",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/presse-ail-cleanforce/",
+  "title": {
+   "rendered": "Presse-ail CleanForce"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2986,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2985",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2986"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2985"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2985"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2983,
+  "date": "2025-06-29T13:22:16",
+  "date_gmt": "2025-06-29T11:22:16",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2983"
+  },
+  "modified": "2025-06-29T13:23:38",
+  "modified_gmt": "2025-06-29T11:23:38",
+  "slug": "pinceau-de-cuisine",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/pinceau-de-cuisine/",
+  "title": {
+   "rendered": "Pinceau de cuisine DE BUYER"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2984,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2983",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2984"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2983"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2983"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2981,
+  "date": "2025-06-29T13:19:18",
+  "date_gmt": "2025-06-29T11:19:18",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2981"
+  },
+  "modified": "2025-06-29T13:19:20",
+  "modified_gmt": "2025-06-29T11:19:20",
+  "slug": "presse-agrumes-smeg",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/presse-agrumes-smeg/",
+  "title": {
+   "rendered": "Presse-agrumes SMEG"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2982,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2981",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2982"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2981"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2981"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2979,
+  "date": "2025-06-29T13:16:20",
+  "date_gmt": "2025-06-29T11:16:20",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2979"
+  },
+  "modified": "2025-06-29T13:16:22",
+  "modified_gmt": "2025-06-29T11:16:22",
+  "slug": "mixeur-plongeant-moulinex",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/mixeur-plongeant-moulinex/",
+  "title": {
+   "rendered": "Mixeur plongeant MOULINEX"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2980,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2979",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2980"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2979"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2979"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2977,
+  "date": "2025-06-29T13:09:35",
+  "date_gmt": "2025-06-29T11:09:35",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2977"
+  },
+  "modified": "2025-06-29T13:09:37",
+  "modified_gmt": "2025-06-29T11:09:37",
+  "slug": "tamis-de-buyer-fixe-inox",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/tamis-de-buyer-fixe-inox/",
+  "title": {
+   "rendered": "Tamis DE BUYER fixe inox"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2978,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2977",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2978"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2977"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2977"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2973,
+  "date": "2025-06-29T13:05:45",
+  "date_gmt": "2025-06-29T11:05:45",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2973"
+  },
+  "modified": "2025-06-29T13:05:47",
+  "modified_gmt": "2025-06-29T11:05:47",
+  "slug": "moule-a-brownie-de-buyer",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/moule-a-brownie-de-buyer/",
+  "title": {
+   "rendered": "Moule à brownie DE BUYER"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2975,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2973",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2975"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2973"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2973"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2971,
+  "date": "2025-06-29T13:01:16",
+  "date_gmt": "2025-06-29T11:01:16",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2971"
+  },
+  "modified": "2025-06-29T13:01:18",
+  "modified_gmt": "2025-06-29T11:01:18",
+  "slug": "verrine-moulinex-kit-8",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/verrine-moulinex-kit-8/",
+  "title": {
+   "rendered": "Verrine MOULINEX Kit 8"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2972,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2971",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2972"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2971"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2971"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2968,
+  "date": "2025-06-29T12:59:06",
+  "date_gmt": "2025-06-29T10:59:06",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2968"
+  },
+  "modified": "2025-06-29T12:59:08",
+  "modified_gmt": "2025-06-29T10:59:08",
+  "slug": "casserole-baumalu-bain-marie",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/casserole-baumalu-bain-marie/",
+  "title": {
+   "rendered": "Casserole BAUMALU bain-marie"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2969,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2968",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2969"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2968"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2968"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2965,
+  "date": "2025-06-29T12:53:52",
+  "date_gmt": "2025-06-29T10:53:52",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2965"
+  },
+  "modified": "2025-06-29T12:53:54",
+  "modified_gmt": "2025-06-29T10:53:54",
+  "slug": "louche-antiadhesive-brabantia",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/louche-antiadhesive-brabantia/",
+  "title": {
+   "rendered": "Louche antiadhesive BRABANTIA"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2967,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2965",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2967"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2965"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2965"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2963,
+  "date": "2025-06-29T12:51:48",
+  "date_gmt": "2025-06-29T10:51:48",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2963"
+  },
+  "modified": "2025-06-29T12:52:49",
+  "modified_gmt": "2025-06-29T10:52:49",
+  "slug": "spatule-de-buyer-30cm",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/spatule-de-buyer-30cm/",
+  "title": {
+   "rendered": "Spatule DE BUYER 30cm"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2964,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2963",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2964"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2963"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2963"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2960,
+  "date": "2025-06-29T12:40:06",
+  "date_gmt": "2025-06-29T10:40:06",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2960"
+  },
+  "modified": "2025-06-29T12:40:34",
+  "modified_gmt": "2025-06-29T10:40:34",
+  "slug": "fouet-de-buyer-20-cm",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/fouet-de-buyer-20-cm/",
+  "title": {
+   "rendered": "Fouet DE BUYER 20 cm"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2961,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2960",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2961"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2960"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2960"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2958,
+  "date": "2025-06-28T15:56:44",
+  "date_gmt": "2025-06-28T13:56:44",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2958"
+  },
+  "modified": "2025-06-28T15:59:11",
+  "modified_gmt": "2025-06-28T13:59:11",
+  "slug": "planche-a-decouper",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/planche-a-decouper/",
+  "title": {
+   "rendered": "Planche à découper PEBBLY"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2959,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2958",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2959"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2958"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2958"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 2956,
+  "date": "2025-06-28T15:50:39",
+  "date_gmt": "2025-06-28T13:50:39",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=2956"
+  },
+  "modified": "2025-06-28T15:59:24",
+  "modified_gmt": "2025-06-28T13:59:24",
+  "slug": "saladier-en-inox-2-5l",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/saladier-en-inox-2-5l/",
+  "title": {
+   "rendered": "Saladier FIVE en Inox 2.5L"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2957,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/2956",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2957"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=2956"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=2956"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 1950,
+  "date": "2025-03-31T18:59:23",
+  "date_gmt": "2025-03-31T16:59:23",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=1950"
+  },
+  "modified": "2025-06-23T19:23:42",
+  "modified_gmt": "2025-06-23T17:23:42",
+  "slug": "four-a-micro-ondes",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/four-a-micro-ondes/",
+  "title": {
+   "rendered": "Four à micro-ondes"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2828,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/1950",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2828"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=1950"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=1950"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 1035,
+  "date": "2024-12-27T18:06:03",
+  "date_gmt": "2024-12-27T17:06:03",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=1035"
+  },
+  "modified": "2025-06-23T19:27:19",
+  "modified_gmt": "2025-06-23T17:27:19",
+  "slug": "moule-a-gateaux-20cm",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/moule-a-gateaux-20cm/",
+  "title": {
+   "rendered": "Moule à gâteaux 20cm"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2831,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/1035",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2831"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=1035"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=1035"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 1015,
+  "date": "2024-12-23T20:00:33",
+  "date_gmt": "2024-12-23T19:00:33",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=1015"
+  },
+  "modified": "2025-06-23T19:30:05",
+  "modified_gmt": "2025-06-23T17:30:05",
+  "slug": "moule-a-cake-en-verre",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/moule-a-cake-en-verre/",
+  "title": {
+   "rendered": "Moule à cake TEFAL"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2833,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/1015",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2833"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=1015"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=1015"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 1001,
+  "date": "2024-12-19T19:21:16",
+  "date_gmt": "2024-12-19T18:21:16",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=1001"
+  },
+  "modified": "2025-06-23T19:31:28",
+  "modified_gmt": "2025-06-23T17:31:28",
+  "slug": "moules-a-muffins",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/moules-a-muffins/",
+  "title": {
+   "rendered": "Moules à muffins antiadhésif"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2835,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/1001",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2835"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=1001"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=1001"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 953,
+  "date": "2024-12-09T19:04:06",
+  "date_gmt": "2024-12-09T18:04:06",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=953"
+  },
+  "modified": "2025-06-23T19:32:56",
+  "modified_gmt": "2025-06-23T17:32:56",
+  "slug": "gaufrier-tefal-antiadhesif",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/gaufrier-tefal-antiadhesif/",
+  "title": {
+   "rendered": "Gaufrier Tefal Antiadhésif"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2836,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/953",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2836"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=953"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=953"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 886,
+  "date": "2024-11-26T19:54:17",
+  "date_gmt": "2024-11-26T18:54:17",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=886"
+  },
+  "modified": "2025-06-23T19:36:41",
+  "modified_gmt": "2025-06-23T17:36:41",
+  "slug": "poele-en-fonte",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/poele-en-fonte/",
+  "title": {
+   "rendered": "Poêle en fonte antiadhésive"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2837,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/886",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2837"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=886"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=886"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 884,
+  "date": "2024-11-26T19:51:36",
+  "date_gmt": "2024-11-26T18:51:36",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=884"
+  },
+  "modified": "2025-06-23T19:39:16",
+  "modified_gmt": "2025-06-23T17:39:16",
+  "slug": "robot-mixeur-multifonction",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/robot-mixeur-multifonction/",
+  "title": {
+   "rendered": "Robot mixeur multifonction"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2838,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/884",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2838"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=884"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=884"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 722,
+  "date": "2024-11-14T17:38:40",
+  "date_gmt": "2024-11-14T16:38:40",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=722"
+  },
+  "modified": "2025-06-23T19:41:03",
+  "modified_gmt": "2025-06-23T17:41:03",
+  "slug": "balance-de-cuisine-numerique",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/balance-de-cuisine-numerique/",
+  "title": {
+   "rendered": "Balance de cuisine numérique"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2827,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/722",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2827"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=722"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=722"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 715,
+  "date": "2024-11-14T17:30:58",
+  "date_gmt": "2024-11-14T16:30:58",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=715"
+  },
+  "modified": "2025-06-23T19:42:18",
+  "modified_gmt": "2025-06-23T17:42:18",
+  "slug": "maryse-de-cuisine",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/maryse-de-cuisine/",
+  "title": {
+   "rendered": "Maryse (spatule en silicone)"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2839,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/715",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2839"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=715"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=715"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 712,
+  "date": "2024-11-14T17:18:19",
+  "date_gmt": "2024-11-14T16:18:19",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=712"
+  },
+  "modified": "2025-06-23T19:44:18",
+  "modified_gmt": "2025-06-23T17:44:18",
+  "slug": "rouleau-patisserie-en-bois",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/rouleau-patisserie-en-bois/",
+  "title": {
+   "rendered": "Rouleau pâtisserie en bois"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2841,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/712",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2841"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=712"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=712"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 710,
+  "date": "2024-11-14T17:14:19",
+  "date_gmt": "2024-11-14T16:14:19",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=710"
+  },
+  "modified": "2025-06-23T19:46:47",
+  "modified_gmt": "2025-06-23T17:46:47",
+  "slug": "tapis-de-cuisson-en-silicone",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/tapis-de-cuisson-en-silicone/",
+  "title": {
+   "rendered": "Tapis de cuisson en silicone"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2842,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/710",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2842"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=710"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=710"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 708,
+  "date": "2024-11-14T16:58:00",
+  "date_gmt": "2024-11-14T15:58:00",
+  "guid": {
+   "rendered": "https://vegourmet.fr/?post_type=equipment&#038;p=708"
+  },
+  "modified": "2025-06-23T19:49:13",
+  "modified_gmt": "2025-06-23T17:49:13",
+  "slug": "batteur-philips-5000",
+  "status": "publish",
+  "type": "equipment",
+  "link": "https://vegourmet.fr/equipment/batteur-philips-5000/",
+  "title": {
+   "rendered": "Batteur Electrique ESSENTIELB"
+  },
+  "content": {
+   "rendered": "",
+   "protected": false
+  },
+  "featured_media": 2843,
+  "template": "",
+  "equipment-category": [],
+  "_links": {
+   "self": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment/708",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/types/equipment"
+    }
+   ],
+   "wp:featuredmedia": [
+    {
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media/2843"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://vegourmet.fr/wp-json/wp/v2/media?parent=708"
+    }
+   ],
+   "wp:term": [
+    {
+     "taxonomy": "equipment-category",
+     "embeddable": true,
+     "href": "https://vegourmet.fr/wp-json/wp/v2/equipment-category?post=708"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+]

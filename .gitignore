@@ -10,3 +10,8 @@ next-env.d.ts
 *.tsbuildinfo
 .images-dl/
 .reference/
+
+# Backup WordPress : binaires lourds hors git (alpha + S3)
+archive-wordpress/media/
+archive-wordpress/**/*.sql
+archive-wordpress/**/wp-content*.tar.gz
