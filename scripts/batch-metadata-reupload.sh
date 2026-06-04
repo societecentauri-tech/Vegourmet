@@ -53,6 +53,22 @@ else
   # --s3-no-check-bucket évite un HEAD inutile ; Content-Type auto par extension.
   rclone copy "$WORK" "$REMOTE" --progress --transfers 16 --s3-no-check-bucket
   echo "   Re-upload terminé."
+
+  # ⚠️ GOTCHA Scaleway : le remote rclone a `acl = private`. Écraser un objet via
+  # rclone DROPPE l'ACL public-read d'origine → l'objet revient en HTTP 403
+  # (les images ne s'affichent plus). rclone --s3-acl / --header-upload ne suffit
+  # pas de façon fiable ici. On REPOSE l'ACL public-read via aws s3api (creds lus
+  # depuis le remote rclone). Indispensable, sinon le site casse.
+  echo "▶ 4b/4 — Restauration de l'ACL public-read (aws s3api)"
+  export AWS_ACCESS_KEY_ID="$(rclone config show scaleway | awk -F'= ' '/access_key_id/{print $2}')"
+  export AWS_SECRET_ACCESS_KEY="$(rclone config show scaleway | awk -F'= ' '/secret_access_key/{print $2}')"
+  export AWS_DEFAULT_REGION=fr-par
+  find "$WORK" -type f \( -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.png' -o -iname '*.webp' \) -printf '%f\n' \
+    | while read -r bn; do
+        aws --endpoint-url https://s3.fr-par.scw.cloud s3api put-object-acl \
+          --bucket veg --key "img/$bn" --acl public-read >/dev/null
+      done
+  echo "   ACL public-read restaurée sur l'ensemble du lot."
 fi
 
 echo "✓ Pipeline terminé."
