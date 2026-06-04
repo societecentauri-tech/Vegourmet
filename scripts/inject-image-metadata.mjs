@@ -165,11 +165,58 @@ const AI_MARKER_TAGS = [
 const AI_SIGNAL_REGEX =
   /(c2pa|trainedalgorithmicmedia|compositesynthetic|digitalsourcetype|dall[- ]?e|midjourney|stable.?diffusion|gpt-?image|generative|firefly|content credentials|ai[- ]generated|synthid)/i;
 
+// Détecte le VRAI format via les octets de signature (magic bytes).
+// Indispensable : sur S3 vegourmet, des fichiers .png contiennent en réalité
+// du WEBP (RIFF) — exiftool refuse alors d'écrire (« Not a valid PNG »).
+function realExtension(file) {
+  const fd = fs.openSync(file, "r");
+  const buf = Buffer.alloc(16);
+  fs.readSync(fd, buf, 0, 16, 0);
+  fs.closeSync(fd);
+  if (buf.slice(0, 3).toString("latin1") === "\xff\xd8\xff") return ".jpg";
+  if (buf.slice(0, 8).toString("latin1") === "\x89PNG\r\n\x1a\n") return ".png";
+  if (
+    buf.slice(0, 4).toString("latin1") === "RIFF" &&
+    buf.slice(8, 12).toString("latin1") === "WEBP"
+  )
+    return ".webp";
+  if (buf.slice(0, 2).toString("latin1") === "II" || buf.slice(0, 2).toString("latin1") === "MM")
+    return ".tif";
+  return path.extname(file).toLowerCase(); // repli : on fait confiance à l'extension.
+}
+
+// Exécute une opération exiftool en garantissant que le fichier vu par exiftool
+// porte une extension cohérente avec son contenu réel. Si l'extension ment
+// (ex. .png contenant du WEBP), on opère sur une copie temporaire correctement
+// nommée puis on réécrit les octets dans le fichier d'origine (clé S3 préservée).
+async function withTrueExtension(file, fn) {
+  const trueExt = realExtension(file);
+  const currentExt = path.extname(file).toLowerCase();
+  if (trueExt === currentExt || (trueExt === ".jpg" && currentExt === ".jpeg")) {
+    return fn(file);
+  }
+  const tmp = path.join(
+    path.dirname(file),
+    `.imeta-${path.basename(file)}${trueExt}`,
+  );
+  fs.copyFileSync(file, tmp);
+  try {
+    await fn(tmp);
+    // Réinjecte les octets traités dans le fichier d'origine (extension inchangée
+    // → la clé S3 et le markdown qui la référence restent identiques).
+    fs.copyFileSync(tmp, file);
+  } finally {
+    if (fs.existsSync(tmp)) fs.unlinkSync(tmp);
+  }
+}
+
 async function stripExisting(file) {
   // Phase 1 : strip TOTAL de toutes les métadonnées (table rase).
   // -all= retire EXIF/IPTC/XMP/ICC/JUMBF/C2PA. C'est le plus sûr pour garantir
   // 0 résidu de provenance avant ré-injection d'un profil propre.
-  await exiftool.write(file, {}, { writeArgs: ["-all=", "-overwrite_original"] });
+  await withTrueExtension(file, (f) =>
+    exiftool.write(f, {}, { writeArgs: ["-all=", "-overwrite_original"] }),
+  );
 }
 
 async function verifyNoAiMarkers(file) {
@@ -374,8 +421,10 @@ async function main() {
       // 1. Strip dur (table rase : EXIF/IPTC/XMP/ICC/JUMBF/C2PA).
       if (!ARGS["no-strip"]) await stripExisting(file);
 
-      // 2. Injection du profil propre.
-      await exiftool.write(file, tags, { writeArgs: ["-overwrite_original"] });
+      // 2. Injection du profil propre (via extension réelle si elle ment).
+      await withTrueExtension(file, (f) =>
+        exiftool.write(f, tags, { writeArgs: ["-overwrite_original"] }),
+      );
 
       // 3. Vérification post-injection : 0 marqueur IA/C2PA résiduel.
       const issues = await verifyNoAiMarkers(file);
