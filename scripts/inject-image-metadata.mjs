@@ -313,6 +313,13 @@ function buildTags(file, profile) {
     "IPTC:OriginatingProgram": profile.originatingProgram || "webconv",
     "XMP-photoshop:History": profile.processingHistory || undefined,
 
+    // ── Commentaire visible (Windows : Propriétés → Détails → « Commentaires »)
+    // EXIF:XPComment est le champ lu par l'onglet Détails de Windows.
+    // EXIF:UserComment est le doublon standard (lu par les outils non-Windows).
+    // NB : on ne touche PAS à XMP-dc:Description (= légende), ni à XMP-xmp:Label.
+    "EXIF:XPComment": profile.commentText || undefined,
+    "EXIF:UserComment": profile.commentText || undefined,
+
     // ── EXIF appareil / objectif (E-E-A-T : « vraie photo ») ─────────────────
     "EXIF:Make": profile.cameraMake,
     "EXIF:Model": profile.cameraModel,

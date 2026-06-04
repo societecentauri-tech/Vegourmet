@@ -138,6 +138,10 @@ const profile = {
   originatingProgram: "webconv.com",
   processingHistory: "Optimisé pour le web avec webconv.com (https://webconv.com)",
 
+  // Commentaire visible sous Windows (Propriétés → Détails → « Commentaires »).
+  // Alimente EXIF:XPComment (lu par Windows) + EXIF:UserComment (autres outils).
+  commentText: "Conversion faite par https://webconv.com",
+
   // ── EXIF appareil / objectif (VALEURS PAR DÉFAUT — à valider par Greg) ──────
   // Boîtier hybride APS-C plébiscité en food/lifestyle, objectif macro food.
   cameraMake: "FUJIFILM",
