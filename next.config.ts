@@ -1,18 +1,17 @@
 import type { NextConfig } from "next";
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Headers de sécurité + dé-indexation des déploiements non-prod.
-//
-// La détection « prod » repose sur VERCEL_ENV :
-//   - VERCEL_ENV === "production"  → domaine canonique (vegourmet.fr), indexable.
-//   - tout le reste (preview / dev / vercel.app) → noindex, nofollow.
+// Headers de sécurité + dé-indexation des déploiements non-canoniques.
 //
 // But P0-1 : empêcher l'indexation de vegourmet.vercel.app (duplicate content
-// avec vegourmet.fr). On NE TOUCHE PAS aux balises canonical → vegourmet.fr,
-// déjà émises côté pages : seul un en-tête X-Robots-Tag est ajouté hors-prod.
+// avec vegourmet.fr). ⚠️ VERCEL_ENV === "production" est VRAI sur l'alias
+// vegourmet.vercel.app (c'est le deployment « production » du projet Vercel),
+// donc une condition d'env ne suffit pas tant que le DNS vegourmet.fr pointe
+// sur WordPress. La dé-indexation est donc conditionnée au HOST de la requête :
+//   - host *.vercel.app  → X-Robots-Tag: noindex, nofollow (toujours, à vie)
+//   - host vegourmet.fr  → indexable (prendra effet à la bascule DNS)
+// On NE TOUCHE PAS aux balises canonical → vegourmet.fr, déjà émises côté pages.
 // ─────────────────────────────────────────────────────────────────────────────
-
-const IS_PRODUCTION = process.env.VERCEL_ENV === "production";
 
 // CSP en mode Report-Only (P1-2) : on observe les violations sans rien casser.
 // Autorise : self, fonts Google (fonts.googleapis.com / fonts.gstatic.com),
@@ -46,20 +45,18 @@ const nextConfig: NextConfig = {
   // Les redirections WordPress legacy (query params dédupliqués) sont gérées par
   // les canonical propres + la structure d'URL préservée à l'identique.
   async headers() {
-    const headers = [...SECURITY_HEADERS];
-
-    // Hors production (preview Vercel, vercel.app, dev) : dé-indexation forcée.
-    if (!IS_PRODUCTION) {
-      headers.push({
-        key: "X-Robots-Tag",
-        value: "noindex, nofollow",
-      });
-    }
-
     return [
+      // Headers de sécurité : sur toutes les réponses, quel que soit le host.
       {
         source: "/:path*",
-        headers,
+        headers: SECURITY_HEADERS,
+      },
+      // Dé-indexation permanente des domaines techniques *.vercel.app (P0-1).
+      // Conditionnée au host (et non à VERCEL_ENV, vrai aussi sur vercel.app).
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "(?<sub>.*)\\.vercel\\.app" }],
+        headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
       },
     ];
   },
