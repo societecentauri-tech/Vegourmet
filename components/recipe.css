@@ -580,9 +580,19 @@
   border-radius: 3px;
   background: var(--vg-c-terra, #d98e73);
 }
-.vg-widget-about-photo img {
-  width: 100%;
-  border-radius: 12px;
+/* Avatar circulaire (Gravatar WP, fidélité W2.4) */
+.vg-widget-about-avatar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.vg-widget-about-avatar-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--vg-card-border, #ecddd3);
 }
 .vg-widget-about-text {
   font-size: 0.95rem;

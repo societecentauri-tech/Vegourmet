@@ -153,8 +153,11 @@ export function ItemCard({ item }: ItemCardProps) {
             style={{ background: color }}
           >
             <CategoryIcon glyph={glyph} />
-            <span className="vg-item-cat-name">{item.category}</span>
           </Link>
+          {/* Infobulle rendue hors du lien pour ne pas perturber le centrage flex */}
+          <span className="vg-item-cat-name" aria-hidden="true">
+            {item.category}
+          </span>
         </span>
       </figure>
 

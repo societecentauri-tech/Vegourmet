@@ -1,29 +1,33 @@
 import Link from "next/link";
 import { BlogueuseCta } from "./BlogueuseCta";
-import { SmartImage } from "./SmartImage";
 
-const CHLOE_PHOTO = "https://veg.s3.fr-par.scw.cloud/about/chloe-salon.jpg";
+/** Avatar Gravatar rapatrié sur S3 (160×160 PNG, fidélité WP). */
+const CHLOE_AVATAR = "https://veg.s3.fr-par.scw.cloud/img/avatar-chloe.jpg";
 
 /**
  * Sidebar des pages recette/article (widget « À propos de moi » du thème).
- * Photo de Chloé + courte présentation + encart d'invitation.
+ * Avatar Chloé circulaire (Gravatar WP rapatrié sur S3) + texte original WP.
  */
 export function RecipeSidebar() {
   return (
     <aside className="vg-sidebar" aria-label="À propos de l'autrice">
       <div className="vg-widget vg-widget-about">
         <h2 className="vg-widget-title">À propos de moi</h2>
-        <div className="vg-widget-about-photo">
-          <SmartImage
-            src={CHLOE_PHOTO}
-            alt="Chloé, créatrice de Vegourmet"
-            ratio="4 / 3"
+        <div className="vg-widget-about-avatar">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={CHLOE_AVATAR}
+            alt="Chloé"
+            width={80}
+            height={80}
+            className="vg-widget-about-avatar-img"
+            loading="lazy"
           />
         </div>
         <p className="vg-widget-about-text">
-          Moi c'est Chloé, créatrice de Vegourmet. Je partage des recettes vegan
-          simples et gourmandes pour prouver qu'on peut se régaler sans produits
-          animaux, sans se prendre la tête.
+          Je suis Chloé, passionnée de cuisine et vegan depuis 2018. Sur mon
+          blog, je partage des recettes simples et gourmandes pour prouver que
+          manger vegan peut être délicieux et accessible à tous.
         </p>
         <Link href="/a-propos" className="vg-widget-about-link">
           En savoir plus sur moi →
