@@ -15,3 +15,7 @@ next-env.d.ts
 archive-wordpress/media/
 archive-wordpress/**/*.sql
 archive-wordpress/**/wp-content*.tar.gz
+
+# Artefacts de travail (pipeline images)
+.tmp-*/
+.data/
