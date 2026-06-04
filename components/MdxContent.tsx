@@ -3,7 +3,10 @@ import { ExternalLink } from "./ExternalLink";
 import {
   ComparisonTable,
   GreenweezCta,
+  JumpToWinner,
   ProductCard,
+  RecipeComboCard,
+  RecipeCombos,
 } from "./GuideComponents";
 import "./article.css";
 
@@ -19,6 +22,9 @@ const mdxComponents = {
   ComparisonTable,
   ProductCard,
   GreenweezCta,
+  JumpToWinner,
+  RecipeCombos,
+  RecipeComboCard,
 };
 
 /** Rend le corps éditorial MDX avec les styles fidèles du thème (vg-entry-content). */

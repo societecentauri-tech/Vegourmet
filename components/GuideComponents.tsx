@@ -260,6 +260,133 @@ export interface GreenweezCtaProps {
   href: string;
 }
 
+// ─────────────────────────────────────────────────────────────────────────────
+// JumpToWinner — ancre « ⚡ Aller directement au gagnant » (guides)
+// ─────────────────────────────────────────────────────────────────────────────
+
+export interface JumpToWinnerProps {
+  /** id de l'ancre cible (le ComparisonTable possède anchorId="tableau-comparatif") */
+  targetId?: string;
+  /** Libellé du bouton */
+  label?: string;
+}
+
+/**
+ * Bouton d'ancre placé en tête d'article guide qui scrolle vers le tableau
+ * comparatif. Fidèle au bouton WP `dr-btn-link` (padding 9px 24px, arrondi).
+ * Lien d'ancre pur (`#id`) → fonctionne sans JS, accessible au clavier.
+ */
+export function JumpToWinner({
+  targetId = "tableau-comparatif",
+  label = "⚡ Aller directement au gagnant",
+}: JumpToWinnerProps) {
+  return (
+    <div className="guide-jump-wrap">
+      <a className="guide-jump-button" href={`#${targetId}`}>
+        <span>{label}</span>
+        <svg
+          className="guide-jump-arrow"
+          width={16}
+          height={16}
+          viewBox="0 0 24 24"
+          fill="none"
+          aria-hidden="true"
+        >
+          <path
+            d="M12 4v16m0 0l-6-6m6 6l6-6"
+            stroke="currentColor"
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </a>
+    </div>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// RecipeCombos — bloc « Ces X se marient à merveille avec… »
+// ─────────────────────────────────────────────────────────────────────────────
+
+export interface RecipeCombosProps {
+  /** Titre de section optionnel, ex : « Ces steaks se marient à merveille avec… » */
+  title?: string;
+  /** Sous-titre / intro optionnel, ex : « Mes associations préférées testées et approuvées ✨ » */
+  subtitle?: string;
+  children: ReactNode;
+}
+
+/**
+ * Conteneur des cartes « combos » (associations de recettes).
+ * Remplace le bloc WP aplati en Markdown nu lors de la migration.
+ */
+export function RecipeCombos({ title, subtitle, children }: RecipeCombosProps) {
+  return (
+    <section className="guide-combos" aria-label={title ?? "Associations recommandées"}>
+      {title && <h2 className="guide-combos-title">{title}</h2>}
+      {subtitle && <p className="guide-combos-subtitle">{subtitle}</p>}
+      <div className="guide-combos-grid">{children}</div>
+    </section>
+  );
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// RecipeComboCard — carte d'association (image + titre + sous-titre + citation)
+// ─────────────────────────────────────────────────────────────────────────────
+
+export interface RecipeComboCardProps {
+  /** URL de l'image (S3 vegourmet) */
+  image?: string;
+  /** Texte alternatif de l'image */
+  imageAlt?: string;
+  /** Titre de la recette associée */
+  title: string;
+  /** Sous-titre descriptif */
+  subtitle?: string;
+  /** Citation en italique (sans les guillemets) */
+  quote?: string;
+  /** Lien INTERNE vers la recette, ex : /recettes/burger-vegan-... */
+  href: string;
+}
+
+/**
+ * Carte d'association : image à gauche, contenu à droite, flèche → au survol.
+ * Lien interne (jamais d'URL absolue vegourmet.fr).
+ */
+export function RecipeComboCard({
+  image,
+  imageAlt = "",
+  title,
+  subtitle,
+  quote,
+  href,
+}: RecipeComboCardProps) {
+  return (
+    <a className="guide-combo-card" href={href}>
+      {image && (
+        /* eslint-disable-next-line @next/next/no-img-element */
+        <img
+          className="guide-combo-image"
+          src={image}
+          alt={imageAlt}
+          width={72}
+          height={72}
+          loading="lazy"
+        />
+      )}
+      <div className="guide-combo-body">
+        <span className="guide-combo-name">{title}</span>
+        {subtitle && <span className="guide-combo-subtitle">{subtitle}</span>}
+        {quote && <span className="guide-combo-quote">“{quote}”</span>}
+      </div>
+      <span className="guide-combo-arrow" aria-hidden="true">
+        →
+      </span>
+    </a>
+  );
+}
+
 export function GreenweezCta({
   logo,
   brand = "GREENWEEZ",

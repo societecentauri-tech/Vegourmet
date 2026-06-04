@@ -67,6 +67,8 @@ export interface ArticleFrontmatter {
   categorySlug?: string;
   heroImage: HeroImage;
   faq?: FaqItem[];
+  /** Titre custom du bloc FAQ (fidélité WP), ex : « FAQ : Tes questions sur les steaks végétaux ». Fallback : « FAQ ». */
+  faqTitle?: string;
 }
 
 export interface Recipe {
