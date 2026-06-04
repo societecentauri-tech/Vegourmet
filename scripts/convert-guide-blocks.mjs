@@ -539,9 +539,10 @@ function convertFile(filePath) {
   let body = fmMatch[2];
 
   // ── Étape 1 : Supprimer les titres techniques fuités ──
-  // Tiret cadratin U+2013 (–) ou tiret simple
-  body = body.replace(/^ *Comparatif .+[–-] Design Mobile First *$/gm, "");
-  body = body.replace(/^ *Greenweez CTA[–-] Harmonie Design *$/gm, "");
+  // \s* en tête/queue pour capturer les lignes avec espaces de début (ex: " Greenweez CTA – …")
+  // \s* autour du tiret cadratin (–, U+2013) ou tiret simple pour les deux variantes
+  body = body.replace(/^\s*Comparatif .+\s*[–-]\s*Design Mobile First\s*$/gm, "");
+  body = body.replace(/^\s*Greenweez CTA\s*[–-]\s*Harmonie Design\s*$/gm, "");
 
   const bodyLines = body.split("\n");
 
