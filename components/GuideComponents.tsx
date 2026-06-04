@@ -246,8 +246,12 @@ export interface GreenweezCtaProps {
   title?: string;
   /** Paragraphe de description (texte brut) */
   description?: string;
-  /** Liste des avantages (chaque item sans le "✓") */
-  specs?: string[];
+  /**
+   * Avantages séparés par "|", ex : "Livraison 48h|Prix compétitifs|100% bio|+25k produits".
+   * Chaîne délimitée (pas un tableau) pour compatibilité avec le pipeline MDX
+   * qui ne transmet pas les props de type array/object dans les attributs JSX string.
+   */
+  specs?: string;
   /** Texte de la pill promo, ex : "🚚 Livraison OFFERTE" */
   promo?: string;
   /** Libellé du bouton CTA */
@@ -264,11 +268,16 @@ export function GreenweezCta({
   titleAfter,
   title,
   description,
-  specs = [],
+  specs,
   promo,
   ctaLabel,
   href,
 }: GreenweezCtaProps) {
+  // Découper la chaîne délimitée en tableau (gotcha MDX : les props array/object
+  // ne passent pas via les attributs JSX string dans next-mdx-remote)
+  const specItems = specs
+    ? specs.split("|").map((s) => s.trim()).filter(Boolean)
+    : [];
   // Titre : soit titre complet, soit découpage en 3 parties (avant/accent/après)
   const renderTitle = () => {
     if (title) {
@@ -317,9 +326,9 @@ export function GreenweezCta({
             <p className="guide-greenweez-description">{description}</p>
           )}
 
-          {specs.length > 0 && (
+          {specItems.length > 0 && (
             <div className="guide-greenweez-specs">
-              {specs.map((spec, i) => (
+              {specItems.map((spec, i) => (
                 <div key={i} className="guide-greenweez-spec">
                   <span className="guide-greenweez-spec-icon">✓</span>
                   <span>{spec}</span>

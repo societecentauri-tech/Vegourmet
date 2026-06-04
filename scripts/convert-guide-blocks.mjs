@@ -466,7 +466,10 @@ function buildGreenweezJsx(gw) {
     attrs.push(`  title="${escapeJsx(gw.titleFull)}"`);
   }
   if (gw.description) attrs.push(`  description="${escapeJsx(gw.description)}"`);
-  if (gw.specs.length > 0) attrs.push(`  specs={${JSON.stringify(gw.specs)}}`);
+  // Chaîne délimitée "|" (pas un tableau) : les props array ne passent pas
+  // dans next-mdx-remote via les attributs JSX string (gotcha MDX).
+  // Vérifier qu'aucune valeur ne contient "|" (cas improbable pour des libellés courts).
+  if (gw.specs.length > 0) attrs.push(`  specs="${escapeJsx(gw.specs.join("|"))}"`);
   if (gw.promo) attrs.push(`  promo="${escapeJsx(gw.promo)}"`);
   attrs.push(`  ctaLabel="${escapeJsx(gw.ctaLabel)}"`);
   attrs.push(`  href="${escapeJsx(gw.href)}"`);

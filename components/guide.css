@@ -165,13 +165,15 @@
   }
 }
 
-.guide-card-name a {
+/* Surcharge du lien titre produit (spécificité 0,3,0) */
+.vg-entry-content .guide-card-name a {
   color: #2c3e50;
   text-decoration: none;
 }
 
-.guide-card-name a:hover {
+.vg-entry-content .guide-card-name a:hover {
   text-decoration: underline;
+  color: #2c3e50;
 }
 
 /* ─────────────────────────────────────────────────────────────────────────────
@@ -242,6 +244,9 @@
 
 /* ─────────────────────────────────────────────────────────────────────────────
    Bouton CTA
+   Spécificité 0,2,0 minimum via préfixe .vg-entry-content pour battre
+   la règle globale `.vg-entry-content a { color:terracotta; text-decoration:underline }`
+   (spécificité 0,2,0 dans article.css).
 ───────────────────────────────────────────────────────────────────────────── */
 
 .guide-cta-button {
@@ -249,31 +254,39 @@
   width: 100%;
   text-align: center;
   background: linear-gradient(135deg, #d98e73, #c67962);
-  color: #fff;
   font-weight: 800;
   font-size: 14px;
   padding: 12px 16px;
   border-radius: 10px;
-  text-decoration: none;
   box-shadow: 0 4px 12px rgba(217, 142, 115, 0.35);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.guide-cta-button:hover {
+/* Surcharge couleur + soulignement avec spécificité 0,3,0 */
+.vg-entry-content a.guide-cta-button {
+  color: #fff;
+  text-decoration: none;
+}
+
+.vg-entry-content a.guide-cta-button:hover {
+  color: #fff;
+  text-decoration: none;
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(217, 142, 115, 0.45);
-  color: #fff;
 }
 
 .guide-cta-button--winner {
   background: linear-gradient(135deg, #ffc107, #ffb300);
-  color: #2c3e50;
   box-shadow: 0 4px 12px rgba(255, 193, 7, 0.4);
 }
 
-.guide-cta-button--winner:hover {
-  box-shadow: 0 6px 16px rgba(255, 193, 7, 0.55);
+.vg-entry-content a.guide-cta-button--winner {
   color: #2c3e50;
+}
+
+.vg-entry-content a.guide-cta-button--winner:hover {
+  color: #2c3e50;
+  box-shadow: 0 6px 16px rgba(255, 193, 7, 0.55);
 }
 
 @media (min-width: 768px) {
@@ -487,23 +500,28 @@
   width: 100%;
   text-align: center;
   background: linear-gradient(135deg, #d98e73, #c67962);
-  color: #fff;
   font-weight: 800;
   font-size: 14px;
   padding: 14px 20px;
   border-radius: 10px;
-  text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   box-shadow: 0 4px 12px rgba(217, 142, 115, 0.35);
   transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
 }
 
-.guide-greenweez-cta:hover {
+/* Surcharge couleur + soulignement avec spécificité 0,3,0 */
+.vg-entry-content a.guide-greenweez-cta {
+  color: #fff;
+  text-decoration: none;
+}
+
+.vg-entry-content a.guide-greenweez-cta:hover {
+  color: #fff;
+  text-decoration: none;
   transform: translateY(-2px);
   background: linear-gradient(135deg, #c67962, #b56851);
   box-shadow: 0 6px 16px rgba(217, 142, 115, 0.45);
-  color: #fff;
 }
 
 @media (min-width: 768px) {
