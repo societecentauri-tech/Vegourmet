@@ -40,9 +40,10 @@ export function ArticleHeader({ article, readingTime }: ArticleHeaderProps) {
         </span>
         <span className="vg-dot">
           Modifié le{" "}
-          <time dateTime={article.datePublished}>
-            {formatDateFr(article.datePublished)}
-          </time>
+          {(() => {
+            const d = article.dateModified ?? article.datePublished;
+            return <time dateTime={d}>{formatDateFr(d)}</time>;
+          })()}
         </span>
         {readingTime && <span className="vg-dot">{readingTime}</span>}
       </div>

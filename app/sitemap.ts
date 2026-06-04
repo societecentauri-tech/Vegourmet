@@ -14,14 +14,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const recipePages: MetadataRoute.Sitemap = recipes.map((recipe) => ({
     url: `${SITE_URL}/recettes/${recipe.frontmatter.slug}`,
-    lastModified: new Date(recipe.frontmatter.datePublished),
+    lastModified: new Date(
+      recipe.frontmatter.dateModified ?? recipe.frontmatter.datePublished
+    ),
     changeFrequency: "monthly",
     priority: 0.8,
   }));
 
   const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
     url: `${SITE_URL}/${article.frontmatter.slug}`,
-    lastModified: new Date(article.frontmatter.datePublished),
+    lastModified: new Date(
+      article.frontmatter.dateModified ?? article.frontmatter.datePublished
+    ),
     changeFrequency: "monthly",
     priority: 0.7,
   }));

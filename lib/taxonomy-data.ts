@@ -22,10 +22,10 @@ export const TAXO_LABELS: Record<TaxoKind, Record<string, string>> = {
     "sans-soja": "Sans soja"
   },
   "category": {
-    "actualites-et-tendances": "Actualités et tendances",
+    "actualites-et-tendances": "Actualités & tendances",
     "conseils-et-astuces": "Conseils et astuces",
     "guides-pratiques": "Guides pratiques",
-    "inspiration-et-lifestyle": "Inspiration et lifestyle"
+    "inspiration-et-lifestyle": "Inspiration & Lifestyle"
   }
 };
 
