@@ -30,7 +30,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Recettes Vegan Faciles & Gourmandes - Vegourmet",
+    default: "Recettes vegan faciles & gourmandes - Vegourmet",
     template: "%s | Vegourmet",
   },
   description:
