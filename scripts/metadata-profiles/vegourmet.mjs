@@ -129,9 +129,12 @@ const profile = {
   usageTerms:
     "Usage réservé à Vegourmet (https://vegourmet.fr). Toute reproduction interdite sans autorisation écrite.",
 
-  // ── Logiciel de traitement (crédibilise « photo retouchée ») ───────────────
-  // webconv.com = logiciel de conversion web Centauri.
-  softwareCredit: "webconv.com",
+  // ── Logiciel de traitement (réalisme max : « photo shootée + retouchée ») ──
+  // softwareCredit alimente EXIF:Software + XMP-xmp:CreatorTool : on met un vrai
+  // logiciel de retouche pro (Lightroom) → crédibilise « vraie photo retouchée ».
+  // webconv.com est RÉSERVÉ à l'étape d'export web (sa place naturelle) :
+  // IPTC:OriginatingProgram + XMP-photoshop:History.
+  softwareCredit: "Adobe Photoshop Lightroom Classic 13.2",
   originatingProgram: "webconv.com",
   processingHistory: "Optimisé pour le web avec webconv.com (https://webconv.com)",
 
