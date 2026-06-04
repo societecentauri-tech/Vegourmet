@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ArticleFrontmatter } from "@/lib/types";
 import { getCategoryColor, getCategoryHref } from "@/lib/categoryStyle";
+import { formatDateFr } from "@/lib/format";
 import { SmartImage } from "./SmartImage";
 import "./article.css";
 
@@ -8,17 +9,6 @@ interface ArticleHeaderProps {
   article: ArticleFrontmatter;
   /** Temps de lecture estimé, ex. « 16 min de lecture ». */
   readingTime?: string;
-}
-
-/** Formate une date ISO en français long (ex. « 29 décembre 2025 »). */
-function formatDateFr(iso: string): string {
-  const date = new Date(iso);
-  if (Number.isNaN(date.getTime())) return iso;
-  return new Intl.DateTimeFormat("fr-FR", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  }).format(date);
 }
 
 /** Initiale d'auteur pour l'avatar. */

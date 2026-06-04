@@ -69,6 +69,9 @@ export interface ArticleFrontmatter {
   faq?: FaqItem[];
   /** Titre custom du bloc FAQ (fidélité WP), ex : « FAQ : Tes questions sur les steaks végétaux ». Fallback : « FAQ ». */
   faqTitle?: string;
+  /** Date de dernière modification WP (YYYY-MM-DD). Injectée par le script W2.3.
+   * Si absent : les composants font un fallback sur datePublished. */
+  dateModified?: string;
 }
 
 export interface Recipe {

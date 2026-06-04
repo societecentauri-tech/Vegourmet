@@ -276,3 +276,11 @@
   color: var(--vg-ink, #453e3f);
   opacity: 0.8;
 }
+
+/* Date « Modifié le » dans les cartes articles (widget related) */
+.vg-item-date {
+  font-size: 0.75rem;
+  color: #9c9490;
+  margin: 4px 0 0;
+  text-align: center;
+}

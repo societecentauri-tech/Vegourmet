@@ -295,6 +295,13 @@
 
 @media (min-width: 640px) {
   .vg-related-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .vg-related-grid {
+    /* Fidélité WP : 4 cartes côte à côte sur desktop */
+    grid-template-columns: repeat(4, 1fr);
   }
 }

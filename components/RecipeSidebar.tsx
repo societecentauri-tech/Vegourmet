@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { BlogueuseCta } from "./BlogueuseCta";
 import { SmartImage } from "./SmartImage";
 
 const CHLOE_PHOTO = "https://veg.s3.fr-par.scw.cloud/about/chloe-salon.jpg";
@@ -28,6 +29,8 @@ export function RecipeSidebar() {
           En savoir plus sur moi →
         </Link>
       </div>
+
+      <BlogueuseCta />
 
       <div className="vg-widget vg-widget-cta">
         <span className="vg-widget-cta-eyebrow">La newsletter Vegourmet</span>
