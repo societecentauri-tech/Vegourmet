@@ -77,7 +77,7 @@ export function getReadingTime(content: string): string {
  */
 export function getRelatedArticles(
   current: ArticleFrontmatter,
-  limit = 3,
+  limit = 4,
 ): ArticleFrontmatter[] {
   const others = getAllArticles()
     .map((a) => a.frontmatter)

@@ -90,7 +90,9 @@ export default async function ArticlePage({ params }: PageProps) {
             <div className="vg-content-wrap">
               <MdxContent source={article.content} />
 
-              {fm.faq && fm.faq.length > 0 && <ArticleFaq items={fm.faq} />}
+              {fm.faq && fm.faq.length > 0 && (
+                <ArticleFaq items={fm.faq} title={fm.faqTitle} />
+              )}
             </div>
           </article>
 

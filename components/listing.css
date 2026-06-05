@@ -94,7 +94,8 @@
   overflow: hidden;
 }
 
-/* Conteneur de la pastille : centré sur le bord bas de l'image */
+/* Conteneur de la pastille : centré sur le bord bas de l'image.
+   position:absolute + overflow:visible → containing block pour vg-item-cat-name. */
 .vg-item-cat {
   position: absolute;
   bottom: 0;
@@ -103,10 +104,11 @@
   z-index: 2;
 }
 
-/* Pastille ronde colorée + icône blanche centrée */
+/* Pastille ronde colorée + icône SVG centrée.
+   Le span.vg-item-cat-name est sorti du lien (sibling) pour ne pas perturber
+   le centrage flex de l'icône (deux enfants flex = icône décalée). */
 .vg-item-cat-link {
-  position: relative;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   width: 38px;
@@ -116,21 +118,22 @@
   text-decoration: none;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
   transition: transform 0.25s ease;
+  /* Pas de position:relative ici — vg-item-cat est le containing block */
 }
 
-/* display:block supprime le gap de baseline du SVG inline -> vrai centrage */
+/* Icône centrée seule dans le rond */
 .vg-item-cat-link svg {
   display: block;
   width: 18px;
   height: 18px;
-  fill: currentColor;
+  flex-shrink: 0;
 }
 
 .vg-item:hover .vg-item-cat-link {
   transform: scale(1.08);
 }
 
-/* Libellé catégorie en infobulle au survol, sous la pastille */
+/* Infobulle catégorie positionnée par rapport à .vg-item-cat (containing block) */
 .vg-item-cat-name {
   position: absolute;
   top: calc(100% + 8px);
@@ -147,6 +150,7 @@
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
   z-index: 3;
+  pointer-events: none;
 }
 
 .vg-item-cat-name::before {
@@ -160,7 +164,9 @@
   border-right: 6px solid transparent;
 }
 
-.vg-item-cat-link:hover .vg-item-cat-name {
+/* Hover déclenché sur le conteneur (.vg-item-cat) car le span est sorti du lien */
+.vg-item-cat:hover .vg-item-cat-name,
+.vg-item-cat-link:hover + .vg-item-cat-name {
   opacity: 1;
   visibility: visible;
 }
@@ -275,4 +281,12 @@
   text-align: center;
   color: var(--vg-ink, #453e3f);
   opacity: 0.8;
+}
+
+/* Date « Modifié le » dans les cartes articles (widget related) */
+.vg-item-date {
+  font-size: 0.75rem;
+  color: #9c9490;
+  margin: 4px 0 0;
+  text-align: center;
 }

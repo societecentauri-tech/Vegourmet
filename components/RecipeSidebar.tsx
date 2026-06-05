@@ -1,11 +1,16 @@
 import Link from "next/link";
+import { BlogueuseCta } from "./BlogueuseCta";
 import { SmartImage } from "./SmartImage";
 
-const CHLOE_PHOTO = "https://veg.s3.fr-par.scw.cloud/about/chloe-salon.jpg";
+/**
+ * Photo Chloé sur le canapé — fidélité WP (widget « À propos de moi »).
+ * WP affiche une grande photo pleine largeur (Chloe-sofa.jpg, ratio 3/2).
+ */
+const CHLOE_PHOTO = "https://veg.s3.fr-par.scw.cloud/about/chloe-sofa.jpg";
 
 /**
  * Sidebar des pages recette/article (widget « À propos de moi » du thème).
- * Photo de Chloé + courte présentation + encart d'invitation.
+ * Grande photo rectangulaire de Chloé fidèle au rendu WP + texte original.
  */
 export function RecipeSidebar() {
   return (
@@ -16,18 +21,20 @@ export function RecipeSidebar() {
           <SmartImage
             src={CHLOE_PHOTO}
             alt="Chloé, créatrice de Vegourmet"
-            ratio="4 / 3"
+            ratio="3 / 2"
           />
         </div>
         <p className="vg-widget-about-text">
-          Moi c'est Chloé, créatrice de Vegourmet. Je partage des recettes vegan
-          simples et gourmandes pour prouver qu'on peut se régaler sans produits
-          animaux, sans se prendre la tête.
+          Je suis Chloé, passionnée de cuisine et vegan depuis 2018. Sur mon
+          blog, je partage des recettes simples et gourmandes pour prouver que
+          manger vegan peut être délicieux et accessible à tous.
         </p>
         <Link href="/a-propos" className="vg-widget-about-link">
           En savoir plus sur moi →
         </Link>
       </div>
+
+      <BlogueuseCta />
 
       <div className="vg-widget vg-widget-cta">
         <span className="vg-widget-cta-eyebrow">La newsletter Vegourmet</span>

@@ -46,6 +46,9 @@ export interface RecipeFrontmatter {
   tags: string[];
   heroImage: HeroImage;
   faq?: FaqItem[];
+  /** Date de dernière modification WP (YYYY-MM-DD). Injectée par le script W2.3.
+   * Fallback : datePublished (sitemap + JSON-LD). */
+  dateModified?: string;
   /** Appartenances aux taxonomies WP (source : pages d'archive vegourmet.fr). */
   taxonomies?: {
     "recette-type": string[];
@@ -67,6 +70,11 @@ export interface ArticleFrontmatter {
   categorySlug?: string;
   heroImage: HeroImage;
   faq?: FaqItem[];
+  /** Titre custom du bloc FAQ (fidélité WP), ex : « FAQ : Tes questions sur les steaks végétaux ». Fallback : « FAQ ». */
+  faqTitle?: string;
+  /** Date de dernière modification WP (YYYY-MM-DD). Injectée par le script W2.3.
+   * Si absent : les composants font un fallback sur datePublished. */
+  dateModified?: string;
 }
 
 export interface Recipe {
