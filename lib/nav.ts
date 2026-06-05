@@ -30,5 +30,4 @@ export const NAV_ITEMS: NavItem[] = [
   },
   { href: "/contactez-nous", label: "Contactez-nous" },
   { href: "/a-propos", label: "À propos" },
-  { href: "/comment-creer-un-blog-de-cuisine-qui-cartonne", label: "Ressources" },
 ];
