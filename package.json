@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/fetch-ratings-snapshot.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
+    "ratings:snapshot": "node scripts/fetch-ratings-snapshot.mjs",
     "img:meta": "node scripts/inject-image-metadata.mjs"
   },
   "dependencies": {

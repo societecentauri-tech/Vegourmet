@@ -8,15 +8,18 @@ import {
   DifficultyIcon,
   FireIcon,
   ServingsIcon,
-  StarIcon,
   TagIcon,
   TimerIcon,
 } from "./RecipeIcons";
+import { StarRating } from "./StarRating";
+import type { RecipeRating } from "@/lib/ratings";
 import type { RecipeFrontmatter } from "@/lib/types";
 import { formatDureeFr } from "@/lib/duration";
 
 interface RecipeDeliciousCardProps {
   recipe: RecipeFrontmatter;
+  /** Note agrégée réelle (vue `recipe_ratings`, snapshot build). null = non notée. */
+  rating?: RecipeRating | null;
 }
 
 const NUTRITION_LABELS: {
@@ -36,7 +39,10 @@ const NUTRITION_LABELS: {
  * total, portions, difficulté), description, ingrédients cochables, étapes numérotées,
  * informations nutritionnelles et mots-clés.
  */
-export function RecipeDeliciousCard({ recipe }: RecipeDeliciousCardProps) {
+export function RecipeDeliciousCard({
+  recipe,
+  rating,
+}: RecipeDeliciousCardProps) {
   const {
     title,
     author,
@@ -57,6 +63,21 @@ export function RecipeDeliciousCard({ recipe }: RecipeDeliciousCardProps) {
   const hasNutrition =
     nutrition !== undefined && Object.values(nutrition).some(Boolean);
 
+  // Vraie note (snapshot build) — remplace l'ancien « 4,9 / 10 avis » codé en dur.
+  const hasRating = !!rating && rating.ratingCount > 0;
+  const ratingValueFr = hasRating
+    ? rating.ratingValue.toLocaleString("fr-FR", {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 1,
+      })
+    : null;
+  const reviewLabel =
+    hasRating && rating.reviewCount > 0
+      ? `${rating.reviewCount} avis`
+      : hasRating
+        ? `${rating.ratingCount} notes`
+        : null;
+
   return (
     <section
       className="vg-card"
@@ -74,20 +95,18 @@ export function RecipeDeliciousCard({ recipe }: RecipeDeliciousCardProps) {
         </div>
 
         <div className="vg-card__head">
-          <span className="vg-rating">
-            <span className="vg-stars" aria-hidden="true">
-              {Array.from({ length: 5 }).map((_, i) => (
-                <StarIcon key={i} />
-              ))}
-            </span>
-            <span>
-              <span className="vg-rating-num">4,9</span>
-              <span className="vg-rating-sep" aria-hidden="true">
-                /
+          {hasRating && (
+            <span className="vg-rating">
+              <StarRating value={rating.ratingValue} size={16} />
+              <span>
+                <span className="vg-rating-num">{ratingValueFr}</span>
+                <span className="vg-rating-sep" aria-hidden="true">
+                  ·
+                </span>
+                {reviewLabel}
               </span>
-              10 avis
             </span>
-          </span>
+          )}
 
           <h2 className="vg-card__title" id="vg-recipe-card-title">
             {title}
