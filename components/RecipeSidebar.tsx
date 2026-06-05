@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { BlogueuseCta } from "./BlogueuseCta";
 import { SmartImage } from "./SmartImage";
 
 /**
@@ -33,8 +32,6 @@ export function RecipeSidebar() {
           En savoir plus sur moi →
         </Link>
       </div>
-
-      <BlogueuseCta />
 
       <div className="vg-widget vg-widget-cta">
         <span className="vg-widget-cta-eyebrow">La newsletter Vegourmet</span>
