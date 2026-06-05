@@ -11,10 +11,11 @@ interface ArticleHeaderProps {
   readingTime?: string;
 }
 
-/** Initiale d'auteur pour l'avatar. */
-function authorInitial(author: string): string {
-  return author.trim().charAt(0).toUpperCase() || "·";
-}
+/**
+ * Avatar Gravatar Chloé rapatrié sur S3 (fidélité WP byline).
+ * WP affiche le Gravatar ~30px arrondi à côté du nom dans la meta.
+ */
+const CHLOE_GRAVATAR = "https://veg.s3.fr-par.scw.cloud/img/avatar-chloe.jpg";
 
 /** En-tête d'article fidèle au thème Yummy Bites (pastille / titre / méta / hero). */
 export function ArticleHeader({ article, readingTime }: ArticleHeaderProps) {
@@ -33,9 +34,15 @@ export function ArticleHeader({ article, readingTime }: ArticleHeaderProps) {
 
       <div className="vg-entry-meta">
         <span className="vg-author">
-          <span className="vg-author-avatar" aria-hidden="true">
-            {authorInitial(article.author)}
-          </span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={CHLOE_GRAVATAR}
+            alt={article.author}
+            width={30}
+            height={30}
+            className="vg-author-avatar-img"
+            loading="lazy"
+          />
           {article.author}
         </span>
         <span className="vg-dot">

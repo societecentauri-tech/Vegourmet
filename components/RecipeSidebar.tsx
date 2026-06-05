@@ -1,27 +1,27 @@
 import Link from "next/link";
 import { BlogueuseCta } from "./BlogueuseCta";
+import { SmartImage } from "./SmartImage";
 
-/** Avatar Gravatar rapatrié sur S3 (160×160 PNG, fidélité WP). */
-const CHLOE_AVATAR = "https://veg.s3.fr-par.scw.cloud/img/avatar-chloe.jpg";
+/**
+ * Photo Chloé sur le canapé — fidélité WP (widget « À propos de moi »).
+ * WP affiche une grande photo pleine largeur (Chloe-sofa.jpg, ratio 3/2).
+ */
+const CHLOE_PHOTO = "https://veg.s3.fr-par.scw.cloud/about/chloe-sofa.jpg";
 
 /**
  * Sidebar des pages recette/article (widget « À propos de moi » du thème).
- * Avatar Chloé circulaire (Gravatar WP rapatrié sur S3) + texte original WP.
+ * Grande photo rectangulaire de Chloé fidèle au rendu WP + texte original.
  */
 export function RecipeSidebar() {
   return (
     <aside className="vg-sidebar" aria-label="À propos de l'autrice">
       <div className="vg-widget vg-widget-about">
         <h2 className="vg-widget-title">À propos de moi</h2>
-        <div className="vg-widget-about-avatar">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={CHLOE_AVATAR}
-            alt="Chloé"
-            width={80}
-            height={80}
-            className="vg-widget-about-avatar-img"
-            loading="lazy"
+        <div className="vg-widget-about-photo">
+          <SmartImage
+            src={CHLOE_PHOTO}
+            alt="Chloé, créatrice de Vegourmet"
+            ratio="3 / 2"
           />
         </div>
         <p className="vg-widget-about-text">

@@ -62,17 +62,13 @@
   font-weight: 600;
 }
 
-.vg-entry-meta .vg-author-avatar {
-  width: 28px;
-  height: 28px;
+/* Avatar Gravatar dans la byline (remplace la pastille initiale — fidélité WP). */
+.vg-entry-meta .vg-author-avatar-img {
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--vg-terracotta, #d98e73), var(--vg-gold, #e6b170));
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 0.8rem;
-  font-weight: 700;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .vg-entry-meta .vg-dot::before {

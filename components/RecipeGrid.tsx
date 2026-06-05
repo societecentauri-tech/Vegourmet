@@ -150,7 +150,13 @@ export function ItemCard({ item }: ItemCardProps) {
             title={item.category}
             aria-label={`Catégorie : ${item.category}`}
             className="vg-item-cat-link"
-            style={{ background: color }}
+            style={{
+              background: color,
+              /* display:flex inline pour ne pas être écrasé par le Preflight Tailwind */
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
           >
             <CategoryIcon glyph={glyph} />
           </Link>
