@@ -1,4 +1,18 @@
 // scripts/taxonomy.mjs
+//
+// ⚠️ SUPERSÉDÉ par scripts/regen-taxonomies-from-truth.mjs (régénère le champ
+// `taxonomies` depuis la vérité terrain WP /tmp/taxo-truth.json, dérivée de
+// l'API REST WordPress — source fiable et ordonnée). Garder ce script comme
+// outil de re-crawl HTML d'appoint uniquement (ré-extraction des pages d'archive
+// si l'API REST est indisponible).
+//
+// Post-mortem : la version originale extrayait TOUS les liens `a[href*="/recettes/"]`
+// d'une page d'archive, y compris ceux présents dans le CORPS d'un article
+// (« recettes liées », blocs éditoriaux). D'où 21 recettes « fourre-tout »
+// assignées à toutes les taxonomies. Le sélecteur ci-dessous est désormais SCOPÉ
+// à la grille de cartes de l'archive (titres de cartes), ce qui évite la
+// re-pollution future.
+//
 // Source autoritative des appartenances taxonomiques : les pages d'archive WP
 // (/recette-type/X, /recette-style/X, /recette-thematique/X, /category/X) listent
 // les recettes qui en font partie. On les fetch (avec pagination), on extrait les
@@ -40,7 +54,25 @@ async function fetchHtml(url, tries = 4) {
 
 function recipeSlugsFrom($) {
   const slugs = new Set();
-  $('a[href*="/recettes/"]').each((_i, el) => {
+  // SCOPE à la grille de cartes de l'archive : on ne prend QUE les liens des
+  // titres / vignettes de cartes (`.entry-title a`, `.post-thumbnail a`,
+  // `article a`), JAMAIS les liens « recettes liées » présents dans le corps
+  // d'un article (`.entry-content a`). Cf. post-mortem en tête de fichier.
+  const CARD_SELECTORS = [
+    "h2.entry-title a",
+    ".entry-title a",
+    ".post-thumbnail a",
+    "article .post-thumbnail a",
+  ].join(", ");
+  let $cards = $(CARD_SELECTORS).filter('[href*="/recettes/"]');
+  // Repli prudent : si le thème ne porte pas ces classes, on retombe sur les
+  // liens d'<article> en EXCLUANT explicitement le corps éditorial.
+  if ($cards.length === 0) {
+    $cards = $('article a[href*="/recettes/"]').filter(
+      (_i, el) => $(el).closest(".entry-content").length === 0,
+    );
+  }
+  $cards.each((_i, el) => {
     const href = $(el).attr("href") || "";
     const m = href.match(/\/recettes\/([^/?#]+)\/?(?:[?#]|$)/);
     if (m && m[1] && m[1] !== "") slugs.add(m[1]);
