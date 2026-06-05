@@ -10,12 +10,15 @@ import { recipeToListingItem } from "@/components/RecipeGrid";
 import { RecipeFaq } from "@/components/RecipeFaq";
 import { RecipeSidebar } from "@/components/RecipeSidebar";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { RecipeReviews } from "@/components/RecipeReviews";
 import {
   getAllRecipes,
   getRecipeBySlug,
   getRelatedRecipes,
 } from "@/lib/content";
+import { getRecipeRating } from "@/lib/ratings";
 import "@/components/recipe.css";
+import "@/components/reviews.css";
 import {
   SITE_URL,
   buildBreadcrumbJsonLd,
@@ -59,6 +62,8 @@ export default async function RecipePage({ params }: PageProps) {
 
   const fm = recipe.frontmatter;
   const related = getRelatedRecipes(fm);
+  // Note agrégée réelle (snapshot build-time). null = recette non notée.
+  const rating = getRecipeRating(fm.slug);
   const breadcrumb = [
     { name: "Accueil", url: `${SITE_URL}/` },
     { name: "Recettes", url: `${SITE_URL}/recettes` },
@@ -68,7 +73,7 @@ export default async function RecipePage({ params }: PageProps) {
   return (
     <>
       <div className="vg-recipe-layout">
-        <JsonLd data={buildRecipeJsonLd(recipe)} />
+        <JsonLd data={buildRecipeJsonLd(recipe, rating)} />
         <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
         {fm.faq && fm.faq.length > 0 ? (
           <JsonLd data={buildFaqJsonLd(fm.faq)!} />
@@ -90,7 +95,7 @@ export default async function RecipePage({ params }: PageProps) {
             </div>
 
             <div className="mt-10">
-              <RecipeDeliciousCard recipe={fm} />
+              <RecipeDeliciousCard recipe={fm} rating={rating} />
               <AffiliateDisclosure />
             </div>
 
@@ -99,6 +104,10 @@ export default async function RecipePage({ params }: PageProps) {
                 <RecipeFaq items={fm.faq} />
               </div>
             )}
+
+            <div className="mt-10">
+              <RecipeReviews slug={fm.slug} rating={rating} />
+            </div>
           </article>
 
           <RecipeSidebar />

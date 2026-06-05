@@ -1,3 +1,4 @@
+import type { RecipeRating } from "./ratings";
 import type { Article, Recipe } from "./types";
 
 export const SITE_URL = "https://vegourmet.fr";
@@ -27,8 +28,18 @@ export function toIsoDuration(human: string): string {
   return duration === "PT" ? "PT0M" : duration;
 }
 
-/** JSON-LD schema.org Recipe (corrige le P0 « Recipe absent » du WordPress source). */
-export function buildRecipeJsonLd(recipe: Recipe): Record<string, unknown> {
+/**
+ * JSON-LD schema.org Recipe (corrige le P0 « Recipe absent » du WordPress source).
+ *
+ * `rating` (optionnel) : note agrégée réelle issue du snapshot build-time
+ * (`lib/ratings`). Si fournie ET `ratingCount > 0`, on ajoute un bloc
+ * `aggregateRating`. On ne l'émet JAMAIS pour une recette à 0 note : un
+ * `aggregateRating` factice ou vide expose à une action manuelle Google.
+ */
+export function buildRecipeJsonLd(
+  recipe: Recipe,
+  rating?: RecipeRating | null,
+): Record<string, unknown> {
   const fm = recipe.frontmatter;
   const url = `${SITE_URL}/recettes/${fm.slug}`;
 
@@ -68,6 +79,19 @@ export function buildRecipeJsonLd(recipe: Recipe): Record<string, unknown> {
       ...(fm.nutrition.protein && { proteinContent: fm.nutrition.protein }),
       ...(fm.nutrition.carbs && { carbohydrateContent: fm.nutrition.carbs }),
       ...(fm.nutrition.fat && { fatContent: fm.nutrition.fat }),
+    };
+  }
+
+  // aggregateRating : UNIQUEMENT si la recette est réellement notée (ratingCount > 0).
+  // Source = vraie valeur de la vue `recipe_ratings` (snapshot build). Jamais sur
+  // une recette à 0 note (sinon éligible à une action manuelle Google).
+  if (rating && rating.ratingCount > 0) {
+    jsonLd.aggregateRating = {
+      "@type": "AggregateRating",
+      ratingValue: rating.ratingValue,
+      ratingCount: rating.ratingCount,
+      bestRating: 5,
+      worstRating: 1,
     };
   }
 
