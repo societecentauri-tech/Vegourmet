@@ -10,10 +10,15 @@ export const TAXO_LABELS: Record<TaxoKind, Record<string, string>> = {
     "snack-vegan": "Snack vegan"
   },
   "recette-style": {
+    "africaine": "Africaine",
     "americaine": "Américaine",
+    "asie": "Asie",
     "europeenne": "Européenne",
     "inde": "Inde",
-    "moyen-orient": "Moyen-Orient"
+    "italie": "Italie",
+    "mexique": "Mexique",
+    "moyen-orient": "Moyen-Orient",
+    "thailande": "Thaïlande"
   },
   "recette-thematique": {
     "froid": "Froid",
