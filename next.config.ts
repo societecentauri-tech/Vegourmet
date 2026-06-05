@@ -44,6 +44,31 @@ const nextConfig: NextConfig = {
   // POC 100 % statique : aucune image distante téléchargée (cf. images-manifest.json).
   // Les redirections WordPress legacy (query params dédupliqués) sont gérées par
   // les canonical propres + la structure d'URL préservée à l'identique.
+
+  // ─────────────────────────────────────────────────────────────────────────────
+  // Redirections SEO W3 — préservation du jus de liens à la bascule WP→Next.js
+  //
+  //  1. /category/:path* → /blog (308 permanent)
+  //     Couvre toutes les pages catégories WP indexées par GSC, y compris la
+  //     pagination (/page/2/, etc.). Greg a validé : toutes les catégories WP
+  //     pointent vers la liste unifiée /blog.
+  //
+  //  2. /boutique n'est PAS géré ici : Next.js redirects() ne peut émettre que
+  //     des 301/302/307/308, jamais un 410. Le 410 est géré par un Route Handler
+  //     → app/boutique/[[...slug]]/route.ts.
+  // ─────────────────────────────────────────────────────────────────────────────
+  async redirects() {
+    return [
+      {
+        // Toutes les catégories WP (avec ou sans pagination) → page liste /blog.
+        // permanent: true émet un 308 (équivalent SEO d'un 301 pour les méthodes POST).
+        source: "/category/:path*",
+        destination: "/blog",
+        permanent: true,
+      },
+    ];
+  },
+
   async headers() {
     return [
       // Headers de sécurité : sur toutes les réponses, quel que soit le host.
