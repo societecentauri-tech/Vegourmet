@@ -11,7 +11,7 @@ import { paginate, pageHref } from "@/lib/pagination";
 export const metadata: Metadata = {
   title: "Toutes nos recettes vegan",
   description:
-    "Découvrez toutes les recettes vegan de Vegourmet : entrées, plats, desserts et petits-déjeuners, faciles et gourmands.",
+    "Découvre toutes les recettes vegan de Vegourmet : entrées, plats, desserts et petits-déjeuners, faciles et gourmands.",
   alternates: { canonical: `${SITE_URL}/recettes` },
 };
 
@@ -49,7 +49,7 @@ export default async function RecipesIndexPage({ searchParams }: PageProps) {
 
   const title = query ? `Résultats pour « ${query} »` : "Toutes nos recettes vegan";
   const description = query
-    ? `${totalItems} recette${totalItems > 1 ? "s" : ""} trouvée${totalItems > 1 ? "s" : ""} pour votre recherche.`
+    ? `${totalItems} recette${totalItems > 1 ? "s" : ""} trouvée${totalItems > 1 ? "s" : ""} pour ta recherche.`
     : `${totalItems} recettes faciles et gourmandes, 100 % végétales.`;
 
   return (

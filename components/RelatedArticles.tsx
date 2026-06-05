@@ -6,14 +6,14 @@ interface RelatedArticlesProps {
   items: ListingItem[];
 }
 
-/** Bloc « Vous aimerez peut-être aussi... » fidèle au thème (articles et recettes). */
+/** Bloc « Tu aimeras peut-être aussi... » fidèle au thème (articles et recettes). */
 export function RelatedArticles({ items }: RelatedArticlesProps) {
   if (items.length === 0) return null;
 
   return (
     <section className="vg-related" aria-labelledby="vg-related-title">
       <h2 id="vg-related-title" className="vg-related-title">
-        Vous aimerez peut-être aussi...
+        Tu aimeras peut-être aussi...
       </h2>
       <div className="vg-related-grid">
         {items.map((item) => (

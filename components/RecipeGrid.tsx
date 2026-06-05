@@ -23,7 +23,7 @@ export interface ListingItem {
   /** URL de l'image hero (bucket S3). */
   imageSrc?: string;
   ratio: string;
-  /** Date à afficher (ISO). Utilisé dans le widget « Vous aimerez aussi » (articles). */
+  /** Date à afficher (ISO). Utilisé dans le widget « Tu aimeras aussi » (articles). */
   dateDisplay?: string;
 }
 
