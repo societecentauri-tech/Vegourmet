@@ -1,4 +1,5 @@
 import { SmartImage } from "./SmartImage";
+import { IngredientName } from "./IngredientName";
 import { RecipePrintButton } from "./RecipePrintButton";
 import {
   AuthorIcon,
@@ -173,7 +174,7 @@ export function RecipeDeliciousCard({ recipe }: RecipeDeliciousCardProps) {
                 <input type="checkbox" id={id} />
                 <label htmlFor={id}>
                   {qty && <span className="vg-ing-qty">{qty} </span>}
-                  {ing.name}
+                  <IngredientName ingredient={ing} />
                 </label>
               </li>
             );

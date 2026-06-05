@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { JsonLd } from "@/components/JsonLd";
 import { MdxContent } from "@/components/MdxContent";
@@ -82,6 +83,7 @@ export default async function RecipePage({ params }: PageProps) {
 
           <div className="mt-10">
             <RecipeDeliciousCard recipe={fm} />
+            <AffiliateDisclosure />
           </div>
 
           {fm.faq && fm.faq.length > 0 && (

@@ -737,3 +737,33 @@
   background: #bf7052;
   text-decoration: none;
 }
+
+/* --- Liens affiliés des ingrédients (fiche RecipeDeliciousCard) --- */
+/* Fidèle à WP : seuls les noms de produits étaient des liens cliquables. */
+.vg-ingredient .vg-ing-link {
+  color: var(--vg-c-terra);
+  text-decoration: underline;
+  text-decoration-color: rgba(217, 142, 115, 0.5);
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+.vg-ingredient .vg-ing-link:hover {
+  color: var(--vg-c-terra-hover);
+  text-decoration-color: var(--vg-c-terra-hover);
+}
+
+/* --- Encart de divulgation des liens affiliés (sous la fiche recette) --- */
+.vg-affiliate-disclosure {
+  margin-top: 1.5rem;
+  padding: 0.95rem 1.15rem;
+  border: 1px solid var(--vg-card-border);
+  border-left: 3px solid var(--vg-c-terra);
+  border-radius: 12px;
+  background: var(--vg-card-cream);
+  color: var(--vg-c-ink);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+.vg-affiliate-disclosure p {
+  margin: 0;
+}
