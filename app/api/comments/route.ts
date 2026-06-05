@@ -90,14 +90,14 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
         id,
         status: "pending",
         message:
-          "Merci ! Votre avis a bien été reçu et sera publié après modération.",
+          "Merci ! Ton avis a bien été reçu et sera publié après modération.",
       },
       { status: 201 },
     );
   } catch (err) {
     console.error(`/api/comments POST slug=${validation.value.slug} :`, err);
     return NextResponse.json(
-      { error: "Impossible d'enregistrer votre avis pour le moment." },
+      { error: "Impossible d'enregistrer ton avis pour le moment." },
       { status: 502 },
     );
   }

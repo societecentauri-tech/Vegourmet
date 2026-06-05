@@ -62,7 +62,7 @@ export function FavorisSection({
           <span className="vgh-subtitle">Sélection gourmande</span>
           <h2 id="vgh-favoris-title">Les favoris de nos lecteurs</h2>
           <p>
-            Parcourez quelques-unes des recettes vegan les plus appréciées par
+            Parcours quelques-unes des recettes vegan les plus appréciées par
             nos lecteurs.
           </p>
         </header>

@@ -13,7 +13,7 @@ const TYPE_CHIPS = [
 ];
 
 /**
- * RecipeFinder — « Trouvez la recette parfaite » (#search_section).
+ * RecipeFinder — « Trouve la recette parfaite » (#search_section).
  * Fond rose/pêche, titre centré, champ de recherche (POC non fonctionnel)
  * + chips de filtres par type de recette.
  */
@@ -27,8 +27,8 @@ export function RecipeFinder() {
       <div className="vgh-container">
         <div className="vgh-search-wrap">
           <header className="vgh-header">
-            <span className="vgh-subtitle">Vous ne savez pas quoi cuisiner ?</span>
-            <h2 id="vgh-search-title">Trouvez la recette parfaite</h2>
+            <span className="vgh-subtitle">Tu ne sais pas quoi cuisiner ?</span>
+            <h2 id="vgh-search-title">Trouve la recette parfaite</h2>
           </header>
 
           <form

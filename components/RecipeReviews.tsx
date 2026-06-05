@@ -111,18 +111,18 @@ export function RecipeReviews({ slug, rating }: RecipeReviewsProps) {
         error?: string;
       };
       if (!res.ok) {
-        setSubmitErr(json.error ?? "Une erreur est survenue. Réessayez.");
+        setSubmitErr(json.error ?? "Une erreur est survenue. Réessaie.");
         return;
       }
       setSubmitMsg(
         json.message ??
-          "Merci ! Votre avis sera publié après modération.",
+          "Merci ! Ton avis sera publié après modération.",
       );
       setName("");
       setContent("");
       setStars(5);
     } catch {
-      setSubmitErr("Réseau indisponible. Réessayez dans un instant.");
+      setSubmitErr("Réseau indisponible. Réessaie dans un instant.");
     } finally {
       setSubmitting(false);
     }
@@ -163,12 +163,12 @@ export function RecipeReviews({ slug, rating }: RecipeReviewsProps) {
       )}
       {loadError && (
         <p className="vg-reviews__muted">
-          Les avis n’ont pas pu être chargés. Réessayez plus tard.
+          Les avis n’ont pas pu être chargés. Réessaie plus tard.
         </p>
       )}
       {data && data.comments.length === 0 && !loadError && (
         <p className="vg-reviews__muted">
-          Aucun avis pour l’instant. Soyez la première personne à en laisser un !
+          Aucun avis pour l’instant. Sois la première personne à en laisser un !
         </p>
       )}
 
@@ -224,7 +224,7 @@ export function RecipeReviews({ slug, rating }: RecipeReviewsProps) {
 
         <div className="vg-reviewform__row">
           <label className="vg-reviewform__label" htmlFor={`${formId}-name`}>
-            Votre prénom
+            Ton prénom
           </label>
           <input
             id={`${formId}-name`}
@@ -239,7 +239,7 @@ export function RecipeReviews({ slug, rating }: RecipeReviewsProps) {
         </div>
 
         <div className="vg-reviewform__row">
-          <span className="vg-reviewform__label">Votre note</span>
+          <span className="vg-reviewform__label">Ta note</span>
           <span
             className="vg-reviewform__stars"
             role="radiogroup"
@@ -270,7 +270,7 @@ export function RecipeReviews({ slug, rating }: RecipeReviewsProps) {
             className="vg-reviewform__label"
             htmlFor={`${formId}-content`}
           >
-            Votre avis
+            Ton avis
           </label>
           <textarea
             id={`${formId}-content`}

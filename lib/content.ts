@@ -90,7 +90,7 @@ export function getRelatedArticles(
 }
 
 /**
- * Recettes connexes (« Vous aimerez peut-être aussi… »).
+ * Recettes connexes (« Tu aimeras peut-être aussi… »).
  *
  * Fidélité WP : la fiche recette WP Delicious affiche 3 recettes liées, filtrées par
  * `recipe-course` (= taxonomie `recette-type`). On reproduit cette intention en classant

@@ -14,10 +14,10 @@ export function NewsletterBand() {
     >
       <div className="vgh-container vgh-newsletter-inner">
         <div className="vgh-newsletter-text">
-          <h3 id="vgh-newsletter-title">Abonnez-vous à notre newsletter</h3>
+          <h3 id="vgh-newsletter-title">Abonne-toi à notre newsletter</h3>
           <p>
-            Recevez nos dernières recettes, conseils de cuisine et offres
-            exclusives directement dans votre boîte de réception.
+            Reçois nos dernières recettes, conseils de cuisine et offres
+            exclusives directement dans ta boîte de réception.
           </p>
         </div>
         <form className="vgh-newsletter-form" aria-label="Inscription à la newsletter">

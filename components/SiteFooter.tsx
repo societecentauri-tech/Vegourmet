@@ -84,7 +84,7 @@ export function SiteFooter() {
 
             <div className="col">
               <section className="widget widget_nav_menu">
-                <h2 className="widget-title">Suivez-nous</h2>
+                <h2 className="widget-title">Suis-nous</h2>
                 <ul className="menu">
                   {SUIVEZ_NOUS.map((item) => (
                     <li key={item.href} className="menu-item">

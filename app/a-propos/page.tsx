@@ -14,7 +14,7 @@ const S3 = "https://veg.s3.fr-par.scw.cloud/about";
 export const metadata: Metadata = {
   title: "À propos",
   description:
-    "Bonjour, moi c'est Chloé, créatrice de Vegourmet. Découvrez ma philosophie en cuisine et un peu plus sur moi.",
+    "Bonjour, moi c'est Chloé, créatrice de Vegourmet. Découvre ma philosophie en cuisine et un peu plus sur moi.",
   alternates: { canonical: `${SITE_URL}/a-propos` },
   openGraph: {
     type: "profile",

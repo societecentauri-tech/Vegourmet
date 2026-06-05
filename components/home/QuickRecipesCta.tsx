@@ -23,8 +23,8 @@ export function QuickRecipesCta({ imageSrc, imageAlt }: QuickRecipesCtaProps) {
         <div className="vgh-cta-text">
           <h2 id="vgh-cta-title">Recettes vegan rapides et savoureuses</h2>
           <p>
-            Consultez nos dernières recettes pour vous inspirer en cuisine et
-            partagez-les sur vos réseaux sociaux !
+            Consulte nos dernières recettes pour t&apos;inspirer en cuisine et
+            partage-les sur tes réseaux sociaux !
           </p>
           <Link href="/recettes" className="btn-primary">
             Découvrir les recettes

@@ -31,7 +31,7 @@ interface BestRecipesProps {
 }
 
 /**
- * BestRecipes — « Découvrez nos meilleures recettes » (#category_section).
+ * BestRecipes — « Découvre nos meilleures recettes » (#category_section).
  * Titre centré, onglets de filtre par tag, grille de cartes (composant
  * partagé) filtrée côté client, bouton « Voir toutes les recettes ».
  */
@@ -59,10 +59,10 @@ export function BestRecipes({ items }: BestRecipesProps) {
     >
       <div className="vgh-container">
         <header className="vgh-header">
-          <h2 id="vgh-best-title">Découvrez nos meilleures recettes</h2>
+          <h2 id="vgh-best-title">Découvre nos meilleures recettes</h2>
           <p>
             Voici quelques-unes des meilleures recettes vegan appréciées par les
-            lecteurs. Préparez et dégustez ces recettes avec vos amis et votre
+            lecteurs. Prépare et déguste ces recettes avec tes amis et ta
             famille.
           </p>
         </header>
