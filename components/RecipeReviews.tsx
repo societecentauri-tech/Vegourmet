@@ -15,16 +15,27 @@ import { useCallback, useEffect, useId, useState } from "react";
 import { StarRating } from "./StarRating";
 import type { RecipeRating } from "@/lib/ratings";
 
+interface ApiReply {
+  id: string;
+  authorName: string;
+  content: string;
+  createdAt: string;
+}
+
 interface ApiComment {
   id: string;
   authorName: string;
   content: string;
   rating: number | null;
   createdAt: string;
+  /** Réponses d'auteur (Chloé) imbriquées sous cet avis. */
+  replies?: ApiReply[];
 }
 
 interface CommentsResponse {
+  /** Avis de premier niveau (notés) de la page courante, réponses incluses. */
   comments: ApiComment[];
+  /** Nombre d'avis de premier niveau (PAS le total commentaires + réponses). */
   total: number;
   page: number;
   pageSize: number;
@@ -130,12 +141,14 @@ export function RecipeReviews({ slug, rating }: RecipeReviewsProps) {
 
   const total = data?.total ?? 0;
   const totalPages = data?.totalPages ?? 1;
-  const heading =
-    rating && rating.reviewCount > 0
-      ? `Avis (${rating.reviewCount})`
-      : total > 0
-        ? `Avis (${total})`
-        : "Avis";
+  // Compteur = nombre d'AVIS (premier niveau = notés), JAMAIS le total
+  // commentaires + réponses. Source prioritaire : `rating.ratingCount` du
+  // snapshot (cohérent avec l'aggregateRating JSON-LD). À défaut, `data.total`
+  // (avis de premier niveau renvoyés par l'API threadée). On n'utilise PLUS
+  // `reviewCount` (= total à plat, incluait les réponses de Chloé → « (20) »).
+  const reviewCount =
+    rating && rating.ratingCount > 0 ? rating.ratingCount : total;
+  const heading = reviewCount > 0 ? `Avis (${reviewCount})` : "Avis";
 
   return (
     <section className="vg-reviews" aria-labelledby={`${formId}-title`}>
@@ -188,6 +201,26 @@ export function RecipeReviews({ slug, rating }: RecipeReviewsProps) {
                 )}
               </div>
               <p className="vg-review__content">{c.content}</p>
+
+              {/* Réponse(s) d'auteur (Chloé) imbriquée(s) sous l'avis, sans étoiles. */}
+              {c.replies && c.replies.length > 0 && (
+                <ul className="vg-review__replies">
+                  {c.replies.map((r) => (
+                    <li className="vg-reply" key={r.id}>
+                      <div className="vg-reply__head">
+                        <span className="vg-reply__badge">Réponse de</span>
+                        <span className="vg-reply__author">{r.authorName}</span>
+                        {r.createdAt && (
+                          <time className="vg-reply__date" dateTime={r.createdAt}>
+                            {formatDate(r.createdAt)}
+                          </time>
+                        )}
+                      </div>
+                      <p className="vg-reply__content">{r.content}</p>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </li>
           ))}
         </ul>

@@ -71,12 +71,10 @@ export function RecipeDeliciousCard({
         maximumFractionDigits: 1,
       })
     : null;
-  const reviewLabel =
-    hasRating && rating.reviewCount > 0
-      ? `${rating.reviewCount} avis`
-      : hasRating
-        ? `${rating.ratingCount} notes`
-        : null;
+  // « N avis » = nombre d'AVIS notés (ratingCount), JAMAIS le total commentaires
+  // + réponses (reviewCount incluait les réponses de Chloé → « 20 avis »).
+  // Cohérent avec le compteur de la section avis et l'aggregateRating JSON-LD.
+  const reviewLabel = hasRating ? `${rating.ratingCount} avis` : null;
 
   return (
     <section

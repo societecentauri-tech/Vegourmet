@@ -64,20 +64,45 @@ interface RawRecipeRating {
   review_count: number | null;
 }
 
-/** Commentaire exposé au client (l'`author_email_hash` n'est JAMAIS inclus). */
-export interface PublicComment {
+/**
+ * Réponse d'auteur (Chloé) attachée à un avis. Jamais notée (sans étoiles).
+ * L'`author_email_hash` n'est JAMAIS inclus.
+ */
+export interface PublicReply {
   id: string;
   authorName: string;
   content: string;
-  /** Note 1-5, ou null pour une réponse d'auteur (sans note). */
-  rating: number | null;
   /** ISO 8601. */
   createdAt: string;
 }
 
-/** Ligne brute `public.comments` (sélection serveur, sans email hash). */
+/**
+ * Avis de premier niveau exposé au client (l'`author_email_hash` n'est JAMAIS
+ * inclus). Un avis porte une note (étoiles) et 0..n réponses imbriquées
+ * (`replies`) — typiquement une seule réponse de Chloé. Les réponses ne sont
+ * jamais notées et n'apparaissent qu'imbriquées sous leur avis parent.
+ */
+export interface PublicComment {
+  id: string;
+  authorName: string;
+  content: string;
+  /** Note 1-5, ou null pour un avis sans note (cas legacy). */
+  rating: number | null;
+  /** ISO 8601. */
+  createdAt: string;
+  /** Réponses d'auteur imbriquées (Chloé), triées du plus ancien au plus récent. */
+  replies: PublicReply[];
+}
+
+/**
+ * Ligne brute `public.comments` (sélection serveur, sans email hash).
+ * Inclut `legacy_wp_id` / `parent_legacy_id` pour reconstruire le fil
+ * (avis ↔ réponse), conformément au modèle WordPress importé.
+ */
 interface RawComment {
   id: string;
+  legacy_wp_id: number | null;
+  parent_legacy_id: number | null;
   author_name: string | null;
   content: string | null;
   rating: number | null;
@@ -154,7 +179,13 @@ export async function fetchAllRecipeRatings(
   return out;
 }
 
-/** Résultat paginé de commentaires approuvés. */
+/**
+ * Résultat paginé d'avis approuvés, **threadé**.
+ * `comments` = avis de premier niveau (notés) de la page courante, chacun
+ * avec ses réponses d'auteur imbriquées (`replies`). `total` compte les AVIS
+ * de premier niveau de la recette (PAS le total commentaires + réponses), pour
+ * que le compteur « Avis (N) » et la pagination reflètent le nombre d'avis.
+ */
 export interface CommentsPage {
   comments: PublicComment[];
   total: number;
@@ -163,14 +194,39 @@ export interface CommentsPage {
   totalPages: number;
 }
 
-/** Taille de page par défaut (pagination obligatoire). */
+/** Taille de page par défaut, en **avis de premier niveau** (pagination obligatoire). */
 export const COMMENTS_PAGE_SIZE = 10;
 
 /**
- * Liste paginée des commentaires `approved` d'une recette, triés `created_at` desc.
- * Pagination via `LIMIT/OFFSET` (Range PostgREST). N'expose JAMAIS l'email hash.
+ * Plafond de commentaires lus par recette (avis + réponses confondus).
+ * Le threading impose de récupérer l'ensemble des commentaires d'une recette
+ * pour rattacher chaque réponse à son avis parent, AVANT de paginer les avis de
+ * premier niveau. La volumétrie par recette est faible (quelques dizaines) ;
+ * cette borne protège d'un cas pathologique (SELECT non borné interdit).
  */
-export async function fetchApprovedComments(
+const MAX_COMMENTS_PER_RECIPE = 1000;
+
+/**
+ * Liste **threadée** et paginée des avis `approved` d'une recette.
+ *
+ * Modèle (import WordPress) :
+ *   - Avis de premier niveau : `parent_legacy_id IS NULL` (porte la note/étoiles).
+ *   - Réponse d'auteur (Chloé) : `parent_legacy_id` = `legacy_wp_id` de l'avis
+ *     parent, sans note.
+ *
+ * Algorithme :
+ *   1. Récupère TOUS les commentaires `approved` de la recette (borné), triés
+ *      `created_at` (ascendant pour ordonner les réponses naturellement).
+ *   2. Sépare avis de premier niveau et réponses ; rattache chaque réponse à son
+ *      avis parent via `parent_legacy_id === parent.legacy_wp_id`. Les réponses
+ *      orphelines (parent absent/non approuvé) sont **ignorées** (jamais
+ *      affichées détachées).
+ *   3. Trie les avis de premier niveau du plus récent au plus ancien (comme WP).
+ *   4. Pagine les avis de premier niveau (LIMIT/OFFSET en mémoire).
+ *
+ * N'expose JAMAIS l'email hash. Requête paramétrée (slug/status encodés).
+ */
+export async function fetchThreadedComments(
   slug: string,
   page: number,
   pageSize: number = COMMENTS_PAGE_SIZE,
@@ -181,44 +237,76 @@ export async function fetchApprovedComments(
     Number.isFinite(pageSize) && pageSize > 0 && pageSize <= 50
       ? Math.floor(pageSize)
       : COMMENTS_PAGE_SIZE;
-  const offset = (safePage - 1) * safeSize;
-  const rangeFrom = offset;
-  const rangeTo = offset + safeSize - 1;
 
   const qs = [
     eqFilter("recipe_slug", slug),
     eqFilter("status", "approved"),
-    "select=id,author_name,content,rating,created_at",
-    "order=created_at.desc.nullslast",
+    "select=id,legacy_wp_id,parent_legacy_id,author_name,content,rating,created_at",
+    // Ascendant : les réponses se concatènent dans l'ordre chronologique ;
+    // les avis de premier niveau sont re-triés desc ci-dessous.
+    "order=created_at.asc.nullslast",
+    `limit=${MAX_COMMENTS_PER_RECIPE}`,
   ].join("&");
   const url = `${COMMENTS_API_URL}/rest/v1/comments?${qs}`;
 
   const res = await fetch(url, {
-    headers: {
-      ...authHeaders(),
-      // Range + count exact → total via header content-range, offset/limit propre.
-      Range: `${rangeFrom}-${rangeTo}`,
-      "Range-Unit": "items",
-      Prefer: "count=exact",
-    },
+    headers: authHeaders(),
     cache: "no-store",
     signal: init?.signal,
   });
-  if (!res.ok && res.status !== 206) {
+  if (!res.ok) {
     throw new Error(
       `comments ${res.status} ${res.statusText} pour slug=${slug}`,
     );
   }
 
   const rows = (await res.json()) as RawComment[];
-  const total = parseContentRangeTotal(res.headers.get("content-range"));
-  const comments: PublicComment[] = rows.map((r) => ({
-    id: r.id,
-    authorName: r.author_name ?? "Anonyme",
-    content: r.content ?? "",
-    rating: r.rating,
-    createdAt: r.created_at ?? "",
-  }));
+
+  // 1) Indexer les réponses par legacy_wp_id du parent (chronologique).
+  const repliesByParent = new Map<number, PublicReply[]>();
+  for (const r of rows) {
+    if (r.parent_legacy_id == null) continue; // pas une réponse
+    const reply: PublicReply = {
+      id: r.id,
+      authorName: r.author_name ?? "Anonyme",
+      content: r.content ?? "",
+      createdAt: r.created_at ?? "",
+    };
+    const bucket = repliesByParent.get(r.parent_legacy_id);
+    if (bucket) bucket.push(reply);
+    else repliesByParent.set(r.parent_legacy_id, [reply]);
+  }
+
+  // 2) Construire les avis de premier niveau avec leurs réponses rattachées.
+  //    Les réponses orphelines restent dans la Map et ne sont jamais affichées.
+  const topLevel: PublicComment[] = [];
+  for (const r of rows) {
+    if (r.parent_legacy_id != null) continue; // c'est une réponse
+    const replies =
+      r.legacy_wp_id != null
+        ? (repliesByParent.get(r.legacy_wp_id) ?? [])
+        : [];
+    topLevel.push({
+      id: r.id,
+      authorName: r.author_name ?? "Anonyme",
+      content: r.content ?? "",
+      rating: r.rating,
+      createdAt: r.created_at ?? "",
+      replies,
+    });
+  }
+
+  // 3) Avis de premier niveau du plus récent au plus ancien (ordre WP).
+  topLevel.sort((a, b) => {
+    const ta = a.createdAt ? Date.parse(a.createdAt) : 0;
+    const tb = b.createdAt ? Date.parse(b.createdAt) : 0;
+    return tb - ta;
+  });
+
+  // 4) Pagination sur les avis de premier niveau.
+  const total = topLevel.length;
+  const offset = (safePage - 1) * safeSize;
+  const comments = topLevel.slice(offset, offset + safeSize);
 
   return {
     comments,
@@ -227,15 +315,6 @@ export async function fetchApprovedComments(
     pageSize: safeSize,
     totalPages: Math.max(1, Math.ceil(total / safeSize)),
   };
-}
-
-/** Extrait le total d'un header `content-range: 0-9/42` (→ 42). */
-function parseContentRangeTotal(header: string | null): number {
-  if (!header) return 0;
-  const slash = header.split("/")[1];
-  if (!slash || slash === "*") return 0;
-  const n = Number.parseInt(slash, 10);
-  return Number.isFinite(n) ? n : 0;
 }
 
 /** Données validées d'un nouvel avis (issues de la route POST). */

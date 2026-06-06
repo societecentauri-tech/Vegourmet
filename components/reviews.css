@@ -118,6 +118,61 @@
   font-size: 0.95rem;
 }
 
+/* ── Réponse d'auteur (Chloé) imbriquée sous l'avis ─────────────────────────── */
+.vg-review__replies {
+  list-style: none;
+  margin: 0.85rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.vg-reply {
+  margin-left: 1.25rem;
+  padding: 0.75rem 0.9rem;
+  border-left: 3px solid var(--vg-terracotta, #d98e73);
+  border-radius: 0 10px 10px 0;
+  background: var(--vg-card-cream, #fbf6f1);
+}
+.vg-reply__head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.3rem;
+}
+.vg-reply__badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--vg-terracotta, #bf7052);
+  background: rgba(217, 142, 115, 0.12);
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+}
+.vg-reply__author {
+  font-weight: 700;
+  color: var(--vg-title, #2c3e50);
+  font-size: 0.9rem;
+}
+.vg-reply__date {
+  font-size: 0.78rem;
+  color: rgba(69, 62, 63, 0.55);
+}
+.vg-reply__content {
+  margin: 0;
+  line-height: 1.55;
+  color: var(--vg-ink, #453e3f);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 480px) {
+  .vg-reply {
+    margin-left: 0.5rem;
+  }
+}
+
 /* ── Pagination ─────────────────────────────────────────────────────────────── */
 .vg-reviews__pager {
   display: flex;
