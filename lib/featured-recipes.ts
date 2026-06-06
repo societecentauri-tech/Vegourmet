@@ -1,39 +1,51 @@
 /**
  * Recettes mises en avant dans le carrousel hero de la home.
  *
- * Sélection = les recettes les MIEUX classées sur Google, mesurées par les clics
- * réels (trafic), pas par la date de publication. Source : export Google Search
- * Console « by-page » couvrant 16 mois.
+ * Sélection = les recettes qui génèrent le plus de CLICS Google sur les
+ * 60 DERNIERS JOURS (trafic récent, signal frais), et NON plus l'agrégat
+ * 16 mois. On capte ainsi la saisonnalité (recettes de saison qui montent)
+ * plutôt qu'un historique figé.
  *
- * Source : gsc_by-page 2025-02 → 2026-06, classé par clics décroissants
- *          (départage par impressions). Fichier d'origine :
- *          backups/vegourmet/2026-06-03/gsc-export/gsc_by-page_2025-02_2026-06.json
+ * Source : Google Search Console — appel LIVE `searchanalytics.query`
+ *          (API Search Console v1), dimension ["page"], propriété
+ *          `https://vegourmet.fr/` (URL-prefix). Requête exécutée via le
+ *          serveur MCP « google-seo » (tool `gsc_search_analytics`).
+ *
+ * Fenêtre de dates (aujourd'hui − 62 j → aujourd'hui − 2 j, lag GSC inclus) :
+ *          startDate = 2026-04-05  →  endDate = 2026-06-04  (≈ 60 jours)
+ *          Requête datée du 2026-06-06. Métrique de tri : clics décroissants
+ *          (impressions en départage). 206 pages remontées.
  *
  * Méthode : chaque URL GSC (`https://vegourmet.fr/recettes/<slug>/`) est mappée
- * vers un slug de recette ; on ne garde que les pages /recettes/ ayant une
- * heroImage ; tri par clics desc ; top 5. Les pages guides/articles (hors
- * /recettes/) sont exclues même si elles rankent (ex. la page « margarine »).
+ * vers un slug = dernier segment de chemin ; on ne garde que les pages
+ * /recettes/ correspondant à un .mdx avec une heroImage ; tri par clics 60 j
+ * desc ; top 5. Les pages guides/articles (hors /recettes/) sont exclues même
+ * si elles rankent (ex. la page « meilleure-margarine » : 165 clics).
  *
- * Top 5 retenu (slug — clics — impressions sur la période) :
- *   1. guacamole-la-meilleure-recette-en-5-minutes   — 4259 clics — 133559 imp.
- *   2. galette-de-sarrasin-vegan-recette-breteonne    — 2409 clics —  19790 imp.
- *   3. muffins-sales-vegan-recette-simple-rapide      — 2378 clics —  23032 imp.
- *   4. nuggets-vegan-meilleure-recette-facon-kfc-7    — 1332 clics —  15806 imp.
- *   5. bo-bun-vegan-meilleure-recette-vietnamienne    — 1321 clics —  11910 imp.
+ * Top 5 retenu (slug — clics 60 j — impressions 60 j) :
+ *   1. galette-de-sarrasin-vegan-recette-breteonne   — 698 clics — 4857 imp.
+ *   2. cake-aux-legumes-vegan-recette-parfaite        — 265 clics — 3645 imp.
+ *   3. cake-aux-olives-vegan-meilleure-recette        — 215 clics — 1534 imp.
+ *   4. mascarpone-vegan-recette-star-desserts         — 180 clics — 2207 imp.
+ *   5. courgette-farcie-vegan-recette-facile          — 174 clics — 1646 imp.
  *
  * POUR RAFRAÎCHIR cette liste plus tard :
- *   1. Ré-exporter le rapport GSC « Pages » (≈ 16 mois) en JSON.
- *   2. Mapper chaque URL → dernier segment de chemin = slug.
- *   3. Ne garder que les slugs présents dans content/recettes/*.mdx avec heroImage.
- *   4. Trier par clics desc (impressions en départage), prendre le top 5.
- *   5. Remplacer le tableau ci-dessous (ordre = classement) + ce commentaire.
+ *   1. Recalculer la fenêtre : startDate = aujourd'hui − 62 j,
+ *      endDate = aujourd'hui − 2 j (lag GSC).
+ *   2. Appeler `searchanalytics.query` LIVE (tool MCP `gsc_search_analytics`),
+ *      siteUrl `https://vegourmet.fr/`, dimensions ["page"], rowLimit 250+,
+ *      tri clics desc.
+ *   3. Mapper chaque URL → dernier segment de chemin = slug.
+ *   4. Ne garder que les slugs présents dans content/recettes/*.mdx avec heroImage.
+ *   5. Trier par clics desc (impressions en départage), prendre le top 5.
+ *   6. Remplacer le tableau ci-dessous (ordre = classement) + ce commentaire.
  * (Le carrousel respecte l'ordre du tableau ; un slug absent est ignoré
  *  proprement par le fallback côté app/page.tsx — le build ne casse pas.)
  */
 export const HERO_CAROUSEL_SLUGS: readonly string[] = [
-  "guacamole-la-meilleure-recette-en-5-minutes",
   "galette-de-sarrasin-vegan-recette-breteonne",
-  "muffins-sales-vegan-recette-simple-rapide",
-  "nuggets-vegan-meilleure-recette-facon-kfc-7",
-  "bo-bun-vegan-meilleure-recette-vietnamienne",
+  "cake-aux-legumes-vegan-recette-parfaite",
+  "cake-aux-olives-vegan-meilleure-recette",
+  "mascarpone-vegan-recette-star-desserts",
+  "courgette-farcie-vegan-recette-facile",
 ] as const;
