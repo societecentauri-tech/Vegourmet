@@ -56,7 +56,16 @@ export function ArticleHeader({ article, readingTime }: ArticleHeaderProps) {
       </div>
 
       <div className="vg-hero">
-        <SmartImage src={article.heroImage?.src} alt={article.title} ratio="720 / 950" />
+        {/* Hero portrait fidèle WP : image entière non rognée, ratio naturel
+            720x950, affichée jusqu'à 720px de large et centrée (sizes WP = 720px). */}
+        <SmartImage
+          src={article.heroImage?.src}
+          alt={article.title}
+          fit="natural"
+          ratio="720 / 950"
+          width={720}
+          height={950}
+        />
       </div>
     </header>
   );

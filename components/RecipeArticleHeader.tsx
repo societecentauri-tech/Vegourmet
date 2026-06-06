@@ -89,7 +89,16 @@ export function RecipeArticleHeader({ recipe }: RecipeArticleHeaderProps) {
       </div>
 
       <div className="vg-article-hero">
-        <SmartImage src={heroImage?.src} alt={title} ratio="3 / 4" />
+        {/* Hero portrait fidèle WP : image entière non rognée, ratio naturel
+            724x1024 (≈ 0,707), affichée jusqu'à 724px de large et centrée. */}
+        <SmartImage
+          src={heroImage?.src}
+          alt={title}
+          fit="natural"
+          ratio="724 / 1024"
+          width={724}
+          height={1024}
+        />
       </div>
     </header>
   );

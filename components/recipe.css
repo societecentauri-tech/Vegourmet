@@ -31,8 +31,10 @@
   margin-bottom: 1.4rem;
 }
 .vg-article-hero {
-  margin: 0 0 1.25rem;
-  max-width: 30rem;
+  /* Fidélité WP : portrait affiché jusqu'à 724px de large, centré dans la
+     colonne de contenu (~812px au desktop), comme le single Yummy Bites. */
+  margin: 0 auto 1.25rem;
+  max-width: 724px;
 }
 .vg-article-cat {
   display: inline-block;

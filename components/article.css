@@ -85,7 +85,8 @@
 
 .vg-hero img,
 .vg-hero > * {
-  max-width: 480px;
+  /* Fidélité WP : portrait affiché jusqu'à 720px (sizes="...720px"), centré. */
+  max-width: 720px;
   margin: 0 auto;
 }
 
