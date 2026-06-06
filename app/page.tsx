@@ -1,5 +1,6 @@
 import { getAllRecipes } from "@/lib/content";
 import { getCategoryColor } from "@/lib/categoryStyle";
+import { HERO_CAROUSEL_SLUGS } from "@/lib/featured-recipes";
 import { recipeToListingItem } from "@/components/RecipeGrid";
 import { HeroCarousel, type HeroSlide } from "@/components/home/HeroCarousel";
 import { NewsletterBand } from "@/components/home/NewsletterBand";
@@ -49,11 +50,34 @@ export default function HomePage() {
   const recipes = getAllRecipes();
   const recipeFrontmatter = recipes.map((recipe) => recipe.frontmatter);
 
-  // --- Carrousel hero : recettes avec une vraie photo hero S3 (les + belles).
+  // --- Carrousel hero : les recettes les MIEUX classées sur Google (clics GSC),
+  // dans l'ordre de classement défini par lib/featured-recipes.ts
+  // (source : gsc_by-page 2025-02→2026-06, classé par clics). On exige une vraie
+  // photo hero S3. Fallback robuste : si un slug curé manque ou s'il en reste
+  // moins de 5 résolus, on complète par les recettes les plus récentes (déjà
+  // triées par datePublished desc) — le build ne casse jamais.
   const withHero = recipeFrontmatter.filter((recipe) =>
     Boolean(recipe.heroImage?.src),
   );
-  const heroSlides: HeroSlide[] = withHero.slice(0, 5).map((recipe) => ({
+  const bySlug = new Map(withHero.map((recipe) => [recipe.slug, recipe]));
+  const usedSlugs = new Set<string>();
+  const heroRecipes: RecipeFrontmatter[] = [];
+  for (const slug of HERO_CAROUSEL_SLUGS) {
+    const recipe = bySlug.get(slug);
+    if (recipe && !usedSlugs.has(slug)) {
+      heroRecipes.push(recipe);
+      usedSlugs.add(slug);
+    }
+  }
+  // Complément éventuel jusqu'à 5 slides (recettes récentes non déjà retenues).
+  for (const recipe of withHero) {
+    if (heroRecipes.length >= 5) break;
+    if (!usedSlugs.has(recipe.slug)) {
+      heroRecipes.push(recipe);
+      usedSlugs.add(recipe.slug);
+    }
+  }
+  const heroSlides: HeroSlide[] = heroRecipes.slice(0, 5).map((recipe) => ({
     slug: recipe.slug,
     title: recipe.title,
     excerpt: recipe.description,

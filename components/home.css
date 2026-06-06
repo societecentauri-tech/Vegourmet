@@ -400,6 +400,13 @@
   margin: 36px 0 96px;
 }
 
+/* Conteneur borné (max-width centré) = contexte de positionnement des flèches.
+   Sans cela, les flèches `position:absolute` remontaient jusqu'au bloc englobant
+   initial (le `.vgh-banner` pleine largeur) → placement aux bords de l'écran. */
+.vgh-banner .vgh-container {
+  position: relative;
+}
+
 .vgh-banner-viewport {
   position: relative;
 }
@@ -536,12 +543,15 @@
   height: 22px;
 }
 
+/* Flèches ancrées au bord de la zone bornée du carrousel (`.vgh-banner .vgh-container`,
+   position:relative ci-dessus), jamais aux bords de l'écran. Légère superposition
+   sur le bord interne, fidèle au rendu owl-carousel d'origine. */
 .vgh-banner-arrow.owl-prev {
-  left: -22px;
+  left: 4px;
 }
 
 .vgh-banner-arrow.owl-next {
-  right: -22px;
+  right: 4px;
 }
 
 /* Dots owl-dots, centrés sous le carrousel. */
