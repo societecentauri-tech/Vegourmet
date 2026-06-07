@@ -41,7 +41,29 @@ const SECURITY_HEADERS: { key: string; value: string }[] = [
 ];
 
 const nextConfig: NextConfig = {
-  // POC 100 % statique : aucune image distante téléchargée (cf. images-manifest.json).
+  // ─────────────────────────────────────────────────────────────────────────────
+  // Optimisation des images (poids des pages + LCP + indexation).
+  //
+  // Les images sont servies par le bucket S3 public Scaleway `veg`. On autorise
+  // ce domaine pour `next/image` afin que l'Image Optimization API de Next/Vercel
+  // génère à la volée des variantes AVIF/WebP redimensionnées (`srcset`/`sizes`).
+  // Gains attendus sur une page recette : ~7,4 Mio d'images → ~1-1,5 Mio
+  //   - conversion des PNG (≈3,2 Mio) en AVIF (-80 %)
+  //   - redimensionnement des WebP servies en pleine résolution native (≈3,7 Mio)
+  // ⚠️ Ne PAS mettre `unoptimized: true` ni `output: 'export'` (désactiverait
+  //    l'optimisation). Le site est rendu côté serveur sur Vercel.
+  // ─────────────────────────────────────────────────────────────────────────────
+  images: {
+    formats: ["image/avif", "image/webp"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "veg.s3.fr-par.scw.cloud",
+        pathname: "/**",
+      },
+    ],
+  },
+
   // Les redirections WordPress legacy (query params dédupliqués) sont gérées par
   // les canonical propres + la structure d'URL préservée à l'identique.
 

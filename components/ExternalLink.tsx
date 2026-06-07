@@ -37,16 +37,23 @@ function isPinterestCreateUrl(href: string | undefined): boolean {
   return isPinterestHost && url.pathname.startsWith("/pin/create");
 }
 
-/** Extrait { src, alt } si les enfants se réduisent à un unique <img>. */
+/**
+ * Extrait { src, alt } si les enfants se réduisent à une unique image.
+ *
+ * L'enfant peut être soit un <img> brut, soit le composant `MdxImage` (mappé sur
+ * `img` dans MDXRemote, cf. MdxContent). Dans les deux cas, les props portent
+ * `src`/`alt`, qu'on lit indépendamment du `type` de l'élément. On vérifie juste
+ * que l'élément expose une `src` string (signature d'une image).
+ */
 function extractSingleImage(
   children: ReactNode,
 ): { src: string; alt: string } | null {
   const arr = Children.toArray(children);
   if (arr.length !== 1) return null;
   const only = arr[0];
-  if (!isValidElement(only) || only.type !== "img") return null;
+  if (!isValidElement(only)) return null;
   const props = only.props as { src?: string; alt?: string };
-  if (!props.src) return null;
+  if (typeof props.src !== "string" || !props.src) return null;
   return { src: props.src, alt: props.alt ?? "" };
 }
 
