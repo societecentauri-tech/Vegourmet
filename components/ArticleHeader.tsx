@@ -65,6 +65,8 @@ export function ArticleHeader({ article, readingTime }: ArticleHeaderProps) {
           ratio="720 / 950"
           width={720}
           height={950}
+          priority
+          sizes="(max-width: 768px) 100vw, 720px"
         />
       </div>
     </header>

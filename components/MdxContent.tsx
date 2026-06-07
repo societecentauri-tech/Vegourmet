@@ -1,5 +1,6 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { ExternalLink } from "./ExternalLink";
+import { MdxImage } from "./MdxImage";
 import {
   ComparisonTable,
   GreenweezCta,
@@ -19,6 +20,12 @@ interface MdxContentProps {
 // - Composants blocs comparatifs guides (Phase W2, rapport Galaad 2026-06-04).
 const mdxComponents = {
   a: ExternalLink,
+  // Images du corps éditorial → next/image (AVIF/WebP responsive, lazy).
+  // ⚠️ ExternalLink détecte les images Pinterest épinglables AVANT ce rendu :
+  // il extrait src/alt des enfants quand l'ancre pointe vers pinterest.com/pin/
+  // create (cf. ExternalLink.extractSingleImage). La détection lit les props du
+  // composant `img` mappé, donc PinnableImage reste préservé.
+  img: MdxImage,
   ComparisonTable,
   ProductCard,
   GreenweezCta,

@@ -98,6 +98,8 @@ export function RecipeArticleHeader({ recipe }: RecipeArticleHeaderProps) {
           ratio="724 / 1024"
           width={724}
           height={1024}
+          priority
+          sizes="(max-width: 768px) 100vw, 724px"
         />
       </div>
     </header>

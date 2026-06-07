@@ -10,9 +10,12 @@
  * Liens affiliés : target="_blank" + rel="sponsored nofollow noopener noreferrer"
  * (conforme Google, aligné sur ExternalLink.tsx pour c3po.link/fnty.co).
  *
- * Images produits : <img> brut (pas next/image) car hotlink greenweez.com.
+ * Images : <S3FixedImage> — next/image pour les vignettes du bucket S3 `veg`
+ * (redimensionnées à la taille d'affichage, gros gain de poids), <img> brut en
+ * fallback pour les hotlinks greenweez.com (hors images.remotePatterns).
  */
 import type { ReactNode } from "react";
+import { S3FixedImage } from "./S3FixedImage";
 import "./guide.css";
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -160,14 +163,12 @@ export function ProductCard({
 
       <div className="guide-card-header">
         {image && (
-          /* eslint-disable-next-line @next/next/no-img-element */
-          <img
+          <S3FixedImage
             className="guide-card-image"
             src={image}
             alt={imageAlt}
             width={120}
             height={120}
-            loading="lazy"
           />
         )}
         <div className="guide-card-info">
@@ -381,14 +382,12 @@ export function RecipeComboCard({
   return (
     <a className="guide-combo-card" href={href}>
       {image && (
-        /* eslint-disable-next-line @next/next/no-img-element */
-        <img
+        <S3FixedImage
           className="guide-combo-image"
           src={image}
           alt={imageAlt}
           width={72}
           height={72}
-          loading="lazy"
         />
       )}
       <div className="guide-combo-body">
@@ -449,14 +448,12 @@ export function GreenweezCta({
         <div className="guide-greenweez-left">
           <div className="guide-greenweez-header">
             {logo && (
-              /* eslint-disable-next-line @next/next/no-img-element */
-              <img
+              <S3FixedImage
                 className="guide-greenweez-logo"
                 src={logo}
                 alt={`Logo ${brand}`}
                 width={80}
                 height={80}
-                loading="lazy"
               />
             )}
             <div>
