@@ -50,34 +50,63 @@ export default function HomePage() {
   const recipes = getAllRecipes();
   const recipeFrontmatter = recipes.map((recipe) => recipe.frontmatter);
 
-  // --- Carrousel hero : les recettes les MIEUX classées sur Google (clics GSC),
-  // dans l'ordre de classement défini par lib/featured-recipes.ts
-  // (source : gsc_by-page 2025-02→2026-06, classé par clics). On exige une vraie
-  // photo hero S3. Fallback robuste : si un slug curé manque ou s'il en reste
-  // moins de 5 résolus, on complète par les recettes les plus récentes (déjà
-  // triées par datePublished desc) — le build ne casse jamais.
+  // --- Carrousel hero HYBRIDE : 6 slides = 3 POPULAIRES + 3 RÉCENTES,
+  // ENTRELACÉES en commençant par une populaire :
+  //   [pop1, recent1, pop2, recent2, pop3, recent3]  (galette en slide 1).
+  //
+  // • 3 POPULAIRES = HERO_CAROUSEL_SLUGS (top-3 clics GSC 60 j, lib/featured-recipes.ts),
+  //   statique/documenté, rafraîchissable manuellement.
+  // • 3 RÉCENTES = les 3 recettes les plus récentes par datePublished desc
+  //   (getAllRecipes() est déjà trié) ayant une heroImage — calcul DYNAMIQUE :
+  //   toute nouvelle publication remonte automatiquement.
+  // • DÉDOUBLONNAGE : on exige une vraie photo hero S3 ; une « récente » déjà
+  //   présente dans les populaires est sautée au profit de la suivante par date ;
+  //   un slug populaire manquant est ignoré proprement. Fallback robuste : si on
+  //   n'atteint pas 6 slides, on complète par d'autres recettes récentes avec
+  //   image — le build ne casse jamais.
   const withHero = recipeFrontmatter.filter((recipe) =>
     Boolean(recipe.heroImage?.src),
   );
   const bySlug = new Map(withHero.map((recipe) => [recipe.slug, recipe]));
   const usedSlugs = new Set<string>();
-  const heroRecipes: RecipeFrontmatter[] = [];
+
+  // 1) Résoudre les 3 populaires (dans l'ordre de la liste curée).
+  const popularRecipes: RecipeFrontmatter[] = [];
   for (const slug of HERO_CAROUSEL_SLUGS) {
+    if (popularRecipes.length >= 3) break;
     const recipe = bySlug.get(slug);
     if (recipe && !usedSlugs.has(slug)) {
-      heroRecipes.push(recipe);
+      popularRecipes.push(recipe);
       usedSlugs.add(slug);
     }
   }
-  // Complément éventuel jusqu'à 5 slides (recettes récentes non déjà retenues).
+
+  // 2) Résoudre les 3 plus récentes (datePublished desc) NON déjà retenues
+  //    comme populaires (dédoublonnage).
+  const recentRecipes: RecipeFrontmatter[] = [];
   for (const recipe of withHero) {
-    if (heroRecipes.length >= 5) break;
+    if (recentRecipes.length >= 3) break;
+    if (!usedSlugs.has(recipe.slug)) {
+      recentRecipes.push(recipe);
+      usedSlugs.add(recipe.slug);
+    }
+  }
+
+  // 3) Entrelacer [pop1, recent1, pop2, recent2, pop3, recent3].
+  const heroRecipes: RecipeFrontmatter[] = [];
+  for (let i = 0; i < 3; i += 1) {
+    if (popularRecipes[i]) heroRecipes.push(popularRecipes[i]);
+    if (recentRecipes[i]) heroRecipes.push(recentRecipes[i]);
+  }
+  // 4) Fallback : compléter jusqu'à 6 slides avec d'autres recettes à image.
+  for (const recipe of withHero) {
+    if (heroRecipes.length >= 6) break;
     if (!usedSlugs.has(recipe.slug)) {
       heroRecipes.push(recipe);
       usedSlugs.add(recipe.slug);
     }
   }
-  const heroSlides: HeroSlide[] = heroRecipes.slice(0, 5).map((recipe) => ({
+  const heroSlides: HeroSlide[] = heroRecipes.slice(0, 6).map((recipe) => ({
     slug: recipe.slug,
     title: recipe.title,
     excerpt: recipe.description,
