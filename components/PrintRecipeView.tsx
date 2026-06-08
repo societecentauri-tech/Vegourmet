@@ -1,11 +1,15 @@
 import { PrintControls } from "./PrintControls";
+import { StarRating } from "./StarRating";
 import { formatDureeFr } from "@/lib/duration";
 import { SITE_URL } from "@/lib/seo";
+import type { RecipeRating } from "@/lib/ratings";
 import type { RecipeFrontmatter } from "@/lib/types";
 import "./print-recipe.css";
 
 interface PrintRecipeViewProps {
   recipe: RecipeFrontmatter;
+  /** Note agrégée réelle (snapshot build). null = recette non notée. */
+  rating?: RecipeRating | null;
 }
 
 const NUTRITION_LABELS: {
@@ -24,7 +28,7 @@ const NUTRITION_LABELS: {
  * portions / difficulté), ingrédients, instructions, nutrition, pied avec la
  * source. Aucun élément de navigation, pub, sidebar, avis ou affiliation.
  */
-export function PrintRecipeView({ recipe }: PrintRecipeViewProps) {
+export function PrintRecipeView({ recipe, rating }: PrintRecipeViewProps) {
   const {
     title,
     author,
@@ -43,6 +47,13 @@ export function PrintRecipeView({ recipe }: PrintRecipeViewProps) {
   const sourceUrl = `${SITE_URL}${recipeHref}`;
   const hasNutrition =
     nutrition !== undefined && Object.values(nutrition).some(Boolean);
+  const hasRating = !!rating && rating.ratingCount > 0;
+  const ratingValueFr = hasRating
+    ? rating.ratingValue.toLocaleString("fr-FR", {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 1,
+      })
+    : null;
 
   return (
     <div className="vg-print-page">
@@ -62,9 +73,16 @@ export function PrintRecipeView({ recipe }: PrintRecipeViewProps) {
           )}
           <div className="vg-print-titlewrap">
             <h1 className="vg-print-title">{title}</h1>
-            <p className="vg-print-by">
-              Par {author} · vegourmet.fr
-            </p>
+            {hasRating && (
+              <span className="vg-print-rating">
+                <StarRating value={rating.ratingValue} size={15} />
+                <span className="vg-print-rating-num">{ratingValueFr}</span>
+                <span className="vg-print-rating-count">
+                  ({rating.ratingCount} avis)
+                </span>
+              </span>
+            )}
+            <p className="vg-print-by">Par {author} · vegourmet.fr</p>
           </div>
         </header>
 

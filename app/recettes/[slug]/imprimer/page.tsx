@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { PrintRecipeView } from "@/components/PrintRecipeView";
 import { getAllRecipes, getRecipeBySlug } from "@/lib/content";
+import { getRecipeRating } from "@/lib/ratings";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -28,5 +29,6 @@ export default async function PrintRecipePage({ params }: PageProps) {
   const { slug } = await params;
   const recipe = getRecipeBySlug(slug);
   if (!recipe) notFound();
-  return <PrintRecipeView recipe={recipe.frontmatter} />;
+  const rating = getRecipeRating(recipe.frontmatter.slug);
+  return <PrintRecipeView recipe={recipe.frontmatter} rating={rating} />;
 }

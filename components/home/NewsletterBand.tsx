@@ -1,11 +1,62 @@
+"use client";
+
+import { useState, type FormEvent } from "react";
+
 /**
  * NewsletterBand — bandeau newsletter (#newsletter_section du thème Yummy Bites).
- * Fond tan/pêche, texte + champs Email/Prénom en ligne + bouton terracotta.
- * Formulaire volontairement non fonctionnel (POC) : `preventDefault` côté client
- * dans la section parente n'est pas requis — le bouton n'est pas de type submit
- * actif vers un backend. On garde un <form> sémantique sans action serveur.
+ * Formulaire fonctionnel : inscription via la route BFF `/api/newsletter`
+ * (single opt-in avec consentement RGPD explicite, stocké en base vegourmet_prod).
  */
+type Status = "idle" | "loading" | "success" | "already" | "error";
+
 export function NewsletterBand() {
+  const [email, setEmail] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [consent, setConsent] = useState(false);
+  const [status, setStatus] = useState<Status>("idle");
+  const [error, setError] = useState("");
+
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError("");
+    if (!consent) {
+      setError("Coche la case de consentement pour t'inscrire.");
+      return;
+    }
+    setStatus("loading");
+    try {
+      const res = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          email,
+          firstName: firstName || undefined,
+          consent,
+          source: "homepage",
+        }),
+      });
+      const data = (await res.json().catch(() => ({}))) as {
+        ok?: boolean;
+        alreadySubscribed?: boolean;
+        error?: string;
+      };
+      if (!res.ok || !data.ok) {
+        setStatus("error");
+        setError(data.error ?? "Une erreur est survenue. Réessaie plus tard.");
+        return;
+      }
+      setStatus(data.alreadySubscribed ? "already" : "success");
+      setEmail("");
+      setFirstName("");
+      setConsent(false);
+    } catch {
+      setStatus("error");
+      setError("Impossible de t'inscrire pour le moment. Réessaie plus tard.");
+    }
+  }
+
+  const done = status === "success" || status === "already";
+
   return (
     <section
       id="newsletter_section"
@@ -20,29 +71,76 @@ export function NewsletterBand() {
             exclusives directement dans ta boîte de réception.
           </p>
         </div>
-        <form className="vgh-newsletter-form" aria-label="Inscription à la newsletter">
-          <label className="vgh-sr-only" htmlFor="vgh-nl-email">
-            Adresse e-mail
-          </label>
-          <input
-            id="vgh-nl-email"
-            type="email"
-            name="email"
-            placeholder="Email"
-            autoComplete="email"
-          />
-          <label className="vgh-sr-only" htmlFor="vgh-nl-fname">
-            Prénom
-          </label>
-          <input
-            id="vgh-nl-fname"
-            type="text"
-            name="fname"
-            placeholder="Prénom"
-            autoComplete="given-name"
-          />
-          <button type="button">S&apos;inscrire</button>
-        </form>
+
+        {done ? (
+          <p className="vgh-newsletter-success" role="status">
+            {status === "already"
+              ? "Tu es déjà inscrit·e — merci ! 💚"
+              : "Merci ! Ton inscription est bien enregistrée. 💚"}
+          </p>
+        ) : (
+          <form
+            className="vgh-newsletter-form"
+            aria-label="Inscription à la newsletter"
+            onSubmit={handleSubmit}
+            noValidate
+          >
+            <div className="vgh-newsletter-fields">
+              <label className="vgh-sr-only" htmlFor="vgh-nl-email">
+                Adresse e-mail
+              </label>
+              <input
+                id="vgh-nl-email"
+                type="email"
+                name="email"
+                placeholder="Email"
+                autoComplete="email"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+              />
+              <label className="vgh-sr-only" htmlFor="vgh-nl-fname">
+                Prénom
+              </label>
+              <input
+                id="vgh-nl-fname"
+                type="text"
+                name="fname"
+                placeholder="Prénom (facultatif)"
+                autoComplete="given-name"
+                value={firstName}
+                onChange={(e) => setFirstName(e.target.value)}
+              />
+              <button type="submit" disabled={status === "loading"}>
+                {status === "loading" ? "Inscription…" : "S'inscrire"}
+              </button>
+            </div>
+
+            <label className="vgh-newsletter-consent">
+              <input
+                type="checkbox"
+                checked={consent}
+                onChange={(e) => setConsent(e.target.checked)}
+                required
+              />
+              <span>
+                J&apos;accepte de recevoir la newsletter de Vegourmet et que mon
+                adresse soit utilisée à cette fin. Désinscription possible à tout
+                moment. Voir la{" "}
+                <a href="/mentions-legales-politique-de-confidentialite">
+                  politique de confidentialité
+                </a>
+                .
+              </span>
+            </label>
+
+            {error && (
+              <p className="vgh-newsletter-error" role="alert">
+                {error}
+              </p>
+            )}
+          </form>
+        )}
       </div>
     </section>
   );

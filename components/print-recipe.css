@@ -80,6 +80,20 @@ body:has(.vg-print-page) .vg-cookie {
   font-size: 0.9rem;
   color: #8a807b;
 }
+.vg-print-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.3rem 0 0.15rem;
+}
+.vg-print-rating-num {
+  font-weight: 700;
+  color: #1f1a18;
+}
+.vg-print-rating-count {
+  font-size: 0.85rem;
+  color: #8a807b;
+}
 
 /* Bandeau méta. */
 .vg-print-meta {
@@ -146,11 +160,33 @@ body:has(.vg-print-page) .vg-cookie {
 }
 .vg-print-steps {
   margin: 0;
-  padding-left: 1.3rem;
+  padding: 0;
+  list-style: none;
+  counter-reset: vgstep;
 }
 .vg-print-steps li {
-  margin-bottom: 0.7rem;
+  counter-increment: vgstep;
+  position: relative;
+  padding-left: 2.4rem;
+  margin-bottom: 0.95rem;
   line-height: 1.6;
+  min-height: 1.7rem;
+}
+.vg-print-steps li::before {
+  content: counter(vgstep);
+  position: absolute;
+  left: 0;
+  top: -0.05rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  background: #d98e73;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .vg-print-nutrition {
   list-style: none;
@@ -192,6 +228,12 @@ body:has(.vg-print-page) .vg-cookie {
   }
   .vg-print-title {
     color: #000;
+  }
+  /* Numéros d'étapes : cercle contouré (lisible sans impression des fonds). */
+  .vg-print-steps li::before {
+    background: #fff;
+    color: #000;
+    border: 1.5px solid #000;
   }
   a {
     color: #000;
