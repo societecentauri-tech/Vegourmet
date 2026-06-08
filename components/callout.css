@@ -1,0 +1,34 @@
+/**
+ * Callout — encarts éditoriaux stylés (panneaux Gutenberg vegourmet).
+ *
+ * Deux variantes :
+ *   - primary   : terracotta #d98e73 (bordure gauche + fond léger)
+ *   - secondary : olive #a3a96a
+ *
+ * Reprend les couleurs de marque vegourmet (cf. article.css .vegourmet-panel-*).
+ * Composant partagé, réutilisé par plusieurs recettes — garder minimal.
+ */
+
+.vg-callout {
+  padding: 20px;
+  margin: 24px 0;
+  border-radius: 6px;
+}
+
+.vg-callout > :first-child {
+  margin-top: 0;
+}
+
+.vg-callout > :last-child {
+  margin-bottom: 0;
+}
+
+.vg-callout--primary {
+  background: rgba(217, 142, 115, 0.12);
+  border-left: 3px solid var(--vg-terracotta, #d98e73);
+}
+
+.vg-callout--secondary {
+  background: rgba(163, 169, 106, 0.12);
+  border-left: 3px solid var(--vg-olive, #a3a96a);
+}

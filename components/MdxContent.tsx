@@ -1,4 +1,5 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
+import { Callout } from "./Callout";
 import { ExternalLink } from "./ExternalLink";
 import { MdxImage } from "./MdxImage";
 import {
@@ -26,6 +27,7 @@ const mdxComponents = {
   // create (cf. ExternalLink.extractSingleImage). La détection lit les props du
   // composant `img` mappé, donc PinnableImage reste préservé.
   img: MdxImage,
+  Callout,
   ComparisonTable,
   ProductCard,
   GreenweezCta,
