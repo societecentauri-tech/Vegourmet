@@ -7,6 +7,7 @@ import {
 } from "@/lib/categoryStyle";
 import { SmartImage } from "./SmartImage";
 import { formatDureeFr } from "@/lib/duration";
+import { formatDateFr } from "@/lib/format";
 import "./listing.css";
 
 /** Élément normalisé affiché dans la grille de listing. */
@@ -22,6 +23,8 @@ export interface ListingItem {
   /** URL de l'image hero (bucket S3). */
   imageSrc?: string;
   ratio: string;
+  /** Date à afficher (ISO). Utilisé dans le widget « Tu aimeras aussi » (articles). */
+  dateDisplay?: string;
 }
 
 /** Transforme une recette en élément de listing. */
@@ -38,7 +41,8 @@ export function recipeToListingItem(recipe: RecipeFrontmatter): ListingItem {
   };
 }
 
-/** Transforme un article en élément de listing. */
+/** Transforme un article en élément de listing.
+ * `dateDisplay` = dateModified si présent (W2.3), sinon fallback datePublished. */
 export function articleToListingItem(article: ArticleFrontmatter): ListingItem {
   return {
     slug: article.slug,
@@ -47,6 +51,7 @@ export function articleToListingItem(article: ArticleFrontmatter): ListingItem {
     category: article.category,
     imageSrc: article.heroImage?.src,
     ratio: "3 / 4",
+    dateDisplay: article.dateModified ?? article.datePublished,
   };
 }
 
@@ -145,11 +150,20 @@ export function ItemCard({ item }: ItemCardProps) {
             title={item.category}
             aria-label={`Catégorie : ${item.category}`}
             className="vg-item-cat-link"
-            style={{ background: color }}
+            style={{
+              background: color,
+              /* display:flex inline pour ne pas être écrasé par le Preflight Tailwind */
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
           >
             <CategoryIcon glyph={glyph} />
-            <span className="vg-item-cat-name">{item.category}</span>
           </Link>
+          {/* Infobulle rendue hors du lien pour ne pas perturber le centrage flex */}
+          <span className="vg-item-cat-name" aria-hidden="true">
+            {item.category}
+          </span>
         </span>
       </figure>
 
@@ -157,6 +171,12 @@ export function ItemCard({ item }: ItemCardProps) {
         <h2 className="vg-item-title">
           <Link href={item.href}>{item.title}</Link>
         </h2>
+        {item.dateDisplay && (
+          <p className="vg-item-date">
+            Modifié le{" "}
+            <time dateTime={item.dateDisplay}>{formatDateFr(item.dateDisplay)}</time>
+          </p>
+        )}
         {(item.totalTime || item.difficulty) && (
           <div className="vg-item-meta">
             {item.totalTime && (

@@ -60,9 +60,15 @@
 
 .vgh-newsletter-form {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 12px;
   flex: 1 1 360px;
+  align-items: stretch;
+}
+.vgh-newsletter-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
   justify-content: flex-end;
 }
 
@@ -99,6 +105,51 @@
 .vgh-newsletter-form button:hover,
 .vgh-newsletter-form button:focus-visible {
   background: var(--vg-terracotta-hover, #bf7052);
+}
+.vgh-newsletter-form button:disabled {
+  opacity: 0.65;
+  cursor: default;
+}
+
+/* Consentement RGPD : case + texte fin, aligné sous les champs. */
+.vgh-newsletter-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--vg-ink, #453e3f);
+  opacity: 0.85;
+  max-width: 520px;
+  margin-left: auto;
+  text-align: left;
+}
+.vgh-newsletter-consent input[type="checkbox"] {
+  margin-top: 2px;
+  flex: 0 0 auto;
+  accent-color: var(--vg-terracotta, #d98e73);
+  width: 16px;
+  height: 16px;
+}
+.vgh-newsletter-consent a {
+  color: var(--vg-terracotta, #d98e73);
+  text-decoration: underline;
+}
+.vgh-newsletter-error {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #b3402e;
+  text-align: right;
+}
+.vgh-newsletter-success {
+  flex: 1 1 360px;
+  align-self: center;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--vg-ink, #453e3f);
+  text-align: center;
 }
 
 /* ---------- Sections génériques home ----------------------------------- */
@@ -400,6 +451,13 @@
   margin: 36px 0 96px;
 }
 
+/* Conteneur borné (max-width centré) = contexte de positionnement des flèches.
+   Sans cela, les flèches `position:absolute` remontaient jusqu'au bloc englobant
+   initial (le `.vgh-banner` pleine largeur) → placement aux bords de l'écran. */
+.vgh-banner .vgh-container {
+  position: relative;
+}
+
 .vgh-banner-viewport {
   position: relative;
 }
@@ -536,12 +594,15 @@
   height: 22px;
 }
 
+/* Flèches ancrées au bord de la zone bornée du carrousel (`.vgh-banner .vgh-container`,
+   position:relative ci-dessus), jamais aux bords de l'écran. Légère superposition
+   sur le bord interne, fidèle au rendu owl-carousel d'origine. */
 .vgh-banner-arrow.owl-prev {
-  left: -22px;
+  left: 4px;
 }
 
 .vgh-banner-arrow.owl-next {
-  right: -22px;
+  right: 4px;
 }
 
 /* Dots owl-dots, centrés sous le carrousel. */

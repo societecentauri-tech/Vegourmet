@@ -1,0 +1,242 @@
+/* Page d'impression dédiée d'une recette — aperçu écran + sortie papier. */
+
+/* Masque le chrome du site (header / footer / bandeau cookies) sur la page
+   d'impression, sans FOUC (sélecteur CSS pur, pas de JS). */
+body:has(.vg-print-page) .site-header,
+body:has(.vg-print-page) .site-footer,
+body:has(.vg-print-page) .vg-cookie {
+  display: none !important;
+}
+
+.vg-print-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+  color: #2b2422;
+  font-family: var(--font-sans, system-ui, sans-serif);
+}
+
+/* Barre d'outils (écran uniquement). */
+.vg-print-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ece6e2;
+}
+.vg-print-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: #d98e73;
+  color: #fff;
+  border: 0;
+  border-radius: 999px;
+  padding: 0.55rem 1.15rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+.vg-print-btn:hover {
+  background: #c97a5f;
+}
+.vg-print-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+.vg-print-back {
+  color: #6b615c;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.vg-print-back:hover {
+  text-decoration: underline;
+}
+
+/* En-tête recette. */
+.vg-print-head {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.vg-print-hero {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+.vg-print-title {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  margin: 0 0 0.35rem;
+  color: #1f1a18;
+}
+.vg-print-by {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #8a807b;
+}
+.vg-print-rating {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.3rem 0 0.15rem;
+}
+.vg-print-rating-num {
+  font-weight: 700;
+  color: #1f1a18;
+}
+.vg-print-rating-count {
+  font-size: 0.85rem;
+  color: #8a807b;
+}
+
+/* Bandeau méta. */
+.vg-print-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2rem;
+  margin: 0 0 1.75rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid #ece6e2;
+  border-radius: 10px;
+}
+.vg-print-meta div {
+  display: flex;
+  flex-direction: column;
+}
+.vg-print-meta dt {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #a39992;
+}
+.vg-print-meta dd {
+  margin: 0;
+  font-weight: 600;
+  font-size: 0.98rem;
+}
+
+/* Sections. */
+.vg-print-section {
+  margin-bottom: 1.75rem;
+}
+.vg-print-section h2 {
+  font-size: 1.15rem;
+  color: #d98e73;
+  margin: 0 0 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid #f0e7e2;
+}
+.vg-print-ingredients {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 2;
+  column-gap: 2rem;
+}
+.vg-print-ingredients li {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  break-inside: avoid;
+  line-height: 1.45;
+}
+.vg-print-box {
+  width: 11px;
+  height: 11px;
+  border: 1px solid #c7bdb6;
+  border-radius: 3px;
+  flex-shrink: 0;
+  transform: translateY(1px);
+}
+.vg-print-qty {
+  font-weight: 600;
+}
+.vg-print-steps {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: vgstep;
+}
+.vg-print-steps li {
+  counter-increment: vgstep;
+  position: relative;
+  padding-left: 2.4rem;
+  margin-bottom: 0.95rem;
+  line-height: 1.6;
+  min-height: 1.7rem;
+}
+.vg-print-steps li::before {
+  content: counter(vgstep);
+  position: absolute;
+  left: 0;
+  top: -0.05rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  background: #d98e73;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vg-print-nutrition {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+.vg-print-nutrition strong {
+  color: #1f1a18;
+}
+.vg-print-foot {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ece6e2;
+  font-size: 0.82rem;
+  color: #8a807b;
+}
+
+/* ---------- Sortie papier ---------- */
+@media print {
+  .vg-print-toolbar {
+    display: none !important;
+  }
+  .vg-print-page {
+    max-width: none;
+    padding: 0;
+    color: #000;
+  }
+  .vg-print-section,
+  .vg-print-head,
+  .vg-print-ingredients li {
+    break-inside: avoid;
+  }
+  .vg-print-section h2 {
+    color: #000;
+    border-bottom: 1.5px solid #999;
+  }
+  .vg-print-title {
+    color: #000;
+  }
+  /* Numéros d'étapes : cercle contouré (lisible sans impression des fonds). */
+  .vg-print-steps li::before {
+    background: #fff;
+    color: #000;
+    border: 1.5px solid #000;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}

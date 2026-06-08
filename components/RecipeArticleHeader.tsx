@@ -1,6 +1,5 @@
 import { SmartImage } from "./SmartImage";
 import {
-  AuthorIcon,
   CalendarIcon,
   DifficultyIcon,
   GoToIcon,
@@ -9,6 +8,9 @@ import {
 import { PrintButton } from "./PrintButton";
 import { getCategoryColor } from "@/lib/categoryStyle";
 import type { RecipeFrontmatter } from "@/lib/types";
+
+/** Avatar Gravatar de Chloé (mêmes assets/rendu que la byline blog). */
+const CHLOE_GRAVATAR = "https://veg.s3.fr-par.scw.cloud/img/avatar-chloe.jpg";
 
 interface RecipeArticleHeaderProps {
   recipe: RecipeFrontmatter;
@@ -49,7 +51,16 @@ export function RecipeArticleHeader({ recipe }: RecipeArticleHeaderProps) {
 
         <div className="vg-article-meta">
           <span className="vg-article-meta__item">
-            <AuthorIcon />
+            {/* Avatar Gravatar Chloé rapatrié sur S3 (fidélité WP byline). */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={CHLOE_GRAVATAR}
+              alt={author}
+              width={30}
+              height={30}
+              className="vg-author-avatar-img"
+              loading="lazy"
+            />
             Par <strong>{author}</strong>
           </span>
           <span className="vg-dot" aria-hidden="true" />
@@ -84,12 +95,23 @@ export function RecipeArticleHeader({ recipe }: RecipeArticleHeaderProps) {
             Aller à la recette
             <GoToIcon />
           </a>
-          <PrintButton />
+          <PrintButton slug={recipe.slug} />
         </div>
       </div>
 
       <div className="vg-article-hero">
-        <SmartImage src={heroImage?.src} alt={title} ratio="3 / 4" />
+        {/* Hero portrait fidèle WP : image entière non rognée, ratio naturel
+            724x1024 (≈ 0,707), affichée jusqu'à 724px de large et centrée. */}
+        <SmartImage
+          src={heroImage?.src}
+          alt={title}
+          fit="natural"
+          ratio="724 / 1024"
+          width={724}
+          height={1024}
+          priority
+          sizes="(max-width: 768px) 100vw, 724px"
+        />
       </div>
     </header>
   );

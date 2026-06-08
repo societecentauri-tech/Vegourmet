@@ -53,8 +53,32 @@ manques du Design System*.
 DS `Breadcrumb` émet AUSSI une `BreadcrumbList` (pattern déprécié), filtrer pour éviter
 le doublon Google Rich Results (cf. gotcha MCG `BreadcrumbList JSON-LD dédup`).
 
-## Supabase / couche données
+## Supabase / couche données — avis & notes (W9, livré)
 
-Hors POC (100 % statique MDX). Provisionner une instance `vegourmet-{env}` mutualisée
-alpha UNIQUEMENT si une feature transactionnelle est validée (commentaires, notes,
-newsletter), via BFF Next.js obligatoire (`bff-2026`). Décision repoussée.
+Couche dynamique « avis/notes » branchée (mission W9). Instance `vegourmet_prod`
+(Supabase self-host alpha) : table `public.comments` + vue `public.recipe_ratings`,
+RLS service-role-only. Accès **exclusivement via BFF Next.js** (`bff-2026`) :
+
+- `app/api/ratings/route.ts` — GET note agrégée d'une recette.
+- `app/api/comments/route.ts` — GET liste paginée (approved) + POST (pending, modération).
+- `lib/comments-backend.ts` — couche serveur service_role (apikey + Bearer, host direct).
+- `lib/ratings.ts` + `lib/ratings-snapshot.json` — snapshot build-time (SSG) pour
+  `aggregateRating` JSON-LD + note visible sur la carte recette.
+  Régénéré au build par `scripts/fetch-ratings-snapshot.mjs` (`prebuild`), avec
+  fallback sur le snapshot commité si l'API est injoignable (build jamais cassé).
+
+Variables d'env (Infisical `/supabase/vegourmet-prod`, à poser dans Vercel,
+server-only, jamais `NEXT_PUBLIC_`) : `COMMENTS_API_URL`, `SUPABASE_SERVICE_KEY`.
+Cf. `.env.example`. Gotcha : `\n` parasite en fin de secret (le code `.trim()`).
+
+### Dette restante sur cette couche
+
+- **Validation manuelle** (`lib/comment-validation.ts`) au lieu de Zod, pour garder
+  le build auto-suffisant sans nouvelle dépendance. Migration vers `zod` possible si
+  le projet l'adopte (intégration `package.json` à coordonner).
+- **Rate-limit en mémoire** (`lib/rate-limit.ts`) : best-effort, non partagé entre
+  lambdas Vercel. Pour un vrai rate-limit distribué → Upstash/Redis. La modération
+  (`status='pending'`) reste le rempart principal anti-spam.
+- **Snapshot des notes figé au build** : la note affichée + le JSON-LD ne bougent
+  qu'au redeploy (acceptable, les notes évoluent lentement). La route `/api/ratings`
+  est, elle, dynamique pour un affichage temps réel si un composant en a besoin.

@@ -154,17 +154,29 @@ a:hover {
 .site-branding {
   display: flex;
   align-items: center;
+  /* Le branding ne doit jamais être comprimé en dessous de la largeur du logo
+     (sinon le logo se déforme sur mobile une fois la nav desktop masquée). */
+  flex-shrink: 0;
 }
 
 .custom-logo-link {
   display: inline-block;
   line-height: 0;
+  /* Borne haute = largeur intrinsèque du logo à 46px (≈ 145px), pour qu'il
+     reste net et ne soit jamais étiré. */
+  max-width: 145px;
 }
 
 .custom-logo {
   display: block;
   width: auto;
   height: 46px;
+  /* Verrou de ratio : même si la largeur est contrainte (max-width:100% de
+     Tailwind Preflight sur un viewport étroit), la hauteur suit le ratio réel
+     du fichier (500×159) au lieu de rester figée → plus de logo écrasé. */
+  aspect-ratio: 500 / 159;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .menu-wrapper {
@@ -963,6 +975,25 @@ a:hover {
   }
   .mobile-toggle {
     display: inline-flex;
+  }
+  /* En-tête mobile fidèle au .mobile-header du thème réel : logo + hamburger
+     uniquement. La recherche et la rangée d'icônes sociales sont retirées de
+     la barre (les réseaux restent accessibles via le footer « Suis-nous »,
+     présent sur toutes les pages) → plus d'encombrement, donc plus de logo
+     déformé ni de débordement horizontal sur petit écran. */
+  .header-search,
+  .header-social {
+    display: none;
+  }
+  .menu-wrapper {
+    gap: 0;
+  }
+  /* Hauteur de logo adaptée au header mobile (ratio garanti par aspect-ratio). */
+  .custom-logo {
+    height: 40px;
+  }
+  .custom-logo-link {
+    max-width: 126px; /* 40px × 500/159 ≈ 125.8px */
   }
 }
 

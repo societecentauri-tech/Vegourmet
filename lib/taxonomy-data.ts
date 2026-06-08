@@ -10,10 +10,15 @@ export const TAXO_LABELS: Record<TaxoKind, Record<string, string>> = {
     "snack-vegan": "Snack vegan"
   },
   "recette-style": {
+    "africaine": "Africaine",
     "americaine": "Américaine",
+    "asie": "Asie",
     "europeenne": "Européenne",
     "inde": "Inde",
-    "moyen-orient": "Moyen-Orient"
+    "italie": "Italie",
+    "mexique": "Mexique",
+    "moyen-orient": "Moyen-Orient",
+    "thailande": "Thaïlande"
   },
   "recette-thematique": {
     "froid": "Froid",
@@ -22,10 +27,10 @@ export const TAXO_LABELS: Record<TaxoKind, Record<string, string>> = {
     "sans-soja": "Sans soja"
   },
   "category": {
-    "actualites-et-tendances": "Actualités et tendances",
+    "actualites-et-tendances": "Actualités & tendances",
     "conseils-et-astuces": "Conseils et astuces",
     "guides-pratiques": "Guides pratiques",
-    "inspiration-et-lifestyle": "Inspiration et lifestyle"
+    "inspiration-et-lifestyle": "Inspiration & Lifestyle"
   }
 };
 

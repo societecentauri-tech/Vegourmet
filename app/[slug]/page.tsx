@@ -5,6 +5,7 @@ import { ArticleHeader } from "@/components/ArticleHeader";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { JsonLd } from "@/components/JsonLd";
 import { MdxContent } from "@/components/MdxContent";
+import { articleToListingItem } from "@/components/RecipeGrid";
 import { RecipeSidebar } from "@/components/RecipeSidebar";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import "@/components/recipe.css";
@@ -90,7 +91,9 @@ export default async function ArticlePage({ params }: PageProps) {
             <div className="vg-content-wrap">
               <MdxContent source={article.content} />
 
-              {fm.faq && fm.faq.length > 0 && <ArticleFaq items={fm.faq} />}
+              {fm.faq && fm.faq.length > 0 && (
+                <ArticleFaq items={fm.faq} title={fm.faqTitle} />
+              )}
             </div>
           </article>
 
@@ -98,7 +101,7 @@ export default async function ArticlePage({ params }: PageProps) {
         </div>
       </div>
 
-      <RelatedArticles articles={related} />
+      <RelatedArticles items={related.map(articleToListingItem)} />
     </>
   );
 }

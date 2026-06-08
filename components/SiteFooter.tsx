@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CookieManageLink } from "./CookieManageLink";
 
 /* Menus du footer — liens repris des widgets de colophon de vegourmet.fr. */
 const LIENS_UTILES = [
@@ -83,7 +84,7 @@ export function SiteFooter() {
 
             <div className="col">
               <section className="widget widget_nav_menu">
-                <h2 className="widget-title">Suivez-nous</h2>
+                <h2 className="widget-title">Suis-nous</h2>
                 <ul className="menu">
                   {SUIVEZ_NOUS.map((item) => (
                     <li key={item.href} className="menu-item">
@@ -118,6 +119,9 @@ export function SiteFooter() {
                   <Link href="/mentions-legales-politique-de-confidentialite">
                     Mentions Légales &amp; Politique de Confidentialité
                   </Link>
+                </li>
+                <li>
+                  <CookieManageLink />
                 </li>
               </ul>
             </nav>

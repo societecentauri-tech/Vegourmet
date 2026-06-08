@@ -19,3 +19,6 @@ archive-wordpress/**/wp-content*.tar.gz
 # Artefacts de travail (pipeline images)
 .tmp-*/
 .data/
+
+# Backups des scripts de conversion MDX (convert-*.mjs)
+*.orig

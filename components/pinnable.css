@@ -1,0 +1,97 @@
+/* ───────────────────────────────────────────────────────────────────────────
+ * Bouton « Épingler » Pinterest au survol des images de contenu (CSP-safe).
+ *
+ * Remplace le widget JS officiel `data-pin-do="buttonPin"` + pinit.js (bloqué
+ * par la CSP `script-src 'self'`). Zéro script tiers : tout est en CSS, le
+ * bouton est un simple lien vers l'URL `pinterest.com/pin/create`.
+ *
+ * Comportement fidèle aux plugins Pinterest :
+ *   - Desktop (hover dispo) : bouton masqué, révélé au survol de l'image.
+ *   - Mobile / tactile (pas de hover) : bouton affiché en permanence, discret,
+ *     dans le coin haut-gauche (comme le widget officiel sur mobile).
+ * ──────────────────────────────────────────────────────────────────────────── */
+
+.vg-pinnable {
+  position: relative;
+  margin: 24px 0;
+  display: block;
+  line-height: 0; /* supprime l'espace sous l'image inline */
+}
+
+/* L'image reste cliquable (lien vers le pin), comme sur l'ancien site WP. */
+.vg-pinnable .vg-pin-image-link {
+  display: block;
+  line-height: 0;
+}
+
+.vg-pinnable .vg-pin-image-link img,
+.vg-pinnable > img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Bouton « Épingler » en overlay (coin haut-gauche, comme pinit.js). */
+.vg-pin-btn {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 12px;
+  background: #e60023; /* rouge Pinterest officiel */
+  color: #fff;
+  font-family: "PT Sans", system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1;
+  border-radius: 999px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  /* Masqué par défaut (desktop) : révélé au survol. */
+  opacity: 0;
+  transform: translateY(-4px);
+  transition: opacity 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+  pointer-events: none;
+}
+
+.vg-pin-btn .vg-pin-icon {
+  width: 15px;
+  height: 15px;
+  fill: currentColor;
+}
+
+/* Le texte « Épingler » garde sa couleur même si l'image est dans un <a>
+   (les liens du corps éditorial sont terracotta par défaut). */
+.vg-pinnable .vg-pin-btn,
+.vg-pinnable .vg-pin-btn:hover {
+  color: #fff;
+}
+
+/* Révélation au survol de l'image (desktop). */
+.vg-pinnable:hover .vg-pin-btn,
+.vg-pinnable:focus-within .vg-pin-btn {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.vg-pin-btn:hover {
+  background: #ad081b; /* rouge Pinterest survolé */
+}
+
+/* Appareils sans survol (mobile/tactile) : bouton visible en permanence,
+   légèrement plus discret, comme le widget Pinterest officiel sur mobile. */
+@media (hover: none) {
+  .vg-pin-btn {
+    opacity: 0.92;
+    transform: none;
+    pointer-events: auto;
+    padding: 6px 11px;
+    font-size: 12px;
+  }
+}

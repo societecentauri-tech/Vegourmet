@@ -1,23 +1,23 @@
-import type { ArticleFrontmatter } from "@/lib/types";
-import { ItemCard, articleToListingItem } from "./RecipeGrid";
+import type { ListingItem } from "./RecipeGrid";
+import { ItemCard } from "./RecipeGrid";
 import "./article.css";
 
 interface RelatedArticlesProps {
-  articles: ArticleFrontmatter[];
+  items: ListingItem[];
 }
 
-/** Bloc « Vous aimerez peut-être aussi... » fidèle au thème. */
-export function RelatedArticles({ articles }: RelatedArticlesProps) {
-  if (articles.length === 0) return null;
+/** Bloc « Tu aimeras peut-être aussi... » fidèle au thème (articles et recettes). */
+export function RelatedArticles({ items }: RelatedArticlesProps) {
+  if (items.length === 0) return null;
 
   return (
     <section className="vg-related" aria-labelledby="vg-related-title">
       <h2 id="vg-related-title" className="vg-related-title">
-        Vous aimerez peut-être aussi...
+        Tu aimeras peut-être aussi...
       </h2>
       <div className="vg-related-grid">
-        {articles.map((article) => (
-          <ItemCard key={article.slug} item={articleToListingItem(article)} />
+        {items.map((item) => (
+          <ItemCard key={item.slug} item={item} />
         ))}
       </div>
     </section>

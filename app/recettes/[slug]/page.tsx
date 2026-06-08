@@ -1,14 +1,24 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { JsonLd } from "@/components/JsonLd";
 import { MdxContent } from "@/components/MdxContent";
 import { RecipeArticleHeader } from "@/components/RecipeArticleHeader";
 import { RecipeDeliciousCard } from "@/components/RecipeDeliciousCard";
+import { recipeToListingItem } from "@/components/RecipeGrid";
 import { RecipeFaq } from "@/components/RecipeFaq";
 import { RecipeSidebar } from "@/components/RecipeSidebar";
-import { getAllRecipes, getRecipeBySlug } from "@/lib/content";
+import { RelatedArticles } from "@/components/RelatedArticles";
+import { RecipeReviews } from "@/components/RecipeReviews";
+import {
+  getAllRecipes,
+  getRecipeBySlug,
+  getRelatedRecipes,
+} from "@/lib/content";
+import { getRecipeRating } from "@/lib/ratings";
 import "@/components/recipe.css";
+import "@/components/reviews.css";
 import {
   SITE_URL,
   buildBreadcrumbJsonLd,
@@ -51,6 +61,9 @@ export default async function RecipePage({ params }: PageProps) {
   if (!recipe) notFound();
 
   const fm = recipe.frontmatter;
+  const related = getRelatedRecipes(fm);
+  // Note agrégée réelle (snapshot build-time). null = recette non notée.
+  const rating = getRecipeRating(fm.slug);
   const breadcrumb = [
     { name: "Accueil", url: `${SITE_URL}/` },
     { name: "Recettes", url: `${SITE_URL}/recettes` },
@@ -58,41 +71,50 @@ export default async function RecipePage({ params }: PageProps) {
   ];
 
   return (
-    <div className="vg-recipe-layout">
-      <JsonLd data={buildRecipeJsonLd(recipe)} />
-      <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
-      {fm.faq && fm.faq.length > 0 ? (
-        <JsonLd data={buildFaqJsonLd(fm.faq)!} />
-      ) : null}
+    <>
+      <div className="vg-recipe-layout">
+        <JsonLd data={buildRecipeJsonLd(recipe, rating)} />
+        <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
+        {fm.faq && fm.faq.length > 0 ? (
+          <JsonLd data={buildFaqJsonLd(fm.faq)!} />
+        ) : null}
 
-      <Breadcrumb
-        items={breadcrumb.map((b) => ({
-          name: b.name,
-          href: b.url.replace(SITE_URL, "") || "/",
-        }))}
-      />
+        <Breadcrumb
+          items={breadcrumb.map((b) => ({
+            name: b.name,
+            href: b.url.replace(SITE_URL, "") || "/",
+          }))}
+        />
 
-      <div className="vg-recipe-grid">
-        <article className="vg-recipe vg-recipe-main">
-          <RecipeArticleHeader recipe={fm} />
+        <div className="vg-recipe-grid">
+          <article className="vg-recipe vg-recipe-main">
+            <RecipeArticleHeader recipe={fm} />
 
-          <div className="mt-8">
-            <MdxContent source={recipe.content} />
-          </div>
-
-          <div className="mt-10">
-            <RecipeDeliciousCard recipe={fm} />
-          </div>
-
-          {fm.faq && fm.faq.length > 0 && (
-            <div className="mt-10">
-              <RecipeFaq items={fm.faq} />
+            <div className="mt-8">
+              <MdxContent source={recipe.content} />
             </div>
-          )}
-        </article>
 
-        <RecipeSidebar />
+            <div className="mt-10">
+              <RecipeDeliciousCard recipe={fm} rating={rating} />
+              <AffiliateDisclosure />
+            </div>
+
+            {fm.faq && fm.faq.length > 0 && (
+              <div className="mt-10">
+                <RecipeFaq items={fm.faq} />
+              </div>
+            )}
+
+            <div className="mt-10">
+              <RecipeReviews slug={fm.slug} rating={rating} />
+            </div>
+          </article>
+
+          <RecipeSidebar />
+        </div>
       </div>
-    </div>
+
+      <RelatedArticles items={related.map(recipeToListingItem)} />
+    </>
   );
 }

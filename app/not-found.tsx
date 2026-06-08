@@ -7,7 +7,7 @@ export default function NotFound() {
         Page introuvable
       </h1>
       <p className="text-veg-ink/75">
-        Cette page n'existe pas ou a été déplacée. Retournez à l'accueil pour
+        Cette page n'existe pas ou a été déplacée. Retourne à l'accueil pour
         retrouver toutes nos recettes vegan.
       </p>
       <Link

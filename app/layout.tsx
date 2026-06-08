@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Signika, PT_Sans, Montserrat } from "next/font/google";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { CookieConsent } from "@/components/CookieConsent";
 import { SITE_NAME, SITE_URL } from "@/lib/seo";
 import "./globals.css";
 
@@ -57,6 +58,7 @@ export default function RootLayout({
           {children}
         </main>
         <SiteFooter />
+        <CookieConsent />
       </body>
     </html>
   );

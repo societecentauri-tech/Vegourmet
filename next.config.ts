@@ -41,33 +41,45 @@ const SECURITY_HEADERS: { key: string; value: string }[] = [
 ];
 
 const nextConfig: NextConfig = {
-  // POC 100 % statique : aucune image distante téléchargée (cf. images-manifest.json).
+  // ─────────────────────────────────────────────────────────────────────────────
+  // Optimisation des images (poids des pages + LCP + indexation).
+  //
+  // Les images sont servies par le bucket S3 public Scaleway `veg`. On autorise
+  // ce domaine pour `next/image` afin que l'Image Optimization API de Next/Vercel
+  // génère à la volée des variantes AVIF/WebP redimensionnées (`srcset`/`sizes`).
+  // Gains attendus sur une page recette : ~7,4 Mio d'images → ~1-1,5 Mio
+  //   - conversion des PNG (≈3,2 Mio) en AVIF (-80 %)
+  //   - redimensionnement des WebP servies en pleine résolution native (≈3,7 Mio)
+  // ⚠️ Ne PAS mettre `unoptimized: true` ni `output: 'export'` (désactiverait
+  //    l'optimisation). Le site est rendu côté serveur sur Vercel.
+  // ─────────────────────────────────────────────────────────────────────────────
+  images: {
+    formats: ["image/avif", "image/webp"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "veg.s3.fr-par.scw.cloud",
+        pathname: "/**",
+      },
+    ],
+  },
+
   // Les redirections WordPress legacy (query params dédupliqués) sont gérées par
   // les canonical propres + la structure d'URL préservée à l'identique.
 
   // ─────────────────────────────────────────────────────────────────────────────
-  // Redirections SEO W3 — préservation du jus de liens à la bascule WP→Next.js
+  // Redirections SEO — préservation du jus de liens à la bascule WP→Next.js
   //
-  //  1. /category/:path* → /blog (308 permanent)
-  //     Couvre toutes les pages catégories WP indexées par GSC, y compris la
-  //     pagination (/page/2/, etc.). Greg a validé : toutes les catégories WP
-  //     pointent vers la liste unifiée /blog.
+  //  Les pages /category/<slug> existent désormais nativement (parité WP, 4
+  //  catégories réelles : guides-pratiques, conseils-et-astuces,
+  //  actualites-et-tendances, inspiration-et-lifestyle). On NE redirige donc
+  //  PLUS /category/* vers /blog : chaque catégorie rend sa propre liste
+  //  d'articles, à l'identique de WordPress.
   //
-  //  2. /boutique n'est PAS géré ici : Next.js redirects() ne peut émettre que
-  //     des 301/302/307/308, jamais un 410. Le 410 est géré par un Route Handler
-  //     → app/boutique/[[...slug]]/route.ts.
+  //  /boutique n'est PAS géré ici : Next.js redirects() ne peut émettre que des
+  //  301/302/307/308, jamais un 410. Le 410 est géré par un Route Handler
+  //  → app/boutique/[[...slug]]/route.ts.
   // ─────────────────────────────────────────────────────────────────────────────
-  async redirects() {
-    return [
-      {
-        // Toutes les catégories WP (avec ou sans pagination) → page liste /blog.
-        // permanent: true émet un 308 (équivalent SEO d'un 301 pour les méthodes POST).
-        source: "/category/:path*",
-        destination: "/blog",
-        permanent: true,
-      },
-    ];
-  },
 
   async headers() {
     return [

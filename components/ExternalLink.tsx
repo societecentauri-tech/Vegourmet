@@ -1,4 +1,5 @@
-import type { AnchorHTMLAttributes } from "react";
+import { Children, isValidElement, type AnchorHTMLAttributes, type ReactNode } from "react";
+import { PinnableImage } from "./PinnableImage";
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Composant <a> custom injecté dans MDXRemote (P1-1 audit Galahad).
@@ -10,10 +11,51 @@ import type { AnchorHTMLAttributes } from "react";
 //   - Tout autre lien EXTERNE (http/https vers un autre domaine) :
 //       rel="noopener noreferrer"
 //   - Liens INTERNES (ancre, relatif, vegourmet.fr) : inchangés.
+//
+// Cas spécial — images épinglables Pinterest :
+//   Le MDX `[![alt](img)](https://www.pinterest.com/pin/create/...)` rend une
+//   ancre `pinterest.com/pin/create` enveloppant un <img>. On la délègue à
+//   <PinnableImage> pour restaurer le bouton « Épingler » au survol (le widget
+//   JS officiel pinit.js est bloqué par la CSP `script-src 'self'`).
 // ─────────────────────────────────────────────────────────────────────────────
 
 const AFFILIATE_HOSTS = ["c3po.link", "fnty.co"] as const;
 const INTERNAL_HOSTS = ["vegourmet.fr", "www.vegourmet.fr"] as const;
+
+/** Vrai si l'URL est un lien de création de pin Pinterest. */
+function isPinterestCreateUrl(href: string | undefined): boolean {
+  if (!href) return false;
+  let url: URL;
+  try {
+    url = new URL(href);
+  } catch {
+    return false;
+  }
+  const hostname = url.hostname.toLowerCase();
+  const isPinterestHost =
+    hostname === "pinterest.com" || hostname.endsWith(".pinterest.com");
+  return isPinterestHost && url.pathname.startsWith("/pin/create");
+}
+
+/**
+ * Extrait { src, alt } si les enfants se réduisent à une unique image.
+ *
+ * L'enfant peut être soit un <img> brut, soit le composant `MdxImage` (mappé sur
+ * `img` dans MDXRemote, cf. MdxContent). Dans les deux cas, les props portent
+ * `src`/`alt`, qu'on lit indépendamment du `type` de l'élément. On vérifie juste
+ * que l'élément expose une `src` string (signature d'une image).
+ */
+function extractSingleImage(
+  children: ReactNode,
+): { src: string; alt: string } | null {
+  const arr = Children.toArray(children);
+  if (arr.length !== 1) return null;
+  const only = arr[0];
+  if (!isValidElement(only)) return null;
+  const props = only.props as { src?: string; alt?: string };
+  if (typeof props.src !== "string" || !props.src) return null;
+  return { src: props.src, alt: props.alt ?? "" };
+}
 
 function isHost(hostname: string, host: string): boolean {
   return hostname === host || hostname.endsWith(`.${host}`);
@@ -51,6 +93,14 @@ export function ExternalLink({
   rel: relProp,
   ...rest
 }: AnchorHTMLAttributes<HTMLAnchorElement>) {
+  // Image épinglable Pinterest → bouton « Épingler » au survol (CSP-safe).
+  if (isPinterestCreateUrl(href)) {
+    const img = extractSingleImage(children);
+    if (img) {
+      return <PinnableImage pinUrl={href as string} imgSrc={img.src} imgAlt={img.alt} />;
+    }
+  }
+
   const classification = classifyHref(href);
 
   let rel = relProp;
