@@ -125,7 +125,7 @@ export function RecipeDeliciousCard({
           </div>
 
           <div style={{ marginTop: "1rem" }}>
-            <RecipePrintButton />
+            <RecipePrintButton slug={recipe.slug} />
           </div>
         </div>
       </div>

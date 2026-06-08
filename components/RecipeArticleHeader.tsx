@@ -95,7 +95,7 @@ export function RecipeArticleHeader({ recipe }: RecipeArticleHeaderProps) {
             Aller à la recette
             <GoToIcon />
           </a>
-          <PrintButton />
+          <PrintButton slug={recipe.slug} />
         </div>
       </div>
 
