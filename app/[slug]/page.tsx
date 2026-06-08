@@ -78,7 +78,8 @@ export default async function ArticlePage({ params }: PageProps) {
 
   return (
     <>
-      <JsonLd data={buildArticleJsonLd(article)} />
+      {/* Pas de structured data Article sur une page noindex (cohérence SEO). */}
+      {!fm.noindex && <JsonLd data={buildArticleJsonLd(article)} />}
       <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
 
       <div className="vg-recipe-layout">
