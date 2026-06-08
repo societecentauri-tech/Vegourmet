@@ -1,5 +1,6 @@
 import { SmartImage } from "./SmartImage";
 import { IngredientName } from "./IngredientName";
+import { ProductPicks } from "./ProductPicks";
 import { RecipePrintButton } from "./RecipePrintButton";
 import {
   AuthorIcon,
@@ -198,6 +199,9 @@ export function RecipeDeliciousCard({
           })}
         </ul>
       </div>
+
+      {/* Produits sélectionnés par Chloé (fidélité WP, avant les instructions). */}
+      <ProductPicks slug={recipe.slug} />
 
       <div className="vg-section">
         <h3 className="vg-section__title">Instructions</h3>

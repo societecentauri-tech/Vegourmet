@@ -55,20 +55,23 @@ export function ArticleHeader({ article, readingTime }: ArticleHeaderProps) {
         {readingTime && <span className="vg-dot">{readingTime}</span>}
       </div>
 
-      <div className="vg-hero">
-        {/* Hero portrait fidèle WP : image entière non rognée, ratio naturel
-            720x950, affichée jusqu'à 720px de large et centrée (sizes WP = 720px). */}
-        <SmartImage
-          src={article.heroImage?.src}
-          alt={article.title}
-          fit="natural"
-          ratio="720 / 950"
-          width={720}
-          height={950}
-          priority
-          sizes="(max-width: 768px) 100vw, 720px"
-        />
-      </div>
+      {/* Pages utilitaires (mentions légales…) : pas de hero décoratif. */}
+      {!article.noindex && (
+        <div className="vg-hero">
+          {/* Hero portrait fidèle WP : image entière non rognée, ratio naturel
+              720x950, affichée jusqu'à 720px de large et centrée (sizes WP = 720px). */}
+          <SmartImage
+            src={article.heroImage?.src}
+            alt={article.title}
+            fit="natural"
+            ratio="720 / 950"
+            width={720}
+            height={950}
+            priority
+            sizes="(max-width: 768px) 100vw, 720px"
+          />
+        </div>
+      )}
     </header>
   );
 }

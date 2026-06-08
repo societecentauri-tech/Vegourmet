@@ -82,6 +82,8 @@ export interface ArticleFrontmatter {
   /** Date de dernière modification WP (YYYY-MM-DD). Injectée par le script W2.3.
    * Si absent : les composants font un fallback sur datePublished. */
   dateModified?: string;
+  /** Page utilitaire (mentions légales, etc.) : `noindex` SEO + pas de hero. */
+  noindex?: boolean;
 }
 
 export interface Recipe {

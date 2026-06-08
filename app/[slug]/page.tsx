@@ -45,6 +45,11 @@ export async function generateMetadata({
     title: article.frontmatter.title,
     description: article.frontmatter.description,
     alternates: { canonical },
+    // Pages utilitaires (mentions légales…) : noindex mais follow (crawlable,
+    // liens suivis) — bonne pratique SEO, garde l'index propre.
+    ...(article.frontmatter.noindex
+      ? { robots: { index: false, follow: true } }
+      : {}),
     openGraph: {
       type: "article",
       title: article.frontmatter.title,
@@ -73,7 +78,8 @@ export default async function ArticlePage({ params }: PageProps) {
 
   return (
     <>
-      <JsonLd data={buildArticleJsonLd(article)} />
+      {/* Pas de structured data Article sur une page noindex (cohérence SEO). */}
+      {!fm.noindex && <JsonLd data={buildArticleJsonLd(article)} />}
       <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
 
       <div className="vg-recipe-layout">
