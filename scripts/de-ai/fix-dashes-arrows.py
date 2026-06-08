@@ -17,7 +17,10 @@ CONTENT = os.path.join(os.path.dirname(__file__), "..", "..", "content")
 WS = r"[ \t  ]"
 
 ATTR_RE  = re.compile(r"(»\s*)([—–])(\s+[A-ZÀ-Þ])")       # citation -> protéger
-DASH_RE  = re.compile(WS + r"*[—–]" + WS + r"+")            # incise -> ", "
+# incise -> ", " : exige un caractère NON-espace juste avant (lookbehind),
+# pour ne PAS toucher les tirets en début de ligne (puces markdown « — item »
+# ou continuations YAML indentées) qui détruiraient l'indentation.
+DASH_RE  = re.compile(r"(?<=\S)" + WS + r"+[—–]" + WS + r"+")
 ARROW_RE = re.compile(WS + r"*→" + WS + r"*")               # flèche -> " : "
 
 def convert(txt):
