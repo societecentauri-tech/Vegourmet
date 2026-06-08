@@ -1,12 +1,15 @@
 import { SmartImage } from "./SmartImage";
+import { StarRating } from "./StarRating";
 import {
   CalendarIcon,
+  CommentIcon,
   DifficultyIcon,
   GoToIcon,
   TimerIcon,
 } from "./RecipeIcons";
 import { PrintButton } from "./PrintButton";
 import { getCategoryColor } from "@/lib/categoryStyle";
+import type { RecipeRating } from "@/lib/ratings";
 import type { RecipeFrontmatter } from "@/lib/types";
 
 /** Avatar Gravatar de Chloé (mêmes assets/rendu que la byline blog). */
@@ -14,6 +17,8 @@ const CHLOE_GRAVATAR = "https://veg.s3.fr-par.scw.cloud/img/avatar-chloe.jpg";
 
 interface RecipeArticleHeaderProps {
   recipe: RecipeFrontmatter;
+  /** Note agrégée réelle (snapshot build). null = recette non notée. */
+  rating?: RecipeRating | null;
 }
 
 /** Formate une date ISO en français long (ex. « 25 décembre 2024 »). */
@@ -31,9 +36,16 @@ function formatDate(iso: string): string {
  * RecipeArticleHeader — en-tête de l'article-recette vegourmet.fr (thème Yummy Bites).
  * Catégorie, titre H1, méta auteur/date, image hero, puis bouton « Aller à la recette ».
  */
-export function RecipeArticleHeader({ recipe }: RecipeArticleHeaderProps) {
+export function RecipeArticleHeader({ recipe, rating }: RecipeArticleHeaderProps) {
   const { title, category, author, datePublished, heroImage, totalTime, difficulty } =
     recipe;
+  const hasRating = !!rating && rating.ratingCount > 0;
+  const ratingValueFr = hasRating
+    ? rating.ratingValue.toLocaleString("fr-FR", {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 1,
+      })
+    : null;
 
   return (
     <header className="vg-article-head">
@@ -68,6 +80,27 @@ export function RecipeArticleHeader({ recipe }: RecipeArticleHeaderProps) {
             <CalendarIcon />
             <time dateTime={datePublished}>{formatDate(datePublished)}</time>
           </span>
+          {hasRating && (
+            <>
+              <span className="vg-dot" aria-hidden="true" />
+              <span className="vg-article-meta__item vg-article-rating">
+                <StarRating value={rating.ratingValue} size={15} />
+                <span className="vg-article-rating__val">{ratingValueFr}</span>
+                <span className="vg-article-rating__count">
+                  / {rating.ratingCount} avis
+                </span>
+              </span>
+              {rating.reviewCount > 0 && (
+                <>
+                  <span className="vg-dot" aria-hidden="true" />
+                  <a className="vg-article-meta__item vg-article-comments" href="#avis">
+                    <CommentIcon />
+                    {rating.reviewCount} commentaires
+                  </a>
+                </>
+              )}
+            </>
+          )}
         </div>
 
         {(totalTime || difficulty) && (

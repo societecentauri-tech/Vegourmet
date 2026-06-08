@@ -151,7 +151,7 @@ export function RecipeReviews({ slug, rating }: RecipeReviewsProps) {
   const heading = reviewCount > 0 ? `Avis (${reviewCount})` : "Avis";
 
   return (
-    <section className="vg-reviews" aria-labelledby={`${formId}-title`}>
+    <section id="avis" className="vg-reviews" aria-labelledby={`${formId}-title`}>
       <div className="vg-reviews__head">
         <h2 className="vg-reviews__title" id={`${formId}-title`}>
           {heading}

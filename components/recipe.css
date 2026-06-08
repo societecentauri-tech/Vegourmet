@@ -92,6 +92,27 @@
   font-weight: 600;
   color: var(--vg-c-ink);
 }
+/* Note + nb de commentaires en en-tête (fidélité WP : étoiles + avis + commentaires). */
+.vg-article-rating {
+  gap: 0.35rem;
+}
+.vg-article-rating__val {
+  font-weight: 700;
+  color: var(--vg-c-ink);
+}
+.vg-article-rating__count {
+  color: rgba(69, 62, 63, 0.7);
+}
+.vg-article-comments {
+  color: var(--vg-c-terra);
+  text-decoration: none;
+}
+.vg-article-comments:hover {
+  text-decoration: underline;
+}
+.vg-article-comments svg {
+  fill: var(--vg-c-terra);
+}
 
 /* ---------- Jump-to-recipe ---------- */
 .vg-jump {
@@ -558,7 +579,10 @@
 /* Sidebar */
 .vg-sidebar {
   position: sticky;
-  top: 24px;
+  /* Le header (.site-header) est sticky top:0, hauteur ~95px (logo 46px +
+     padding 2×24px + bordure). On cale la sidebar SOUS le header au scroll
+     pour qu'elle ne passe plus dessous. */
+  top: 110px;
   display: flex;
   flex-direction: column;
   gap: 28px;

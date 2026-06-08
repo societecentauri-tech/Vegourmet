@@ -24,6 +24,14 @@ export function ClockIcon(props: IconProps) {
   );
 }
 
+export function CommentIcon(props: IconProps) {
+  return (
+    <svg {...base(props)}>
+      <path d="M4 3h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9.4L5 20.5a1 1 0 0 1-1.6-.8V17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Zm0 2v10h2v2.6L8.7 15H20V5H4Z" />
+    </svg>
+  );
+}
+
 export function FireIcon(props: IconProps) {
   return (
     <svg {...base(props)}>
