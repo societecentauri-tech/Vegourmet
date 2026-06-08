@@ -1,6 +1,5 @@
 import { SmartImage } from "./SmartImage";
 import {
-  AuthorIcon,
   CalendarIcon,
   DifficultyIcon,
   GoToIcon,
@@ -9,6 +8,9 @@ import {
 import { PrintButton } from "./PrintButton";
 import { getCategoryColor } from "@/lib/categoryStyle";
 import type { RecipeFrontmatter } from "@/lib/types";
+
+/** Avatar Gravatar de Chloé (mêmes assets/rendu que la byline blog). */
+const CHLOE_GRAVATAR = "https://veg.s3.fr-par.scw.cloud/img/avatar-chloe.jpg";
 
 interface RecipeArticleHeaderProps {
   recipe: RecipeFrontmatter;
@@ -49,7 +51,16 @@ export function RecipeArticleHeader({ recipe }: RecipeArticleHeaderProps) {
 
         <div className="vg-article-meta">
           <span className="vg-article-meta__item">
-            <AuthorIcon />
+            {/* Avatar Gravatar Chloé rapatrié sur S3 (fidélité WP byline). */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={CHLOE_GRAVATAR}
+              alt={author}
+              width={30}
+              height={30}
+              className="vg-author-avatar-img"
+              loading="lazy"
+            />
             Par <strong>{author}</strong>
           </span>
           <span className="vg-dot" aria-hidden="true" />

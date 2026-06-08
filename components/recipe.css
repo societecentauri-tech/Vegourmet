@@ -73,6 +73,14 @@
   fill: var(--vg-c-terra);
   flex-shrink: 0;
 }
+/* Avatar Gravatar de Chloé dans la byline recette (fidélité WP, comme le blog). */
+.vg-article-meta__item .vg-author-avatar-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
 .vg-article-meta .vg-dot {
   width: 4px;
   height: 4px;
