@@ -88,7 +88,7 @@ export default async function RecipePage({ params }: PageProps) {
 
         <div className="vg-recipe-grid">
           <article className="vg-recipe vg-recipe-main">
-            <RecipeArticleHeader recipe={fm} />
+            <RecipeArticleHeader recipe={fm} rating={rating} />
 
             <div className="mt-8">
               <MdxContent source={recipe.content} />
