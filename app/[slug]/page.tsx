@@ -45,6 +45,11 @@ export async function generateMetadata({
     title: article.frontmatter.title,
     description: article.frontmatter.description,
     alternates: { canonical },
+    // Pages utilitaires (mentions légales…) : noindex mais follow (crawlable,
+    // liens suivis) — bonne pratique SEO, garde l'index propre.
+    ...(article.frontmatter.noindex
+      ? { robots: { index: false, follow: true } }
+      : {}),
     openGraph: {
       type: "article",
       title: article.frontmatter.title,

@@ -45,7 +45,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     images: [recipe.frontmatter.heroImage.src],
   }));
 
-  const articlePages: MetadataRoute.Sitemap = articles.map((article) => ({
+  const articlePages: MetadataRoute.Sitemap = articles
+    .filter((article) => !article.frontmatter.noindex)
+    .map((article) => ({
     url: `${SITE_URL}/${article.frontmatter.slug}`,
     lastModified: new Date(
       article.frontmatter.dateModified ?? article.frontmatter.datePublished
