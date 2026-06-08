@@ -10,6 +10,7 @@ import {
   RecipeComboCard,
   RecipeCombos,
 } from "./GuideComponents";
+import { ProductSlot } from "./ProductSlot";
 import "./article.css";
 
 interface MdxContentProps {
@@ -19,6 +20,7 @@ interface MdxContentProps {
 // Mapping des composants MDX.
 // - <a> custom (ExternalLink) pour appliquer les attributs rel SEO/sécurité.
 // - Composants blocs comparatifs guides (Phase W2, rapport Galaad 2026-06-04).
+// - ProductSlot : placeholder masqué ; remplacé par un job externe après ~2 j.
 const mdxComponents = {
   a: ExternalLink,
   // Images du corps éditorial → next/image (AVIF/WebP responsive, lazy).
@@ -34,6 +36,7 @@ const mdxComponents = {
   JumpToWinner,
   RecipeCombos,
   RecipeComboCard,
+  ProductSlot,
 };
 
 /** Rend le corps éditorial MDX avec les styles fidèles du thème (vg-entry-content). */
