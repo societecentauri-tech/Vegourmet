@@ -23,7 +23,7 @@ interface S3FixedImageProps {
   className?: string;
 }
 
-function isS3(src: string): boolean {
+function isCdnUrl(src: string): boolean {
   try {
     return new URL(src).hostname === ALLOWED_HOST;
   } catch {
@@ -38,8 +38,8 @@ export function S3FixedImage({
   height,
   className,
 }: S3FixedImageProps) {
-  if (!isS3(src)) {
-    // Hotlink hors bucket (greenweez.com…) → <img> brut, rendu garanti.
+  if (!isCdnUrl(src)) {
+    // Hotlink hors CDN (greenweez.com…) → <img> brut, rendu garanti.
     // eslint-disable-next-line @next/next/no-img-element
     return (
       <img

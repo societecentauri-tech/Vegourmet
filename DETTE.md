@@ -78,6 +78,16 @@ Route `app/api/contact/route.ts` livrée et fonctionnelle. Elle nécessite :
 - `CONTACT_FROM` — ex. `contact@send.vegourmet.fr` (après vérification Resend)
 - `CONTACT_TO` — ex. `contact@vegourmet.fr` (optionnel, défaut déjà posé dans le code)
 
+## Pattern S3 de transition dans remotePatterns (à retirer post-bascule DNS)
+
+`next.config.ts` conserve le pattern `veg.s3.fr-par.scw.cloud` dans `remotePatterns`
+(commenté `// transition-ok`) pour ne pas casser d'éventuelles URLs legacy en cache.
+**À retirer** dès confirmation que le site prod ne sert plus aucune URL S3 directe
+(après bascule DNS vegourmet.fr + validation en production).
+Livré avec la PR `feat/veg-image-host-static` — 2026-06-09.
+
+---
+
 ## Supabase / couche données — avis & notes (W9, livré)
 
 Couche dynamique « avis/notes » branchée (mission W9). Instance `vegourmet_prod`

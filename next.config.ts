@@ -52,9 +52,10 @@ const nextConfig: NextConfig = {
   // ─────────────────────────────────────────────────────────────────────────────
   // Optimisation des images (poids des pages + LCP + indexation).
   //
-  // Les images sont servies par le bucket S3 public Scaleway `veg`. On autorise
-  // ce domaine pour `next/image` afin que l'Image Optimization API de Next/Vercel
-  // génère à la volée des variantes AVIF/WebP redimensionnées (`srcset`/`sizes`).
+  // Les images sont servies par le CDN `static.vegourmet.fr` (Worker Cloudflare,
+  // cache 1 an, origine = bucket S3 Scaleway `veg`). On autorise ce domaine pour
+  // `next/image` afin que l'Image Optimization API de Next/Vercel génère à la
+  // volée des variantes AVIF/WebP redimensionnées (`srcset`/`sizes`).
   // Gains attendus sur une page recette : ~7,4 Mio d'images → ~1-1,5 Mio
   //   - conversion des PNG (≈3,2 Mio) en AVIF (-80 %)
   //   - redimensionnement des WebP servies en pleine résolution native (≈3,7 Mio)
