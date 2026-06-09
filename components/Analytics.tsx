@@ -17,7 +17,8 @@ import { useEffect } from "react";
 
 // Measurement ID GA4 — valeur publique, non secrète.
 // Propriété 466965823 (flux web Vegourmet).
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-5GL00NQ73V";
+// .trim() : la var d'env Vercel peut contenir un trailing newline.
+const GA_ID = (process.env.NEXT_PUBLIC_GA_ID ?? "G-5GL00NQ73V").trim();
 
 const CONSENT_COOKIE = "vegourmet_consent";
 
