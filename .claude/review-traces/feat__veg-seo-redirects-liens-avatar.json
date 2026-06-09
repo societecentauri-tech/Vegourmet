@@ -1,0 +1,21 @@
+{
+  "branch": "feat/veg-seo-redirects-liens-avatar",
+  "reviewer": "06-Gauvain",
+  "timestamp": "2026-06-09T13:18:50Z",
+  "verdict": "GO",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "findings": [],
+  "summary": "LOT 1 : 8 redirects 308 permanent dans next.config.ts + dynamicParams=false + notFound() sur slugs invalides. LOT 2 : 6 liens internes 404 corrigés à la source dans 4 fichiers MDX. LOT 4 : avatar Chloé E-E-A-T ajouté dans buildRecipeJsonLd et buildArticleJsonLd (AVATAR_CHLOE_URL constante). Reviews non touchées. tsc --noEmit = 0 erreurs. next build = 349 pages vertes. curl local : 8 redirects 308, 4 catégories 200, slug inconnu 404, JSON-LD avatar présent.",
+  "checks": {
+    "tsc_no_emit": "PASS - 0 erreurs",
+    "next_build": "PASS - 349 pages, 0 erreur",
+    "redirects_308": "PASS - 8/8 redirects vérifiés curl local",
+    "canonical_200": "PASS - 4/4 catégories blog 200",
+    "unknown_404": "PASS - /category/inconnu-xyz/ → 404",
+    "jsonld_avatar": "PASS - Recipe + BlogPosting author image = https://static.vegourmet.fr/img/avatar-chloe.jpg",
+    "reviews_not_touched": "PASS - Review authors = Justine/Sabrina (pas Chloé)",
+    "mdx_links": "PASS - 6 liens corrigés dans 4 fichiers MDX"
+  }
+}

@@ -5,6 +5,10 @@ import type { Article, Recipe } from "./types";
 export const SITE_URL = "https://vegourmet.fr";
 export const SITE_NAME = "Vegourmet";
 
+/** URL de l'avatar de Chloé (auteure Vegourmet) pour le JSON-LD E-E-A-T. */
+export const AVATAR_CHLOE_URL =
+  "https://static.vegourmet.fr/img/avatar-chloe.jpg";
+
 /** Convertit une durée lisible FR (« 1 hour 10 minutes », « 25 mins ») en ISO 8601. */
 export function toIsoDuration(human: string): string {
   if (!human) return "PT0M";
@@ -56,7 +60,7 @@ export function buildRecipeJsonLd(
     description: fm.description,
     // `image` est REQUIS par Google pour l'éligibilité aux rich results recette.
     ...(fm.heroImage?.src && { image: [fm.heroImage.src] }),
-    author: { "@type": "Person", name: fm.author },
+    author: { "@type": "Person", name: fm.author, image: AVATAR_CHLOE_URL },
     datePublished: fm.datePublished,
     dateModified: fm.dateModified ?? fm.datePublished,
     prepTime: toIsoDuration(fm.prepTime),
@@ -151,7 +155,7 @@ export function buildArticleJsonLd(article: Article): Record<string, unknown> {
     headline: fm.title,
     description: fm.description,
     ...(fm.heroImage?.src && { image: [fm.heroImage.src] }),
-    author: { "@type": "Person", name: fm.author },
+    author: { "@type": "Person", name: fm.author, image: AVATAR_CHLOE_URL },
     datePublished: fm.datePublished,
     dateModified: fm.dateModified ?? fm.datePublished,
     keywords: fm.tags.join(", "),
