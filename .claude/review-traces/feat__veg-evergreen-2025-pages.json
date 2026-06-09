@@ -1,0 +1,22 @@
+{
+  "branch": "feat/veg-evergreen-2025-pages",
+  "timestamp": "2026-06-09T13:54:42Z",
+  "verdict": "GO",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "reviewer": "06-Gauvain",
+  "summary": "8 slugs evergreen (suppression -2025), 1 titre samoussas, 8 redirections 301 next.config.ts, liens internes tiers corrigés (12 fichiers), maillage léger 2-3 liens par page, titres 2026, dateModified frais. tsc 0 erreur, next build vert.",
+  "files_reviewed": [
+    "content/blog/meilleure-whey-vegan-guide-complet-choisir.mdx",
+    "content/blog/meilleure-proteine-vegan-guide-complet.mdx",
+    "content/blog/meilleur-fromage-vegan-decouvrez-guide-complet.mdx",
+    "content/blog/le-meilleur-seitan-guide-comparatif-marques.mdx",
+    "content/blog/meilleur-tempeh-avis-et-guide-complet.mdx",
+    "content/blog/meilleur-hache-vegetal-avis-test-complet.mdx",
+    "content/blog/meilleur-lait-vegetal-pour-cafe-guide-complet.mdx",
+    "content/recettes/cake-au-citron-vegan-meilleure-recette.mdx",
+    "content/recettes/samoussas-vegan-meilleure-recette-indienne.mdx",
+    "next.config.ts"
+  ]
+}
