@@ -36,12 +36,12 @@ interface SmartImageProps {
 }
 
 /**
- * SmartImage — affiche la vraie photo (bucket S3) via `next/image` (AVIF/WebP
- * auto, `srcset` responsive, lazy par défaut) quand un `src` est fourni, sinon
- * retombe sur le <Placeholder> crème. Conserve l'API `alt` + `ratio` +
+ * SmartImage — affiche la vraie photo (CDN static.vegourmet.fr) via `next/image`
+ * (AVIF/WebP auto, `srcset` responsive, lazy par défaut) quand un `src` est fourni,
+ * sinon retombe sur le <Placeholder> crème. Conserve l'API `alt` + `ratio` +
  * `className` du Placeholder pour un remplacement transparent.
  *
- * Le domaine S3 `veg.s3.fr-par.scw.cloud` est autorisé dans next.config.ts
+ * Le domaine `static.vegourmet.fr` est autorisé dans next.config.ts
  * (images.remotePatterns), ce qui active l'Image Optimization API.
  */
 export function SmartImage({

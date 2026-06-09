@@ -16,7 +16,7 @@ interface ArticleHeaderProps {
  * Avatar Gravatar Chloé rapatrié sur S3 (fidélité WP byline).
  * WP affiche le Gravatar ~30px arrondi à côté du nom dans la meta.
  */
-const CHLOE_GRAVATAR = "https://veg.s3.fr-par.scw.cloud/img/avatar-chloe.jpg";
+const CHLOE_GRAVATAR = "https://static.vegourmet.fr/img/avatar-chloe.jpg";
 
 /** En-tête d'article fidèle au thème Yummy Bites (pastille / titre / méta / hero). */
 export function ArticleHeader({ article, readingTime }: ArticleHeaderProps) {

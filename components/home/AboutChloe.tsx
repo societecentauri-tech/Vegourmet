@@ -1,7 +1,7 @@
 import Link from "next/link";
 
-/** Photo de Chloé (bucket S3 public). */
-const CHLOE_PHOTO = "https://veg.s3.fr-par.scw.cloud/hero/a-propos.jpg";
+/** Photo de Chloé (CDN static.vegourmet.fr). */
+const CHLOE_PHOTO = "https://static.vegourmet.fr/hero/a-propos.jpg";
 
 /** Réseaux sociaux officiels Vegourmet (attestés dans le rendu réel). */
 const SOCIALS = [

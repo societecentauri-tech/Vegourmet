@@ -16,11 +16,11 @@ import type { ImgHTMLAttributes } from "react";
 // `sizes` borné à la largeur de la colonne de contenu (~760px desktop).
 // Lazy par défaut (ces images sont sous la ligne de flottaison).
 //
-// ⚠️ Seules les images du bucket S3 `veg` sont autorisées par next.config.ts.
+// ⚠️ Seules les images du CDN `static.vegourmet.fr` sont autorisées par next.config.ts.
 //    Toute URL hors de ce domaine retombe sur un <img> brut pour ne rien casser.
 // ─────────────────────────────────────────────────────────────────────────────
 
-const ALLOWED_HOST = "veg.s3.fr-par.scw.cloud";
+const ALLOWED_HOST = "static.vegourmet.fr";
 
 /** Ratio portrait typique des photos éditoriales WP (1587×2245 ≈ 0,707). */
 const DEFAULT_W = 760;

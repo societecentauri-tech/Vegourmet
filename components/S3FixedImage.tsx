@@ -1,18 +1,19 @@
 import Image from "next/image";
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Image à dimensions fixes (cartes, vignettes, logos) servie depuis le bucket S3
-// `veg`. Quand la source est sur ce bucket, on passe par `next/image` (AVIF/WebP
+// Image à dimensions fixes (cartes, vignettes, logos) servie depuis le CDN
+// `static.vegourmet.fr` (Worker Cloudflare, cache 1 an, origine = bucket S3 veg).
+// Quand la source est sur ce CDN, on passe par `next/image` (AVIF/WebP
 // redimensionnée à la taille d'affichage) ; sinon (hotlink greenweez.com, etc.)
 // on retombe sur un <img> brut — l'Image Optimization API n'accepte que les
 // domaines listés dans next.config.ts (images.remotePatterns).
 //
-// Cas critique : les vignettes des blocs comparatifs guides affichent des PNG S3
+// Cas critique : les vignettes des blocs comparatifs guides affichent des PNG
 // de ~1-1,2 Mio dans une boîte de 72×72 ou 120×120 px. `next/image` les sert
 // alors en quelques Kio (énorme gain de poids, zéro changement visuel).
 // ─────────────────────────────────────────────────────────────────────────────
 
-const ALLOWED_HOST = "veg.s3.fr-par.scw.cloud";
+const ALLOWED_HOST = "static.vegourmet.fr";
 
 interface S3FixedImageProps {
   src: string;

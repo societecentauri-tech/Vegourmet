@@ -22,7 +22,7 @@ const CSP_REPORT_ONLY = [
   "frame-ancestors 'self'",
   "form-action 'self'",
   "object-src 'none'",
-  "img-src 'self' data: https://veg.s3.fr-par.scw.cloud",
+  "img-src 'self' data: https://static.vegourmet.fr",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com",
   "script-src 'self' 'unsafe-inline'",
@@ -66,7 +66,14 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "veg.s3.fr-par.scw.cloud",
+        hostname: "static.vegourmet.fr",
+        pathname: "/**",
+      },
+      // Conservation temporaire pour la transition (URLs legacy en cache CDN).
+      // À retirer après confirmation que toutes les URLs émises sont static.vegourmet.fr.
+      {
+        protocol: "https",
+        hostname: "veg.s3.fr-par.scw.cloud", // transition-ok
         pathname: "/**",
       },
     ],

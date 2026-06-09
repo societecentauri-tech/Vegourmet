@@ -9,7 +9,7 @@ import { getArticleBySlug } from "@/lib/content";
 import { SITE_URL, buildBreadcrumbJsonLd } from "@/lib/seo";
 import "@/components/about.css";
 
-const S3 = "https://veg.s3.fr-par.scw.cloud/about";
+const S3 = "https://static.vegourmet.fr/about";
 
 export const metadata: Metadata = {
   title: "À propos",

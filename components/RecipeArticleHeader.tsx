@@ -15,7 +15,7 @@ import type { RecipeRating } from "@/lib/ratings";
 import type { RecipeFrontmatter } from "@/lib/types";
 
 /** Avatar Gravatar de Chloé (mêmes assets/rendu que la byline blog). */
-const CHLOE_GRAVATAR = "https://veg.s3.fr-par.scw.cloud/img/avatar-chloe.jpg";
+const CHLOE_GRAVATAR = "https://static.vegourmet.fr/img/avatar-chloe.jpg";
 
 interface RecipeArticleHeaderProps {
   recipe: RecipeFrontmatter;
