@@ -1,0 +1,31 @@
+{
+  "branch": "feat/veg-maillage-interne",
+  "reviewer_agent_id": "review-chevalier-2pass",
+  "reviewer_agent_type": "super-chevaliers:review-chevalier",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 2},
+  "timestamp": "2026-06-09T14:00:00+02:00",
+  "scope": [
+    "components/SimilarRecipes.tsx",
+    "components/SiteFooter.tsx",
+    "components/listing.css",
+    "app/globals.css",
+    "app/recettes/[slug]/page.tsx"
+  ],
+  "checks": {
+    "tsc_noEmit": "0 erreurs",
+    "next_build": "349 pages, 0 erreur",
+    "spec_compliance": "SPEC_COMPLIANT — 13 liens taxos vérifiés sur index.html, 3 similaires cassoulet (bouchees-a-la-reine, butternut-farcie, raviolis), 6 autres orphelines vérifiées >= 3 similaires, self-exclusion OK",
+    "a11y": "aria-labelledby vg-similar-title OK, aria-label Cuisines et thématiques vegan OK, focus-visible ajouté sur footer-taxo-pill (fix P2)",
+    "taxo_count": "9 recette-style + 4 recette-thematique = 13 liens présents dans footer",
+    "trailing_slash": "tous les hrefs avec slash final (/recette-style/africaine/)",
+    "deterministe": "Jaccard score + courseCount + date — SSG-safe, pas de random"
+  },
+  "p2_resolved": [
+    "KINDS+liens hissés en constantes de module (TAXO_KINDS, TAXO_LIENS) hors de TaxoExplorer",
+    "focus-visible ajouté sur .footer-taxo-pill (cohérence avec autres éléments interactifs du projet)"
+  ],
+  "p2_documented": [
+    "vg-similar margin-top:80px vs vg-related margin-top:48px — delta intentionnel, bloc majeur vs widget discret"
+  ]
+}

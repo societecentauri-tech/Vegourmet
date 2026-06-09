@@ -810,6 +810,61 @@ a:hover {
   color: var(--vg-title);
 }
 
+/* ----------------------------------------------------------------------- */
+/* Bloc « Explorer les cuisines & thématiques » (footer, maillage interne)  */
+/* ----------------------------------------------------------------------- */
+
+.footer-taxo-explorer {
+  border-top: 1px dashed rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.footer-taxo-title {
+  font-family: var(--vg-font-title);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--vg-title);
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.footer-taxo-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-taxo-pill {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: var(--vg-text);
+  font-size: 0.8125rem;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.footer-taxo-pill:hover {
+  background: var(--vg-terracotta, #d98e73);
+  border-color: var(--vg-terracotta, #d98e73);
+  color: #fff;
+}
+
+.footer-taxo-pill:focus-visible {
+  outline: 2px solid var(--vg-terracotta, #d98e73);
+  outline-offset: 2px;
+}
+
 /* Placeholder (composant existant) — fond doux thème */
 .vg-ph {
   background: linear-gradient(135deg, var(--vg-section), var(--vg-section2));

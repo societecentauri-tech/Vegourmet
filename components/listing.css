@@ -291,6 +291,45 @@
   text-align: center;
 }
 
+/* ----------------------------------------------------------------------- */
+/* Bloc « Recettes similaires » (fiche recette, maillage interne)           */
+/* ----------------------------------------------------------------------- */
+
+.vg-similar {
+  max-width: 1100px;
+  margin: 80px auto 0;
+  padding-inline: 16px;
+}
+
+.vg-similar-title {
+  font-family: "Signika", system-ui, sans-serif;
+  font-size: clamp(1.4rem, 3vw, 1.9rem);
+  font-weight: 700;
+  color: var(--vg-title, #2c3e50);
+  text-align: center;
+  margin-bottom: 32px;
+  padding-bottom: 16px;
+  border-bottom: 2px dashed rgba(0, 0, 0, 0.08);
+}
+
+.vg-similar-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+@media (min-width: 600px) {
+  .vg-similar-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .vg-similar-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 /* ---- Pictos thématiques sur les cartes de listing (recette-thematique) ----
  * Overlay bas-centré sur l'image, groupés côte à côte (réf WP : .item-img
  * > .recipe-meta-data > .dr-category → position:absolute; bottom; left:50%).

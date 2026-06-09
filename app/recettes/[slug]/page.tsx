@@ -6,11 +6,10 @@ import { JsonLd } from "@/components/JsonLd";
 import { MdxContent } from "@/components/MdxContent";
 import { RecipeArticleHeader } from "@/components/RecipeArticleHeader";
 import { RecipeDeliciousCard } from "@/components/RecipeDeliciousCard";
-import { recipeToListingItem } from "@/components/RecipeGrid";
 import { RecipeFaq } from "@/components/RecipeFaq";
 import { RecipeSidebar } from "@/components/RecipeSidebar";
-import { RelatedArticles } from "@/components/RelatedArticles";
 import { RecipeReviews } from "@/components/RecipeReviews";
+import { SimilarRecipes } from "@/components/SimilarRecipes";
 import {
   getAllRecipes,
   getRecipeBySlug,
@@ -117,7 +116,7 @@ export default async function RecipePage({ params }: PageProps) {
         </div>
       </div>
 
-      <RelatedArticles items={related.map(recipeToListingItem)} />
+      <SimilarRecipes recipes={related} />
     </>
   );
 }
