@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { CookieManageLink } from "./CookieManageLink";
+import { taxoSlugs } from "@/lib/taxonomy-data";
+import { resolveTaxoLabel } from "@/lib/taxonomy";
+import type { TaxoKind } from "@/lib/taxonomy";
 
 /* Menus du footer — liens repris des widgets de colophon de vegourmet.fr. */
 const LIENS_UTILES = [
@@ -23,6 +26,45 @@ const SUIVEZ_NOUS = [
   { href: "https://www.instagram.com/vegourmetoff/", label: "Instagram" },
   { href: "https://fr.pinterest.com/vegourmetoff/", label: "Pinterest" },
 ];
+
+/** Taxonomies à linker dans le footer pour le maillage interne. */
+const TAXO_KINDS: { kind: TaxoKind; prefix: string }[] = [
+  { kind: "recette-style", prefix: "/recette-style/" },
+  { kind: "recette-thematique", prefix: "/recette-thematique/" },
+];
+
+/** Liens générés une seule fois (constante de module, RSC build-time). */
+const TAXO_LIENS = TAXO_KINDS.flatMap(({ kind, prefix }) =>
+  taxoSlugs(kind).map((slug) => ({
+    href: `${prefix}${slug}/`,
+    label: resolveTaxoLabel(kind, slug),
+  }))
+);
+
+/**
+ * Bloc « Explorer les cuisines & thématiques » — maillage interne footer.
+ * Linke les 13 taxonomies recette-style + recette-thematique peu/pas liées
+ * depuis d'autres pages, afin d'éliminer les pages orphelines.
+ * Généré depuis taxoSlugs() pour ne pas diverger de taxonomy-data.ts.
+ */
+function TaxoExplorer() {
+  return (
+    <div className="footer-taxo-explorer">
+      <div className="vg-container">
+        <p className="footer-taxo-title">Explorer les cuisines &amp; thématiques</p>
+        <ul className="footer-taxo-list" aria-label="Cuisines et thématiques vegan">
+          {TAXO_LIENS.map((lien) => (
+            <li key={lien.href}>
+              <Link href={lien.href} className="footer-taxo-pill">
+                {lien.label}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+}
 
 /** Pied de page global (port du colophon « site-footer » du thème Yummy Bites). */
 export function SiteFooter() {
@@ -102,6 +144,8 @@ export function SiteFooter() {
             </div>
           </div>
         </div>
+
+        <TaxoExplorer />
       </div>
 
       <div className="footer-b">
