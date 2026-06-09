@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./pinnable.css";
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -53,8 +54,18 @@ export function PinnableImage({ pinUrl, imgSrc, imgAlt = "" }: PinnableImageProp
         target="_blank"
         rel={PIN_REL}
       >
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={imgSrc} alt={imgAlt} loading="lazy" decoding="async" />
+        {/* next/image : AVIF/WebP responsive + width/height anti-CLS.
+            Ratio portrait typique WP (1587×2245 ≈ 0,707). Style width:100%/height:auto
+            pour laisser le CSS parent fixer la taille réelle. */}
+        <Image
+          src={imgSrc}
+          alt={imgAlt}
+          width={760}
+          height={1075}
+          loading="lazy"
+          sizes="(max-width: 768px) 100vw, 760px"
+          style={{ width: "100%", height: "auto" }}
+        />
       </a>
 
       {/* Bouton « Épingler » en overlay (au survol desktop / permanent mobile). */}

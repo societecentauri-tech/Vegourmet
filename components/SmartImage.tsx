@@ -89,13 +89,24 @@ export function SmartImage({
   }
 
   if (!width || !height) {
+    // Mode "natural" sans dims explicites : on synthétise width/height depuis le ratio
+    // pour fournir un aspect-ratio anti-CLS et rester compatible next/image.
+    const [rw, rh] = ratio.split("/").map((n) => Number(n.trim()));
+    const synthW = 1200;
+    const synthH =
+      Number.isFinite(rw) && Number.isFinite(rh) && rw > 0
+        ? Math.round((synthW * rh) / rw)
+        : 900;
     return (
-      // eslint-disable-next-line @next/next/no-img-element
-      <img
+      <Image
         src={src}
         alt={alt}
+        width={synthW}
+        height={synthH}
+        priority={priority}
         loading={priority ? "eager" : "lazy"}
         decoding="async"
+        sizes={sizes ?? "(max-width: 768px) 100vw, 724px"}
         className={`block h-auto w-full overflow-hidden rounded-2xl ${className}`}
       />
     );
