@@ -1,0 +1,16 @@
+{
+  "branch": "feat/veg-ga4-consent",
+  "timestamp": "2026-06-09T13:55:29Z",
+  "verdict": "GO MERGE",
+  "p0": 0,
+  "p1": 0,
+  "p2": 1,
+  "p2_details": "GA_ID évaluée build-time — comportement documenté, fallback G-5GL00NQ73V garanti",
+  "reviewer": "12-Lamorak + feature-dev:code-reviewer (A+B)",
+  "scope": [
+    "components/Analytics.tsx",
+    "components/CookieConsent.tsx",
+    "app/layout.tsx"
+  ],
+  "notes": "Spec-compliance PASS (8/8 requirements). Code quality PASS (0 P0, 0 P1). GA4 G-5GL00NQ73V chargé uniquement après consentement analytics. CookieConsent dispatche vegourmet:consent-update dans persist()."
+}

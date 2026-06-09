@@ -36,7 +36,7 @@ const CATEGORIES = [
     id: "analytics",
     label: "Mesure d'audience",
     description:
-      "Statistiques de fréquentation (Google Analytics) pour améliorer le site. À venir.",
+      "Statistiques de fréquentation anonymisées (Google Analytics) pour améliorer le site.",
   },
   {
     id: "affiliation",
@@ -135,6 +135,8 @@ export function CookieConsent() {
     setChoices(next);
     setVisible(false);
     setDetails(false);
+    // Notifie Analytics.tsx (et tout autre abonné) du changement de consentement.
+    window.dispatchEvent(new Event("vegourmet:consent-update"));
   }, []);
 
   const acceptAll = useCallback(() => persist(ALL_TRUE), [persist]);
