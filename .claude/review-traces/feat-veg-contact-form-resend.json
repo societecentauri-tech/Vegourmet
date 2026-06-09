@@ -1,0 +1,65 @@
+{
+  "branch": "feat/veg-contact-form-resend",
+  "timestamp": "2026-06-09T11:15:00Z",
+  "reviewer": "review-chevalier (spec-compliance + code-quality 2 passes)",
+  "verdict": "GO MERGE",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "issues_found": [
+    {
+      "id": "P1-1",
+      "file": "app/api/contact/route.ts",
+      "description": "RESEND_API_KEY absent → 500 'unexpected error' trompeur",
+      "fix": "Guard explicite avant try/catch → 503 'Service non configuré.' + log 'config error'",
+      "status": "FIXED"
+    },
+    {
+      "id": "P1-2",
+      "file": "components/ContactForm.tsx",
+      "description": "fetch('/api/contact') sans trailing slash → 308 redirect avec trailingSlash:true",
+      "fix": "fetch('/api/contact/') + même fix systémique sur /api/newsletter/ et /api/comments/",
+      "status": "FIXED"
+    },
+    {
+      "id": "P2-1",
+      "file": "app/api/contact/route.ts",
+      "description": "Commentaire header indiquait '422 honeypot' alors que le code retourne 200 silencieux",
+      "fix": "Commentaire corrigé en '200 silencieux (honeypot/bot)'",
+      "status": "FIXED"
+    },
+    {
+      "id": "P2-2",
+      "file": "app/api/contact/route.ts",
+      "description": "_t absent → startTime = Date.now() → silencing immédiat (faux positif curl/test)",
+      "fix": "Si _t absent → null → skip la vérification (ne bloque pas une vraie soumission)",
+      "status": "FIXED"
+    },
+    {
+      "id": "P2-3",
+      "file": "components/ContactForm.tsx",
+      "description": "Double bloc role=alert avec aria-live différents, polite sur erreur validation",
+      "fix": "Bloc unique conditionné sur errorMsg avec aria-live='assertive'",
+      "status": "FIXED"
+    },
+    {
+      "id": "P2-4",
+      "file": "lib/types.ts",
+      "description": "heroImage optionnel — scripts pourraient crasher sur undefined",
+      "fix": "Vérifié : scripts/fetch-ratings-snapshot.mjs et fetch-reviews-snapshot.mjs n'accèdent pas heroImage. scripts/images.mjs utilise déjà l'optional chaining. Pas de crash.",
+      "status": "VERIFIED_SAFE"
+    }
+  ],
+  "tsc_noEmit": "0 erreurs",
+  "next_build": "vert — 349 pages générées",
+  "runtime_tests": [
+    { "case": "POST /api/contact/ sans RESEND_API_KEY + payload valide", "expected": "HTTP 503", "actual": "HTTP 503 {error:'Service non configuré.'}", "pass": true },
+    { "case": "POST /api/contact/ nom vide", "expected": "HTTP 400", "actual": "HTTP 400 {error:'Nom invalide (1–100 caractères).'}", "pass": true },
+    { "case": "POST /api/contact/ honeypot rempli", "expected": "HTTP 200 silencieux", "actual": "HTTP 200 {ok:true}", "pass": true },
+    { "case": "POST /api/contact/ rate-limit (4ème req)", "expected": "HTTP 429", "actual": "HTTP 429", "pass": true }
+  ],
+  "html_checks": [
+    { "check": "eff1b3fee175939f absent du HTML généré /contactez-nous", "pass": true },
+    { "check": "vg-contact-form présent dans le HTML généré /contactez-nous", "pass": true }
+  ]
+}
