@@ -1,0 +1,13 @@
+{
+  "branch": "feat/veg-pastilles-overlap-fix",
+  "timestamp": "2026-06-09T14:57:09Z",
+  "verdict": "GO",
+  "p0": 0,
+  "p1": 0,
+  "p2": 1,
+  "p2_details": "ActiveTaxo.kind est string brut — union type littéral recommandé pour typer les 4 kinds (non bloquant)",
+  "spec_compliance": "SPEC_COMPLIANT",
+  "reviewers": ["12-Lamorak (spec-compliance)", "Reviewer-A (logique/types)", "Reviewer-B (UI/composants)"],
+  "files_reviewed": ["components/RecipeGrid.tsx"],
+  "summary": "hideCategoryBadge étendu à recette-style et recette-thematique. Logique booléenne vérifiée, 5 requirements spec couverts, 0 P0/P1."
+}
