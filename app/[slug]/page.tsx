@@ -20,6 +20,7 @@ import {
   SITE_URL,
   buildArticleJsonLd,
   buildBreadcrumbJsonLd,
+  buildFaqJsonLd,
 } from "@/lib/seo";
 
 interface PageProps {
@@ -81,6 +82,9 @@ export default async function ArticlePage({ params }: PageProps) {
       {/* Pas de structured data Article sur une page noindex (cohérence SEO). */}
       {!fm.noindex && <JsonLd data={buildArticleJsonLd(article)} />}
       <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
+      {!fm.noindex && fm.faq && fm.faq.length > 0 && (
+        <JsonLd data={buildFaqJsonLd(fm.faq)!} />
+      )}
 
       <div className="vg-recipe-layout">
         <Breadcrumb
