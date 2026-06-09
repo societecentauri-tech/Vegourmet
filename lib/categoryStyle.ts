@@ -60,5 +60,5 @@ export function getCategoryColor(category: string): string {
 
 /** Slug de catégorie pour construire l'URL /category/<slug>. */
 export function getCategoryHref(category: string): string {
-  return `/category/${slugifyTaxo(category)}`;
+  return `/category/${slugifyTaxo(category)}/`;
 }

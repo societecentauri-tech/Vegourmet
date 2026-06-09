@@ -15,12 +15,12 @@ export const metadata: Metadata = {
   title: "À propos",
   description:
     "Bonjour, moi c'est Chloé, créatrice de Vegourmet. Découvre ma philosophie en cuisine et un peu plus sur moi.",
-  alternates: { canonical: `${SITE_URL}/a-propos` },
+  alternates: { canonical: `${SITE_URL}/a-propos/` },
   openGraph: {
     type: "profile",
     title: "À propos — Vegourmet",
     description: "La créatrice de Vegourmet, sa philosophie et son histoire.",
-    url: `${SITE_URL}/a-propos`,
+    url: `${SITE_URL}/a-propos/`,
   },
 };
 
@@ -71,7 +71,7 @@ export default async function AProposPage() {
 
   const breadcrumb = [
     { name: "Accueil", url: `${SITE_URL}/` },
-    { name: "À propos", url: `${SITE_URL}/a-propos` },
+    { name: "À propos", url: `${SITE_URL}/a-propos/` },
   ];
 
   return (
@@ -82,7 +82,7 @@ export default async function AProposPage() {
           "@context": "https://schema.org",
           "@type": "AboutPage",
           name: "À propos — Vegourmet",
-          url: `${SITE_URL}/a-propos`,
+          url: `${SITE_URL}/a-propos/`,
           mainEntity: {
             "@type": "Person",
             name: "Chloé",

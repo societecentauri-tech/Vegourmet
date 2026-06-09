@@ -28,7 +28,7 @@ export function RecipeSidebar() {
           blog, je partage des recettes simples et gourmandes pour prouver que
           manger vegan peut être délicieux et accessible à tous.
         </p>
-        <Link href="/a-propos" className="vg-widget-about-link">
+        <Link href="/a-propos/" className="vg-widget-about-link">
           En savoir plus sur moi →
         </Link>
       </div>

@@ -20,7 +20,7 @@ export async function generateMetadata({
   return {
     title: `Recettes : cuisine ${label}`,
     description: `Toutes les recettes vegan de cuisine ${label} sur Vegourmet.`,
-    alternates: { canonical: `${SITE_URL}/recette-style/${slug}` },
+    alternates: { canonical: `${SITE_URL}/recette-style/${slug}/` },
   };
 }
 

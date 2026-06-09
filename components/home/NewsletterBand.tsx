@@ -127,7 +127,7 @@ export function NewsletterBand() {
                 J&apos;accepte de recevoir la newsletter de Vegourmet et que mon
                 adresse soit utilisée à cette fin. Désinscription possible à tout
                 moment. Voir la{" "}
-                <a href="/mentions-legales-politique-de-confidentialite">
+                <a href="/mentions-legales-politique-de-confidentialite/">
                   politique de confidentialité
                 </a>
                 .

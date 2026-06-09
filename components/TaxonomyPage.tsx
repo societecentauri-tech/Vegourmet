@@ -34,7 +34,7 @@ export function TaxonomyPage({ kind, slug, page }: TaxonomyPageProps) {
   ];
 
   const { pageItems, currentPage, totalPages, totalItems } = paginate(items, page);
-  const basePath = `/${kind}/${slug}`;
+  const basePath = `/${kind}/${slug}/`;
   const url = `${SITE_URL}${basePath}`;
 
   const description = `Toutes nos recettes et idées vegan « ${label} » : ${totalItems} contenu${

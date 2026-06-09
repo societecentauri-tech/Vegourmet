@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Le blog Vegourmet",
   description:
     "Guides, astuces et inspirations vegan : aquafaba, beurre végétal, idées d'apéro et plus encore.",
-  alternates: { canonical: `${SITE_URL}/blog` },
+  alternates: { canonical: `${SITE_URL}/blog/` },
 };
 
 interface PageProps {
@@ -31,14 +31,14 @@ export default async function BlogIndexPage({ searchParams }: PageProps) {
       <JsonLd
         data={buildCollectionJsonLd(
           "Le blog Vegourmet",
-          `${SITE_URL}/blog`,
+          `${SITE_URL}/blog/`,
           pageItems.map((it) => ({ name: it.title, url: `${SITE_URL}${it.href}` })),
         )}
       />
       <JsonLd
         data={buildBreadcrumbJsonLd([
           { name: "Accueil", url: `${SITE_URL}/` },
-          { name: "Blog", url: `${SITE_URL}/blog` },
+          { name: "Blog", url: `${SITE_URL}/blog/` },
         ])}
       />
       <ListingHeader

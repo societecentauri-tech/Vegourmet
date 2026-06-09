@@ -41,7 +41,7 @@ export function buildRecipeJsonLd(
   rating?: RecipeRating | null,
 ): Record<string, unknown> {
   const fm = recipe.frontmatter;
-  const url = `${SITE_URL}/recettes/${fm.slug}`;
+  const url = `${SITE_URL}/recettes/${fm.slug}/`;
 
   const jsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
@@ -120,7 +120,7 @@ export function buildFaqJsonLd(
 /** JSON-LD schema.org Article pour les guides/articles racine. */
 export function buildArticleJsonLd(article: Article): Record<string, unknown> {
   const fm = article.frontmatter;
-  const url = `${SITE_URL}/${fm.slug}`;
+  const url = `${SITE_URL}/${fm.slug}/`;
   return {
     "@context": "https://schema.org",
     "@type": "Article",

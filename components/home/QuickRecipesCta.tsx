@@ -26,7 +26,7 @@ export function QuickRecipesCta({ imageSrc, imageAlt }: QuickRecipesCtaProps) {
             Consulte nos dernières recettes pour t&apos;inspirer en cuisine et
             partage-les sur tes réseaux sociaux !
           </p>
-          <Link href="/recettes" className="btn-primary">
+          <Link href="/recettes/" className="btn-primary">
             Découvrir les recettes
           </Link>
         </div>

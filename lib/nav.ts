@@ -8,26 +8,26 @@ export interface NavItem {
 
 export const NAV_ITEMS: NavItem[] = [
   {
-    href: "/recettes",
+    href: "/recettes/",
     label: "Recettes",
     children: [
-      { href: "/recette-type/petit-dejeuner-vegan", label: "Petit Déjeuner Vegan" },
-      { href: "/recette-type/apero-vegan", label: "Apéro Vegan" },
-      { href: "/recette-type/plat-vegan", label: "Plat Vegan" },
-      { href: "/recette-type/dessert-vegan", label: "Dessert Vegan" },
-      { href: "/recette-type/snack-vegan", label: "Snack Vegan" },
+      { href: "/recette-type/petit-dejeuner-vegan/", label: "Petit Déjeuner Vegan" },
+      { href: "/recette-type/apero-vegan/", label: "Apéro Vegan" },
+      { href: "/recette-type/plat-vegan/", label: "Plat Vegan" },
+      { href: "/recette-type/dessert-vegan/", label: "Dessert Vegan" },
+      { href: "/recette-type/snack-vegan/", label: "Snack Vegan" },
     ],
   },
   {
-    href: "/blog",
+    href: "/blog/",
     label: "Blog",
     children: [
-      { href: "/category/guides-pratiques", label: "Guides pratiques" },
-      { href: "/category/conseils-et-astuces", label: "Conseils et astuces" },
-      { href: "/category/actualites-et-tendances", label: "Actualités & tendances" },
-      { href: "/category/inspiration-et-lifestyle", label: "Inspiration & Lifestyle" },
+      { href: "/category/guides-pratiques/", label: "Guides pratiques" },
+      { href: "/category/conseils-et-astuces/", label: "Conseils et astuces" },
+      { href: "/category/actualites-et-tendances/", label: "Actualités & tendances" },
+      { href: "/category/inspiration-et-lifestyle/", label: "Inspiration & Lifestyle" },
     ],
   },
-  { href: "/contactez-nous", label: "Contactez-nous" },
-  { href: "/a-propos", label: "À propos" },
+  { href: "/contactez-nous/", label: "Contactez-nous" },
+  { href: "/a-propos/", label: "À propos" },
 ];

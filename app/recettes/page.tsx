@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Toutes nos recettes vegan",
   description:
     "Découvre toutes les recettes vegan de Vegourmet : entrées, plats, desserts et petits-déjeuners, faciles et gourmands.",
-  alternates: { canonical: `${SITE_URL}/recettes` },
+  alternates: { canonical: `${SITE_URL}/recettes/` },
 };
 
 interface PageProps {
@@ -57,14 +57,14 @@ export default async function RecipesIndexPage({ searchParams }: PageProps) {
       <JsonLd
         data={buildCollectionJsonLd(
           title,
-          `${SITE_URL}/recettes`,
+          `${SITE_URL}/recettes/`,
           pageItems.map((it) => ({ name: it.title, url: `${SITE_URL}${it.href}` })),
         )}
       />
       <JsonLd
         data={buildBreadcrumbJsonLd([
           { name: "Accueil", url: `${SITE_URL}/` },
-          { name: "Recettes", url: `${SITE_URL}/recettes` },
+          { name: "Recettes", url: `${SITE_URL}/recettes/` },
         ])}
       />
       <ListingHeader
@@ -75,7 +75,7 @@ export default async function RecipesIndexPage({ searchParams }: PageProps) {
       {query && totalItems === 0 ? (
         <p className="vg-empty">
           Aucune recette ne correspond à « {query} ».{" "}
-          <Link href="/recettes">Voir toutes les recettes</Link>.
+          <Link href="/recettes/">Voir toutes les recettes</Link>.
         </p>
       ) : (
         <>

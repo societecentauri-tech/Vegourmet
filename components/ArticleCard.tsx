@@ -10,7 +10,7 @@ interface ArticleCardProps {
 export function ArticleCard({ article }: ArticleCardProps) {
   return (
     <article className="group flex flex-col overflow-hidden rounded-2xl border border-veg-cream-soft bg-white shadow-sm transition hover:shadow-md">
-      <Link href={`/${article.slug}`} className="block">
+      <Link href={`/${article.slug}/`} className="block">
         <SmartImage src={article.heroImage?.src} alt={article.title} ratio="16 / 9" className="rounded-b-none border-0" />
       </Link>
       <div className="flex flex-1 flex-col gap-2 p-4">
@@ -19,7 +19,7 @@ export function ArticleCard({ article }: ArticleCardProps) {
         </span>
         <h3 className="font-heading text-lg font-semibold leading-snug">
           <Link
-            href={`/${article.slug}`}
+            href={`/${article.slug}/`}
             className="text-veg-ink-soft hover:text-veg-terracotta-dark"
           >
             {article.title}

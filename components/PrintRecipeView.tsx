@@ -43,7 +43,7 @@ export function PrintRecipeView({ recipe, rating }: PrintRecipeViewProps) {
     heroImage,
   } = recipe;
 
-  const recipeHref = `/recettes/${recipe.slug}`;
+  const recipeHref = `/recettes/${recipe.slug}/`;
   const sourceUrl = `${SITE_URL}${recipeHref}`;
   const hasNutrition =
     nutrition !== undefined && Object.values(nutrition).some(Boolean);

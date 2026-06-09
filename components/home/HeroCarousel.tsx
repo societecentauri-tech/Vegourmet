@@ -85,7 +85,7 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
               id={`${baseId}-slide-${i}`}
             >
               <div className="vgh-banner-img item-img">
-                <Link href={`/recettes/${slide.slug}`} tabIndex={i === index ? 0 : -1}>
+                <Link href={`/recettes/${slide.slug}/`} tabIndex={i === index ? 0 : -1}>
                   <SmartImage
                     src={slide.imageSrc}
                     alt={slide.title}
@@ -103,7 +103,7 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
                 </span>
                 <h2 className="vgh-banner-title item-title">
                   <Link
-                    href={`/recettes/${slide.slug}`}
+                    href={`/recettes/${slide.slug}/`}
                     tabIndex={i === index ? 0 : -1}
                   >
                     {slide.title}
@@ -111,7 +111,7 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
                 </h2>
                 <p className="vgh-banner-content item-content">{slide.excerpt}</p>
                 <Link
-                  href={`/recettes/${slide.slug}`}
+                  href={`/recettes/${slide.slug}/`}
                   className="btn-primary vgh-banner-btn"
                   tabIndex={i === index ? 0 : -1}
                 >
