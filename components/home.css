@@ -462,13 +462,15 @@
   position: relative;
 }
 
-/* Slides empilées : fade entre elles (transition fluide, sans dépendance). */
+/* Slides empilées : fade entre elles (transition fluide, sans dépendance).
+ * La hauteur est bornée via clamp pour éviter qu'une image portrait (380/515)
+ * n'explose le hero au-delà de 520px (fidèle au WP réf). */
 .vgh-banner-item {
   position: absolute;
   inset: 0;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: stretch;
   gap: 0;
   background-color: #fff;
   box-shadow: 0 10px 30px rgba(40, 30, 25, 0.08);
@@ -482,6 +484,7 @@
 
 .vgh-banner-item.is-active {
   position: relative;
+  height: clamp(420px, 40vw, 520px);
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -489,14 +492,20 @@
 
 .vgh-banner-img {
   position: relative;
-  flex: 0 0 55%;
-  max-width: 55%;
+  flex: 0 0 clamp(320px, 38%, 460px);
+  max-width: 460px;
+  height: 100%;
+  overflow: hidden;
 }
 
 .vgh-banner-photo {
   display: block;
   width: 100%;
   height: 100%;
+  /* Annule l'aspect-ratio injecté par SmartImage (ratio portrait 380/515) ;
+   * la hauteur est pilotée par .vgh-banner-item (clamp 420–520px). */
+  aspect-ratio: none !important;
+  object-fit: cover;
   border-radius: 0;
   transition: opacity 0.234s ease;
 }
@@ -880,6 +889,10 @@
     margin: 24px 0 64px;
   }
 
+  .vgh-banner-item.is-active {
+    height: auto;
+  }
+
   .vgh-banner-item {
     flex-direction: column;
     align-items: stretch;
@@ -888,6 +901,7 @@
   .vgh-banner-img {
     flex: 0 0 auto;
     max-width: 100%;
+    height: clamp(220px, 50vw, 380px);
   }
 
   .vgh-banner-caption {
@@ -922,16 +936,20 @@
 }
 
 /* ---- Pictos thématiques dans le carousel hero (recette-thematique) --------
- * Positionnés en haut à gauche du bloc image, empilés verticalement.
- * .vgh-banner-img est déjà position:relative → containing block valide. */
+ * Positionnés en overlay bas-centré sur l'image, groupés côte à côte.
+ * Réf WP : .item-img > .recipe-meta-data > .dr-category → bas-centre.
+ * .vgh-banner-img est déjà position:relative + overflow:hidden → containing block valide. */
 .vgh-banner-thematiques {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 2;
   display: flex;
-  flex-direction: column;
-  gap: 6px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
 }
 
 .vgh-banner-thematiques .vg-thematique-badge {
