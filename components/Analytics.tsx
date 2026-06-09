@@ -3,23 +3,21 @@
 /**
  * Analytics.tsx — Chargement GA4 conditionné au consentement RGPD.
  *
- * Ne monte aucun script Google tant que l'utilisateur n'a pas accepté la
+ * Ne charge aucun script Google tant que l'utilisateur n'a pas accordé la
  * catégorie "analytics" dans la bannière cookies (cookie `vegourmet_consent`).
- * Écoute l'événement `vegourmet:consent-update` pour réagir en temps réel sans
- * polling.
+ * Écoute l'événement `vegourmet:consent-update` pour réagir en temps réel.
  *
- * Approche : montage conditionnel du script gtag via `next/script` (strategy
- * "afterInteractive") — aucun cookie _ga ni requête vers googletagmanager.com
- * avant accord explicite.
+ * Approche : injection manuelle via document.createElement (useEffect) plutôt
+ * que next/script avec children inline. Next/script inline monté dynamiquement
+ * post-hydratation n'exécute pas son contenu de façon fiable → SyntaxError +
+ * window.gtag jamais défini.
  */
 
-import Script from "next/script";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 // Measurement ID GA4 — valeur publique, non secrète.
-// Propriété 466965823 (flux web Vegourmet, ancienne propriété avec historique).
-const GA_ID =
-  process.env.NEXT_PUBLIC_GA_ID ?? "G-5GL00NQ73V";
+// Propriété 466965823 (flux web Vegourmet).
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-5GL00NQ73V";
 
 const CONSENT_COOKIE = "vegourmet_consent";
 
@@ -42,17 +40,41 @@ function readAnalyticsConsent(): boolean {
   }
 }
 
+/** Injecte le script externe gtag.js + initialise dataLayer/window.gtag. */
+function injectGA4(gaId: string): void {
+  // Déclare window.dataLayer et window.gtag avant le script externe.
+  window.dataLayer = window.dataLayer ?? [];
+  window.gtag = function gtag(...args: GtagArgs): void {
+    window.dataLayer.push(args);
+  };
+  window.gtag("js", new Date());
+  window.gtag("config", gaId, { anonymize_ip: true });
+
+  // Injecte le script externe async dans <head>.
+  const script = document.createElement("script");
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
+  script.async = true;
+  document.head.appendChild(script);
+}
+
 export function Analytics() {
-  const [analyticsGranted, setAnalyticsGranted] = useState(false);
-
   useEffect(() => {
-    // Lecture initiale du cookie (ex. visiteur revenant avec consentement).
-    setAnalyticsGranted(readAnalyticsConsent());
+    // Flag interne : évite la double-injection si le composant est re-rendu.
+    let injected = false;
 
-    // Réaction en temps réel quand l'utilisateur donne/retire son consentement
-    // via la bannière CookieConsent (event dispatché dans persist()).
+    function tryInject() {
+      if (!injected && readAnalyticsConsent()) {
+        injected = true;
+        injectGA4(GA_ID);
+      }
+    }
+
+    // Vérification immédiate (visiteur revenant avec consentement déjà enregistré).
+    tryInject();
+
+    // Réaction en temps réel quand l'utilisateur accepte/refuse via la bannière.
     const handleConsentUpdate = () => {
-      setAnalyticsGranted(readAnalyticsConsent());
+      tryInject();
     };
     window.addEventListener("vegourmet:consent-update", handleConsentUpdate);
     return () => {
@@ -63,23 +85,6 @@ export function Analytics() {
     };
   }, []);
 
-  // Pas de consentement analytics → aucun script, aucune requête Google.
-  if (!analyticsGranted) return null;
-
-  return (
-    <>
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-        strategy="afterInteractive"
-      />
-      <Script id="vg-gtag-init" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${GA_ID}', { anonymize_ip: true });
-        `}
-      </Script>
-    </>
-  );
+  // Ce composant ne rend rien dans le DOM.
+  return null;
 }

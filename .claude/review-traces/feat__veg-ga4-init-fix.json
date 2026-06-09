@@ -1,0 +1,14 @@
+{
+  "branch": "feat/veg-ga4-init-fix",
+  "timestamp": "2026-06-09T15:01:27Z",
+  "verdict": "GO",
+  "reviewer": "06-Gauvain",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "summary": "Fix GA4 init : remplacement next/script inline (monté dynamiquement, SyntaxError, gtag undefined) par injection manuelle useEffect + document.createElement. Gating RGPD conservé. tsc 0 erreurs, next build vert.",
+  "files_reviewed": [
+    "components/Analytics.tsx",
+    "types/gtag.d.ts"
+  ]
+}
