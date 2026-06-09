@@ -290,3 +290,23 @@
   margin: 4px 0 0;
   text-align: center;
 }
+
+/* ---- Pictos thématiques sur les cartes de listing (recette-thematique) ----
+ * Positionnés en haut à gauche de l'image, empilés verticalement.
+ * Fidèle au rendu WP vegourmet.fr (position: absolute, coin haut-gauche). */
+.vg-thematique-badges {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.vg-thematique-badge {
+  display: block;
+  line-height: 0;
+  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.18));
+}
+
