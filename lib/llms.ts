@@ -67,8 +67,35 @@ export function buildLlmsTxt(): string {
     (r): r is NonNullable<typeof r> => Boolean(r),
   );
 
-  // Guides comparatifs « money » = articles dont le slug commence par « meilleur ».
-  const guides = articles.filter((a) => /^meilleur/.test(a.frontmatter.slug));
+  /**
+   * Guides comparatifs et d'achat — slugs reconnus comme « money guides » :
+   *  - commencent par « meilleur » ou « meilleure » (ex: meilleur-tofu-…)
+   *  - commencent par « le-meilleur- » ou « les-meilleures- »
+   *  - commencent par « classement-des-meilleures- »
+   *  - commencent par « quel-est-le-meilleur- »
+   *  - slug exact de guides thématiques reconnus (protéines, oméga-3, laits végétaux)
+   */
+  const GUIDE_SLUGS_EXTRA = new Set([
+    "lait-vegetal-guide-ultime-alternatives-vegan",
+    "les-meilleures-proteines-vegetales-musculation",
+    "le-meilleur-seitan-guide-comparatif-marques",
+    "classement-des-meilleures-margarines",
+    "quel-est-le-meilleur-lait-vegetal-pour-la-sante",
+    "omega-3-vegan-7-bienfaits-extraordinaires-votre-sante",
+    "proteines-vegetales-7-bienfaits-incroyables-sante",
+  ]);
+
+  const isGuide = (slug: string): boolean =>
+    /^meilleu/.test(slug) ||
+    /^le-meilleur-/.test(slug) ||
+    /^les-meilleures-/.test(slug) ||
+    /^classement-des-meilleures-/.test(slug) ||
+    /^quel-est-le-meilleur-/.test(slug) ||
+    GUIDE_SLUGS_EXTRA.has(slug);
+
+  const guides = articles
+    .filter((a) => isGuide(a.frontmatter.slug))
+    .sort((a, b) => a.frontmatter.slug.localeCompare(b.frontmatter.slug));
 
   // Articles éditoriaux (conseils, astuces, lifestyle) hors guides comparatifs
   // et hors pages utilitaires (about/contact/légales).
@@ -78,9 +105,7 @@ export function buildLlmsTxt(): string {
     "mentions-legales-politique-de-confidentialite",
   ]);
   const editorial = articles.filter(
-    (a) =>
-      !/^meilleur/.test(a.frontmatter.slug) &&
-      !utility.has(a.frontmatter.slug),
+    (a) => !isGuide(a.frontmatter.slug) && !utility.has(a.frontmatter.slug),
   );
 
   const lines: string[] = [header()];
