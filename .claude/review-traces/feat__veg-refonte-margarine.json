@@ -1,0 +1,12 @@
+{
+  "branch": "feat/veg-refonte-margarine",
+  "commit": "pending",
+  "timestamp": "2026-06-09T16:05:22Z",
+  "reviewer": "super-chevaliers:review-chevalier",
+  "verdict": "GO MERGE",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "spec_compliance": "SPEC_COMPLIANT",
+  "notes": "Étape 1 spec-compliance : 22/22 requirements vérifiés. Title 63 chars/479px (seuil pixel OK). Meta 132 chars. Verdict intro 3 phrases (St Hubert Oméga 3 + Fruit d'Or Original, vraies marques). Tableau Markdown 9 marques issues de l'article original. 5 mots-clés GSC intégrés (classement x5, non hydrogénée x11, marque x16, sans huile de palme x7, à tartiner x2). 4 nouvelles FAQ (sans-palme, beurre vs margarine, non hydrogénée existe, pâtisserie). dateModified 2026-06-09T10:00:00+02:00. Slug inchangé. 4 liens entrants posés (beurre-vegan, patisserie, cookies, brownie). dateModified sources non bumpées. 0 invention. Ton Chloé conservé. Étape 2 code-quality : 0 P0 / 0 P1. 2 P2 pré-existants hors-scope (liens recettes sans trailing slash). LF only, 0 CRLF, 0 NBSP parasite, YAML valide (8 Q = 8 R)."
+}
