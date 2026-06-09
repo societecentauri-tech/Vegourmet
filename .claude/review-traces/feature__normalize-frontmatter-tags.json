@@ -1,0 +1,10 @@
+{
+  "branch": "feature/normalize-frontmatter-tags",
+  "reviewer_agent_id": "arthur-final-review",
+  "reviewer_agent_type": "01-arthur",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "timestamp": "2026-06-09T18:55:00.000000+00:00",
+  "scope": ["lib/content.ts"],
+  "summary": "Fix défensif : normalizeTags(input: unknown): string[] (array/CSV/[]) appliqué au champ tags dans getAllRecipes et getAllArticles. Empêche le TypeError de getRelatedRecipes (sharedCount/jaccard) si le frontmatter SEO arrive en CSV scalaire. Fonction miroir verbatim de centauri (PR #169, unit-testée 10 cas). Test unitaire NON ajouté : vegourmet n'a aucun runner (pas de vitest/jest, pas de CI) — un test important 'vitest' serait un phantom test non exécutable ; mise en place d'une infra de test = tech-debt séparée. Exemption documentée. Vérifs : tsc --noEmit 0 erreur, pnpm build vert."
+}
