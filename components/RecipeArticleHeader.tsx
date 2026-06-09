@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { SmartImage } from "./SmartImage";
 import { StarRating } from "./StarRating";
 import {
@@ -9,6 +10,7 @@ import {
 } from "./RecipeIcons";
 import { PrintButton } from "./PrintButton";
 import { getCategoryColor } from "@/lib/categoryStyle";
+import { buildDateDisplay, formatDateFr } from "@/lib/format";
 import type { RecipeRating } from "@/lib/ratings";
 import type { RecipeFrontmatter } from "@/lib/types";
 
@@ -21,25 +23,15 @@ interface RecipeArticleHeaderProps {
   rating?: RecipeRating | null;
 }
 
-/** Formate une date ISO en français long (ex. « 25 décembre 2024 »). */
-function formatDate(iso: string): string {
-  const date = new Date(iso);
-  if (Number.isNaN(date.getTime())) return iso;
-  return date.toLocaleDateString("fr-FR", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
-}
-
 /**
  * RecipeArticleHeader — en-tête de l'article-recette vegourmet.fr (thème Yummy Bites).
  * Catégorie, titre H1, méta auteur/date, image hero, puis bouton « Aller à la recette ».
  */
 export function RecipeArticleHeader({ recipe, rating }: RecipeArticleHeaderProps) {
-  const { title, category, author, datePublished, heroImage, totalTime, difficulty } =
+  const { title, category, author, datePublished, dateModified, heroImage, totalTime, difficulty } =
     recipe;
   const hasRating = !!rating && rating.ratingCount > 0;
+  const dateDisplay = buildDateDisplay(datePublished, dateModified);
   const ratingValueFr = hasRating
     ? rating.ratingValue.toLocaleString("fr-FR", {
         minimumFractionDigits: 0,
@@ -63,22 +55,26 @@ export function RecipeArticleHeader({ recipe, rating }: RecipeArticleHeaderProps
 
         <div className="vg-article-meta">
           <span className="vg-article-meta__item">
-            {/* Avatar Gravatar Chloé rapatrié sur S3 (fidélité WP byline). */}
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            {/* Avatar Gravatar Chloé via next/image (AVIF/WebP, taille affichage). */}
+            <Image
               src={CHLOE_GRAVATAR}
               alt={author}
-              width={30}
-              height={30}
+              width={40}
+              height={40}
               className="vg-author-avatar-img"
-              loading="lazy"
             />
             Par <strong>{author}</strong>
           </span>
           <span className="vg-dot" aria-hidden="true" />
-          <span className="vg-article-meta__item">
+          <span
+            className="vg-article-meta__item"
+            title={dateDisplay.tooltip}
+          >
             <CalendarIcon />
-            <time dateTime={datePublished}>{formatDate(datePublished)}</time>
+            {dateDisplay.label}{" "}
+            <time dateTime={dateDisplay.dateTime}>
+              {formatDateFr(dateDisplay.dateTime)}
+            </time>
           </span>
           {hasRating && (
             <>
