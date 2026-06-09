@@ -146,14 +146,20 @@ interface ItemCardProps {
 export function ItemCard({ item, activeTaxo }: ItemCardProps) {
   const { color, glyph } = getCategoryStyle(item.category);
 
-  // La pastille catégorie est redondante si la taxonomie active correspond déjà
-  // à la catégorie de la recette (ex : sur /recette-type/petit-dejeuner-vegan/,
-  // la pastille "petit-déjeuner vegan" ne doit pas s'afficher).
+  // La pastille catégorie est masquée :
+  // 1. Sur /recette-type/ et /category/ : redondante si la pastille correspond à la taxo active.
+  // 2. Sur /recette-style/ et /recette-thematique/ : les badges thématiques occupent le même
+  //    espace bas-centré → chevauchement visuel. La pastille catégorie n'apporte rien de plus
+  //    dans ce contexte.
   const categorySlug = slugifyTaxo(item.category);
   const hideCategoryBadge =
     activeTaxo !== undefined &&
-    (activeTaxo.kind === "recette-type" || activeTaxo.kind === "category") &&
-    categorySlug === activeTaxo.slug;
+    (
+      ((activeTaxo.kind === "recette-type" || activeTaxo.kind === "category") &&
+        categorySlug === activeTaxo.slug) ||
+      activeTaxo.kind === "recette-style" ||
+      activeTaxo.kind === "recette-thematique"
+    );
 
   // Slug thématique à exclure sur les pages /recette-thematique/[slug]/.
   const excludeThematiqueSlug =
