@@ -3,6 +3,7 @@ import { getCategoryColor } from "@/lib/categoryStyle";
 import { HERO_CAROUSEL_SLUGS } from "@/lib/featured-recipes";
 import { recipeToListingItem } from "@/components/RecipeGrid";
 import { HeroCarousel, type HeroSlide } from "@/components/home/HeroCarousel";
+import { getRecipeRating } from "@/lib/ratings";
 import { NewsletterBand } from "@/components/home/NewsletterBand";
 import { FavorisSection } from "@/components/home/FavorisSection";
 import type { FavorisItem } from "@/components/home/FavorisCard";
@@ -106,14 +107,20 @@ export default function HomePage() {
       usedSlugs.add(recipe.slug);
     }
   }
-  const heroSlides: HeroSlide[] = heroRecipes.slice(0, 6).map((recipe) => ({
-    slug: recipe.slug,
-    title: recipe.title,
-    excerpt: recipe.description,
-    category: recipe.category,
-    categoryColor: getCategoryColor(recipe.category),
-    imageSrc: recipe.heroImage?.src,
-  }));
+  const heroSlides: HeroSlide[] = heroRecipes.slice(0, 6).map((recipe) => {
+    const rating = getRecipeRating(recipe.slug);
+    return {
+      slug: recipe.slug,
+      title: recipe.title,
+      excerpt: recipe.description,
+      category: recipe.category,
+      categoryColor: getCategoryColor(recipe.category),
+      imageSrc: recipe.heroImage?.src,
+      totalTime: recipe.totalTime,
+      difficulty: recipe.difficulty,
+      rating: rating ? { value: rating.ratingValue, count: rating.ratingCount } : null,
+    };
+  });
 
   // --- Section favoris : 3 onglets × 4 cartes.
   // Dernières = 4 plus récentes (signal réel : tri datePublished desc).

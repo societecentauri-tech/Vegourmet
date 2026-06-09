@@ -123,7 +123,7 @@ export function buildArticleJsonLd(article: Article): Record<string, unknown> {
   const url = `${SITE_URL}/${fm.slug}`;
   return {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: fm.title,
     description: fm.description,
     ...(fm.heroImage?.src && { image: [fm.heroImage.src] }),
