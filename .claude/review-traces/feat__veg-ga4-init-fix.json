@@ -1,12 +1,12 @@
 {
   "branch": "feat/veg-ga4-init-fix",
-  "timestamp": "2026-06-09T15:01:27Z",
+  "timestamp": "2026-06-09T15:05:07Z",
   "verdict": "GO",
   "reviewer": "06-Gauvain",
   "p0": 0,
   "p1": 0,
   "p2": 0,
-  "summary": "Fix GA4 init : remplacement next/script inline (monté dynamiquement, SyntaxError, gtag undefined) par injection manuelle useEffect + document.createElement. Gating RGPD conservé. tsc 0 erreurs, next build vert.",
+  "summary": "Fix GA4 complet : (1) remplacement next/script inline par injection useEffect manuelle, (2) trim NEXT_PUBLIC_GA_ID (trailing newline Vercel cassait le measurement ID). tsc 0 erreurs.",
   "files_reviewed": [
     "components/Analytics.tsx",
     "types/gtag.d.ts"
