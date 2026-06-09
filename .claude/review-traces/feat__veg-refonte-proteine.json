@@ -1,0 +1,25 @@
+{
+  "branch": "feat/veg-refonte-proteine",
+  "timestamp": "2026-06-09T16:03:22Z",
+  "verdict": "GO",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "reviewer": "06-Gauvain",
+  "passes": [
+    "pass-1-spec-compliance",
+    "pass-2-tone-nomocks"
+  ],
+  "notes": [
+    "Intro verdict remonté dès le début (blend pois+riz, soja évité)",
+    "Tableau comparatif Markdown 5 sources présent",
+    "FAQ enrichie : 8 Q/R dont 5 nouvelles citables directement",
+    "Mots-clés GSC intégrés naturellement (en poudre, top, végétale, poudre, musculation)",
+    "dateModified bumped UNIQUEMENT sur l'article protéine",
+    "5 liens entrants posés sans bumper dateModified sur les pages sources",
+    "0 marque inventée, 0 test fictif, 0 citation d'autorité fabriquée",
+    "Ton Chloé préservé : Julien, Brigitte, Miso, voyage Sicile, sœur Emma",
+    "tsc --noEmit: 0 erreurs",
+    "next build: vert"
+  ]
+}
