@@ -11,6 +11,28 @@ import type {
 const RECIPES_DIR = path.join(process.cwd(), "content", "recettes");
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
 
+/**
+ * Normalise un champ `tags` issu du frontmatter gray-matter en tableau de strings propres.
+ *
+ * Le pipeline n8n de rédaction SEO sérialise parfois `tags` en CSV scalaire
+ * (`tags: a, b, c`) au lieu d'un tableau YAML — variance LLM. gray-matter parse
+ * alors `tags` en `string` plutôt qu'en `string[]`, ce qui provoque un TypeError
+ * dans `getRelatedRecipes()` (sharedCount / jaccard appellent `.filter()` et `new Set()`
+ * sur la valeur brute, qui reste une string truthy).
+ *
+ * @param input - Valeur brute issue de `data.tags` (inconnue à la parse).
+ * @returns Tableau de strings non-vides, trimées.
+ */
+export function normalizeTags(input: unknown): string[] {
+  if (Array.isArray(input)) {
+    return input.map((v) => String(v).trim()).filter(Boolean);
+  }
+  if (typeof input === "string") {
+    return input.split(",").map((v) => v.trim()).filter(Boolean);
+  }
+  return [];
+}
+
 function readMdxFiles(dir: string): { slug: string; raw: string }[] {
   if (!fs.existsSync(dir)) return [];
   return fs
@@ -26,8 +48,12 @@ export function getAllRecipes(): Recipe[] {
   return readMdxFiles(RECIPES_DIR)
     .map(({ raw }) => {
       const { data, content } = matter(raw);
+      const d = data as RecipeFrontmatter;
       return {
-        frontmatter: data as RecipeFrontmatter,
+        frontmatter: {
+          ...d,
+          tags: normalizeTags((data as Record<string, unknown>).tags),
+        },
         content,
       };
     })
@@ -47,8 +73,12 @@ export function getAllArticles(): Article[] {
   return readMdxFiles(BLOG_DIR)
     .map(({ raw }) => {
       const { data, content } = matter(raw);
+      const d = data as ArticleFrontmatter;
       return {
-        frontmatter: data as ArticleFrontmatter,
+        frontmatter: {
+          ...d,
+          tags: normalizeTags((data as Record<string, unknown>).tags),
+        },
         content,
       };
     })
