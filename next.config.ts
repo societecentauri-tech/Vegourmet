@@ -159,6 +159,47 @@ const nextConfig: NextConfig = {
         destination: "/recettes/houmous-4-secrets-pour-une-recette-parfaite/",
         permanent: true,
       },
+      // ── Slugs evergreen 2026 : redirection des URL millésimées 2025 ─────────
+      {
+        source: "/meilleure-whey-vegan-guide-complet-choisir-2025",
+        destination: "/meilleure-whey-vegan-guide-complet-choisir/",
+        permanent: true,
+      },
+      {
+        source: "/meilleure-proteine-vegan-guide-complet-2025",
+        destination: "/meilleure-proteine-vegan-guide-complet/",
+        permanent: true,
+      },
+      {
+        source: "/meilleur-fromage-vegan-decouvrez-guide-complet-2025",
+        destination: "/meilleur-fromage-vegan-decouvrez-guide-complet/",
+        permanent: true,
+      },
+      {
+        source: "/le-meilleur-seitan-guide-comparatif-marques-2025",
+        destination: "/le-meilleur-seitan-guide-comparatif-marques/",
+        permanent: true,
+      },
+      {
+        source: "/meilleur-tempeh-avis-et-guide-complet-2025",
+        destination: "/meilleur-tempeh-avis-et-guide-complet/",
+        permanent: true,
+      },
+      {
+        source: "/meilleur-hache-vegetal-avis-test-complet-2025",
+        destination: "/meilleur-hache-vegetal-avis-test-complet/",
+        permanent: true,
+      },
+      {
+        source: "/meilleur-lait-vegetal-pour-cafe-guide-complet-2025",
+        destination: "/meilleur-lait-vegetal-pour-cafe-guide-complet/",
+        permanent: true,
+      },
+      {
+        source: "/recettes/cake-au-citron-vegan-meilleure-recette-2025",
+        destination: "/recettes/cake-au-citron-vegan-meilleure-recette/",
+        permanent: true,
+      },
     ];
   },
 
