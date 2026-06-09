@@ -1,0 +1,10 @@
+{
+  "branch": "feat/veg-indexnow",
+  "timestamp": "2026-06-09T13:54:49Z",
+  "verdict": "GO MERGE",
+  "reviewer": "06-Gauvain",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "summary": "Ajout clé IndexNow (public/64bc51ecb0e9e203710cd61f2559664c.txt, 32 octets, sans newline) + script de soumission réutilisable (scripts/indexnow-submit.mjs). Zéro modification de routes ou composants. trailingSlash:true ne casse pas les fichiers public/. tsc --noEmit : 0 erreurs."
+}
