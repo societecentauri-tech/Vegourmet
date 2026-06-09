@@ -5,11 +5,11 @@ import Link from "next/link";
  * rendu officiel du #search_section. Liens vers les pages de taxonomie.
  */
 const TYPE_CHIPS = [
-  { label: "Apéro Vegan", href: "/recette-type/apero-vegan" },
-  { label: "Petit Déjeuner Vegan", href: "/recette-type/petit-dejeuner-vegan" },
-  { label: "Plat Vegan", href: "/recette-type/plat-vegan" },
-  { label: "Dessert Vegan", href: "/recette-type/dessert-vegan" },
-  { label: "Snack Vegan", href: "/recette-type/snack-vegan" },
+  { label: "Apéro Vegan", href: "/recette-type/apero-vegan/" },
+  { label: "Petit Déjeuner Vegan", href: "/recette-type/petit-dejeuner-vegan/" },
+  { label: "Plat Vegan", href: "/recette-type/plat-vegan/" },
+  { label: "Dessert Vegan", href: "/recette-type/dessert-vegan/" },
+  { label: "Snack Vegan", href: "/recette-type/snack-vegan/" },
 ];
 
 /**

@@ -31,7 +31,7 @@ export interface ListingItem {
 export function recipeToListingItem(recipe: RecipeFrontmatter): ListingItem {
   return {
     slug: recipe.slug,
-    href: `/recettes/${recipe.slug}`,
+    href: `/recettes/${recipe.slug}/`,
     title: recipe.title,
     category: recipe.category,
     totalTime: recipe.totalTime,
@@ -46,7 +46,7 @@ export function recipeToListingItem(recipe: RecipeFrontmatter): ListingItem {
 export function articleToListingItem(article: ArticleFrontmatter): ListingItem {
   return {
     slug: article.slug,
-    href: `/${article.slug}`,
+    href: `/${article.slug}/`,
     title: article.title,
     category: article.category,
     imageSrc: article.heroImage?.src,

@@ -85,7 +85,7 @@ export function AboutChloe() {
             ))}
           </div>
 
-          <Link href="/a-propos" className="btn-primary">
+          <Link href="/a-propos/" className="btn-primary">
             En savoir plus sur moi
           </Link>
         </div>

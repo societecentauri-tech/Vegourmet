@@ -168,7 +168,7 @@ export function CookieConsent() {
             cookies strictement nécessaires au fonctionnement du site sont
             toujours actifs. En savoir plus dans nos{" "}
             <Link
-              href="/mentions-legales-politique-de-confidentialite"
+              href="/mentions-legales-politique-de-confidentialite/"
               className="vg-cookie-link"
             >
               mentions légales &amp; politique de confidentialité

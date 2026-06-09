@@ -40,7 +40,7 @@ export async function generateMetadata({
   const article = getArticleBySlug(slug);
   if (!article) return {};
 
-  const canonical = `${SITE_URL}/${slug}`;
+  const canonical = `${SITE_URL}/${slug}/`;
   return {
     title: article.frontmatter.title,
     description: article.frontmatter.description,
@@ -72,8 +72,8 @@ export default async function ArticlePage({ params }: PageProps) {
   const related = getRelatedArticles(fm);
   const breadcrumb = [
     { name: "Accueil", url: `${SITE_URL}/` },
-    { name: "Blog", url: `${SITE_URL}/blog` },
-    { name: fm.title, url: `${SITE_URL}/${fm.slug}` },
+    { name: "Blog", url: `${SITE_URL}/blog/` },
+    { name: fm.title, url: `${SITE_URL}/${fm.slug}/` },
   ];
 
   return (

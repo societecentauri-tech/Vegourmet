@@ -42,6 +42,14 @@ const SECURITY_HEADERS: { key: string; value: string }[] = [
 
 const nextConfig: NextConfig = {
   // ─────────────────────────────────────────────────────────────────────────────
+  // Slash final — aligne les URL Next sur le format WordPress historique indexé
+  // par Google (ex : /recettes/carbonara-vegan-.../ avec slash). Évite tout
+  // changement d'URL au recrawl post-bascule DNS (0 redirect 308 visible par
+  // Googlebot sur les URL indexées).
+  // ─────────────────────────────────────────────────────────────────────────────
+  trailingSlash: true,
+
+  // ─────────────────────────────────────────────────────────────────────────────
   // Optimisation des images (poids des pages + LCP + indexation).
   //
   // Les images sont servies par le bucket S3 public Scaleway `veg`. On autorise

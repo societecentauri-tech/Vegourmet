@@ -89,7 +89,7 @@ export function BestRecipes({ items }: BestRecipesProps) {
         </div>
 
         <div className="vgh-cta-center">
-          <Link href="/recettes" className="btn-primary">
+          <Link href="/recettes/" className="btn-primary">
             Voir toutes les recettes
           </Link>
         </div>

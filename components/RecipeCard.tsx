@@ -11,7 +11,7 @@ interface RecipeCardProps {
 export function RecipeCard({ recipe }: RecipeCardProps) {
   return (
     <article className="group flex flex-col overflow-hidden rounded-2xl border border-veg-cream-soft bg-white shadow-sm transition hover:shadow-md">
-      <Link href={`/recettes/${recipe.slug}`} className="block">
+      <Link href={`/recettes/${recipe.slug}/`} className="block">
         <SmartImage src={recipe.heroImage?.src} alt={recipe.title} ratio="4 / 3" className="rounded-b-none border-0" />
       </Link>
       <div className="flex flex-1 flex-col gap-2 p-4">
@@ -25,7 +25,7 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
         </div>
         <h3 className="font-heading text-lg font-semibold leading-snug">
           <Link
-            href={`/recettes/${recipe.slug}`}
+            href={`/recettes/${recipe.slug}/`}
             className="text-veg-ink-soft hover:text-veg-terracotta-dark"
           >
             {recipe.title}

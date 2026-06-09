@@ -3,18 +3,18 @@ import { CookieManageLink } from "./CookieManageLink";
 
 /* Menus du footer — liens repris des widgets de colophon de vegourmet.fr. */
 const LIENS_UTILES = [
-  { href: "/recette-type/petit-dejeuner-vegan", label: "Petit Déjeuner Vegan" },
-  { href: "/recette-type/apero-vegan", label: "Apéro Vegan" },
-  { href: "/recette-type/plat-vegan", label: "Plat Vegan" },
-  { href: "/recette-type/dessert-vegan", label: "Dessert Vegan" },
-  { href: "/recette-type/snack-vegan", label: "Snack Vegan" },
+  { href: "/recette-type/petit-dejeuner-vegan/", label: "Petit Déjeuner Vegan" },
+  { href: "/recette-type/apero-vegan/", label: "Apéro Vegan" },
+  { href: "/recette-type/plat-vegan/", label: "Plat Vegan" },
+  { href: "/recette-type/dessert-vegan/", label: "Dessert Vegan" },
+  { href: "/recette-type/snack-vegan/", label: "Snack Vegan" },
 ];
 
 const ACCES_RAPIDE = [
-  { href: "/recettes", label: "Recettes" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contactez-nous", label: "Contactez-nous" },
-  { href: "/a-propos", label: "À propos" },
+  { href: "/recettes/", label: "Recettes" },
+  { href: "/blog/", label: "Blog" },
+  { href: "/contactez-nous/", label: "Contactez-nous" },
+  { href: "/a-propos/", label: "À propos" },
 ];
 
 const SUIVEZ_NOUS = [
@@ -116,7 +116,7 @@ export function SiteFooter() {
             <nav className="footer-navigation" aria-label="Liens légaux">
               <ul className="nav-menu">
                 <li>
-                  <Link href="/mentions-legales-politique-de-confidentialite">
+                  <Link href="/mentions-legales-politique-de-confidentialite/">
                     Mentions Légales &amp; Politique de Confidentialité
                   </Link>
                 </li>
