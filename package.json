@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/fetch-ratings-snapshot.mjs",
+    "prebuild": "node scripts/fetch-ratings-snapshot.mjs && node scripts/fetch-reviews-snapshot.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "ratings:snapshot": "node scripts/fetch-ratings-snapshot.mjs",
+    "reviews:snapshot": "node scripts/fetch-reviews-snapshot.mjs",
     "img:meta": "node scripts/inject-image-metadata.mjs"
   },
   "dependencies": {
@@ -19,6 +20,12 @@
     "react": "19.2.0",
     "react-dom": "19.2.0"
   },
+  "browserslist": [
+    "chrome >= 111",
+    "safari >= 16",
+    "firefox >= 111",
+    "edge >= 111"
+  ],
   "devDependencies": {
     "@tailwindcss/postcss": "4.3.0",
     "@types/node": "24.7.0",

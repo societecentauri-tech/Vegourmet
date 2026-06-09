@@ -17,6 +17,7 @@ import {
   getRelatedRecipes,
 } from "@/lib/content";
 import { getRecipeRating } from "@/lib/ratings";
+import { getRecipeReviews } from "@/lib/reviews";
 import "@/components/recipe.css";
 import "@/components/reviews.css";
 import {
@@ -41,7 +42,7 @@ export async function generateMetadata({
   const recipe = getRecipeBySlug(slug);
   if (!recipe) return {};
 
-  const canonical = `${SITE_URL}/recettes/${slug}`;
+  const canonical = `${SITE_URL}/recettes/${slug}/`;
   return {
     title: recipe.frontmatter.title,
     description: recipe.frontmatter.description,
@@ -64,16 +65,18 @@ export default async function RecipePage({ params }: PageProps) {
   const related = getRelatedRecipes(fm);
   // Note agrégée réelle (snapshot build-time). null = recette non notée.
   const rating = getRecipeRating(fm.slug);
+  // Avis individuels réels (snapshot build-time). [] si aucun avis noté.
+  const reviews = getRecipeReviews(fm.slug);
   const breadcrumb = [
     { name: "Accueil", url: `${SITE_URL}/` },
-    { name: "Recettes", url: `${SITE_URL}/recettes` },
-    { name: fm.title, url: `${SITE_URL}/recettes/${fm.slug}` },
+    { name: "Recettes", url: `${SITE_URL}/recettes/` },
+    { name: fm.title, url: `${SITE_URL}/recettes/${fm.slug}/` },
   ];
 
   return (
     <>
       <div className="vg-recipe-layout">
-        <JsonLd data={buildRecipeJsonLd(recipe, rating)} />
+        <JsonLd data={buildRecipeJsonLd(recipe, rating, reviews)} />
         <JsonLd data={buildBreadcrumbJsonLd(breadcrumb)} />
         {fm.faq && fm.faq.length > 0 ? (
           <JsonLd data={buildFaqJsonLd(fm.faq)!} />
