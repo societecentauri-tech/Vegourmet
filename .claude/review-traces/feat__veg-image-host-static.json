@@ -1,0 +1,23 @@
+{
+  "branch": "feat/veg-image-host-static",
+  "timestamp": "2026-06-09T12:05:00Z",
+  "verdict": "GO MERGE",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "reviewer": "12-Lamorak + code-reviewer (2 passes)",
+  "spec_compliance": "SPEC_COMPLIANT",
+  "issues_found": [
+    {"severity": "P2", "file": "next.config.ts", "issue": "commentaire obsolète 'bucket S3'", "status": "FIXED"},
+    {"severity": "P2", "file": "components/S3FixedImage.tsx", "issue": "isS3() nom trompeur post-CDN", "status": "FIXED"},
+    {"severity": "P2", "file": "next.config.ts", "issue": "pattern S3 transition sans deadline", "status": "DOCUMENTED in DETTE.md"}
+  ],
+  "checks": {
+    "tsc_noEmit": "0 erreurs",
+    "next_build": "vert",
+    "scw_cloud_residual": "0 occurrence hors transition-ok",
+    "dateModified_untouched": "confirmé via git diff",
+    "sitemap_image_loc": "static.vegourmet.fr confirmé dans .next/server/app/sitemap.xml.body",
+    "logo_publisher_intact": "SITE_URL/brand/ non touché"
+  }
+}
