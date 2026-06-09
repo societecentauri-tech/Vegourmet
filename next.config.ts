@@ -92,10 +92,75 @@ const nextConfig: NextConfig = {
   //  PLUS /category/* vers /blog : chaque catégorie rend sa propre liste
   //  d'articles, à l'identique de WordPress.
   //
+  //  En revanche, 5 slugs /category/* correspondent en réalité à des types de
+  //  recettes (/recette-type/*) et non à des catégories blog : on les redirige
+  //  en 301 permanent. On corrige aussi 3 anciens slugs /category/* dont le
+  //  nom a changé (tirets vs mots de liaison).
+  //
   //  /boutique n'est PAS géré ici : Next.js redirects() ne peut émettre que des
   //  301/302/307/308, jamais un 410. Le 410 est géré par un Route Handler
   //  → app/boutique/[[...slug]]/route.ts.
+  //
+  //  Les 6 liens internes 404 dans les corps d'articles sont également couverts
+  //  ici (filet de sécurité en plus des corrections MDX directes), afin de
+  //  préserver le jus des éventuels backlinks indexés vers les anciennes URLs.
   // ─────────────────────────────────────────────────────────────────────────────
+
+  async redirects() {
+    return [
+      // ── Taxonomies dupliquées : /category/X → /recette-type/X ──────────────
+      // Ces slugs étaient catégorisés comme "category" dans WP mais sont en
+      // réalité des types de recettes. Les redirects matchent avec ou sans slash
+      // final (trailingSlash:true génère la variante slash automatiquement).
+      {
+        source: "/category/plat-vegan",
+        destination: "/recette-type/plat-vegan/",
+        permanent: true,
+      },
+      {
+        source: "/category/dessert-vegan",
+        destination: "/recette-type/dessert-vegan/",
+        permanent: true,
+      },
+      {
+        source: "/category/apero-vegan",
+        destination: "/recette-type/apero-vegan/",
+        permanent: true,
+      },
+      {
+        source: "/category/snack-vegan",
+        destination: "/recette-type/snack-vegan/",
+        permanent: true,
+      },
+      {
+        source: "/category/petit-dejeuner-vegan",
+        destination: "/recette-type/petit-dejeuner-vegan/",
+        permanent: true,
+      },
+      // ── Catégories blog renommées (slug WP → slug Next canonique) ──────────
+      {
+        source: "/category/guides",
+        destination: "/category/guides-pratiques/",
+        permanent: true,
+      },
+      {
+        source: "/category/actualites-tendances",
+        destination: "/category/actualites-et-tendances/",
+        permanent: true,
+      },
+      {
+        source: "/category/inspiration-lifestyle",
+        destination: "/category/inspiration-et-lifestyle/",
+        permanent: true,
+      },
+      // ── Filet liens recettes indexés avec ancien slug ──────────────────────
+      {
+        source: "/recettes/houmous-4-secrets-essentiels-recette-parfaite",
+        destination: "/recettes/houmous-4-secrets-pour-une-recette-parfaite/",
+        permanent: true,
+      },
+    ];
+  },
 
   async headers() {
     return [
