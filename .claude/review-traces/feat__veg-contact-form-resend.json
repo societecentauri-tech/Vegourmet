@@ -1,0 +1,31 @@
+{
+  "branch": "feat/veg-contact-form-resend",
+  "reviewer_agent_id": "review-chevalier-2026-06-09",
+  "reviewer_agent_type": "super-chevaliers:review-chevalier",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "timestamp": "2026-06-09T11:15:00.000000+00:00",
+  "scope": [
+    "app/api/contact/route.ts",
+    "components/ContactForm.tsx",
+    "components/contact-form.css",
+    "components/ArticleHeader.tsx",
+    "components/MdxContent.tsx",
+    "components/RecipeReviews.tsx",
+    "components/home/NewsletterBand.tsx",
+    "content/blog/contactez-nous.mdx",
+    "lib/newsletter-backend.ts",
+    "lib/types.ts",
+    "app/sitemap.ts",
+    "DETTE.md",
+    "package.json"
+  ],
+  "issues_detail": [
+    {"id": "P1-1", "description": "RESEND_API_KEY absent → 503 explicite", "status": "FIXED"},
+    {"id": "P1-2", "description": "trailing slash fetch /api/contact/ + systémique newsletter/comments", "status": "FIXED"},
+    {"id": "P2-1", "description": "commentaire 422 honeypot → 200 silencieux", "status": "FIXED"},
+    {"id": "P2-2", "description": "_t absent silençait d'office", "status": "FIXED"},
+    {"id": "P2-3", "description": "aria-live assertive sur erreurs", "status": "FIXED"},
+    {"id": "P2-4", "description": "heroImage optionnel — scripts vérifiés safe", "status": "VERIFIED_SAFE"}
+  ]
+}
