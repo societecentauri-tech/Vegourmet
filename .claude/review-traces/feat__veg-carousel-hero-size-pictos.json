@@ -1,0 +1,19 @@
+{
+  "branch": "feat/veg-carousel-hero-size-pictos",
+  "verdict": "GO MERGE",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "timestamp": "2026-06-09T12:30:00Z",
+  "reviewer": "06-Gauvain",
+  "summary": "3 bugs visuels carousel + 1 fix about.css. BUG1 (hero 894px→520px) : .vgh-banner-item.is-active height clamp(420px,40vw,520px), .vgh-banner-img height 100% overflow hidden, .vgh-banner-photo aspect-ratio none!important + object-fit cover. BUG2 (pictos hero haut-gauche→bas-centré) : .vgh-banner-thematiques bottom 12px left 50% translateX(-50%) flex-row. BUG3 (pictos listing haut-gauche→bas-centré) : .vg-thematique-badges même pattern bas-centré. BONUS (about.css puces sociales) : .vg-entry-content ul.vg-socials list-style none spécificité 0,0,2,1 > 0,0,1,1. tsc 0 erreurs. next build vert.",
+  "checks": {
+    "tsc_noEmit": "0 errors",
+    "next_build": "green",
+    "hero_height_before": "894px (image portrait 380/515 dans flex 55%)",
+    "hero_height_after": "520px (clamp(420px, 40vw, 520px) à 1440px viewport)",
+    "pictos_hero_position": "position:absolute; bottom:12px; left:50%; transform:translateX(-50%); flex-direction:row",
+    "pictos_listing_position": "position:absolute; bottom:8px; left:50%; transform:translateX(-50%); flex-direction:row",
+    "about_socials_specificity": ".vg-entry-content ul.vg-socials (0,0,2,1) > .vg-entry-content ul (0,0,1,1) → list-style:none"
+  }
+}

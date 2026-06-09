@@ -56,6 +56,18 @@
 .vg-socials li {
   margin: 0;
 }
+/* Annule la règle prose `.vg-entry-content ul { list-style: disc }` (0,0,1,1)
+ * qui écrase list-style:none sur la page À propos (MdxContent = .vg-entry-content).
+ * Spécificité de cette règle : 0,0,2,1 (deux classes + un élément) → victoire assurée. */
+.vg-entry-content ul.vg-socials {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+}
+.vg-entry-content ul.vg-socials > li {
+  list-style: none;
+  margin: 0;
+}
 .vg-socials a {
   display: inline-flex;
   align-items: center;
