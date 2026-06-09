@@ -1,0 +1,33 @@
+{
+  "branch": "feat/veg-reviews-dates-perf",
+  "reviewer_agent_id": "06-Gauvain-self-review",
+  "reviewer_agent_type": "feature-dev:code-reviewer",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "timestamp": "2026-06-09T11:30:00+00:00",
+  "scope": [
+    "lib/format.ts",
+    "lib/reviews.ts",
+    "lib/reviews-snapshot.json",
+    "lib/seo.ts",
+    "scripts/fetch-reviews-snapshot.mjs",
+    "components/ArticleHeader.tsx",
+    "components/RecipeHeader.tsx",
+    "components/RecipeArticleHeader.tsx",
+    "components/SmartImage.tsx",
+    "components/PinnableImage.tsx",
+    "app/recettes/[slug]/page.tsx",
+    "package.json"
+  ],
+  "checks": {
+    "tsc_noEmit": "0 erreurs",
+    "next_build": "348 pages, 0 erreur",
+    "dates_updated": "Mis a jour le + tooltip verifie sur lasagnes-vegan",
+    "dates_equal": "Publie le sans tooltip verifie sur butternut-farcie (dates egales)",
+    "reviews_jsonld": "8 avis dans Review JSON-LD sur pate-a-choux, recoup avec public.comments",
+    "img_dimensions": "0 img sans width/height dans butternut-farcie post-fix PinnableImage",
+    "src_empty": "0 src vide dans les pages recette",
+    "avatar_nextimage": "Avatar Chloe via /_next/image (AVIF/WebP)",
+    "browserslist": "Ajoute dans package.json (Chrome/Safari/Firefox/Edge >= 111)"
+  }
+}

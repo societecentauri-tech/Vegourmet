@@ -1,8 +1,9 @@
 import Link from "next/link";
 import type { ArticleFrontmatter } from "@/lib/types";
 import { getCategoryColor, getCategoryHref } from "@/lib/categoryStyle";
-import { formatDateFr } from "@/lib/format";
+import { buildDateDisplay, formatDateFr } from "@/lib/format";
 import { SmartImage } from "./SmartImage";
+import Image from "next/image";
 import "./article.css";
 
 interface ArticleHeaderProps {
@@ -20,6 +21,10 @@ const CHLOE_GRAVATAR = "https://veg.s3.fr-par.scw.cloud/img/avatar-chloe.jpg";
 /** En-tête d'article fidèle au thème Yummy Bites (pastille / titre / méta / hero). */
 export function ArticleHeader({ article, readingTime }: ArticleHeaderProps) {
   const catColor = getCategoryColor(article.category);
+  const dateDisplay = buildDateDisplay(
+    article.datePublished,
+    article.dateModified,
+  );
 
   return (
     <header className="vg-entry-header">
@@ -34,23 +39,20 @@ export function ArticleHeader({ article, readingTime }: ArticleHeaderProps) {
 
       <div className="vg-entry-meta">
         <span className="vg-author">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
+          <Image
             src={CHLOE_GRAVATAR}
             alt={article.author}
-            width={30}
-            height={30}
+            width={40}
+            height={40}
             className="vg-author-avatar-img"
-            loading="lazy"
           />
           {article.author}
         </span>
-        <span className="vg-dot">
-          Modifié le{" "}
-          {(() => {
-            const d = article.dateModified ?? article.datePublished;
-            return <time dateTime={d}>{formatDateFr(d)}</time>;
-          })()}
+        <span className="vg-dot" title={dateDisplay.tooltip}>
+          {dateDisplay.label}{" "}
+          <time dateTime={dateDisplay.dateTime}>
+            {formatDateFr(dateDisplay.dateTime)}
+          </time>
         </span>
         {readingTime && <span className="vg-dot">{readingTime}</span>}
       </div>

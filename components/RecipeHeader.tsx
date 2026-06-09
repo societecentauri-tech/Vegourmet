@@ -1,6 +1,7 @@
 import type { RecipeFrontmatter } from "@/lib/types";
 import { SmartImage } from "./SmartImage";
 import { formatDureeFr } from "@/lib/duration";
+import { buildDateDisplay, formatDateFr } from "@/lib/format";
 
 interface RecipeHeaderProps {
   recipe: RecipeFrontmatter;
@@ -13,6 +14,7 @@ interface MetaItem {
 
 /** En-tête de page recette : titre, méta (temps/portions/difficulté), hero. */
 export function RecipeHeader({ recipe }: RecipeHeaderProps) {
+  const dateDisplay = buildDateDisplay(recipe.datePublished, recipe.dateModified);
   const meta: MetaItem[] = [
     { label: "Préparation", value: formatDureeFr(recipe.prepTime) },
     { label: "Cuisson", value: formatDureeFr(recipe.cookTime) },
@@ -36,9 +38,11 @@ export function RecipeHeader({ recipe }: RecipeHeaderProps) {
           {recipe.title}
         </h1>
         <p className="text-lg text-veg-ink/80">{recipe.description}</p>
-        <p className="text-sm text-veg-muted">
-          Par {recipe.author} ·{" "}
-          <time dateTime={recipe.datePublished}>{recipe.datePublished}</time>
+        <p className="text-sm text-veg-muted" title={dateDisplay.tooltip}>
+          Par {recipe.author} · {dateDisplay.label}{" "}
+          <time dateTime={dateDisplay.dateTime}>
+            {formatDateFr(dateDisplay.dateTime)}
+          </time>
         </p>
       </div>
 

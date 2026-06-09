@@ -1,4 +1,5 @@
 import type { RecipeRating } from "./ratings";
+import type { RecipeReview } from "./reviews";
 import type { Article, Recipe } from "./types";
 
 export const SITE_URL = "https://vegourmet.fr";
@@ -35,10 +36,15 @@ export function toIsoDuration(human: string): string {
  * (`lib/ratings`). Si fournie ET `ratingCount > 0`, on ajoute un bloc
  * `aggregateRating`. On ne l'émet JAMAIS pour une recette à 0 note : un
  * `aggregateRating` factice ou vide expose à une action manuelle Google.
+ *
+ * `reviews` (optionnel) : avis individuels réels issus du snapshot build-time
+ * (`lib/reviews`). Si fournis et non vides, on ajoute un tableau `review`.
+ * Jamais inventés — uniquement des données de `public.comments`.
  */
 export function buildRecipeJsonLd(
   recipe: Recipe,
   rating?: RecipeRating | null,
+  reviews?: RecipeReview[],
 ): Record<string, unknown> {
   const fm = recipe.frontmatter;
   const url = `${SITE_URL}/recettes/${fm.slug}/`;
@@ -93,6 +99,24 @@ export function buildRecipeJsonLd(
       bestRating: 5,
       worstRating: 1,
     };
+  }
+
+  // review : UNIQUEMENT si des avis réels existent dans le snapshot build-time.
+  // Source = public.comments (rating IS NOT NULL, status='approved').
+  // Jamais inventés — on n'émet RIEN si le tableau est vide.
+  if (reviews && reviews.length > 0) {
+    jsonLd.review = reviews.map((r) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: r.authorName },
+      reviewBody: r.content,
+      datePublished: r.datePublished,
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: r.rating,
+        bestRating: 5,
+        worstRating: 1,
+      },
+    }));
   }
 
   // NB : la FAQ n'est PAS posée sur le Recipe (mainEntity=Questions est invalide).
