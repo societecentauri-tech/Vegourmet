@@ -1,0 +1,11 @@
+{
+  "branch": "feat/veg-article-faqpage",
+  "timestamp": "2026-06-09T15:40:45Z",
+  "verdict": "GO",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "reviewer": "review-chevalier (12-Lamorak spec-compliance + feature-dev:code-reviewer A/B)",
+  "summary": "Fix minimal : émission JSON-LD FAQPage sur page article conditionnelle à !fm.noindex && fm.faq.length > 0. Aligné sur app/recettes/[slug]/page.tsx. 0 régression. tsc 0 erreurs. next build vert.",
+  "files_reviewed": ["app/[slug]/page.tsx"]
+}
