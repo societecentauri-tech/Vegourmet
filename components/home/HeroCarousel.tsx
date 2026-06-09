@@ -3,6 +3,9 @@
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import Link from "next/link";
 import { SmartImage } from "@/components/SmartImage";
+import { StarRating } from "@/components/StarRating";
+import { ClockIcon, DifficultyIcon } from "@/components/RecipeIcons";
+import { formatDureeFr } from "@/lib/duration";
 
 /** Slide du carrousel hero — données déjà mappées côté serveur (plain object). */
 export interface HeroSlide {
@@ -18,6 +21,12 @@ export interface HeroSlide {
   categoryColor: string;
   /** URL de l'image hero (bucket S3). */
   imageSrc?: string;
+  /** Temps total de la recette (ex. « 30 minutes »). */
+  totalTime?: string;
+  /** Niveau de difficulté (ex. « Facile »). */
+  difficulty?: string;
+  /** Note agrégée réelle (snapshot build-time). null si non notée — jamais inventée. */
+  rating?: { value: number; count: number } | null;
 }
 
 interface HeroCarouselProps {
@@ -110,6 +119,46 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
                   </Link>
                 </h2>
                 <p className="vgh-banner-content item-content">{slide.excerpt}</p>
+
+                {/* Métadonnées recette : note étoiles, temps, difficulté */}
+                {(slide.rating || slide.totalTime || slide.difficulty) && (
+                  <div className="vgh-banner-meta">
+                    {slide.rating && (
+                      <span className="vgh-banner-meta-item vgh-banner-rating">
+                        <StarRating value={slide.rating.value} size={14} />
+                        <span className="vgh-banner-meta-text">
+                          {slide.rating.value.toLocaleString("fr-FR", {
+                            minimumFractionDigits: 0,
+                            maximumFractionDigits: 1,
+                          })}
+                        </span>
+                      </span>
+                    )}
+                    {slide.totalTime && (
+                      <span className="vgh-banner-meta-item">
+                        <ClockIcon
+                          className="vgh-banner-meta-icon"
+                          style={{ width: 15, height: 15 }}
+                        />
+                        <span className="vgh-banner-meta-text">
+                          {formatDureeFr(slide.totalTime)}
+                        </span>
+                      </span>
+                    )}
+                    {slide.difficulty && (
+                      <span className="vgh-banner-meta-item">
+                        <DifficultyIcon
+                          className="vgh-banner-meta-icon"
+                          style={{ width: 15, height: 15 }}
+                        />
+                        <span className="vgh-banner-meta-text">
+                          {slide.difficulty}
+                        </span>
+                      </span>
+                    )}
+                  </div>
+                )}
+
                 <Link
                   href={`/recettes/${slide.slug}/`}
                   className="btn-primary vgh-banner-btn"

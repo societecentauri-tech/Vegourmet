@@ -1,0 +1,10 @@
+{
+  "branch": "feat/restore-carousel-meta-jsonld-internal-links",
+  "reviewer_agent_id": "06-Gauvain-self-review",
+  "reviewer_agent_type": "feature-dev:code-reviewer",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "timestamp": "2026-06-05T13:15:00.000000+00:00",
+  "scope": ["next.config.ts", "app/boutique/[[...slug]]/route.ts"],
+  "notes": "Spec-compliance totale. redirects() catch-all /category/:path* → /blog correct. Route Handler [[...slug]] 410 idiomatique App Router. Coexistence redirect+route category/[slug] vérifiée (redirects priment). 0 any, 0 use client, accents FR OK, LF OK. Build Next.js réussi."
+}

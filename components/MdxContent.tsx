@@ -11,6 +11,7 @@ import {
   RecipeCombos,
 } from "./GuideComponents";
 import { ProductSlot } from "./ProductSlot";
+import { Infographie } from "./Infographie";
 import "./article.css";
 
 interface MdxContentProps {
@@ -37,6 +38,7 @@ const mdxComponents = {
   RecipeCombos,
   RecipeComboCard,
   ProductSlot,
+  Infographie,
 };
 
 /** Rend le corps éditorial MDX avec les styles fidèles du thème (vg-entry-content). */
