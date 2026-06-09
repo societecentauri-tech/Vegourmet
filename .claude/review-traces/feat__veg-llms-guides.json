@@ -1,0 +1,10 @@
+{
+  "branch": "feat/veg-llms-guides",
+  "timestamp": "2026-06-09T15:47:22Z",
+  "reviewer": "06-Gauvain",
+  "verdict": "GO",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "summary": "Élargissement du filtre guides dans lib/llms.ts : isGuide() remplace /^meilleur/ et capture 23 guides (vs 16 avant). Patterns ajoutés : le-meilleur-, les-meilleures-, classement-des-meilleures-, quel-est-le-meilleur-, + set explicite pour lait-vegetal-guide-ultime, omega-3, proteines-vegetales. tsc 0 erreur. next build vert. Section guides correctement alimentée avec 23 entrées triées alphabétiquement."
+}
