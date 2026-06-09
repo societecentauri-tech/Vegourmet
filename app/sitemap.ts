@@ -59,7 +59,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ),
     changeFrequency: "monthly",
     priority: 0.7,
-    images: [article.frontmatter.heroImage.src],
+    // heroImage est optionnel (pages utilitaires comme /contactez-nous n'ont pas de hero).
+    ...(article.frontmatter.heroImage?.src
+      ? { images: [article.frontmatter.heroImage.src] }
+      : {}),
   }));
 
   // Pages taxonomies : énumération exhaustive de tous les slugs réels (parité

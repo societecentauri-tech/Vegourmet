@@ -6,6 +6,7 @@
 // PostgREST derrière Kong : header `apikey` OBLIGATOIRE + `Authorization: Bearer`.
 // ─────────────────────────────────────────────────────────────────────────────
 
+import { Resend } from "resend";
 import { COMMENTS_API_URL } from "./comments-backend";
 
 /** Texte de consentement canonique (preuve RGPD, défini côté serveur). */
@@ -72,6 +73,8 @@ export async function subscribeToNewsletter(
   });
 
   if (res.status === 201) {
+    // Notification best-effort : si elle échoue, l'inscription reste un succès.
+    void notifyNewSubscriber(email);
     return { ok: true, alreadySubscribed: false };
   }
 
@@ -85,4 +88,62 @@ export async function subscribeToNewsletter(
     ok: false,
     error: `Inscription refusée (HTTP ${res.status}) ${detail}`.trim(),
   };
+}
+
+// ── Notification interne — nouvel inscrit newsletter ─────────────────────────
+
+/**
+ * Envoie un e-mail d'alerte à contact@vegourmet.fr lors d'une nouvelle inscription.
+ * Best-effort : toute erreur est loggée mais N'EST PAS propagée à l'appelant.
+ * Réutilise RESEND_API_KEY + CONTACT_FROM identiques à /api/contact.
+ */
+async function notifyNewSubscriber(subscriberEmail: string): Promise<void> {
+  const key = process.env.RESEND_API_KEY;
+  if (!key) {
+    // Clé absente → notification impossible, inscription déjà confirmée.
+    console.warn("[newsletter-backend] RESEND_API_KEY absent — notification inscrit non envoyée.");
+    return;
+  }
+
+  const to = process.env.CONTACT_TO ?? "contact@vegourmet.fr";
+  const from = process.env.CONTACT_FROM ?? "onboarding@resend.dev";
+  const now = new Date().toLocaleString("fr-FR", {
+    timeZone: "Europe/Paris",
+    dateStyle: "full",
+    timeStyle: "short",
+  });
+
+  try {
+    const resend = new Resend(key);
+    const { error } = await resend.emails.send({
+      from,
+      to: [to],
+      subject: `[Vegourmet] Nouvel inscrit newsletter`,
+      text: [
+        "Nouvel inscrit newsletter — Vegourmet",
+        "",
+        `E-mail : ${subscriberEmail}`,
+        `Date   : ${now}`,
+        "",
+        "---",
+        "Alerte automatique vegourmet.fr",
+      ].join("\n"),
+      html: `
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"/></head>
+<body style="font-family:Arial,sans-serif;color:#333;max-width:480px;margin:0 auto;padding:24px">
+  <h2 style="color:#d98e73;margin-top:0">Nouvel inscrit newsletter</h2>
+  <p><strong>E-mail :</strong> ${subscriberEmail}</p>
+  <p><strong>Date :</strong> ${now}</p>
+  <hr style="border:none;border-top:1px solid #ece6df;margin:16px 0"/>
+  <p style="color:#8c8c8c;font-size:0.8rem">Alerte automatique vegourmet.fr</p>
+</body></html>`.trim(),
+    });
+
+    if (error) {
+      console.error("[newsletter-backend] Notification inscrit — Resend error:", error.name, error.message);
+    }
+  } catch (err) {
+    console.error("[newsletter-backend] Notification inscrit — erreur inattendue:", err instanceof Error ? err.message : String(err));
+  }
 }

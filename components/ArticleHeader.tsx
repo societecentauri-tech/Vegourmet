@@ -57,13 +57,15 @@ export function ArticleHeader({ article, readingTime }: ArticleHeaderProps) {
         {readingTime && <span className="vg-dot">{readingTime}</span>}
       </div>
 
-      {/* Pages utilitaires (mentions légales…) : pas de hero décoratif. */}
-      {!article.noindex && (
+      {/* Hero : affiché uniquement si l'article a une image hero ET n'est pas noindex.
+          Les pages utilitaires (contact, mentions légales…) peuvent omettre heroImage
+          pour supprimer le bloc visuel sans casser la mise en page. */}
+      {!article.noindex && article.heroImage?.src && (
         <div className="vg-hero">
           {/* Hero portrait fidèle WP : image entière non rognée, ratio naturel
               720x950, affichée jusqu'à 720px de large et centrée (sizes WP = 720px). */}
           <SmartImage
-            src={article.heroImage?.src}
+            src={article.heroImage.src}
             alt={article.title}
             fit="natural"
             ratio="720 / 950"

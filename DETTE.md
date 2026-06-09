@@ -53,6 +53,31 @@ manques du Design System*.
 DS `Breadcrumb` émet AUSSI une `BreadcrumbList` (pattern déprécié), filtrer pour éviter
 le doublon Google Rich Results (cf. gotcha MCG `BreadcrumbList JSON-LD dédup`).
 
+## Formulaire de contact Resend — gap infra (W12, à provisionner)
+
+Route `app/api/contact/route.ts` livrée et fonctionnelle. Elle nécessite :
+
+1. **Clé Resend** : ajouter `RESEND_API_KEY` dans Infisical `/apps/vegourmet-prod`
+   (env prod), puis synchroniser dans Vercel (Settings → Environment Variables → valeur
+   depuis Infisical, ou `infisical run --path=/apps/vegourmet-prod -- vercel env pull`).
+
+2. **Domaine expéditeur vérifié dans Resend** : `vegourmet.fr` n'est probablement pas
+   encore vérifié. Procédure :
+   - Connexion Resend → Domains → Add Domain → `send.vegourmet.fr` (sous-domaine recommandé)
+   - Ajouter les enregistrements DNS Cloudflare (TXT DKIM + MX Resend si souhaité)
+   - Attendre validation Resend (~minutes), puis définir `CONTACT_FROM=contact@send.vegourmet.fr`
+   - Tant que non vérifié : la variable `CONTACT_FROM` reste à `onboarding@resend.dev`
+     (suffixe `[Resend]` visible → uniquement pour démonstration/test)
+
+3. **Adresse de réception** : `CONTACT_TO` → défaut `contact@vegourmet.fr` (Google
+   Workspace, DKIM actif depuis 2026-06-08). Pas d'action requise si cette adresse
+   est bien en production.
+
+**Variables à poser dans Vercel / Infisical** :
+- `RESEND_API_KEY` — path : `/apps/vegourmet-prod`
+- `CONTACT_FROM` — ex. `contact@send.vegourmet.fr` (après vérification Resend)
+- `CONTACT_TO` — ex. `contact@vegourmet.fr` (optionnel, défaut déjà posé dans le code)
+
 ## Supabase / couche données — avis & notes (W9, livré)
 
 Couche dynamique « avis/notes » branchée (mission W9). Instance `vegourmet_prod`
