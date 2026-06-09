@@ -5,11 +5,18 @@ import {
   getCategoryHref,
   getCategoryStyle,
 } from "@/lib/categoryStyle";
+import { slugifyTaxo } from "@/lib/slug";
 import { SmartImage } from "./SmartImage";
 import { ThematiqueBadges } from "./ThematiqueBadges";
 import { formatDureeFr } from "@/lib/duration";
 import { formatDateFr } from "@/lib/format";
 import "./listing.css";
+
+/** Taxonomie active sur la page courante, pour masquer la pastille redondante. */
+export interface ActiveTaxo {
+  kind: string;
+  slug: string;
+}
 
 /** Élément normalisé affiché dans la grille de listing. */
 export interface ListingItem {
@@ -127,6 +134,8 @@ function CategoryIcon({ glyph }: { glyph: CategoryGlyph }) {
 
 interface ItemCardProps {
   item: ListingItem;
+  /** Taxonomie active de la page courante — masque la pastille redondante. */
+  activeTaxo?: ActiveTaxo;
 }
 
 /**
@@ -134,8 +143,21 @@ interface ItemCardProps {
  * Image portrait 3/4, pastille ronde catégorie posée au bas-centre de l'image,
  * titre centré, ligne méta (temps + difficulté) centrée.
  */
-export function ItemCard({ item }: ItemCardProps) {
+export function ItemCard({ item, activeTaxo }: ItemCardProps) {
   const { color, glyph } = getCategoryStyle(item.category);
+
+  // La pastille catégorie est redondante si la taxonomie active correspond déjà
+  // à la catégorie de la recette (ex : sur /recette-type/petit-dejeuner-vegan/,
+  // la pastille "petit-déjeuner vegan" ne doit pas s'afficher).
+  const categorySlug = slugifyTaxo(item.category);
+  const hideCategoryBadge =
+    activeTaxo !== undefined &&
+    (activeTaxo.kind === "recette-type" || activeTaxo.kind === "category") &&
+    categorySlug === activeTaxo.slug;
+
+  // Slug thématique à exclure sur les pages /recette-thematique/[slug]/.
+  const excludeThematiqueSlug =
+    activeTaxo?.kind === "recette-thematique" ? activeTaxo.slug : undefined;
 
   return (
     <article className="vg-item">
@@ -153,8 +175,10 @@ export function ItemCard({ item }: ItemCardProps) {
             slugs={item.thematiques}
             size={34}
             className="vg-item-thematiques"
+            excludeSlug={excludeThematiqueSlug}
           />
         )}
+        {!hideCategoryBadge && (
         <span className="vg-item-cat">
           <Link
             href={getCategoryHref(item.category)}
@@ -176,6 +200,7 @@ export function ItemCard({ item }: ItemCardProps) {
             {item.category}
           </span>
         </span>
+        )}
       </figure>
 
       <div className="vg-item-details">
@@ -212,10 +237,12 @@ export function ItemCard({ item }: ItemCardProps) {
 interface RecipeGridProps {
   items: ListingItem[];
   emptyMessage?: string;
+  /** Taxonomie active — transmise aux cartes pour masquer la pastille redondante. */
+  activeTaxo?: ActiveTaxo;
 }
 
 /** Grille de cartes partagée par /blog, /recettes et les taxonomies. */
-export function RecipeGrid({ items, emptyMessage }: RecipeGridProps) {
+export function RecipeGrid({ items, emptyMessage, activeTaxo }: RecipeGridProps) {
   if (items.length === 0) {
     return (
       <p className="vg-empty">
@@ -228,7 +255,7 @@ export function RecipeGrid({ items, emptyMessage }: RecipeGridProps) {
   return (
     <div className="vg-grid">
       {items.map((item) => (
-        <ItemCard key={item.slug} item={item} />
+        <ItemCard key={item.slug} item={item} activeTaxo={activeTaxo} />
       ))}
     </div>
   );

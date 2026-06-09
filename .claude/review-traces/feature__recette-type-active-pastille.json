@@ -1,0 +1,14 @@
+{
+  "branch": "feature/recette-type-active-pastille",
+  "reviewer_agent_id": "06-Gauvain-review-chevalier",
+  "reviewer_agent_type": "review-chevalier (spec-compliance + code-quality)",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "timestamp": "2026-06-09T13:03:54.000000+00:00",
+  "scope": [
+    "components/RecipeGrid.tsx",
+    "components/TaxonomyPage.tsx",
+    "components/ThematiqueBadges.tsx"
+  ],
+  "notes": "Étape 1 spec-compliance : SPEC_COMPLIANT. Tous les requirements vérifiés — pastille catégorie masquée sur /recette-type/[slug]/ quand slugifyTaxo(category) === slug, badge thématique filtré sur /recette-thematique/[slug]/ via excludeSlug, pages non-taxonomie inchangées (activeTaxo undefined). Étape 2 code-quality : 0 finding. ActiveTaxo interface propre (string intentionnel, TaxoKind est assignable), logique hideCategoryBadge correcte (recette-style non couvert car zéro overlap avec category slugs), slugifyTaxo pure et importable client+server, excludeSlug undefined safe en filtre JS. tsc --noEmit = 0 erreur. Build Next.js = 349 pages OK. Rendu local vérifié : /recette-type/petit-dejeuner-vegan/ = 0 pastille Petit-déjeuner vegan ; /recettes/?page=2 = pastille Petit-déjeuner vegan présente."
+}
