@@ -81,7 +81,7 @@ export function RecipeReviews({ slug, rating }: RecipeReviewsProps) {
       setLoadError(false);
       try {
         const res = await fetch(
-          `/api/comments?slug=${encodeURIComponent(slug)}&page=${p}`,
+          `/api/comments/?slug=${encodeURIComponent(slug)}&page=${p}`,
           { headers: { Accept: "application/json" } },
         );
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -107,7 +107,7 @@ export function RecipeReviews({ slug, rating }: RecipeReviewsProps) {
     setSubmitMsg(null);
     setSubmitting(true);
     try {
-      const res = await fetch("/api/comments", {
+      const res = await fetch("/api/comments/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

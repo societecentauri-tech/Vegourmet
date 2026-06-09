@@ -1,0 +1,170 @@
+/*
+ * Styles du formulaire de contact — fidèles au thème Yummy Bites.
+ * Importé par ContactForm.tsx uniquement.
+ */
+
+.vg-contact-form {
+  background: var(--vg-white);
+  border: 1px solid var(--vg-border);
+  border-radius: var(--vg-radius);
+  padding: 32px 28px;
+  max-width: 640px;
+  margin: 32px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.vg-contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.vg-contact-label {
+  font-family: var(--vg-font-alt);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--vg-ink);
+}
+
+.vg-contact-label span {
+  color: var(--vg-terracotta);
+  margin-left: 2px;
+}
+
+.vg-contact-input,
+.vg-contact-select,
+.vg-contact-textarea {
+  width: 100%;
+  border: 1.5px solid var(--vg-border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-family: var(--vg-font-body);
+  font-size: 1rem;
+  color: var(--vg-text);
+  background: var(--vg-bg);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+  appearance: none;
+}
+
+.vg-contact-input:focus,
+.vg-contact-select:focus,
+.vg-contact-textarea:focus {
+  outline: none;
+  border-color: var(--vg-terracotta);
+  box-shadow: 0 0 0 3px rgba(217, 142, 115, 0.18);
+}
+
+.vg-contact-input:disabled,
+.vg-contact-select:disabled,
+.vg-contact-textarea:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.vg-contact-textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+/* Flèche custom pour le select */
+.vg-contact-select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%238c8c8c' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  padding-right: 40px;
+}
+
+.vg-contact-btn {
+  align-self: flex-start;
+  background-color: var(--vg-terracotta);
+  color: #fff;
+  border: none;
+  border-radius: 99px;
+  padding: 12px 28px;
+  font-family: var(--vg-font-alt);
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.vg-contact-btn:hover:not(:disabled) {
+  background-color: var(--vg-terracotta-hover);
+  transform: translateY(-1px);
+}
+
+.vg-contact-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.vg-contact-error {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 10px 14px;
+  color: #b91c1c;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.vg-contact-rgpd {
+  font-size: 0.78rem;
+  color: var(--vg-muted);
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Écran de succès */
+.vg-contact-success {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: var(--vg-radius);
+  padding: 40px 28px;
+  max-width: 640px;
+  margin: 32px auto 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.vg-contact-success__icon {
+  font-size: 2.5rem;
+  color: var(--vg-green);
+  margin: 0;
+  line-height: 1;
+}
+
+.vg-contact-success__title {
+  font-family: var(--vg-font-title);
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--vg-green);
+  margin: 0;
+}
+
+.vg-contact-success__body {
+  color: var(--vg-text);
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .vg-contact-form {
+    padding: 24px 16px;
+  }
+
+  .vg-contact-btn {
+    align-self: stretch;
+    text-align: center;
+  }
+
+  .vg-contact-success {
+    padding: 32px 16px;
+  }
+}

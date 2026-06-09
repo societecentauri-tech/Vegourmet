@@ -1,5 +1,6 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { Callout } from "./Callout";
+import { ContactForm } from "./ContactForm";
 import { ExternalLink } from "./ExternalLink";
 import { MdxImage } from "./MdxImage";
 import {
@@ -24,6 +25,8 @@ interface MdxContentProps {
 // - ProductSlot : placeholder masqué ; remplacé par un job externe après ~2 j.
 const mdxComponents = {
   a: ExternalLink,
+  // Formulaire de contact — utilisé sur /contactez-nous (client component).
+  ContactForm,
   // Images du corps éditorial → next/image (AVIF/WebP responsive, lazy).
   // ⚠️ ExternalLink détecte les images Pinterest épinglables AVANT ce rendu :
   // il extrait src/alt des enfants quand l'ancre pointe vers pinterest.com/pin/

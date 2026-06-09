@@ -75,7 +75,9 @@ export interface ArticleFrontmatter {
   category: string;
   /** Slug de la catégorie WP de l'article (source : archives /category/*). */
   categorySlug?: string;
-  heroImage: HeroImage;
+  /** Image hero de l'article. Optionnelle : les pages utilitaires (contact, mentions légales…)
+   * n'ont pas forcément de visuels. ArticleHeader gère l'absence proprement. */
+  heroImage?: HeroImage;
   faq?: FaqItem[];
   /** Titre custom du bloc FAQ (fidélité WP), ex : « FAQ : Tes questions sur les steaks végétaux ». Fallback : « FAQ ». */
   faqTitle?: string;
