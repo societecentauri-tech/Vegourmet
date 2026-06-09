@@ -1,4 +1,5 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
+import remarkGfm from "remark-gfm";
 import { Callout } from "./Callout";
 import { ContactForm } from "./ContactForm";
 import { ExternalLink } from "./ExternalLink";
@@ -44,11 +45,17 @@ const mdxComponents = {
   Infographie,
 };
 
+const mdxOptions = {
+  mdxOptions: {
+    remarkPlugins: [remarkGfm],
+  },
+};
+
 /** Rend le corps éditorial MDX avec les styles fidèles du thème (vg-entry-content). */
 export function MdxContent({ source }: MdxContentProps) {
   return (
     <div className="vg-entry-content">
-      <MDXRemote source={source} components={mdxComponents} />
+      <MDXRemote source={source} options={mdxOptions} components={mdxComponents} />
     </div>
   );
 }
