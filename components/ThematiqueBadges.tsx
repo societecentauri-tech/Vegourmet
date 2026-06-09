@@ -18,6 +18,8 @@ interface ThematiqueBadgesProps {
   size?: number;
   /** Classe CSS appliquée au conteneur. */
   className?: string;
+  /** Slug à exclure de l'affichage (taxonomie active de la page courante). */
+  excludeSlug?: string;
 }
 
 interface BadgeConfig {
@@ -159,8 +161,9 @@ export function ThematiqueBadges({
   slugs,
   size = 38,
   className = "",
+  excludeSlug,
 }: ThematiqueBadgesProps) {
-  const known = slugs.filter((s) => s in BADGE_MAP);
+  const known = slugs.filter((s) => s in BADGE_MAP && s !== excludeSlug);
   if (known.length === 0) return null;
 
   return (

@@ -65,6 +65,7 @@ export function TaxonomyPage({ kind, slug, page }: TaxonomyPageProps) {
       <RecipeGrid
         items={pageItems}
         emptyMessage="Aucun contenu pour cette taxonomie."
+        activeTaxo={{ kind, slug }}
       />
       <Pagination
         current={currentPage}
