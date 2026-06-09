@@ -1,0 +1,15 @@
+{
+  "branch": "feat/veg-mdx-remark-gfm",
+  "timestamp": "2026-06-09T16:14:17Z",
+  "verdict": "GO",
+  "reviewer": "review-chevalier (12-Lamorak spec + feature-dev:code-reviewer quality)",
+  "p0": 0,
+  "p1": 0,
+  "p2": 2,
+  "p2_details": [
+    "article.css:296+331 — overflow:hidden écrasé par display:block sur mobile (border-radius invisible mobile, non fonctionnel)",
+    "article.css:334 — -webkit-overflow-scrolling:touch obsolète (iOS 13+)"
+  ],
+  "spec_compliance": "SPEC_COMPLIANT",
+  "files_reviewed": ["components/MdxContent.tsx", "components/article.css", "package.json"]
+}
