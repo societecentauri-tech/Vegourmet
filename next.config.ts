@@ -22,7 +22,7 @@ const CSP_REPORT_ONLY = [
   "frame-ancestors 'self'",
   "form-action 'self'",
   "object-src 'none'",
-  "img-src 'self' data: https://veg.s3.fr-par.scw.cloud",
+  "img-src 'self' data: https://static.vegourmet.fr",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com",
   "script-src 'self' 'unsafe-inline'",
@@ -52,9 +52,10 @@ const nextConfig: NextConfig = {
   // ─────────────────────────────────────────────────────────────────────────────
   // Optimisation des images (poids des pages + LCP + indexation).
   //
-  // Les images sont servies par le bucket S3 public Scaleway `veg`. On autorise
-  // ce domaine pour `next/image` afin que l'Image Optimization API de Next/Vercel
-  // génère à la volée des variantes AVIF/WebP redimensionnées (`srcset`/`sizes`).
+  // Les images sont servies par le CDN `static.vegourmet.fr` (Worker Cloudflare,
+  // cache 1 an, origine = bucket S3 Scaleway `veg`). On autorise ce domaine pour
+  // `next/image` afin que l'Image Optimization API de Next/Vercel génère à la
+  // volée des variantes AVIF/WebP redimensionnées (`srcset`/`sizes`).
   // Gains attendus sur une page recette : ~7,4 Mio d'images → ~1-1,5 Mio
   //   - conversion des PNG (≈3,2 Mio) en AVIF (-80 %)
   //   - redimensionnement des WebP servies en pleine résolution native (≈3,7 Mio)
@@ -66,7 +67,14 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "veg.s3.fr-par.scw.cloud",
+        hostname: "static.vegourmet.fr",
+        pathname: "/**",
+      },
+      // Conservation temporaire pour la transition (URLs legacy en cache CDN).
+      // À retirer après confirmation que toutes les URLs émises sont static.vegourmet.fr.
+      {
+        protocol: "https",
+        hostname: "veg.s3.fr-par.scw.cloud", // transition-ok
         pathname: "/**",
       },
     ],

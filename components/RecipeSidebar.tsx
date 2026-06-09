@@ -5,7 +5,7 @@ import { SmartImage } from "./SmartImage";
  * Photo Chloé sur le canapé — fidélité WP (widget « À propos de moi »).
  * WP affiche une grande photo pleine largeur (Chloe-sofa.jpg, ratio 3/2).
  */
-const CHLOE_PHOTO = "https://veg.s3.fr-par.scw.cloud/about/chloe-sofa.jpg";
+const CHLOE_PHOTO = "https://static.vegourmet.fr/about/chloe-sofa.jpg";
 
 /**
  * Sidebar des pages recette/article (widget « À propos de moi » du thème).

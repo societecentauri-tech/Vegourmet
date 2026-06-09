@@ -10,7 +10,7 @@ import { taxoSlugs, type TaxoKind } from "@/lib/taxonomy";
  * monitoring à ce volume).
  *
  * Indexation des images (enjeu fort sur un site de recettes) : chaque entrée
- * recette/article expose son `heroImage` S3 via le champ `images` de Next, qui
+ * recette/article expose son `heroImage` (CDN static.vegourmet.fr) via le champ `images` de Next, qui
  * émet un `<image:image><image:loc>…</image:loc></image:image>` dans le XML
  * (namespace image ajouté automatiquement par Next). Google Images peut ainsi
  * indexer les visuels.
@@ -32,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // ⚠️ trailingSlash: true dans next.config.ts aligne les URL servis sur le
   // format WP (avec slash final). Next n'injecte PAS automatiquement le slash
   // dans les <loc> du sitemap : on le pose ici explicitement.
-  // Les loc d'images S3 (heroImage.src) pointent vers le CDN Scaleway —
+  // Les loc d'images (heroImage.src) pointent vers le CDN static.vegourmet.fr —
   // ne jamais leur ajouter de slash.
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${SITE_URL}/`, changeFrequency: "weekly", priority: 1 },
