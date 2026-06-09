@@ -592,10 +592,41 @@
   line-height: 1.3;
 }
 
-/* Étoiles dans le carrousel hero. */
+/* Étoiles dans le carrousel hero.
+ * Les règles structure (.vg-starrating) vivent dans reviews.css (page recette).
+ * On les redéclare ici pour que la home ne dépende pas de reviews.css.
+ * Couleur : track en jaune-or à faible opacité, fill en jaune-or plein (#f5b301). */
+.vg-starrating {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  line-height: 0;
+}
+.vg-starrating__track,
+.vg-starrating__fill {
+  display: inline-flex;
+  gap: 1px;
+}
+.vg-starrating__track {
+  color: var(--vg-gold, #e6b170);
+  opacity: 0.28;
+}
+.vg-starrating__fill {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--vg-gold, #e6b170);
+}
+.vg-starrating__track svg,
+.vg-starrating__fill svg {
+  width: var(--vg-star-size, 16px);
+  height: var(--vg-star-size, 16px);
+  flex: 0 0 auto;
+}
+
 .vgh-banner-rating .vg-starrating {
   --vg-star-size: 14px;
-  color: var(--vg-terracotta, #d98e73);
 }
 
 /* Flèches owl-nav, positionnées sur les bords, centrées verticalement. */
@@ -888,4 +919,23 @@
   .vgh-cta-text h2 {
     font-size: 26px;
   }
+}
+
+/* ---- Pictos thématiques dans le carousel hero (recette-thematique) --------
+ * Positionnés en haut à gauche du bloc image, empilés verticalement.
+ * .vgh-banner-img est déjà position:relative → containing block valide. */
+.vgh-banner-thematiques {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.vgh-banner-thematiques .vg-thematique-badge {
+  display: block;
+  line-height: 0;
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.22));
 }

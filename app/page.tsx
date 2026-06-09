@@ -119,6 +119,7 @@ export default function HomePage() {
       totalTime: recipe.totalTime,
       difficulty: recipe.difficulty,
       rating: rating ? { value: rating.ratingValue, count: rating.ratingCount } : null,
+      thematiques: recipe.taxonomies?.["recette-thematique"] ?? [],
     };
   });
 

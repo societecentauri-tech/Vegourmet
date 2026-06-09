@@ -6,6 +6,7 @@ import {
   getCategoryStyle,
 } from "@/lib/categoryStyle";
 import { SmartImage } from "./SmartImage";
+import { ThematiqueBadges } from "./ThematiqueBadges";
 import { formatDureeFr } from "@/lib/duration";
 import { formatDateFr } from "@/lib/format";
 import "./listing.css";
@@ -25,6 +26,8 @@ export interface ListingItem {
   ratio: string;
   /** Date à afficher (ISO). Utilisé dans le widget « Tu aimeras aussi » (articles). */
   dateDisplay?: string;
+  /** Slugs recette-thematique pour les pictos multi-badges (recettes uniquement). */
+  thematiques?: string[];
 }
 
 /** Transforme une recette en élément de listing. */
@@ -38,6 +41,7 @@ export function recipeToListingItem(recipe: RecipeFrontmatter): ListingItem {
     difficulty: recipe.difficulty,
     imageSrc: recipe.heroImage?.src,
     ratio: "3 / 4",
+    thematiques: recipe.taxonomies?.["recette-thematique"] ?? [],
   };
 }
 
@@ -144,6 +148,13 @@ export function ItemCard({ item }: ItemCardProps) {
             className="vg-thumb-img border-0"
           />
         </Link>
+        {item.thematiques && item.thematiques.length > 0 && (
+          <ThematiqueBadges
+            slugs={item.thematiques}
+            size={34}
+            className="vg-item-thematiques"
+          />
+        )}
         <span className="vg-item-cat">
           <Link
             href={getCategoryHref(item.category)}

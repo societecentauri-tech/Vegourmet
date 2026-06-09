@@ -5,6 +5,7 @@ import Link from "next/link";
 import { SmartImage } from "@/components/SmartImage";
 import { StarRating } from "@/components/StarRating";
 import { ClockIcon, DifficultyIcon } from "@/components/RecipeIcons";
+import { ThematiqueBadges } from "@/components/ThematiqueBadges";
 import { formatDureeFr } from "@/lib/duration";
 
 /** Slide du carrousel hero — données déjà mappées côté serveur (plain object). */
@@ -27,6 +28,8 @@ export interface HeroSlide {
   difficulty?: string;
   /** Note agrégée réelle (snapshot build-time). null si non notée — jamais inventée. */
   rating?: { value: number; count: number } | null;
+  /** Slugs thématiques WP (recette-thematique) pour les pictos multi-badges. */
+  thematiques?: string[];
 }
 
 interface HeroCarouselProps {
@@ -98,10 +101,17 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
                   <SmartImage
                     src={slide.imageSrc}
                     alt={slide.title}
-                    ratio="4 / 3"
+                    ratio="380 / 515"
                     className="vgh-banner-photo"
                   />
                 </Link>
+                {slide.thematiques && slide.thematiques.length > 0 && (
+                  <ThematiqueBadges
+                    slugs={slide.thematiques}
+                    size={34}
+                    className="vgh-banner-thematiques"
+                  />
+                )}
               </div>
               <div className="vgh-banner-caption banner-caption">
                 <span
