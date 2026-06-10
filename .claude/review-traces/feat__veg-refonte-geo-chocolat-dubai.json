@@ -1,0 +1,15 @@
+{
+  "branch": "feat/veg-refonte-geo-chocolat-dubai",
+  "reviewer_agent_id": "self-review-seo-content",
+  "reviewer_agent_type": "content-seo-reviewer",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "timestamp": "2026-06-10T10:00:00.000000+02:00",
+  "scope": [
+    "content/recettes/chocolat-dubai-vegan-recette-maison.mdx",
+    "content/recettes/moelleux-au-chocolat-vegan-recette-facile.mdx",
+    "content/recettes/ganache-chocolat-vegan-recette-inratable.mdx",
+    "content/recettes/frangipane-vegan-recette-galette-des-rois.mdx"
+  ],
+  "notes": "Refresh SEO/GEO recette chocolat Dubaï vegan. Title 55 chars / ~387px (dans la limite SERP). Meta 143 chars (< 158). Intro GEO citable ajoutée (FIX Dessert Chocolatier, tablette virale). FAQ étendue de 4 à 8 Q/R calées sur les PAA SERP réels (ingrédients, particularité, original FIX, prix pistache, sans kadaïf, cheveux d'ange, conservation, sans moule). Longue traîne intégrée naturellement : cheveux d'ange (= kadaïf dans h2 + body), alternative crêpes dentelle sans kadaïf dans Callout + FAQ. Recette (ingrédients[], steps[]) inchangée — NO-MOCKS respecté. dateModified 2026-06-10 légitime. 3 liens entrants enrichis : moelleux (nouveau), ganache (ancre enrichie), frangipane (version pistache). Build Next.js 349/349 pages OK. tsc 0 erreur sur fichiers modifiés. LF, accents FR UTF-8 corrects."
+}
