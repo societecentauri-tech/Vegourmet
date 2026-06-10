@@ -74,6 +74,7 @@ export async function GET(req: NextRequest): Promise<NextResponse> {
     const n8nResponse = await fetch(`${N8N_DOWNLOAD_URL}?token=${token}`, {
       method: "GET",
       redirect: "manual",
+      signal: AbortSignal.timeout(8000),
       headers: {
         "X-Forwarded-For": ip,
         "User-Agent": req.headers.get("user-agent") ?? "unknown",

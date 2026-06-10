@@ -107,6 +107,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     const n8nResponse = await fetch(`${N8N_WEBHOOK_URL}?${params.toString()}`, {
       method: "GET",
       headers: { "X-Webhook-Secret": webhookSecret },
+      signal: AbortSignal.timeout(8000),
     });
 
     if (!n8nResponse.ok) {
