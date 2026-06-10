@@ -1,0 +1,28 @@
+{
+  "branch": "fix/remove-blog-slug-redirect",
+  "reviewer_agent_id": "general-purpose-self-review",
+  "reviewer_agent_type": "feature-dev:code-reviewer",
+  "verdict": "GO MERGE",
+  "issues": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0
+  },
+  "timestamp": "2026-06-10T12:51:18+00:00",
+  "scope": [
+    "next.config.ts"
+  ],
+  "checks": {
+    "tsc_noEmit": "0 erreurs",
+    "next_build": "build vert",
+    "diff_minimal": "6 insertions / 12 suppressions, uniquement la règle /blog/:slug + commentaires associés",
+    "rules_kept": "contact, nous-contacter, mentions-legales, /page/:n (dont /blog/page/:n), reliquats recettes feed/comment-page, /category/*, millésimes 2025 — tous présents au diff",
+    "blog_slug_404": "curl local /blog/classement-des-meilleures-margarines/ → 404 (plus de 308)",
+    "root_slug_200": "curl local /classement-des-meilleures-margarines/ → 200",
+    "blog_index_200": "curl local /blog/ → 200",
+    "contact_308": "curl local /contact/ → 308 /contactez-nous/",
+    "blog_pagination_kept": "curl local /blog/page/2/ → 308 /blog/",
+    "feed_410_kept": "curl local /feed/ → 410",
+    "line_endings": "LF"
+  }
+}
