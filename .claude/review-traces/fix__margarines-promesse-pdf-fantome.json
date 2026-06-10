@@ -1,0 +1,15 @@
+{
+  "branch": "fix/margarines-promesse-pdf-fantome",
+  "commit": "54a5719",
+  "timestamp": "2026-06-10T08:09:51Z",
+  "reviewer_agent_id": "ac430b7580ef3f5ac",
+  "reviewer_agent_type": "pr-review-toolkit:code-reviewer",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "scope": [
+    "content/blog/classement-des-meilleures-margarines.mdx",
+    "components/home/NewsletterBand.tsx",
+    "app/page.tsx"
+  ],
+  "notes": "1er passage NO GO (P1 : ancre /#newsletter inexistante, id réel newsletter_section) — corrigé par renommage id=newsletter (commit 54a5719), répare aussi le lien RecipeSidebar sur tous les articles. Re-review : GO MERGE 0/0/0. Promesse PDF fantôme remplacée par CTA newsletter tenable (/api/newsletter vérifiée en prod). LF only, ton Chloé conservé, frontmatter intact. P2 informatif non bloquant : ancienne ancre #newsletter_section abandonnée (risque négligeable)."
+}

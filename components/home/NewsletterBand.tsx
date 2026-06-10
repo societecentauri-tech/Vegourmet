@@ -3,7 +3,7 @@
 import { useState, type FormEvent } from "react";
 
 /**
- * NewsletterBand — bandeau newsletter (#newsletter_section du thème Yummy Bites).
+ * NewsletterBand — bandeau newsletter (ancre #newsletter, héritée du thème Yummy Bites).
  * Formulaire fonctionnel : inscription via la route BFF `/api/newsletter`
  * (single opt-in avec consentement RGPD explicite, stocké en base vegourmet_prod).
  */
@@ -59,7 +59,7 @@ export function NewsletterBand() {
 
   return (
     <section
-      id="newsletter_section"
+      id="newsletter"
       className="vgh-newsletter"
       aria-labelledby="vgh-newsletter-title"
     >

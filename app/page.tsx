@@ -38,7 +38,7 @@ function toFavorisItem(recipe: RecipeFrontmatter): FavorisItem {
  * Homepage vegourmet.fr — reconstruction fidèle au thème « Yummy Bites »
  * (WP Delicious). Sections, dans l'ordre officiel :
  *   1. Carrousel hero (site-banner banner-slider style-one)
- *   2. Bandeau newsletter (#newsletter_section)
+ *   2. Bandeau newsletter (#newsletter)
  *   3. Les favoris de nos lecteurs (#featured_area_section)
  *   4. À propos de moi (#about_section)
  *   5. Trouvez la recette parfaite (#search_section)
