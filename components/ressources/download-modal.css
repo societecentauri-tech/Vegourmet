@@ -1,0 +1,204 @@
+/**
+ * DownloadModal — modale e-mail du système LeadMagnet.
+ *
+ * Style standalone Vegourmet (thème « Yummy Bites »), couleurs de marque tirées
+ * de :root (--vg-*). Pas de dépendance au DS Centauri (Vegourmet est un site
+ * hérité WordPress autonome).
+ */
+
+.vg-dlm-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(44, 62, 80, 0.55);
+  backdrop-filter: blur(2px);
+  animation: vg-dlm-fade 0.18s ease;
+}
+
+@keyframes vg-dlm-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.vg-dlm-dialog {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  background: var(--vg-white, #fff);
+  border-radius: var(--vg-radius, 12px);
+  border-top: 5px solid var(--vg-terracotta, #d98e73);
+  box-shadow: 0 18px 48px rgba(44, 62, 80, 0.28);
+  padding: 32px 28px 28px;
+  font-family: var(--vg-font-body, "PT Sans"), system-ui, sans-serif;
+  color: var(--vg-text, #333);
+}
+
+.vg-dlm-close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--vg-muted, #8c8c8c);
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.vg-dlm-close:hover,
+.vg-dlm-close:focus-visible {
+  background: rgba(217, 142, 115, 0.14);
+  color: var(--vg-terracotta-hover, #bf7052);
+}
+
+.vg-dlm-title {
+  font-family: var(--vg-font-title, "Signika"), sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  color: var(--vg-title, #2c3e50);
+  margin: 0 0 8px;
+}
+
+.vg-dlm-lead {
+  margin: 0 0 20px;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.vg-dlm-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.vg-dlm-form input[type="email"] {
+  width: 100%;
+  padding: 13px 16px;
+  border: 1px solid #d8c2ab;
+  border-radius: 6px;
+  background: #fff;
+  font-family: var(--vg-font-body, "PT Sans"), sans-serif;
+  font-size: 15px;
+  color: var(--vg-ink, #453e3f);
+}
+
+.vg-dlm-form input[type="email"]::placeholder {
+  color: #9a8c7c;
+}
+
+.vg-dlm-form input[type="email"]:focus-visible {
+  outline: 2px solid var(--vg-terracotta, #d98e73);
+  outline-offset: 1px;
+  border-color: var(--vg-terracotta, #d98e73);
+}
+
+.vg-dlm-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--vg-ink, #453e3f);
+  opacity: 0.9;
+  text-align: left;
+}
+
+.vg-dlm-consent input[type="checkbox"] {
+  margin-top: 2px;
+  flex: 0 0 auto;
+  accent-color: var(--vg-terracotta, #d98e73);
+  width: 16px;
+  height: 16px;
+}
+
+.vg-dlm-consent a {
+  color: var(--vg-terracotta, #d98e73);
+  text-decoration: underline;
+}
+
+.vg-dlm-submit {
+  padding: 13px 24px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--vg-terracotta, #d98e73);
+  color: #fff;
+  font-family: var(--vg-font-title, "Signika"), sans-serif;
+  font-weight: 600;
+  font-size: 15.5px;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.vg-dlm-submit:hover:not(:disabled),
+.vg-dlm-submit:focus-visible:not(:disabled) {
+  background: var(--vg-terracotta-hover, #bf7052);
+}
+
+.vg-dlm-submit:disabled {
+  opacity: 0.65;
+  cursor: default;
+}
+
+.vg-dlm-note {
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+  color: var(--vg-muted, #8c8c8c);
+}
+
+.vg-dlm-error {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: #b3402e;
+}
+
+.vg-dlm-success {
+  text-align: center;
+  padding: 8px 0 4px;
+}
+
+.vg-dlm-success-emoji {
+  display: block;
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.vg-dlm-success h3 {
+  font-family: var(--vg-font-title, "Signika"), sans-serif;
+  font-size: 22px;
+  color: var(--vg-title, #2c3e50);
+  margin: 0 0 8px;
+}
+
+.vg-dlm-success p {
+  margin: 0;
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--vg-text, #333);
+}
+
+/* Utilitaire visuellement masqué (réplique de .vgh-sr-only du thème home). */
+.vg-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

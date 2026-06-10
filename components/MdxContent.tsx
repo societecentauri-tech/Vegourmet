@@ -14,6 +14,7 @@ import {
 } from "./GuideComponents";
 import { ProductSlot } from "./ProductSlot";
 import { Infographie } from "./Infographie";
+import { LeadMagnet } from "./mdx/LeadMagnet";
 import "./article.css";
 
 interface MdxContentProps {
@@ -43,6 +44,8 @@ const mdxComponents = {
   RecipeComboCard,
   ProductSlot,
   Infographie,
+  // Encart de capture (lead magnet) — ouvre la modale email -> n8n -> PDF.
+  LeadMagnet,
 };
 
 const mdxOptions = {
