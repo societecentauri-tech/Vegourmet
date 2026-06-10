@@ -108,6 +108,92 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
+      // ═══════════════════════════════════════════════════════════════════════
+      // Redirections WordPress legacy (audit Loki 14 j : 1941 hits 404).
+      // Toutes en 301 permanent. trailingSlash:true ⇒ Next normalise les deux
+      // variantes (avec/sans slash) et émet une destination à slash final.
+      // ═══════════════════════════════════════════════════════════════════════
+
+      // ── Pages utilitaires renommées WP → Next ──────────────────────────────
+      {
+        source: "/contact",
+        destination: "/contactez-nous/",
+        permanent: true,
+      },
+      {
+        source: "/nous-contacter",
+        destination: "/contactez-nous/",
+        permanent: true,
+      },
+      {
+        source: "/mentions-legales",
+        destination: "/mentions-legales-politique-de-confidentialite/",
+        permanent: true,
+      },
+
+      // ── Pagination WordPress /page/:n → page 1 de la section ────────────────
+      // La pagination Next.js est portée par la query string `?page=N`
+      // (cf. lib/pagination.ts : pageHref ⇒ ...?page=N). Le segment d'URL
+      // `/page/:n` est un héritage WordPress qui n'existe plus comme route et
+      // n'a aucune valeur SEO (pages profondes paginées, non canoniques). On
+      // redirige donc vers la racine (page 1) de chaque section — plus sûr que
+      // vers `?page=N` qui ne correspond à aucune URL indexable côté Next.
+      // ⚠️ Placées AVANT la règle catch-all /blog/:slug pour éviter toute
+      //    capture de /blog/page/:n (qui est de toute façon à 2 segments).
+      {
+        source: "/recettes/page/:n(\\d+)",
+        destination: "/recettes/",
+        permanent: true,
+      },
+      {
+        source: "/blog/page/:n(\\d+)",
+        destination: "/blog/",
+        permanent: true,
+      },
+      {
+        source: "/recette-thematique/:slug/page/:n(\\d+)",
+        destination: "/recette-thematique/:slug/",
+        permanent: true,
+      },
+      {
+        source: "/recette-style/:slug/page/:n(\\d+)",
+        destination: "/recette-style/:slug/",
+        permanent: true,
+      },
+      {
+        source: "/recette-type/:slug/page/:n(\\d+)",
+        destination: "/recette-type/:slug/",
+        permanent: true,
+      },
+
+      // ── Reliquats WP sous /recettes/:slug/* → la recette canonique ─────────
+      // Anciennes sous-URL WordPress (flux de commentaires, pagination des
+      // commentaires). Un catch-all 410 sous app/recettes/[slug]/ entrerait en
+      // collision avec la route réelle (page.tsx + imprimer/). On préfère donc
+      // un 301 vers la recette : plus simple, sans conflit de route, et préserve
+      // le jus d'éventuels backlinks vers ces URL profondes.
+      {
+        source: "/recettes/:slug/feed",
+        destination: "/recettes/:slug/",
+        permanent: true,
+      },
+      {
+        source: "/recettes/:slug/comment-page-:n(\\d+)",
+        destination: "/recettes/:slug/",
+        permanent: true,
+      },
+
+      // ── Articles WP servis sous /blog/* → désormais à la racine /:slug ──────
+      // Les articles vivent maintenant à la racine (app/[slug]/page.tsx, sources
+      // content/blog/*.mdx). L'ancien préfixe /blog/ doit rediriger vers /:slug.
+      // `:slug` ne matche QU'UN segment ⇒ ne capture ni /blog (index, 0 segment)
+      // ni /blog/page/:n (2 segments, déjà traité plus haut).
+      {
+        source: "/blog/:slug",
+        destination: "/:slug/",
+        permanent: true,
+      },
+
       // ── Taxonomies dupliquées : /category/X → /recette-type/X ──────────────
       // Ces slugs étaient catégorisés comme "category" dans WP mais sont en
       // réalité des types de recettes. Les redirects matchent avec ou sans slash
