@@ -1,0 +1,28 @@
+{
+  "branch": "fix/wp-legacy-redirects",
+  "reviewer_agent_id": "general-purpose-self-review",
+  "reviewer_agent_type": "feature-dev:code-reviewer",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "timestamp": "2026-06-10T10:30:00+00:00",
+  "scope": [
+    "next.config.ts",
+    "app/feed/route.ts",
+    "app/author/[slug]/route.ts"
+  ],
+  "checks": {
+    "tsc_noEmit": "0 erreurs",
+    "next_build": "build vert, routes /feed et /author/[slug] enregistrées (ƒ), /apple-icon.png présent",
+    "merge_no_overwrite": "redirects() existant (/category/*, millésimes 2025) préservé, ajouts uniquement",
+    "order_pagination_before_blogslug": "règles /page/:n placées AVANT /blog/:slug — vérifié",
+    "blog_index_safe": "curl /blog → 200 (non capturé par /blog/:slug, :slug = 1 segment)",
+    "contact_chain": "curl /contact/ → 308 /contactez-nous/ (1 hop), /contact → 200 final (2 hops, no-slash rare)",
+    "mentions_chain": "curl /mentions-legales/ → 308 /mentions-legales-politique-de-confidentialite/",
+    "blogslug_chain": "curl /blog/classement-des-meilleures-margarines/ → /classement.../ → 200",
+    "pagination_chain": "curl /recettes/page/2 → /recettes/ → 200",
+    "feed_410": "curl /feed et /feed/ → 410 Gone",
+    "author_410": "curl /author/chloe → 410 Gone",
+    "apple_icon": "app/apple-icon.png 180x180 déjà committé (ad1e403), aucune action",
+    "line_endings": "LF sur les 3 fichiers"
+  }
+}
