@@ -1,0 +1,21 @@
+{
+  "branch": "feature/veg-cannibalisation-margarine",
+  "reviewer_agent_id": "12-Lamorak-spec + 2x feature-dev:code-reviewer",
+  "reviewer_agent_type": "feature-dev:code-reviewer",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "timestamp": "2026-06-10T09:15:41+00:00",
+  "scope": [
+    "content/blog/meilleure-margarine-pour-la-sante-guide-complet.mdx",
+    "content/blog/classement-des-meilleures-margarines.mdx"
+  ],
+  "checks": {
+    "spec_compliance": "SPEC_COMPLIANT (12-Lamorak, 2 passes) : exact-match « classement des meilleures margarines » réduit à 1 occurrence = ancre du lien ; maillage croisé 1 lien santé→classement + 1 lien classement→santé + 1 lien classement→pâtisserie ; phytostérols harmonisés LDL 7-15 % / risque CV non démontré / précautions enfants-grossesse dans les 2 articles",
+    "code_quality": "2 reviewers périmètres disjoints — issues corrigées : trailing slashes /recettes/ (l.279 santé), dateModified ISO complet (classement), voix nous (l.243 classement). Verdict final 0 P0 / 0 P1 / 0 P2",
+    "title_serp": "Title santé reformulé sans « classement » : 54 caractères / ~388 px (mesuré Python)",
+    "meta_description": "Description santé reformulée sans exact-match : 133 caractères (mesuré Python)",
+    "next_build": "pnpm build : Compiled successfully (13.1s)",
+    "productslot_intact": "<ProductSlot theme=\"margarine\" type=\"comparison-top3\" /> inchangé (classement l.155)",
+    "dates": "datePublished inchangés ; dateModified 2026-06-10 sur les 2 fichiers, formats existants respectés"
+  }
+}
