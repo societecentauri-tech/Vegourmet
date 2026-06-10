@@ -1,0 +1,18 @@
+{
+  "branch": "feature/veg-refresh-mascarpone-tofu",
+  "reviewer_agent_id": "a24d7d65db18a350e",
+  "reviewer_agent_type": "feature-dev:code-reviewer",
+  "verdict": "GO MERGE",
+  "issues": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0
+  },
+  "timestamp": "2026-06-10T15:37:51.358332+00:00",
+  "scope": [
+    "content/recettes/mascarpone-vegan-recette-star-desserts.mdx",
+    "content/blog/meilleur-tofu-guide-complet-pour-le-choisir.mdx",
+    "content/recettes/cheesecake-vegan-5-secrets-irresistible.mdx"
+  ],
+  "notes": "Refresh SEO/GEO playbook PLAN-SEO-GEO-REFRESH. No-mocks vérifié (verdicts/prix ancrés dans le ComparisonTable existant), slugs evergreen intacts, YAML frontmatter valide (apostrophes U+2019), recettes Chloé inchangées, LF partout, titles ≤55 car/≤580 px et metas ≤158 car mesurés Python. P1 cohérence marques tofu + P2 format prix résolus au commit c3cb2bc, re-review confirmée GO 0/0/0. Build Next.js local vert (exit 0)."
+}
