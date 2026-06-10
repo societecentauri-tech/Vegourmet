@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<title>Guide d'achat margarine végane — Vegourmet</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;600;700&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+  :root {
+    --vg-bg: #f7f3f0;
+    --vg-terracotta: #d98e73;
+    --vg-terracotta-dark: #bf7052;
+    --vg-gold: #e6b170;
+    --vg-green: #227755;
+    --vg-olive: #a3a96a;
+    --vg-title: #2c3e50;
+    --vg-ink: #453e3f;
+    --vg-text: #333;
+  }
+
+  @page {
+    size: A4;
+    margin: 16mm 14mm 18mm 14mm;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    font-family: 'PT Sans', system-ui, sans-serif;
+    color: var(--vg-text);
+    margin: 0;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  h1, h2, h3 { font-family: 'Signika', sans-serif; color: var(--vg-title); }
+
+  .page { page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+
+  /* ---------- Page de garde ---------- */
+  .cover {
+    text-align: center;
+    padding-top: 30mm;
+  }
+  .cover .badge {
+    display: inline-block;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12pt;
+    color: var(--vg-terracotta);
+    border: 2px solid var(--vg-terracotta);
+    border-radius: 30px;
+    padding: 8px 22px;
+    margin-bottom: 28px;
+  }
+  .cover h1 {
+    font-size: 34pt;
+    line-height: 1.12;
+    margin: 0 0 16px;
+  }
+  .cover .sub {
+    font-size: 14pt;
+    color: var(--vg-ink);
+    max-width: 460px;
+    margin: 0 auto 40px;
+  }
+  .cover .leaf { font-size: 52pt; margin-bottom: 18px; }
+  .cover .signature {
+    margin-top: 56px;
+    font-style: italic;
+    font-size: 12pt;
+    color: var(--vg-ink);
+  }
+  .cover .signature strong { font-style: normal; color: var(--vg-terracotta-dark); }
+  .cover .brand {
+    margin-top: 10mm;
+    font-family: 'Signika', sans-serif;
+    font-weight: 700;
+    font-size: 16pt;
+    color: var(--vg-green);
+    letter-spacing: 1px;
+  }
+
+  /* ---------- Sections ---------- */
+  h2.section {
+    font-size: 19pt;
+    border-bottom: 3px solid var(--vg-terracotta);
+    padding-bottom: 6px;
+    margin: 0 0 14px;
+  }
+  .intro { margin-bottom: 16px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 10pt;
+    margin: 10px 0 18px;
+  }
+  th {
+    background: var(--vg-terracotta);
+    color: #fff;
+    text-align: left;
+    padding: 8px 10px;
+    font-family: 'Signika', sans-serif;
+    font-weight: 600;
+  }
+  td {
+    padding: 7px 10px;
+    border-bottom: 1px solid #e6dcd2;
+    vertical-align: top;
+  }
+  tr:nth-child(even) td { background: #faf5f0; }
+  td.weight { text-align: center; font-weight: 700; color: var(--vg-terracotta-dark); white-space: nowrap; }
+  td.rank { text-align: center; font-size: 13pt; }
+  td.score { text-align: center; font-weight: 700; color: var(--vg-green); }
+
+  /* ---------- Podium ---------- */
+  .podium { display: flex; flex-direction: column; gap: 12px; margin: 8px 0 4px; }
+  .medal {
+    border-radius: 10px;
+    padding: 14px 16px;
+    border-left: 6px solid var(--vg-terracotta);
+    background: #faf5f0;
+  }
+  .medal h3 { margin: 0 0 4px; font-size: 14pt; }
+  .medal .meta {
+    font-family: 'Signika', sans-serif;
+    font-weight: 600;
+    color: var(--vg-green);
+    font-size: 10.5pt;
+    margin-bottom: 6px;
+  }
+  .medal p { margin: 0; font-size: 10.5pt; }
+  .medal.gold { border-left-color: var(--vg-gold); }
+  .medal.silver { border-left-color: #b9bcc2; }
+  .medal.bronze { border-left-color: #c8884f; }
+
+  /* ---------- Checklist imprimable ---------- */
+  .checklist {
+    border: 2px dashed var(--vg-terracotta);
+    border-radius: 12px;
+    padding: 20px 22px;
+    background: #fff;
+    margin-top: 6px;
+  }
+  .checklist h3 { margin: 0 0 4px; font-size: 15pt; }
+  .checklist .lead { font-size: 10.5pt; margin: 0 0 14px; color: var(--vg-ink); }
+  .check-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 9px 0;
+    border-bottom: 1px solid #eee2d6;
+    font-size: 11pt;
+  }
+  .check-item:last-child { border-bottom: 0; }
+  .check-box {
+    flex: 0 0 auto;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--vg-terracotta);
+    border-radius: 4px;
+    margin-top: 1px;
+  }
+  .tip {
+    margin-top: 14px;
+    background: rgba(217, 142, 115, 0.12);
+    border-left: 3px solid var(--vg-terracotta);
+    border-radius: 6px;
+    padding: 12px 14px;
+    font-size: 10.5pt;
+  }
+  .tip strong { color: var(--vg-terracotta-dark); }
+
+  .warn {
+    background: rgba(163, 169, 106, 0.14);
+    border-left: 3px solid var(--vg-olive);
+    border-radius: 6px;
+    padding: 12px 14px;
+    font-size: 10.5pt;
+    margin: 14px 0;
+  }
+
+  .footer-note {
+    margin-top: 18px;
+    font-size: 9.5pt;
+    color: #8c8c8c;
+    text-align: center;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ PAGE 1 : COUVERTURE ============ -->
+<section class="page cover">
+  <div class="leaf">🌱</div>
+  <span class="badge">Guide gratuit · 2026</span>
+  <h1>Guide d'achat<br />margarine végane</h1>
+  <p class="sub">La grille des 10 critères, le podium 2026 et ma checklist supermarché à imprimer — pour ne plus jamais te tromper de pot.</p>
+  <p class="signature">Préparé avec soin par <strong>Chloé</strong>, ta complice cuisine végane chez Vegourmet.</p>
+  <div class="brand">Vegourmet.fr</div>
+</section>
+
+<!-- ============ PAGE 2 : GRILLE DES 10 CRITÈRES ============ -->
+<section class="page">
+  <h2 class="section">Ma grille des 10 critères d'achat</h2>
+  <p class="intro">Une bonne margarine végane, ça se juge sur des faits, pas sur le devant du pot. Voici les 10 critères que j'utilise pour noter chaque référence sur 100. Garde-les en tête : ils résument tout ce qui compte vraiment.</p>
+  <table>
+    <thead>
+      <tr><th style="width:8%">#</th><th>Critère</th><th>Ce que j'évalue</th><th style="width:16%">Poids</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="rank">1</td><td>Origine des huiles</td><td>Traçabilité, colza/lin/olive valorisés</td><td class="weight">10 %</td></tr>
+      <tr><td class="rank">2</td><td>Absence d'huile de palme</td><td>Palme absente ou tracée durablement</td><td class="weight">12 %</td></tr>
+      <tr><td class="rank">3</td><td>Certification bio</td><td>Label AB / Eurofeuille</td><td class="weight">8 %</td></tr>
+      <tr><td class="rank">4</td><td>Acides gras saturés</td><td>Taux le plus bas possible</td><td class="weight">12 %</td></tr>
+      <tr><td class="rank">5</td><td>Mono-insaturés</td><td>Présence d'oléique (type olive/colza)</td><td class="weight">8 %</td></tr>
+      <tr><td class="rank">6</td><td>Poly-insaturés</td><td>Équilibre, sans excès d'oméga-6</td><td class="weight">8 %</td></tr>
+      <tr><td class="rank">7</td><td>Ratio oméga-6/oméga-3</td><td>Idéalement inférieur à 4</td><td class="weight">18 %</td></tr>
+      <tr><td class="rank">8</td><td>Absence de phytostérols ajoutés</td><td>Pas d'additifs « anti-cholestérol »</td><td class="weight">8 %</td></tr>
+      <tr><td class="rank">9</td><td>Absence d'hydrogénation</td><td>Aucune graisse partiellement hydrogénée</td><td class="weight">8 %</td></tr>
+      <tr><td class="rank">10</td><td>Goût et texture en aveugle</td><td>Tartine, fonte, pâte</td><td class="weight">8 %</td></tr>
+    </tbody>
+  </table>
+  <div class="tip"><strong>Le critère qui pèse le plus :</strong> le ratio oméga-6/oméga-3 (18 % de la note). Sous la barre de 4 pour 1, c'est excellent. Au-delà de 10, on passe son chemin, même si le pot affiche « source d'oméga-3 ».</div>
+</section>
+
+<!-- ============ PAGE 3 : PODIUM 2026 ============ -->
+<section class="page">
+  <h2 class="section">Le podium 2026 des meilleures margarines véganes</h2>
+  <p class="intro">Après avoir noté 8 margarines sur ma grille, voici le trio de tête. Chacune brille pour une raison différente : à toi de choisir selon ta priorité.</p>
+  <div class="podium">
+    <div class="medal gold">
+      <h3>🥇 Vitaquell Oméga 3</h3>
+      <div class="meta">Score 73/100 · Tartine froide · Bio</div>
+      <p>La championne nutrition. Ratio oméga-6/oméga-3 sous la barre des 4, pas d'huile de palme, bio et sans hydrogénation. Fondante et discrète en tartine, juste un peu trop molle pour une pâte brisée exigeante.</p>
+    </div>
+    <div class="medal silver">
+      <h3>🥈 ProActiv Expert Tartine sans huile de palme</h3>
+      <div class="meta">Score 69/100 · Tartine quotidienne · Non bio</div>
+      <p>Le bon compromis grande distribution. Elle exclut la palme tout en restant facile à trouver en supermarché. Non certifiée bio et ratio perfectible, mais un rapport accessibilité/qualité difficile à battre.</p>
+    </div>
+    <div class="medal bronze">
+      <h3>🥉 Primevère Bio Doux</h3>
+      <div class="meta">Score 67/100 · Polyvalente, pâtisserie · Bio</div>
+      <p>La polyvalente bio. Agréable en tartine et étonnamment fiable au four : c'est la margarine couteau-suisse. Elle ne brille pas sur un seul critère mais ne déçoit nulle part — l'achat unique idéal.</p>
+    </div>
+  </div>
+  <div class="tip"><strong>Mon astuce de Chloé :</strong> la gagnante n'est pas forcément celle qui te conviendra. Choisis selon ton usage principal — tartine, cuisson ou pâtisserie — et tu ne te tromperas jamais.</div>
+</section>
+
+<!-- ============ PAGE 4 : LE BON CHOIX SELON L'USAGE ============ -->
+<section class="page">
+  <h2 class="section">La bonne margarine selon ton usage</h2>
+  <p class="intro">La meilleure margarine dépend surtout de ce que tu en fais. Voici mon récapitulatif par usage, avec l'astuce de cuisine qui va avec.</p>
+  <table>
+    <thead>
+      <tr><th>Usage</th><th>Ma recommandation</th><th>Mon astuce</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Tartine froide</td><td>Vitaquell Oméga 3</td><td>Sors-la 10 min avant pour le fondant</td></tr>
+      <tr><td>Cuisson poêle</td><td>Primevère cuisson</td><td>Reste sous 180 °C, sinon ça fume</td></tr>
+      <tr><td>Pâtisserie</td><td>St Hubert Bio Doux / Primevère Bio Doux</td><td>Passe-la 15 min au congélateur avant</td></tr>
+      <tr><td>Brunch / finition</td><td>ProActiv Expert Tartine</td><td>Étale généreusement sur pain chaud</td></tr>
+    </tbody>
+  </table>
+
+  <h2 class="section" style="margin-top:18px">Le classement complet (top 8)</h2>
+  <table>
+    <thead>
+      <tr><th style="width:12%">Rang</th><th>Margarine</th><th style="width:14%">Score</th><th>Usage idéal</th><th style="width:10%">Bio</th></tr>
+    </thead>
+    <tbody>
+      <tr><td class="rank">🥇</td><td>Vitaquell Oméga 3</td><td class="score">73</td><td>Tartine froide</td><td>Oui</td></tr>
+      <tr><td class="rank">🥈</td><td>ProActiv Expert Tartine sans huile de palme</td><td class="score">69</td><td>Tartine quotidienne</td><td>Non</td></tr>
+      <tr><td class="rank">🥉</td><td>Primevère Bio Doux</td><td class="score">67</td><td>Polyvalente, pâtisserie</td><td>Oui</td></tr>
+      <tr><td class="rank">4</td><td>Auchan Bio</td><td class="score">67</td><td>Cuisine du quotidien</td><td>Oui</td></tr>
+      <tr><td class="rank">5</td><td>St Hubert Bio Doux</td><td class="score">64</td><td>Pâtisserie, tartine</td><td>Oui</td></tr>
+      <tr><td class="rank">6</td><td>Primevère cuisson</td><td class="score">62</td><td>Poêle, légumes</td><td>Oui</td></tr>
+      <tr><td class="rank">7</td><td>St Hubert Oméga 3</td><td class="score">61</td><td>Tartine équilibre</td><td>Non</td></tr>
+      <tr><td class="rank">8</td><td>Margarine colza maison du rayon</td><td class="score">58</td><td>Cuisson douce</td><td>Variable</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ============ PAGE 5 : CHECKLIST SUPERMARCHÉ ============ -->
+<section class="page">
+  <h2 class="section">Ma checklist supermarché à imprimer</h2>
+  <p class="intro">Une étiquette se décode en trente secondes une fois qu'on connaît les pièges. Imprime cette page, glisse-la dans ton sac, et déroule les 5 lignes avant chaque achat.</p>
+  <div class="checklist">
+    <h3>✂️ Avant d'acheter, vérifie ces 5 lignes</h3>
+    <p class="lead">Coche au fur et à mesure devant le rayon margarine.</p>
+    <div class="check-item"><span class="check-box"></span><span>La base est-elle du colza/lin/olive — ou du tournesol/palme dominant ?</span></div>
+    <div class="check-item"><span class="check-box"></span><span>La mention « sans huile de palme » est-elle bien présente ?</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Y a-t-il des phytostérols ajoutés (souvent vantés comme un atout) ?</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Le ratio oméga-6/oméga-3 est-il favorable (oméga-3 en quantité réelle) ?</span></div>
+    <div class="check-item"><span class="check-box"></span><span>Lis-tu « partiellement hydrogénée » quelque part ? Si oui, repose le pot.</span></div>
+  </div>
+  <div class="warn"><strong>Mise en garde phytostérols :</strong> une margarine enrichie en phytostérols n'est faite ni pour les femmes enceintes ni pour les enfants. La limite européenne de consommation est fixée à 3 g de phytostérols par jour.</div>
+  <div class="tip"><strong>Le piège n°1 :</strong> la mention « végétale » ne garantit rien — l'huile de palme <em>est</em> végétale. Lis toujours la liste des ingrédients dans l'ordre : la première huile citée est la plus présente.</div>
+  <p class="footer-note">Guide d'achat margarine végane — Vegourmet.fr · Données issues de notre comparatif indépendant 2026. À usage personnel.</p>
+</section>
+
+</body>
+</html>

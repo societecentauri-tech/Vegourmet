@@ -1,0 +1,28 @@
+{
+  "branch": "feat/veg-leadmagnet-ressources",
+  "commit": "d382582",
+  "timestamp": "2026-06-10T09:14:00Z",
+  "reviewer_agent_id": "ae5e62c92968997f8",
+  "reviewer_agent_type": "pr-review-toolkit:code-reviewer",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "spec_compliance": "SPEC_COMPLIANT",
+  "scope": [
+    "app/api/ressource/route.ts",
+    "app/api/download/route.ts",
+    "lib/ressource-validation.ts",
+    "lib/ressource-validation.test.ts",
+    "lib/download-validation.test.ts",
+    "components/mdx/LeadMagnet.tsx",
+    "components/mdx/LeadMagnet.css",
+    "components/ressources/DownloadModal.tsx",
+    "components/ressources/DownloadModal.css",
+    "components/MdxContent.tsx",
+    "content/blog/classement-des-meilleures-margarines.mdx",
+    "public/pdf/guide-achat-margarine.pdf",
+    "scripts/pdf/guide-achat-margarine.html",
+    "package.json",
+    "tsconfig.json"
+  ],
+  "notes": "Review 2-stage (spec-compliance + code-quality, agent a5dc64ba549db5fd7) : tous les livrables SPEC conformes, contrat n8n identique MCG (ressource_slug body, nom_ressource+email query, X-Webhook-Secret), PDF 0 invention (marques/notes tracées à l'article), allowlist anti open-redirect testée en exécution (userinfo trick, protocol-relative, javascript: bloqués), 0 PII en logs, 0 any. Verdict initial GO 0/0/2-P2. P2-1 (timeout fetch n8n) corrigé commit d382582 (AbortSignal.timeout 8000 sur les 2 routes, catch sain). P2-2 (file_url BDD) hors repo, traité par l'orchestrateur à l'INSERT. Re-review (agent ae5e62c92968997f8) : GO MERGE 0/0/0, 4 commits propres (c063017, 55c100b, b9dd9ce, d382582). tsc 0 erreur, 12/12 tests, npm run build OK."
+}

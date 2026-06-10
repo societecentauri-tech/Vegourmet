@@ -1,0 +1,86 @@
+/**
+ * LeadMagnet — encart éditorial de capture inséré dans le corps MDX
+ * (`.vg-entry-content`). Style standalone Vegourmet, couleurs de marque (--vg-*).
+ */
+
+.vg-lm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+  margin: 32px 0;
+  padding: 26px 24px;
+  text-align: center;
+  border-radius: var(--vg-radius, 12px);
+  border: 2px solid var(--vg-terracotta, #d98e73);
+  background: linear-gradient(
+    135deg,
+    rgba(217, 142, 115, 0.14),
+    rgba(230, 177, 112, 0.1)
+  );
+}
+
+.vg-lm-gift {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  font-size: 30px;
+  border-radius: 50%;
+  background: rgba(217, 142, 115, 0.2);
+}
+
+.vg-lm-body {
+  flex: 1 1 auto;
+}
+
+.vg-lm-title {
+  font-family: var(--vg-font-title, "Signika"), sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--vg-title, #2c3e50);
+  margin: 0 0 6px;
+}
+
+.vg-lm-desc {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--vg-text, #333);
+}
+
+.vg-lm-cta {
+  flex: 0 0 auto;
+  display: inline-block;
+  padding: 13px 26px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--vg-terracotta, #d98e73);
+  color: #fff;
+  font-family: var(--vg-font-title, "Signika"), sans-serif;
+  font-weight: 600;
+  font-size: 15.5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.vg-lm-cta:hover:not(:disabled),
+.vg-lm-cta:focus-visible:not(:disabled) {
+  background: var(--vg-terracotta-hover, #bf7052);
+}
+
+.vg-lm-cta:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+/* À partir de la tablette : disposition horizontale (icône / texte / CTA). */
+@media (min-width: 680px) {
+  .vg-lm {
+    flex-direction: row;
+    text-align: left;
+  }
+}

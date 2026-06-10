@@ -11,7 +11,8 @@
     "typecheck": "tsc --noEmit",
     "ratings:snapshot": "node scripts/fetch-ratings-snapshot.mjs",
     "reviews:snapshot": "node scripts/fetch-reviews-snapshot.mjs",
-    "img:meta": "node scripts/inject-image-metadata.mjs"
+    "img:meta": "node scripts/inject-image-metadata.mjs",
+    "test": "node --test \"lib/**/*.test.ts\""
   },
   "dependencies": {
     "gray-matter": "4.0.3",
