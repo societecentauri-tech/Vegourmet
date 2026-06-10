@@ -138,8 +138,6 @@ const nextConfig: NextConfig = {
       // n'a aucune valeur SEO (pages profondes paginées, non canoniques). On
       // redirige donc vers la racine (page 1) de chaque section — plus sûr que
       // vers `?page=N` qui ne correspond à aucune URL indexable côté Next.
-      // ⚠️ Placées AVANT la règle catch-all /blog/:slug pour éviter toute
-      //    capture de /blog/page/:n (qui est de toute façon à 2 segments).
       {
         source: "/recettes/page/:n(\\d+)",
         destination: "/recettes/",
@@ -183,16 +181,12 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
 
-      // ── Articles WP servis sous /blog/* → désormais à la racine /:slug ──────
-      // Les articles vivent maintenant à la racine (app/[slug]/page.tsx, sources
-      // content/blog/*.mdx). L'ancien préfixe /blog/ doit rediriger vers /:slug.
-      // `:slug` ne matche QU'UN segment ⇒ ne capture ni /blog (index, 0 segment)
-      // ni /blog/page/:n (2 segments, déjà traité plus haut).
-      {
-        source: "/blog/:slug",
-        destination: "/:slug/",
-        permanent: true,
-      },
+      // ⚠️ PAS de règle /blog/:slug → /:slug : les permaliens WordPress
+      // d'origine étaient déjà à la RACINE (vegourmet.fr/<slug>/, cf.
+      // archive-wordpress/content/posts.json). Les URL /blog/<slug> n'ont
+      // jamais existé publiquement (donnée published_url forgée par le
+      // pipeline SEO, corrigée côté BDD). Une redirection ici masquerait
+      // l'erreur au lieu de la corriger (décision Victor 2026-06-10).
 
       // ── Taxonomies dupliquées : /category/X → /recette-type/X ──────────────
       // Ces slugs étaient catégorisés comme "category" dans WP mais sont en
