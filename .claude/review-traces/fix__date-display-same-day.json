@@ -1,0 +1,8 @@
+{
+  "branch": "fix/date-display-same-day",
+  "reviewer_agent_type": "self-review-arthur",
+  "verdict": "GO MERGE",
+  "issues": { "P0": 0, "P1": 0, "P2": 0 },
+  "context": "buildDateDisplay comparait datePublished et dateModified en strings brutes : '2026-06-11' vs '2026-06-11T14:00:00+02:00' affichait « Mis à jour le » le jour même de la publication (constaté sur /recettes/cake-courgette-vegan/). Fix : comparaison au jour près via slice(0,10) sur les ISO strings. Demande Victor 2026-06-11.",
+  "timestamp": "2026-06-11T14:20:00+00:00"
+}

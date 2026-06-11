@@ -31,7 +31,10 @@ export function buildDateDisplay(
   tooltip: string | undefined;
 } {
   const effective = dateModified ?? datePublished;
-  const isUpdated = !!dateModified && dateModified !== datePublished;
+  // Comparaison au jour près : un dateModified avec heure le jour de la
+  // publication n'est pas une « mise à jour » (slice ISO YYYY-MM-DD).
+  const isUpdated =
+    !!dateModified && dateModified.slice(0, 10) !== datePublished.slice(0, 10);
 
   return {
     label: isUpdated ? "Mis à jour le" : "Publié le",
