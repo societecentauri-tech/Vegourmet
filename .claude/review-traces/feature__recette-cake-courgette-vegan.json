@@ -1,0 +1,12 @@
+{
+  "branch": "feature/recette-cake-courgette-vegan",
+  "reviewer_agent_type": "general-purpose (opus)",
+  "verdict": "GO MERGE",
+  "issues": { "P0": 0, "P1": 0, "P2": 0 },
+  "initial_findings": {
+    "P1_fixed": "2 images RecipeComboCard pointaient vers {slug}-hero.webp inexistant (recettes migrées WP = -hero.jpg). Corrigé avec les URLs réelles des frontmatters sources, curl 200 vérifié.",
+    "P2_fixed": "Lien interne carrot-cake passé d'absolu à relatif (cohérence avec les href des combo cards)."
+  },
+  "checks": "QA VEG-001..011 PASS, couverture sémantique 0.87, YAML parseable, cohérence culinaire validée (sel dégorgeage unique), 4 images recette 200, 3 affiliateUrl Greenweez ae=825 réels, 7 avis seedés (moyenne 4.43)",
+  "timestamp": "2026-06-11T13:40:00+00:00"
+}
