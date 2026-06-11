@@ -2212,5 +2212,29 @@
    }
   ],
   "ctaUrl": "https://c3po.link/QhRf59V267"
+ },
+ "cake-courgette-vegan": {
+  "title": "Pour un cake courgette moelleux et parfumé",
+  "products": [
+   {
+    "name": "Levure maltée paillette - Markal",
+    "url": "https://www.greenweez.com/produit/levure-maltee-paillette-250g/1MKAL0002?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/cake-courgette-vegan-levure.jpg",
+    "description": "Le petit goût fromager qui fait son effet à l'apéro."
+   },
+   {
+    "name": "Farine de blé T65 - Celnat",
+    "url": "https://www.greenweez.com/produit/farine-de-ble-blanche-t65-bio-1kg/1CELN0011?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/cake-courgette-vegan-farine.jpg",
+    "description": "Du corps sans alourdir, la base d'une mie tendre."
+   },
+   {
+    "name": "Huile d'olive vierge extra - Luce",
+    "url": "https://www.greenweez.com/produit/huile-dolive-vierge-extra-1l-1/1LUCE0020?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/cake-courgette-vegan-huile.jpg",
+    "description": "Elle parfume la pâte tout en discrétion."
+   }
+  ],
+  "ctaUrl": null
  }
 }
