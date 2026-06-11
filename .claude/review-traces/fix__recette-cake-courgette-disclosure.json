@@ -1,0 +1,8 @@
+{
+  "branch": "fix/recette-cake-courgette-disclosure",
+  "reviewer_agent_type": "self-review-arthur (diagnostic logs Vercel)",
+  "verdict": "GO MERGE",
+  "issues": { "P0": 0, "P1": 0, "P2": 0 },
+  "context": "Build prod dpl_GRfTvCB795rt3HB9WFcmF4MvZ3S7 en échec : Expected component AffiliateDisclosure to be defined (composant rendu par app/recettes/[slug]/page.tsx:102, absent du mapping MdxContent). Fix minimal : retrait de la balise du MDX, la mention affiliation reste affichée nativement par le template.",
+  "timestamp": "2026-06-11T13:52:00+00:00"
+}
