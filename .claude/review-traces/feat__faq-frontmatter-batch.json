@@ -1,0 +1,29 @@
+{
+  "branch": "feat/faq-frontmatter-batch",
+  "reviewed_at": "2026-06-11T14:52:45Z",
+  "reviewer": "general-purpose (opus) — mini-reviewer échantillon 5/18",
+  "scope": "Conversion FAQ markdown -> frontmatter faq: + FAQPage JSON-LD sur 18 articles blog vegourmet",
+  "files_sampled": [
+    "content/blog/lait-vegetal-guide-ultime-alternatives-vegan.mdx",
+    "content/blog/aquafaba-9-astuces-magiques-reussir-vos-recettes.mdx",
+    "content/blog/proteines-vegetales-7-bienfaits-incroyables-sante.mdx",
+    "content/blog/fromage-vegan-7-raisons-de-l-adopter-des-aujourdhui.mdx",
+    "content/blog/yaourt-vegetal-10-raisons-de-l-adopter-maintenant.mdx"
+  ],
+  "checks": {
+    "fidelite_contenu": "OK — Q/R déplacées fidèlement, aucune réécriture ni invention, accents intacts",
+    "maillage_preserve": "OK — lait-vegetal : 3 liens internes FAQ déjà présents ailleurs dans le corps (section usage), 0 lien perdu, 0 réinjection nécessaire",
+    "yaml_valide": "OK — frontmatter parseable, faq = liste {q,a}, single quotes, aucune valeur a: contenant [ ]( ou http",
+    "corps_propre": "OK — plus de section ### FAQ, dateModified='2026-06-11', pas de tiret cadratin, pas de triple ligne vide",
+    "build": "OK — next build vert, 352 pages statiques générées (dont routes /[slug])"
+  },
+  "findings": {
+    "P0": [],
+    "P1": [],
+    "P2": [
+      "fromage-vegan : espaces fines insécables U+202F dans guillemets « qui pique » collapsées par la normalisation -> CORRIGÉ après review (U+202F restaurées, audit confirme 2=2 sur les 18)"
+    ]
+  },
+  "verdict": "GO",
+  "verdict_detail": "0 P0, 0 P1. L'unique P2 (typographie U+202F fromage-vegan) a été corrigé avant commit."
+}
