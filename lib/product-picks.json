@@ -1,2216 +1,2240 @@
 {
- "tarama-vegan-secrets-pour-un-apero-bluffant": {
-  "title": "Le duo gagnant pour ton tarama",
-  "products": [
-   {
-    "name": "Crème de soja - SOY",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Base idéale pour une onctuosité parfaite."
-   },
-   {
-    "name": "Algue Dulse - Roches Marines",
-    "url": "https://c3po.link/QCaWzRWe5a",
-    "image": "https://static.vegourmet.fr/img/picks/6d1744d25ff464d5.jpg",
-    "description": "Le vrai goût marin et la couleur rosée."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "tzatziki-vegan-texture-ferme-garantie": {
-  "title": "Les indispensables pour un tzatziki crémeux",
-  "products": [
-   {
-    "name": "Yaourt grec - Sojade",
-    "url": "https://c3po.link/QfRAnjuJQB",
-    "image": "https://static.vegourmet.fr/img/picks/85b37d09c537c09f.jpg",
-    "description": "Texture ultra-ferme. Fini le tzatziki liquide !"
-   },
-   {
-    "name": "Huile d'olive - Emile Noel",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Son goût fruité sublime le mélange ail & menthe."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "riz-cantonais-vegan-meilleure-recette": {
-  "title": "Pour un riz cantonais vegan parfaitement réussi",
-  "products": [
-   {
-    "name": "Riz jasmin - Autour du Riz",
-    "url": "https://c3po.link/QNZQUDphCU",
-    "image": "https://static.vegourmet.fr/img/picks/cad25aca818b15c8.jpg",
-    "description": "Grains parfaits pour un wok réussi."
-   },
-   {
-    "name": "Tofu ferme - Taifun",
-    "url": "https://c3po.link/QbUYdfeaQF",
-    "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
-    "description": "Texture idéale pour remplacer l'œuf."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "scones-vegan-recette-parfaite-brunch": {
-  "title": "Pour des scones vegan parfaitement réussis",
-  "products": [
-   {
-    "name": "Huile de coco - Greenweez",
-    "url": "https://c3po.link/QHmbxDefRw",
-    "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
-    "description": "Parfaite pour une texture feuilletée."
-   },
-   {
-    "name": "Farine de blé - Greenweez",
-    "url": "https://c3po.link/QRCjHubvQs",
-    "image": "https://static.vegourmet.fr/img/picks/54861fc9ad7af1c2.jpg",
-    "description": "Idéale pour des scones moelleux."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "moussaka-vegan-secrets-pour-reussir-recette": {
-  "title": "Pour une moussaka vegan parfaitement réussie",
-  "products": [
-   {
-    "name": "Huile d'olive - Emile Noël",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Parfaite pour rôtir les aubergines."
-   },
-   {
-    "name": "Lait de Soja - LIMA",
-    "url": "https://c3po.link/QYTJjqnRzg",
-    "image": "https://static.vegourmet.fr/img/picks/79ccc2c396849c47.jpg",
-    "description": "Idéal pour une béchamel onctueuse."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "caramel-vegan-recette-rapide-desserts-sucres": {
-  "title": "Pour un caramel onctueux et inratable",
-  "products": [
-   {
-    "name": "Crème de coco  - Bonneterre",
-    "url": "https://c3po.link/QgqEeCevzs",
-    "image": "https://static.vegourmet.fr/img/picks/b9aa73a586ec0afe.jpg",
-    "description": "L'onctuosité parfaite pour vos nappages."
-   },
-   {
-    "name": "Margarine - Bonneterre",
-    "url": "https://c3po.link/QSYeBYFwqv",
-    "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
-    "description": "Garde sa souplesse même après passage au frais."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "champignons-farcis-vegan-facile-et-rapide": {
-  "title": "Pour des champignons farcis ultra gourmands",
-  "products": [
-   {
-    "name": "Levure maltée  - Markal",
-    "url": "https://c3po.link/QdsFCyTuZb",
-    "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
-    "description": "Apporte cette note fromagère tant recherchée."
-   },
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Assure une texture de farce qui se tient parfaitement."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "frangipane-vegan-recette-galette-des-rois": {
-  "title": "Pour une frangipane royale qui bluffe tout le monde",
-  "products": [
-   {
-    "name": "Margarine  - Bonneterre",
-    "url": "https://c3po.link/QSYeBYFwqv",
-    "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
-    "description": "Un goût neutre qui laisse place à l'amande."
-   },
-   {
-    "name": "Poudre d'amandes - Greenweez",
-    "url": "https://c3po.link/nmwevCAZB4",
-    "image": "https://static.vegourmet.fr/img/picks/462c21e5a97b1de6.jpg",
-    "description": "Sa finesse de grain sublime la frangipane."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "pain-d-epices-vegan-recette-de-fin-dannee": {
-  "title": "Pour un pain d'épices d'exception, moelleux à souhait",
-  "products": [
-   {
-    "name": "Sucre de canne  - Ethiquable",
-    "url": "https://c3po.link/QzURvFKUNw",
-    "image": "https://static.vegourmet.fr/img/picks/a967f3ce651d0a16.jpg",
-    "description": "Apporte des notes caramélisées profondes."
-   },
-   {
-    "name": "Lait d'avoine - Evernat",
-    "url": "https://c3po.link/QSPd8NzwZ3",
-    "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
-    "description": "Préserve le moelleux durant plusieurs jours."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "madeleines-vegan-meilleure-recette-moelleuse": {
-  "title": "Pour des madeleines à la bosse parfaite",
-  "products": [
-   {
-    "name": "Lait de soja  - Lima",
-    "url": "https://c3po.link/QYTJjqnRzg",
-    "image": "https://static.vegourmet.fr/img/picks/79ccc2c396849c47.jpg",
-    "description": "Assure une mie légère et aérée."
-   },
-   {
-    "name": "Extrait de vanille - Cook",
-    "url": "https://c3po.link/Q5pBRD4aXc",
-    "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
-    "description": "Le secret d'un parfum envoûtant."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "cookies-vegan-sans-gluten-meilleure-recette": {
-  "title": "Pour des cookies sans gluten fondants en bouche",
-  "products": [
-   {
-    "name": "Margarine  - Bonneterre",
-    "url": "https://c3po.link/QSYeBYFwqv",
-    "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
-    "description": "Garantit le fondant absolu, même sans gluten."
-   },
-   {
-    "name": "Lait d'amande - EcoMil",
-    "url": "https://c3po.link/Qdxyd4swPw",
-    "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
-    "description": "Sublime le goût des pépites de chocolat."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "riz-au-lait-vegan-recette-ultra-cremeuse": {
-  "title": "Pour un riz au lait à l'onctuosité incomparable",
-  "products": [
-   {
-    "name": "Margarine  - Bonneterre",
-    "url": "https://c3po.link/QSYeBYFwqv",
-    "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
-    "description": "Apporte une texture d'une douceur infinie."
-   },
-   {
-    "name": "Lait d'amande - EcoMil",
-    "url": "https://c3po.link/Qdxyd4swPw",
-    "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
-    "description": "Donne ce crémeux qui ne déçoit jamais."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "tarte-aux-pommes-vegan-meilleure-recette": {
-  "title": "Pour une tarte aux pommes dorée et croustillante",
-  "products": [
-   {
-    "name": "Margarine  - Bonneterre",
-    "url": "https://c3po.link/QSYeBYFwqv",
-    "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
-    "description": "La garantie d'une pâte bien dorée."
-   },
-   {
-    "name": "Poudre d'amandes - Greenweez",
-    "url": "https://c3po.link/nmwevCAZB4",
-    "image": "https://static.vegourmet.fr/img/picks/462c21e5a97b1de6.jpg",
-    "description": "Absorbe le jus pour garder le croustillant."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "gratin-de-chou-fleur-vegan-recette-cremeuse": {
-  "title": "Pour un gratin de chou-fleur riche et gratiné",
-  "products": [
-   {
-    "name": "Lait de soja - Lima",
-    "url": "https://c3po.link/QYTJjqnRzg",
-    "image": "https://static.vegourmet.fr/img/picks/79ccc2c396849c47.jpg",
-    "description": "La base parfaite pour une béchamel soyeuse."
-   },
-   {
-    "name": "Levure maltée - Markal",
-    "url": "https://c3po.link/QdsFCyTuZb",
-    "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
-    "description": "Donne ce dessus bien gratiné recherché."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "lemon-curd-vegan-recette-ideale-tarte-citron": {
-  "title": "Pour un lemon curd onctueux et équilibré",
-  "products": [
-   {
-    "name": "Lait d'amande - EcoMil",
-    "url": "https://c3po.link/Qdxyd4swPw",
-    "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
-    "description": "Équilibre la vivacité du citron avec douceur."
-   },
-   {
-    "name": "Margarine bio - Bonneterre",
-    "url": "https://c3po.link/QSYeBYFwqv",
-    "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
-    "description": "Assure une texture lisse digne d'un pâtissier."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "fraisier-vegan-classique-de-la-patisserie": {
-  "title": "Pour un fraisier spectaculaire et aérien",
-  "products": [
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Assure une génoise qui monte généreusement."
-   },
-   {
-    "name": "Pâte d'amande - Jean Hervé",
-    "url": "https://c3po.link/QCZrBJPTRg",
-    "image": "https://static.vegourmet.fr/img/picks/fabf1f1f4e911eb9.jpg",
-    "description": "Apporte une finition d'une grande finesse."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "tarte-au-citron-vegan-recette-patissier-pro": {
-  "title": "Pour une tarte au citron digne des plus grands",
-  "products": [
-   {
-    "name": "Huile de coco bio - Greenweez",
-    "url": "https://c3po.link/QHmbxDefRw",
-    "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
-    "description": "Apporte une tenue et un fondant exceptionnels."
-   },
-   {
-    "name": "Sirop d'agave - Greenweez",
-    "url": "https://c3po.link/QCuE8CC3zt",
-    "image": "https://static.vegourmet.fr/img/picks/da06bf5b4c3c3b7f.jpg",
-    "description": "Sucre sans altérer la fraîcheur du citron."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "flan-vegan-recette-championne-du-monde": {
-  "title": "Pour un flan pâtissier riche et réconfortant",
-  "products": [
-   {
-    "name": "Lait de soja - Lima",
-    "url": "https://c3po.link/QYTJjqnRzg",
-    "image": "https://static.vegourmet.fr/img/picks/79ccc2c396849c47.jpg",
-    "description": "Le secret d'une texture parfaitement prise."
-   },
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Apporte une onctuosité royale en chaque bouchée."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "energy-balls-la-meilleure-recette-healthy": {
-  "title": "Pour des energy balls gourmandes et vitalisantes",
-  "products": [
-   {
-    "name": "Poudre de cacao - Terra Etica",
-    "url": "https://c3po.link/QH72XfDfuM",
-    "image": "https://static.vegourmet.fr/img/picks/8b50a1a7d43b6828.jpg",
-    "description": "Donne un goût de cacao pur et intense."
-   },
-   {
-    "name": "Purée d'amandes - Greenweez",
-    "url": "https://c3po.link/QtWvshAHNj",
-    "image": "https://static.vegourmet.fr/img/picks/fc0eed77fbf265d6.jpg",
-    "description": "Le liant idéal pour une tenue parfaite."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "hachis-parmentier-vegan-recette-hyper-facile": {
-  "title": "Pour un hachis parmentier d'exception",
-  "products": [
-   {
-    "name": "Lentilles vertes - Greenweez",
-    "url": "https://c3po.link/Q9erQje8bC",
-    "image": "https://static.vegourmet.fr/img/picks/f82f167c6a8a21a8.jpg",
-    "description": "Apportent une alternative texturée et savoureuse."
-   },
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Garantit une purée onctueuse."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "moelleux-au-chocolat-vegan-recette-facile": {
-  "title": "Pour un moelleux au chocolat irrésistible",
-  "products": [
-   {
-    "name": "Cacao maigre en poudre - Terra Etica",
-    "url": "https://c3po.link/QH72XfDfuM",
-    "image": "https://static.vegourmet.fr/img/picks/8b50a1a7d43b6828.jpg",
-    "description": "Apporte une profondeur de chocolat intense."
-   },
-   {
-    "name": "Vinaigre de cidre - Huilerie VIGEAN",
-    "url": "https://c3po.link/QCFMQABQHa",
-    "image": "https://static.vegourmet.fr/img/picks/257130367188ee48.jpg",
-    "description": "La touche secrète pour un gâteau bien levé."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "banana-bread-vegan-aux-pepites-de-chocolat": {
-  "title": "Pour un banana bread ultra moelleux",
-  "products": [
-   {
-    "name": "Lait d'avoine - Evernat",
-    "url": "https://c3po.link/QSPd8NzwZ3",
-    "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
-    "description": "Sublime la douceur naturelle des bananes."
-   },
-   {
-    "name": "Chocolat noir bio - Greenweez",
-    "url": "https://c3po.link/QNgMR7fjn4",
-    "image": "https://static.vegourmet.fr/img/picks/69e58fcbf7a6410b.jpg",
-    "description": "Fondent délicatement dans chaque bouchée."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "maki-vegan-meilleure-recette-japonaise": {
-  "title": "Pour des makis maison comme au Japon",
-  "products": [
-   {
-    "name": "Vinaigre de riz - Autour du Riz",
-    "url": "https://c3po.link/Qx6YAkJDqc",
-    "image": "https://static.vegourmet.fr/img/picks/58515dffd2b0bf6f.jpg",
-    "description": "Donne l'équilibre parfait au riz."
-   },
-   {
-    "name": "Tofu fumé - Taifun",
-    "url": "https://c3po.link/QbUYdfeaQF",
-    "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
-    "description": "Apporte un goût fumé qui sublime les makis."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "mafe-vegan-meilleure-recette-ragout-africain": {
-  "title": "Pour un mafé riche et authentique",
-  "products": [
-   {
-    "name": "Beurre de cacahuètes - Go Nuts",
-    "url": "https://c3po.link/QpvEF9SwT8",
-    "image": "https://static.vegourmet.fr/img/picks/8cca17e0963ee688.jpg",
-    "description": "Apporte une texture crémeuse et un goût puissant."
-   },
-   {
-    "name": "Riz basmati - Greenweez",
-    "url": "https://c3po.link/QWknmaCkJf",
-    "image": "https://static.vegourmet.fr/img/picks/6e0bd3e388f50c05.jpg",
-    "description": "Donne des grains longs qui restent bien séparés."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "tarte-a-la-courgette-vegan-facile-gourmande": {
-  "title": "Pour une tarte à la courgette fondante",
-  "products": [
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Assure un liant parfait pour un appareil onctueux."
-   },
-   {
-    "name": "Tofu soyeux - Soy (frais)",
-    "url": "https://c3po.link/QCq4avPtgg",
-    "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
-    "description": "Le secret d'une légèreté aérienne."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "avocat-farci-vegan-nouvelle-recette": {
-  "title": "Pour des avocats farcis pleins de fraîcheur",
-  "products": [
-   {
-    "name": "Quinoa real blanc - Priméal",
-    "url": "https://c3po.link/QynxrRSrhx",
-    "image": "https://static.vegourmet.fr/img/picks/3ff0e503c940f1b2.jpg",
-    "description": "Apporte un apport nutritif et croquant."
-   },
-   {
-    "name": "Huile d'olive - Emile Noel",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Sa finesse sublime les avocats."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "baeckeoffe-vegan-recette-alsacienne-revisite": {
-  "title": "Pour un baeckeoffe traditionnel revisité",
-  "products": [
-   {
-    "name": "Champignons de Paris - Luce",
-    "url": "https://c3po.link/Qe4ZQkwV8Z",
-    "image": "https://static.vegourmet.fr/img/picks/dfd40fe45d047eea.jpg",
-    "description": "Apportent une mâche généreuse et savoureuse."
-   },
-   {
-    "name": "Huile d'olive - Emile Noel",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Parfaite pour sublimer les marinades."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "galette-de-sarrasin-vegan-recette-breteonne": {
-  "title": "Pour des galettes bretonnes authentiques",
-  "products": [
-   {
-    "name": "Farine de sarrasin - Greenweez",
-    "url": "https://c3po.link/Qzn8Cqu4dY",
-    "image": "https://static.vegourmet.fr/img/picks/1ff103140b4811ba.jpg",
-    "description": "Donne le vrai goût du terroir breton."
-   },
-   {
-    "name": "Tofu fumé - Moulin des Moines",
-    "url": "https://c3po.link/QRexJatvby",
-    "image": "https://static.vegourmet.fr/img/picks/26b2f283e6c7e9d4.jpg",
-    "description": "Remplace le lard avec gourmandise."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "ganache-vegan-recette-ultra-facile-revisitee": {
-  "title": "Pour une ganache miroir et onctueuse",
-  "products": [
-   {
-    "name": "Tablette chocolat noir - Bonneterre",
-    "url": "https://c3po.link/nQ5h2jryTC",
-    "image": "https://static.vegourmet.fr/img/picks/cca9e62f3cd58e7f.jpg",
-    "description": "Apporte une brillance et une fluidité parfaites."
-   },
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Assure un mélange homogène et lisse."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "potimarron-farci-vegan-recette-automne": {
-  "title": "Pour un potimarron farci réconfortant",
-  "products": [
-   {
-    "name": "Quinoa - Priméal",
-    "url": "https://c3po.link/QynxrRSrhx",
-    "image": "https://static.vegourmet.fr/img/picks/3ff0e503c940f1b2.jpg",
-    "description": "Donne une garniture moelleuse à souhait."
-   },
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Lie harmonieusement tous les ingrédients."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "creme-au-chocolat-vegan-recette-cremeuse": {
-  "title": "Pour une crème chocolatée soyeuse",
-  "products": [
-   {
-    "name": "Tofu soyeux - Soy",
-    "url": "https://c3po.link/QCq4avPtgg",
-    "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
-    "description": "Apporte une onctuosité bluffante, sans goût de soja."
-   },
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Permet de régler la texture avec précision."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "quenelles-vegan-meilleure-recette-lyonnaise": {
-  "title": "Pour des quenelles lyonnaises légères",
-  "products": [
-   {
-    "name": "Semoule de blé - Priméal",
-    "url": "https://c3po.link/QYUWprxjCA",
-    "image": "https://static.vegourmet.fr/img/picks/3d975f41eaa925ec.jpg",
-    "description": "Sa finesse assure des quenelles aériennes."
-   },
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Apporte le crémeux indispensable à la sauce."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "choucroute-vegan-meilleure-recette-familiale": {
-  "title": "Pour une choucroute généreuse et croquante",
-  "products": [
-   {
-    "name": "Choucroute bio - Priméal",
-    "url": "https://c3po.link/Qd38fpH5nr",
-    "image": "https://static.vegourmet.fr/img/picks/4747baf77b83d884.jpg",
-    "description": "Apporte un croquant et une acidité maîtrisés."
-   },
-   {
-    "name": "Saucisse de seitan - Wheaty",
-    "url": "https://c3po.link/QpfPSEsEyk",
-    "image": "https://static.vegourmet.fr/img/picks/c96bca8a50c67919.jpg",
-    "description": "Donne une saveur fumée bluffante."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "kimchi-vegan-meilleure-recette-authentique": {
-  "title": "Pour un kimchi piquant et équilibré",
-  "products": [
-   {
-    "name": "Sauce soja shoyu - Autour du Riz",
-    "url": "https://c3po.link/QBBZcpBNqF",
-    "image": "https://static.vegourmet.fr/img/picks/b485bcfdb927e2a1.jpg",
-    "description": "Apporte le goût authentique du Japon."
-   },
-   {
-    "name": "Sucre de coco - Greenweez",
-    "url": "https://c3po.link/QZHTweWDWH",
-    "image": "https://static.vegourmet.fr/img/picks/e8433246413518c9.jpg",
-    "description": "Adoucit le piquant avec élégance."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "polenta-vegan-recette-cremeuse-champignons": {
-  "title": "Pour une polenta fondante et savoureuse",
-  "products": [
-   {
-    "name": "Semoule maïs fine - Markal",
-    "url": "https://c3po.link/QtPNRTFtaV",
-    "image": "https://static.vegourmet.fr/img/picks/383d1159604cf568.jpg",
-    "description": "Garantit une onctuosité parfaite."
-   },
-   {
-    "name": "Lait d'avoine - Evernat",
-    "url": "https://c3po.link/QSPd8NzwZ3",
-    "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
-    "description": "Apporte une douceur onctueuse."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "gyozas-vegan-meilleure-reccette-voyage": {
-  "title": "Pour des gyozas croustillants et juteux",
-  "products": [
-   {
-    "name": "Tofu fumé - Taifun",
-    "url": "https://c3po.link/QbUYdfeaQF",
-    "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
-    "description": "Apporte le goût fumé qui rappelle la viande."
-   },
-   {
-    "name": "Sauce soja shoyu - Autour du Riz",
-    "url": "https://c3po.link/QBBZcpBNqF",
-    "image": "https://static.vegourmet.fr/img/picks/b485bcfdb927e2a1.jpg",
-    "description": "Donne l'umami fondamental des gyozas."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "curry-vert-vegan-recette-thai-facile": {
-  "title": "Pour un curry vert thaï authentique",
-  "products": [
-   {
-    "name": "Pâte de curry vert - Le Voyage de Mamabé",
-    "url": "https://c3po.link/QdfPjZX2sq",
-    "image": "https://static.vegourmet.fr/img/picks/d38c5fc5611c8267.jpg",
-    "description": "Apporte des arômes explosifs authentiques."
-   },
-   {
-    "name": "Sauce soja shoyu - Autour du Riz",
-    "url": "https://c3po.link/QBBZcpBNqF",
-    "image": "https://static.vegourmet.fr/img/picks/b485bcfdb927e2a1.jpg",
-    "description": "Équilibre le piquant avec finesse."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "salade-de-pates-vegan-recette-facile": {
-  "title": "Pour une salade de pâtes fraîche et colorée",
-  "products": [
-   {
-    "name": "Pesto au basilic vegan - La Selva",
-    "url": "https://c3po.link/Qt34h9vnPk",
-    "image": "https://static.vegourmet.fr/img/picks/67f5f6d800d3930e.jpg",
-    "description": "Donne un basilic intense prêt à l'emploi."
-   },
-   {
-    "name": "Tofu fumé bio - Moulin des Moines",
-    "url": "https://c3po.link/QRexJatvby",
-    "image": "https://static.vegourmet.fr/img/picks/26b2f283e6c7e9d4.jpg",
-    "description": "Apportent des protéines fumées qui relèvent."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "mascarpone-vegan-recette-star-desserts": {
-  "title": "Pour un mascarpone onctueux et ferme",
-  "products": [
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Apporte la neutralité parfaite d'un fromage blanc."
-   },
-   {
-    "name": "Huile de coco - Greenweez",
-    "url": "https://c3po.link/QHmbxDefRw",
-    "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
-    "description": "Assure tenue et onctuosité."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "tajine-vegan-recette-coup-de-coeur-famille": {
-  "title": "Pour un tajine généreux et parfumé",
-  "products": [
-   {
-    "name": "Pois chiches bio - Greenweez",
-    "url": "https://c3po.link/Qe982PJmPt",
-    "image": "https://static.vegourmet.fr/img/picks/1429ce5cd1fb5577.png",
-    "description": "Restent tendres et nourrissants."
-   },
-   {
-    "name": "Huile d'olive - Emile Noel",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Sublime les épices orientales."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "sables-de-noel-vegan-recette-fetes-reussies": {
-  "title": "Pour des sablés de Noël qui fondent",
-  "products": [
-   {
-    "name": "Extrait de vanille - Cook",
-    "url": "https://c3po.link/Q5pBRD4aXc",
-    "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
-    "description": "Apporte le parfum des fêtes par excellence."
-   },
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Donne une pâte facile à travailler."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "tourte-vegan-recette-facile-champignons": {
-  "title": "Pour une tourte aux champignons généreuse",
-  "products": [
-   {
-    "name": "Tofu fumé bio - Moulin des Moines",
-    "url": "https://c3po.link/QRexJatvby",
-    "image": "https://static.vegourmet.fr/img/picks/26b2f283e6c7e9d4.jpg",
-    "description": "Magnifie le goût des champignons."
-   },
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Apporte l'onctuosité parfaite d'une garniture riche."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "buche-de-noel-vegan-recette-toute-famille": {
-  "title": "Pour une bûche de Noël spectaculaire",
-  "products": [
-   {
-    "name": "Extrait de vanille - Cook",
-    "url": "https://c3po.link/Q5pBRD4aXc",
-    "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
-    "description": "Apporte l'essence même de Noël."
-   },
-   {
-    "name": "Sirop d'agave Bio - Greenweez",
-    "url": "https://c3po.link/QCuE8CC3zt",
-    "image": "https://static.vegourmet.fr/img/picks/da06bf5b4c3c3b7f.jpg",
-    "description": "Sucre naturellement pour imbiber délicatement."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "creme-citron-vegan-desserts-inratables": {
-  "title": "Pour une crème citron brillante et acidulée",
-  "products": [
-   {
-    "name": "Margarine bio - Bonneterre",
-    "url": "https://c3po.link/QSYeBYFwqv",
-    "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
-    "description": "Assure une texture lisse et brillante."
-   },
-   {
-    "name": "Fécule de maïs - Ma Vie Sans Gluten",
-    "url": "https://c3po.link/QSuPzkkka9",
-    "image": "https://static.vegourmet.fr/img/picks/3e77aa5514b26003.jpg",
-    "description": "Épaissit sans former de grumeaux."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "creme-au-beurre-vegan-recette-secrete": {
-  "title": "Pour une crème au beurre légère et aérée",
-  "products": [
-   {
-    "name": "Extrait de vanille - Cook",
-    "url": "https://c3po.link/Q5pBRD4aXc",
-    "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
-    "description": "Parfume délicatement la crème."
-   },
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Permet une montée parfaite en chantilly."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "pate-a-choux-vegan-recette-choux-parfaits": {
-  "title": "Pour une pâte à choux bien gonflée",
-  "products": [
-   {
-    "name": "Margarine bio - Bonneterre",
-    "url": "https://c3po.link/QSYeBYFwqv",
-    "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
-    "description": "Assure gonflage et dorure."
-   },
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Garantit une pâte légère et croustillante."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "porridge-vegan-recette-dejeuner-healthy": {
-  "title": "Pour un porridge crémeux et réconfortant",
-  "products": [
-   {
-    "name": "Flocons d'avoine - Greenweez",
-    "url": "https://c3po.link/QhHSxPaPT3",
-    "image": "https://static.vegourmet.fr/img/picks/babd10e434047b6c.jpg",
-    "description": "Donnent une texture crémeuse en quelques minutes."
-   },
-   {
-    "name": "Sirop d'érable - Terre d'Erable",
-    "url": "https://c3po.link/QH7jP2KkeQ",
-    "image": "https://static.vegourmet.fr/img/picks/71923d2df3fd25c6.jpg",
-    "description": "Apporte une douceur naturelle incomparable."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "crumble-sale-vegan-recette-reconfortante": {
-  "title": "Pour un crumble salé doré et croustillant",
-  "products": [
-   {
-    "name": "Huile de coco - Greenweez",
-    "url": "https://c3po.link/QHmbxDefRw",
-    "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
-    "description": "Assure un croustillant doré à chaque fois."
-   },
-   {
-    "name": "Farine de blé - Greenweez",
-    "url": "https://c3po.link/Q3FEbHRMjq",
-    "image": "https://static.vegourmet.fr/img/picks/1d1ed7ee7f1508e6.jpg",
-    "description": "S'adapte à toutes les garnitures."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "cookies-flocons-davoine-vegan-recette": {
-  "title": "Pour des cookies aux flocons moelleux",
-  "products": [
-   {
-    "name": "Farine d'épeautre - Moulin des Moines",
-    "url": "https://c3po.link/QNy2eSrXZE",
-    "image": "https://static.vegourmet.fr/img/picks/3b2cb6a8d8842699.jpg",
-    "description": "Apporte un goût rustique apprécié."
-   },
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Conserve le moelleux plusieurs jours."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "poutine-vegan-recette-quebecoise-familiale": {
-  "title": "Pour une poutine québécoise généreuse",
-  "products": [
-   {
-    "name": "Huile d'olive - Emile Noel",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Donne des frites dorées et croustillantes."
-   },
-   {
-    "name": "Levure maltée - Markal",
-    "url": "https://c3po.link/QdsFCyTuZb",
-    "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
-    "description": "Apporte la sauce fromagée incontournable."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "gratin-d-endives-vegan-recette-familiale": {
-  "title": "Pour un gratin d'endives fondant",
-  "products": [
-   {
-    "name": "Lait d'avoine bio - Evernat",
-    "url": "https://c3po.link/QSPd8NzwZ3",
-    "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
-    "description": "Assure une béchamel légère et onctueuse."
-   },
-   {
-    "name": "Margarine bio - Bonneterre",
-    "url": "https://c3po.link/QSYeBYFwqv",
-    "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
-    "description": "Garantit un dessus gratiné à perfection."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "ganache-chocolat-vegan-recette-inratable": {
-  "title": "Pour une ganache chocolat brillante",
-  "products": [
-   {
-    "name": "Chocolat noir bio - Greenweez",
-    "url": "https://c3po.link/QNgMR7fjn4",
-    "image": "https://static.vegourmet.fr/img/picks/69e58fcbf7a6410b.jpg",
-    "description": "Assure une fonte homogène."
-   },
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Garantit une texture lisse qui ne tranche pas."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "rocher-coco-vegan-recette-express-cuisson": {
-  "title": "Pour des rochers coco croustillants",
-  "products": [
-   {
-    "name": "Noix de coco râpée - Markal",
-    "url": "https://c3po.link/QCwV9e5Qhv",
-    "image": "https://static.vegourmet.fr/img/picks/a9212a8303ffa3d8.jpg",
-    "description": "Apporte un goût de coco intense et authentique."
-   },
-   {
-    "name": "Pépites de chocolat noir - Kaoka",
-    "url": "https://c3po.link/QJXSPa8tnr",
-    "image": "https://static.vegourmet.fr/img/picks/63e67f3946f66a85.jpg",
-    "description": "Fondent délicatement dans chaque bouchée."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "cake-aux-legumes-vegan-recette-parfaite": {
-  "title": "Pour un cake aux légumes moelleux",
-  "products": [
-   {
-    "name": "Lait d'avoine - Evernat",
-    "url": "https://c3po.link/QSPd8NzwZ3",
-    "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
-    "description": "Assure une légèreté et un moelleux parfaits."
-   },
-   {
-    "name": "Feta vegan Janis - Jay&Joy",
-    "url": "https://c3po.link/Q7gpFptYZp",
-    "image": "https://static.vegourmet.fr/img/picks/aa1edde1d8d098d3.jpg",
-    "description": "Apporte la touche fromagère qui fait la différence."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "ravioles-vegan-recette-facile-version-maison": {
-  "title": "Pour des ravioles crémeuses maison",
-  "products": [
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Enrobe délicatement chaque raviole."
-   },
-   {
-    "name": "Levure maltée - Markal",
-    "url": "https://c3po.link/QdsFCyTuZb",
-    "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
-    "description": "Apporte un goût subtil de fromage affiné."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "financier-vegan-recette-parfaite-moelleuse": {
-  "title": "Pour des financiers moelleux à cœur",
-  "products": [
-   {
-    "name": "Poudre d'amandes - Greenweez",
-    "url": "https://c3po.link/nmwevCAZB4",
-    "image": "https://static.vegourmet.fr/img/picks/462c21e5a97b1de6.jpg",
-    "description": "Sa finesse de grain sublime les financiers."
-   },
-   {
-    "name": "Yaourt de soja - Sojade",
-    "url": "https://c3po.link/Qe8bmYMjbb",
-    "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
-    "description": "Conserve le moelleux plusieurs jours."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "spring-rolls-vegan-meilleure-recette-asie": {
-  "title": "Pour des spring rolls frais et croquants",
-  "products": [
-   {
-    "name": "Tofu fumé - Moulin des moines",
-    "url": "https://c3po.link/QRexJatvby",
-    "image": "https://static.vegourmet.fr/img/picks/26b2f283e6c7e9d4.jpg",
-    "description": "Apporte des protéines fumées savoureuses."
-   },
-   {
-    "name": "Sauce soja tamari - Lima",
-    "url": "https://c3po.link/QBEVqZgaNE",
-    "image": "https://static.vegourmet.fr/img/picks/9a620ffa46bd997c.jpg",
-    "description": "Donne la sauce parfaite pour accompagner."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "canneles-vegan-meilleure-recette-bordelaise": {
-  "title": "Pour des cannelés croustillants dehors",
-  "products": [
-   {
-    "name": "Lait de soja bio - Lima",
-    "url": "https://c3po.link/QYTJjqnRzg",
-    "image": "https://static.vegourmet.fr/img/picks/79ccc2c396849c47.jpg",
-    "description": "Assure une texture traditionnelle réussie."
-   },
-   {
-    "name": "Farine de blé bio - Greenweez",
-    "url": "https://c3po.link/Q3FEbHRMjq",
-    "image": "https://static.vegourmet.fr/img/picks/1d1ed7ee7f1508e6.jpg",
-    "description": "Garantit une caramélisation dorée à tous les coups."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "brookies-vegan-recette-alliance-incroyable": {
-  "title": "Pour des brookies mi-brownie mi-cookie",
-  "products": [
-   {
-    "name": "Chocolat noir bio - Greenweez",
-    "url": "https://c3po.link/QNgMR7fjn4",
-    "image": "https://static.vegourmet.fr/img/picks/69e58fcbf7a6410b.jpg",
-    "description": "Apporte un chocolat intense à chaque bouchée."
-   },
-   {
-    "name": "Lait d'avoine - Evernat",
-    "url": "https://c3po.link/QSPd8NzwZ3",
-    "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
-    "description": "Donne la texture parfaite entre les deux."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "creme-brulee-vegan-recette-facile": {
-  "title": "Pour une crème brûlée craquante dessus",
-  "products": [
-   {
-    "name": "Lait de coco - Evernat",
-    "url": "https://c3po.link/QMSk64XRY8",
-    "image": "https://static.vegourmet.fr/img/picks/c516d57f316dada2.jpg",
-    "description": "Assure une texture crémeuse sans lourdeur."
-   },
-   {
-    "name": "Lait d'avoine - Evernat",
-    "url": "https://c3po.link/QSPd8NzwZ3",
-    "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
-    "description": "Équilibre la richesse de la coco."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "quiche-aux-poireaux-vegan-recette-fondante": {
-  "title": "Pour une quiche aux poireaux fondante",
-  "products": [
-   {
-    "name": "Tofu soyeux nature - Soy",
-    "url": "https://c3po.link/QCq4avPtgg",
-    "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
-    "description": "Donne un appareil soyeux comme une vraie quiche."
-   },
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Assure une tenue qui ne retombe jamais."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "tarte-tatin-vegan-recette-traditionnelle": {
-  "title": "Pour une tarte tatin caramélisée",
-  "products": [
-   {
-    "name": "Farine de blé - Greenweez",
-    "url": "https://c3po.link/QRCjHubvQs",
-    "image": "https://static.vegourmet.fr/img/picks/54861fc9ad7af1c2.jpg",
-    "description": "Assure une pâte qui tient bien au caramel."
-   },
-   {
-    "name": "Margarine bio - Bonneterre",
-    "url": "https://c3po.link/QSYeBYFwqv",
-    "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
-    "description": "Garantit une caramélisation dorée incomparable."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "cake-au-citron-vegan-meilleure-recette-2025": {
-  "title": "Pour un cake au citron ultra moelleux",
-  "products": [
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Sublime l'acidité du citron."
-   },
-   {
-    "name": "Yaourt de soja - Sojade",
-    "url": "https://c3po.link/Qe8bmYMjbb",
-    "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
-    "description": "Conserve un moelleux qui dure toute la semaine."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "kebab-vegan-recette-geniale-sans-voix": {
-  "title": "Pour un kebab vegan ultra savoureux",
-  "products": [
-   {
-    "name": "Seitan Ã  cuisiner - Soy",
-    "url": "https://c3po.link/QHh8Xg3g7m",
-    "image": "https://static.vegourmet.fr/img/picks/4d6117da0c96bae6.jpg",
-    "description": "Apporte une texture qui rappelle la viande."
-   },
-   {
-    "name": "Yaourt de soja - Sojade",
-    "url": "https://c3po.link/Qe8bmYMjbb",
-    "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
-    "description": "Donne la sauce blanche crémeuse authentique."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "pot-au-feu-vegan-meilleure-recette-grandmere": {
-  "title": "Pour un pot-au-feu réconfortant",
-  "products": [
-   {
-    "name": "Tofu fumé - Moulin des Moines",
-    "url": "https://c3po.link/QRexJatvby",
-    "image": "https://static.vegourmet.fr/img/picks/26b2f283e6c7e9d4.jpg",
-    "description": "Apporte un goût fumé qui rappelle le lard."
-   },
-   {
-    "name": "Clous de girofle - Greenweez",
-    "url": "https://c3po.link/QY2ZXPNnAh",
-    "image": "https://static.vegourmet.fr/img/picks/5e1f0a1a46b468eb.jpg",
-    "description": "Donne le parfum des grands-mères."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "mayonnaise-vegan-recette-sauce-emblematique": {
-  "title": "Pour une mayonnaise onctueuse express",
-  "products": [
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Monte en émulsion en 2 minutes."
-   },
-   {
-    "name": "Vinaigre de cidre - Huilerie VIGEAN",
-    "url": "https://c3po.link/QCFMQABQHa",
-    "image": "https://static.vegourmet.fr/img/picks/257130367188ee48.jpg",
-    "description": "Apporte l'acidité juste ce qu'il faut."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "salade-vegan-recette-1-decouvrir-cette-annee": {
-  "title": "Pour une salade complète et nourrissante",
-  "products": [
-   {
-    "name": "Quinoa Real blanc - Priméal",
-    "url": "https://c3po.link/QynxrRSrhx",
-    "image": "https://static.vegourmet.fr/img/picks/3ff0e503c940f1b2.jpg",
-    "description": "Apportent des protéines complètes qui rassasient."
-   },
-   {
-    "name": "Vinaigre de cidre - Huilerie VIGEAN",
-    "url": "https://c3po.link/QCFMQABQHa",
-    "image": "https://static.vegourmet.fr/img/picks/257130367188ee48.jpg",
-    "description": "Donne une vinaigrette équilibrée."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "gratin-dauphinois-vegan-recette-preferee-fr": {
-  "title": "Pour un gratin dauphinois crémeux",
-  "products": [
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Enrobe délicatement chaque pomme de terre."
-   },
-   {
-    "name": "Lait d'avoine - Evernat",
-    "url": "https://c3po.link/QSPd8NzwZ3",
-    "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
-    "description": "Apporte une légèreté qui fait fondre."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "carrot-cake-vegan-recette-moelleuse": {
-  "title": "Pour un carrot cake ultra moelleux",
-  "products": [
-   {
-    "name": "Farine de blé bio - Greenweez",
-    "url": "https://c3po.link/QRCjHubvQs",
-    "image": "https://static.vegourmet.fr/img/picks/54861fc9ad7af1c2.jpg",
-    "description": "Garantit une texture aérienne."
-   },
-   {
-    "name": "Yaourt de soja - Sojade",
-    "url": "https://c3po.link/Qe8bmYMjbb",
-    "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
-    "description": "Conserve le moelleux qui dure."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "brioche-vegan-recette-ultra-moelleuse-tester": {
-  "title": "Pour une brioche filante et parfumée",
-  "products": [
-   {
-    "name": "Lait d'amande - Ecomil",
-    "url": "https://c3po.link/Qdxyd4swPw",
-    "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
-    "description": "Apporte une douceur parfaite pour brioche."
-   },
-   {
-    "name": "Extrait de vanille - Cook",
-    "url": "https://c3po.link/Q5pBRD4aXc",
-    "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
-    "description": "Donne un parfum qui embaume la maison."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "crumble-vegan-recette-fondre-tout-le-monde": {
-  "title": "Pour un crumble croustillant irrésistible",
-  "products": [
-   {
-    "name": "Sucre complet de canne - Ethiquable",
-    "url": "https://c3po.link/QzURvFKUNw",
-    "image": "https://static.vegourmet.fr/img/picks/a967f3ce651d0a16.jpg",
-    "description": "Apporte une caramélisation dorée parfaite."
-   },
-   {
-    "name": "Poudre d'amandes bio - Greenweez",
-    "url": "https://c3po.link/nmwevCAZB4",
-    "image": "https://static.vegourmet.fr/img/picks/462c21e5a97b1de6.jpg",
-    "description": "Donne ce croustillant fondant incomparable."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "pad-thai-vegan-decouvrez-meilleure-recette": {
-  "title": "Pour un pad thaï authentique",
-  "products": [
-   {
-    "name": "Tofu fumé - Taifun",
-    "url": "https://c3po.link/QbUYdfeaQF",
-    "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
-    "description": "Apporte la saveur fumée indispensable."
-   },
-   {
-    "name": "Sucre de coco bio - Greenweez",
-    "url": "https://c3po.link/QZHTweWDWH",
-    "image": "https://static.vegourmet.fr/img/picks/e8433246413518c9.jpg",
-    "description": "Donne le goût caramélisé typique de Thaïlande."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "lasagnes-vegan-meilleure-recette-bolognaise": {
-  "title": "Pour des lasagnes gratinées généreuses",
-  "products": [
-   {
-    "name": "Double concentré de tomates - Priméal",
-    "url": "https://c3po.link/QSe6VwkHJj",
-    "image": "https://static.vegourmet.fr/img/picks/eb4217a932b5f765.jpg",
-    "description": "Apporte un goût de tomate vraiment intense."
-   },
-   {
-    "name": "Levure maltée - Markal",
-    "url": "https://c3po.link/QdsFCyTuZb",
-    "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
-    "description": "Donne une béchamel fromagée parfaite."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "quiche-vegan-secrets-recette-inratable": {
-  "title": "Pour une quiche inratable",
-  "products": [
-   {
-    "name": "Tofu soyeux nature - Soy",
-    "url": "https://c3po.link/QCq4avPtgg",
-    "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
-    "description": "Garantit un appareil lisse et crémeux."
-   },
-   {
-    "name": "Fécule de maïs - Ma Vie Sans Gluten",
-    "url": "https://c3po.link/QSuPzkkka9",
-    "image": "https://static.vegourmet.fr/img/picks/3e77aa5514b26003.jpg",
-    "description": "Assure une tenue parfaite à la cuisson."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "samoussas-vegan-meilleure-recette-indienne": {
-  "title": "Pour des samoussas croustillants",
-  "products": [
-   {
-    "name": "Feuilles de brick - Biobleud",
-    "url": "https://c3po.link/QyXdf658r8",
-    "image": "https://static.vegourmet.fr/img/picks/189b9512f1619714.jpg",
-    "description": "Garantissent un croustillant doré à chaque fois."
-   },
-   {
-    "name": "Cumin poudre bio - Cook",
-    "url": "https://c3po.link/QtYe9VeB4A",
-    "image": "https://static.vegourmet.fr/img/picks/3c93f9775c789714.jpg",
-    "description": "Apporte le parfum indien authentique."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "bechamel-vegan-meilleure-recette-magique": {
-  "title": "Pour une béchamel onctueuse",
-  "products": [
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Donne la base neutre d'une béchamel classique."
-   },
-   {
-    "name": "Levure maltée - Markal",
-    "url": "https://c3po.link/QdsFCyTuZb",
-    "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
-    "description": "Apporte un goût fromager qui change tout."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "rouleaux-de-printemps-vegan-recette-vietnam": {
-  "title": "Pour des rouleaux de printemps frais",
-  "products": [
-   {
-    "name": "Tofu fumé - Taifun",
-    "url": "https://c3po.link/QbUYdfeaQF",
-    "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
-    "description": "Apportent des protéines savoureuses."
-   },
-   {
-    "name": "Huile de sésame - Emile Noel",
-    "url": "https://c3po.link/QCzEj6CkSC",
-    "image": "https://static.vegourmet.fr/img/picks/b235f6654b29ba40.jpg",
-    "description": "Donne un parfum asiatique authentique."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "wraps-vegan-meilleure-recette-10-minutes": {
-  "title": "Pour des wraps rapides et savoureux",
-  "products": [
-   {
-    "name": "Tortilla wraps au blé - Acapulco",
-    "url": "https://c3po.link/QBRBC3JDzt",
-    "image": "https://static.vegourmet.fr/img/picks/b2cfa773b782f8a0.jpg",
-    "description": "Restent souples et faciles à rouler."
-   },
-   {
-    "name": "Pois chiches bio - Greenweez",
-    "url": "https://c3po.link/Qe982PJmPt",
-    "image": "https://static.vegourmet.fr/img/picks/1429ce5cd1fb5577.png",
-    "description": "Apportent des protéines qui calent bien."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "nuggets-vegan-meilleure-recette-facon-kfc-7": {
-  "title": "Pour des nuggets croustillants façon fast-food",
-  "products": [
-   {
-    "name": "Flocons d'avoine - Greenweez",
-    "url": "https://c3po.link/QhHSxPaPT3",
-    "image": "https://static.vegourmet.fr/img/picks/babd10e434047b6c.jpg",
-    "description": "Donnent une texture croustillante incomparable."
-   },
-   {
-    "name": "Pois chiches bio - Greenweez",
-    "url": "https://c3po.link/Qe982PJmPt",
-    "image": "https://static.vegourmet.fr/img/picks/1429ce5cd1fb5577.png",
-    "description": "Garantissent un intérieur moelleux."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "gateau-au-yaourt-vegan-recette-facile-etapes": {
-  "title": "Pour un gâteau au yaourt moelleux",
-  "products": [
-   {
-    "name": "Yaourt de soja - Sojade",
-    "url": "https://c3po.link/Qe8bmYMjbb",
-    "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
-    "description": "Apporte une texture qui fond en bouche."
-   },
-   {
-    "name": "Extrait de vanille - Cook",
-    "url": "https://c3po.link/Q5pBRD4aXc",
-    "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
-    "description": "Donne un parfum gourmand irrésistible."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "cassoulet-vegan-meilleure-recette-plaisir": {
-  "title": "Pour un cassoulet généreux",
-  "products": [
-   {
-    "name": "Haricots blancs bio - Luce",
-    "url": "https://c3po.link/Qtz3WA7sta",
-    "image": "https://static.vegourmet.fr/img/picks/07a8bd6db22ba9da.jpg",
-    "description": "Absorbent bien la sauce."
-   },
-   {
-    "name": "Saucisse de seitan - Wheaty",
-    "url": "https://c3po.link/QgjBsNx5Pv",
-    "image": "https://static.vegourmet.fr/img/picks/c96bca8a50c67919.jpg",
-    "description": "Apporte un goût fumé typique du cassoulet."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "cinnamon-rolls-vegan-meilleure-recette-5": {
-  "title": "Pour des cinnamon rolls ultra moelleux",
-  "products": [
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Donne une brioche filante comme au café."
-   },
-   {
-    "name": "Huile de coco bio - Greenweez",
-    "url": "https://c3po.link/QHmbxDefRw",
-    "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
-    "description": "Conserve le moelleux plusieurs jours."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "couscous-vegan-meilleure-recette-maghreb": {
-  "title": "Pour un couscous parfumé",
-  "products": [
-   {
-    "name": "Pois chiches bio - Greenweez",
-    "url": "https://c3po.link/Qe982PJmPt",
-    "image": "https://static.vegourmet.fr/img/picks/1429ce5cd1fb5577.png",
-    "description": "Restent fondants et nourrissants."
-   },
-   {
-    "name": "Cannelle poudre bio - Cook",
-    "url": "https://c3po.link/QBHVk6FPq3",
-    "image": "https://static.vegourmet.fr/img/picks/c27fe11a881d5ddd.jpg",
-    "description": "Apporte un parfum chaleureux typique."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "panna-cotta-vegan-recette-expresse-15-mins": {
-  "title": "Pour une panna cotta onctueuse",
-  "products": [
-   {
-    "name": "Lait de coco - Evernat",
-    "url": "https://c3po.link/QMSk64XRY8",
-    "image": "https://static.vegourmet.fr/img/picks/c516d57f316dada2.jpg",
-    "description": "Garantit une texture soyeuse à tous les coups."
-   },
-   {
-    "name": "Lait d'amande - Ecomil",
-    "url": "https://c3po.link/Qdxyd4swPw",
-    "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
-    "description": "Équilibre la richesse de la coco."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "poivrons-farcis-vegan-recette-preferee-fr": {
-  "title": "Pour des poivrons farcis colorés",
-  "products": [
-   {
-    "name": "Quinoa Real blanc - Priméal",
-    "url": "https://c3po.link/QynxrRSrhx",
-    "image": "https://static.vegourmet.fr/img/picks/3ff0e503c940f1b2.jpg",
-    "description": "Apportent des grains légers et complets."
-   },
-   {
-    "name": "Huile d'olive - Emile Noel",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Sublime les légumes avec finesse."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "biscuits-vegan-meilleure-recette-a-refaire": {
-  "title": "Pour des biscuits croustillants maison",
-  "products": [
-   {
-    "name": "Huile de coco bio - Greenweez",
-    "url": "https://c3po.link/QHmbxDefRw",
-    "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
-    "description": "Assure des biscuits croustillants sans beurre."
-   },
-   {
-    "name": "Extrait de vanille - Cook",
-    "url": "https://c3po.link/Q5pBRD4aXc",
-    "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
-    "description": "Apporte un parfum gourmand addictif."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "risotto-vegan-recette-la-plus-cremeuse": {
-  "title": "Pour un risotto crémeux à l'italienne",
-  "products": [
-   {
-    "name": "Riz risotto arborio - Priméal",
-    "url": "https://c3po.link/QehVC8wKeM",
-    "image": "https://static.vegourmet.fr/img/picks/70fbe5602f06a983.jpg",
-    "description": "Libère parfaitement l'amidon pour la crème."
-   },
-   {
-    "name": "Purée de noix de cajou - Jean Hervé",
-    "url": "https://c3po.link/QdU8QfpRzz",
-    "image": "https://static.vegourmet.fr/img/picks/fd704bfe5ddf7c38.jpg",
-    "description": "Apporte une texture crémeuse incomparable."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "bo-bun-vegan-meilleure-recette-vietnamienne": {
-  "title": "Pour un bo bun frais et équilibré",
-  "products": [
-   {
-    "name": "Vermicelles de riz - Autour du Riz",
-    "url": "https://c3po.link/QksnWEdh9V",
-    "image": "https://static.vegourmet.fr/img/picks/237a7f51d275a7b5.jpg",
-    "description": "Donnent une texture légère et authentique."
-   },
-   {
-    "name": "Sauce soja shoyu - Autour du Riz",
-    "url": "https://c3po.link/QBBZcpBNqF",
-    "image": "https://static.vegourmet.fr/img/picks/b485bcfdb927e2a1.jpg",
-    "description": "Apporte la profondeur umami indispensable."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "cake-aux-olives-vegan-meilleure-recette": {
-  "title": "Pour un cake aux olives savoureux",
-  "products": [
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Assure un cake salé parfait."
-   },
-   {
-    "name": "Tofu fumé - Taifun",
-    "url": "https://c3po.link/QbUYdfeaQF",
-    "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
-    "description": "Apporte une saveur fumée qui relève."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "fajitas-vegan-meilleure-recette-mexicaine": {
-  "title": "Pour des fajitas épicées",
-  "products": [
-   {
-    "name": "Haricots rouges - Markal",
-    "url": "https://c3po.link/QCDPaAqQaX",
-    "image": "https://static.vegourmet.fr/img/picks/2f3b8d8cfca32aa8.jpg",
-    "description": "Restent fondants et nourrissants."
-   },
-   {
-    "name": "Tortilla wraps au blé - Acapulco",
-    "url": "https://c3po.link/QBRBC3JDzt",
-    "image": "https://static.vegourmet.fr/img/picks/b2cfa773b782f8a0.jpg",
-    "description": "Restent souples et résistantes."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "paella-vegan-meilleure-recette-espagnole-10": {
-  "title": "Pour une paella colorée et généreuse",
-  "products": [
-   {
-    "name": "Bouillon de légumes - Priméal",
-    "url": "https://c3po.link/QyR5322YYV",
-    "image": "https://static.vegourmet.fr/img/picks/87759064825cb9c5.jpg",
-    "description": "Donne un fond savoureux pour le riz."
-   },
-   {
-    "name": "Paprika fumé - Ecoidées",
-    "url": "https://c3po.link/QsVR66jqZZ",
-    "image": "https://static.vegourmet.fr/img/picks/a34626211fbbec73.jpg",
-    "description": "Apporte la saveur fumée espagnole."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "gratin-de-courgettes-vegan-recette-expresse": {
-  "title": "Pour un gratin de courgettes fondant",
-  "products": [
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Parfaite pour gratiner généreusement."
-   },
-   {
-    "name": "Huile d'olive - Emile Noel",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Apporte une dorure méditerranéenne."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "boudin-blanc-vegan-decouvrez-recette-etapes": {
-  "title": "Pour un boudin blanc festif",
-  "products": [
-   {
-    "name": "Tofu soyeux nature - Soy",
-    "url": "https://c3po.link/QCq4avPtgg",
-    "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
-    "description": "Apporte une texture crémeuse authentique."
-   },
-   {
-    "name": "Farine de riz - Moulin des Moines",
-    "url": "https://c3po.link/QzzeqQ8439",
-    "image": "https://static.vegourmet.fr/img/picks/ac3fe0ea84605577.jpg",
-    "description": "Donne un liant délicat et léger."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "tomates-farcies-vegan-recette-traditionnelle": {
-  "title": "Pour des tomates farcies savoureuses",
-  "products": [
-   {
-    "name": "Protéines de soja - Greenweez",
-    "url": "https://c3po.link/QPpAzJqhQz",
-    "image": "https://static.vegourmet.fr/img/picks/c429648ef497c918.jpg",
-    "description": "Apportent cette texture viande parfaite."
-   },
-   {
-    "name": "Riz Rond Complet - Priméal",
-    "url": "https://c3po.link/QY5rgpFRk4",
-    "image": "https://static.vegourmet.fr/img/picks/ab8d71d5ed3921d3.jpg",
-    "description": "Donnent une farce qui tient bien."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "courgette-farcie-vegan-recette-facile": {
-  "title": "Pour des courgettes farcies légères",
-  "products": [
-   {
-    "name": "Riz Rond Complet - Priméal",
-    "url": "https://c3po.link/QY5rgpFRk4",
-    "image": "https://static.vegourmet.fr/img/picks/ab8d71d5ed3921d3.jpg",
-    "description": "Absorbent bien les saveurs."
-   },
-   {
-    "name": "Huile d'olive - Emile Noel",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Apporte un parfum méditerranéen délicieux."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "tartiflette-vegan-meilleure-recette-6-etapes": {
-  "title": "Pour une tartiflette fondante",
-  "products": [
-   {
-    "name": "Crème de soja - Soy",
-    "url": "https://c3po.link/QJ6azVkSBA",
-    "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
-    "description": "Enrobe délicatement chaque pomme de terre."
-   },
-   {
-    "name": "Levure maltée - Markal",
-    "url": "https://c3po.link/QdsFCyTuZb",
-    "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
-    "description": "Apporte un goût de reblochon sans fromage."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "clafoutis-vegan-recette-facile-10-mins": {
-  "title": "Pour un clafoutis moelleux express",
-  "products": [
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Garantit un appareil toujours lisse."
-   },
-   {
-    "name": "Fécule de maïs - Ma Vie Sans Gluten",
-    "url": "https://c3po.link/QSuPzkkka9",
-    "image": "https://static.vegourmet.fr/img/picks/3e77aa5514b26003.jpg",
-    "description": "Assure une texture fondante."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "omelette-vegan-decouvrez-preparer-7-minutes": {
-  "title": "Pour une omelette moelleuse rapide",
-  "products": [
-   {
-    "name": "Tofu soyeux nature - Soy",
-    "url": "https://c3po.link/QCq4avPtgg",
-    "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
-    "description": "Donne cette texture d'œuf parfaite."
-   },
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Assure une omelette légère et moelleuse."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "pain-perdu-vegan-meilleure-recette-3-minutes": {
-  "title": "Pour un pain perdu doré",
-  "products": [
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Assure un pain bien imbibé."
-   },
-   {
-    "name": "Fécule de maïs - Ma Vie Sans Gluten",
-    "url": "https://c3po.link/QSuPzkkka9",
-    "image": "https://static.vegourmet.fr/img/picks/3e77aa5514b26003.jpg",
-    "description": "Garantit une croûte dorée et croustillante."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "burrito-vegan-meilleure-crette-mexicaine-9": {
-  "title": "Pour un burrito bien garni",
-  "products": [
-   {
-    "name": "Haricots noirs - Markal",
-    "url": "https://c3po.link/QBYntTvntM",
-    "image": "https://static.vegourmet.fr/img/picks/f9d9a491b5683835.jpg",
-    "description": "Apportent une saveur mexicaine authentique."
-   },
-   {
-    "name": "Juliette râpé végétal - Jay&Joy",
-    "url": "https://c3po.link/nQB6pwtV92",
-    "image": "https://static.vegourmet.fr/img/picks/1f9fa2a22186aaad.jpg",
-    "description": "Gratine vraiment bien."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "pesto-vegan-meilleure-recette-italienne-4": {
-  "title": "Pour un pesto basilic intense",
-  "products": [
-   {
-    "name": "Levure maltée - Markal",
-    "url": "https://c3po.link/QdsFCyTuZb",
-    "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
-    "description": "Remplace parfaitement le parmesan."
-   },
-   {
-    "name": "Huile d'olive - Emile Noel",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Apporte une onctuosité pour pesto parfait."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "pudding-de-chia-4-astuces-recette-parfaite": {
-  "title": "Pour un pudding de chia onctueux",
-  "products": [
-   {
-    "name": "Graines de chia - Greenweez",
-    "url": "https://c3po.link/QbT7HfQ2Y6",
-    "image": "https://static.vegourmet.fr/img/picks/f4efc4927608322c.jpg",
-    "description": "Gonflent parfaitement pour une texture gel."
-   },
-   {
-    "name": "Sirop d'érable - Terre d'Erable",
-    "url": "https://c3po.link/QH7jP2KkeQ",
-    "image": "https://static.vegourmet.fr/img/picks/71923d2df3fd25c6.jpg",
-    "description": "Apporte le sucrant noble par excellence."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "houmous-4-secrets-pour-une-recette-parfaite": {
-  "title": "Pour un houmous ultra crémeux",
-  "products": [
-   {
-    "name": "Pois chiches bio - Greenweez",
-    "url": "https://c3po.link/Qe982PJmPt",
-    "image": "https://static.vegourmet.fr/img/picks/1429ce5cd1fb5577.png",
-    "description": "Se mixent facilement pour un houmous lisse."
-   },
-   {
-    "name": "Huile d'olive - Emile Noel",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Apporte une onctuosité soyeuse garantie."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "falafels-4-astuces-magiques-recette-parfaite": {
-  "title": "Pour des falafels croustillants",
-  "products": [
-   {
-    "name": "Cumin poudre bio - COOK",
-    "url": "https://c3po.link/QtYe9VeB4A",
-    "image": "https://static.vegourmet.fr/img/picks/3c93f9775c789714.jpg",
-    "description": "Le parfum oriental authentique."
-   },
-   {
-    "name": "Farine de pois chiches - Markal",
-    "url": "https://c3po.link/QfDsHJ8DgZ",
-    "image": "https://static.vegourmet.fr/img/picks/0b32d1eeeb2a3a98.jpg",
-    "description": "Le secret d'une croûte dorée parfaite."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "guacamole-la-meilleure-recette-en-5-minutes": {
-  "title": "Pour un guacamole frais et crémeux",
-  "products": [
-   {
-    "name": "Avocat Hass - Pérou",
-    "url": "https://c3po.link/QxnqE5ZXeW",
-    "image": "https://static.vegourmet.fr/img/picks/de008be2f2a533bb.jpg",
-    "description": "À maturité parfaite, apporte une chair onctueuse."
-   },
-   {
-    "name": "Tomate en grappe - Italie",
-    "url": "https://c3po.link/QRh49Ttrwj",
-    "image": "https://static.vegourmet.fr/img/picks/e1cee66a8a988668.jpg",
-    "description": "Apporte cette fraîcheur croquante essentielle."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "dahl-de-lentilles-corail-recette-complete-30": {
-  "title": "Pour un dahl de lentilles réconfortant",
-  "products": [
-   {
-    "name": "Lentilles corail - Priméal",
-    "url": "https://c3po.link/QW7gR5zYgx",
-    "image": "https://static.vegourmet.fr/img/picks/9400c4bb3cb8ef15.jpg",
-    "description": "Cuisent vite et donnent une texture crémeuse."
-   },
-   {
-    "name": "Bouillon de légumes - Priméal",
-    "url": "https://c3po.link/QyR5322YYV",
-    "image": "https://static.vegourmet.fr/img/picks/87759064825cb9c5.jpg",
-    "description": "Apporte un fond savoureux pour dahl parfumé."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "chili-sin-carne-vegan-la-meilleure-recette": {
-  "title": "Pour un chili sin carne épicé",
-  "products": [
-   {
-    "name": "Haricots rouges bio - Markal",
-    "url": "https://c3po.link/QCDPaAqQaX",
-    "image": "https://static.vegourmet.fr/img/picks/2f3b8d8cfca32aa8.jpg",
-    "description": "Absorbent parfaitement les épices."
-   },
-   {
-    "name": "Paprika fumé - Ecoidées",
-    "url": "https://c3po.link/QsVR66jqZZ",
-    "image": "https://static.vegourmet.fr/img/picks/a34626211fbbec73.jpg",
-    "description": "Apporte cette profondeur fumée incomparable."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "curry-de-pois-chiches-la-recette-ideale": {
-  "title": "Pour un curry de pois chiches parfumé",
-  "products": [
-   {
-    "name": "Lait de coco - Evernat",
-    "url": "https://c3po.link/QMSk64XRY8",
-    "image": "https://static.vegourmet.fr/img/picks/c516d57f316dada2.jpg",
-    "description": "Apporte une onctuosité exotique."
-   },
-   {
-    "name": "Huile d'olive - Emile Noel",
-    "url": "https://c3po.link/QVEvzZrk97",
-    "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
-    "description": "Restent bien fermes après cuisson."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "flan-de-courgette-vegan-la-meilleure-recette": {
-  "title": "Pour un flan de courgettes léger",
-  "products": [
-   {
-    "name": "Tofu soyeux nature - Soy",
-    "url": "https://c3po.link/QCq4avPtgg",
-    "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
-    "description": "Assure une texture aérienne et fondante."
-   },
-   {
-    "name": "Levure maltée - Markal",
-    "url": "https://c3po.link/QdsFCyTuZb",
-    "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
-    "description": "Apporte une saveur fromagée délicate."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "milkshake-vegan-meilleure-recette-ete-7-mins": {
-  "title": "Pour un milkshake onctueux",
-  "products": [
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Mousse vraiment bien."
-   },
-   {
-    "name": "Cacao maigre - Terra Etica",
-    "url": "https://c3po.link/QH72XfDfuM",
-    "image": "https://static.vegourmet.fr/img/picks/8b50a1a7d43b6828.jpg",
-    "description": "Apporte un chocolat intense sans amertume."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "cheesecake-vegan-5-secrets-irresistible": {
-  "title": "Pour un cheesecake crémeux",
-  "products": [
-   {
-    "name": "Crème coco bio - Bonneterre",
-    "url": "https://c3po.link/QgqEeCevzs",
-    "image": "https://static.vegourmet.fr/img/picks/b9aa73a586ec0afe.jpg",
-    "description": "Apporte une onctuosité riche incomparable."
-   },
-   {
-    "name": "Sirop d'érable - Terre d'Erable",
-    "url": "https://c3po.link/QH7jP2KkeQ",
-    "image": "https://static.vegourmet.fr/img/picks/71923d2df3fd25c6.jpg",
-    "description": "Équilibre parfaitement."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "banana-bread-vegan-5-secrets-recette": {
-  "title": "Pour un banana bread qui dure",
-  "products": [
-   {
-    "name": "Farine de lin - MARKAL",
-    "url": "https://c3po.link/nQAauUcpTN",
-    "image": "https://static.vegourmet.fr/img/picks/622782bc591cdbb4.jpg",
-    "description": "Remplace parfaitement les œufs."
-   },
-   {
-    "name": "Lait d'amande - ECOMIL",
-    "url": "https://c3po.link/Qdxyd4swPw",
-    "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
-    "description": "Ne dessèche jamais le banana bread."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "muffins-sales-vegan-recette-simple-rapide": {
-  "title": "Pour des muffins salés moelleux",
-  "products": [
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Assure des muffins toujours aériens."
-   },
-   {
-    "name": "Tomates séchées - Bio Organica Italia",
-    "url": "https://c3po.link/QkDQq4ftsm",
-    "image": "https://static.vegourmet.fr/img/picks/7a175f4ed6dec5a8.jpg",
-    "description": "Apporte une saveur méditerranéenne intense."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "muffins-vegan-5-ingredients-texture-parfaite": {
-  "title": "Pour des muffins ultra moelleux",
-  "products": [
-   {
-    "name": "Bicarbonate alimentaire - GREENWEEZ",
-    "url": "https://c3po.link/QpKdtA8k8V",
-    "image": "https://static.vegourmet.fr/img/picks/3549d2a92e7001ce.jpg",
-    "description": "Assure une levée toujours parfaite."
-   },
-   {
-    "name": "Yaourt de soja - Sojade",
-    "url": "https://c3po.link/Qe8bmYMjbb",
-    "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
-    "description": "Conserve le moelleux toute la semaine."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "tiramisu-vegan-5-etapes-irresistible": {
-  "title": "Pour un tiramisu crémeux",
-  "products": [
-   {
-    "name": "Lait de coco - Evernat",
-    "url": "https://c3po.link/QMSk64XRY8",
-    "image": "https://static.vegourmet.fr/img/picks/c516d57f316dada2.jpg",
-    "description": "Monte en chantilly parfaitement."
-   },
-   {
-    "name": "Extrait de vanille - COOK",
-    "url": "https://c3po.link/Q5pBRD4aXc",
-    "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
-    "description": "Sublime délicatement le café."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "brownie-vegan-3-secrets-texture-parfaite": {
-  "title": "Pour un brownie fondant au cœur",
-  "products": [
-   {
-    "name": "Farine de lin bio - Markal",
-    "url": "https://c3po.link/nQAauUcpTN",
-    "image": "https://static.vegourmet.fr/img/picks/622782bc591cdbb4.jpg",
-    "description": "Garantit cette texture fudgy parfaite."
-   },
-   {
-    "name": "Cacao maigre - Terra Etica",
-    "url": "https://c3po.link/QH72XfDfuM",
-    "image": "https://static.vegourmet.fr/img/picks/8b50a1a7d43b6828.jpg",
-    "description": "Apporte un chocolat ultra intense."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "gaufres-vegan-5-etapes-recette-parfaite": {
-  "title": "Pour des gaufres croustillantes",
-  "products": [
-   {
-    "name": "Farine d'amande - Greenweez",
-    "url": "https://c3po.link/QsPrJeaE8c",
-    "image": "https://static.vegourmet.fr/img/picks/fb33ef4ae1c5c537.jpg",
-    "description": "Donne des gaufres légères et croustillantes."
-   },
-   {
-    "name": "Lait de coco - Evernat",
-    "url": "https://c3po.link/QMSk64XRY8",
-    "image": "https://static.vegourmet.fr/img/picks/c516d57f316dada2.jpg",
-    "description": "Assure un intérieur toujours moelleux."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "mousse-au-chocolat-vegan-3-astuces": {
-  "title": "Pour une mousse au chocolat aérienne",
-  "products": [
-   {
-    "name": "Chocolat noir 60% - Bonneterre",
-    "url": "https://c3po.link/nQ5h2jryTC",
-    "image": "https://static.vegourmet.fr/img/picks/cca9e62f3cd58e7f.jpg",
-    "description": "Fond toujours bien pour une mousse lisse."
-   },
-   {
-    "name": "Extrait de vanille - Cook",
-    "url": "https://c3po.link/Q5pBRD4aXc",
-    "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
-    "description": "Apporte une profondeur aromatique subtile."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "crepes-vegan-7-secrets-recette-parfaite": {
-  "title": "Pour des crêpes fines et souples",
-  "products": [
-   {
-    "name": "Farine de lin bio - Markal",
-    "url": "https://c3po.link/nQAauUcpTN",
-    "image": "https://static.vegourmet.fr/img/picks/622782bc591cdbb4.jpg",
-    "description": "Assure une pâte qui ne colle jamais."
-   },
-   {
-    "name": "Lait de soja - Bonneterre",
-    "url": "https://c3po.link/QJ2x88jgnu",
-    "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
-    "description": "Garantit des crêpes fines et légères."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "pancakes-vegan-3-secrets-irresistibles": {
-  "title": "Pour des pancakes bien épais",
-  "products": [
-   {
-    "name": "Farine de lin bio - Markal",
-    "url": "https://c3po.link/nQAauUcpTN",
-    "image": "https://static.vegourmet.fr/img/picks/622782bc591cdbb4.jpg",
-    "description": "Garantit une levée parfaite."
-   },
-   {
-    "name": "Lait d'amande - EcoMil",
-    "url": "https://c3po.link/Qdxyd4swPw",
-    "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
-    "description": "Apporte un moelleux qui fond en bouche."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "burger-vegan-4-secrets-recette-parfaite": {
-  "title": "Pour un burger vegan ultra savoureux",
-  "products": [
-   {
-    "name": "Huile d'avocat - Bio Planète",
-    "url": "https://c3po.link/QqQf6jfZjd",
-    "image": "https://static.vegourmet.fr/img/picks/3a891e8eb0ecbfed.jpg",
-    "description": "Assure un steak qui ne s'émiette jamais."
-   },
-   {
-    "name": "Miso Grande Bio - Vegetalia",
-    "url": "https://c3po.link/Q9zTTj2CNg",
-    "image": "https://static.vegourmet.fr/img/picks/d26cf3073b2f52c3.jpg",
-    "description": "Apporte cet umami profond qui change tout."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "cookies-vegan-10-minutes-chrono": {
-  "title": "Pour des cookies express ultra rapides",
-  "products": [
-   {
-    "name": "Farine de lin bio - Markal",
-    "url": "https://c3po.link/nQAauUcpTN",
-    "image": "https://static.vegourmet.fr/img/picks/622782bc591cdbb4.jpg",
-    "description": "Le substitut d'œuf parfait pour une tenue idéale."
-   },
-   {
-    "name": "Margarine bio - Bonneterre",
-    "url": "https://c3po.link/QSYeBYFwqv",
-    "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
-    "description": "Garantit un fondant immédiat dès la sortie du four."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- },
- "gateau-au-chocolat-vegan-recette-moelleuse": {
-  "title": "Pour un gâteau au chocolat fondant",
-  "products": [
-   {
-    "name": "Farine T55 Bio France - Greenweez",
-    "url": "https://c3po.link/QRCjHubvQs",
-    "image": "https://static.vegourmet.fr/img/picks/54861fc9ad7af1c2.jpg",
-    "description": "La garantie d'une mie souple et légère."
-   },
-   {
-    "name": "Cacao maigre - Terra Etica",
-    "url": "https://c3po.link/QH72XfDfuM",
-    "image": "https://static.vegourmet.fr/img/picks/8b50a1a7d43b6828.jpg",
-    "description": "Apporte une intensité cacaotée remarquable."
-   }
-  ],
-  "ctaUrl": "https://c3po.link/QhRf59V267"
- }
+  "tarama-vegan-secrets-pour-un-apero-bluffant": {
+    "title": "Le duo gagnant pour ton tarama",
+    "products": [
+      {
+        "name": "Crème de soja - SOY",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Base idéale pour une onctuosité parfaite."
+      },
+      {
+        "name": "Algue Dulse - Roches Marines",
+        "url": "https://c3po.link/QCaWzRWe5a",
+        "image": "https://static.vegourmet.fr/img/picks/6d1744d25ff464d5.jpg",
+        "description": "Le vrai goût marin et la couleur rosée."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "tzatziki-vegan-texture-ferme-garantie": {
+    "title": "Les indispensables pour un tzatziki crémeux",
+    "products": [
+      {
+        "name": "Yaourt grec - Sojade",
+        "url": "https://c3po.link/QfRAnjuJQB",
+        "image": "https://static.vegourmet.fr/img/picks/85b37d09c537c09f.jpg",
+        "description": "Texture ultra-ferme. Fini le tzatziki liquide !"
+      },
+      {
+        "name": "Huile d'olive - Emile Noel",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Son goût fruité sublime le mélange ail & menthe."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "riz-cantonais-vegan-meilleure-recette": {
+    "title": "Pour un riz cantonais vegan parfaitement réussi",
+    "products": [
+      {
+        "name": "Riz jasmin - Autour du Riz",
+        "url": "https://c3po.link/QNZQUDphCU",
+        "image": "https://static.vegourmet.fr/img/picks/cad25aca818b15c8.jpg",
+        "description": "Grains parfaits pour un wok réussi."
+      },
+      {
+        "name": "Tofu ferme - Taifun",
+        "url": "https://c3po.link/QbUYdfeaQF",
+        "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
+        "description": "Texture idéale pour remplacer l'œuf."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "scones-vegan-recette-parfaite-brunch": {
+    "title": "Pour des scones vegan parfaitement réussis",
+    "products": [
+      {
+        "name": "Huile de coco - Greenweez",
+        "url": "https://c3po.link/QHmbxDefRw",
+        "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
+        "description": "Parfaite pour une texture feuilletée."
+      },
+      {
+        "name": "Farine de blé - Greenweez",
+        "url": "https://c3po.link/QRCjHubvQs",
+        "image": "https://static.vegourmet.fr/img/picks/54861fc9ad7af1c2.jpg",
+        "description": "Idéale pour des scones moelleux."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "moussaka-vegan-secrets-pour-reussir-recette": {
+    "title": "Pour une moussaka vegan parfaitement réussie",
+    "products": [
+      {
+        "name": "Huile d'olive - Emile Noël",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Parfaite pour rôtir les aubergines."
+      },
+      {
+        "name": "Lait de Soja - LIMA",
+        "url": "https://c3po.link/QYTJjqnRzg",
+        "image": "https://static.vegourmet.fr/img/picks/79ccc2c396849c47.jpg",
+        "description": "Idéal pour une béchamel onctueuse."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "caramel-vegan-recette-rapide-desserts-sucres": {
+    "title": "Pour un caramel onctueux et inratable",
+    "products": [
+      {
+        "name": "Crème de coco  - Bonneterre",
+        "url": "https://c3po.link/QgqEeCevzs",
+        "image": "https://static.vegourmet.fr/img/picks/b9aa73a586ec0afe.jpg",
+        "description": "L'onctuosité parfaite pour vos nappages."
+      },
+      {
+        "name": "Margarine - Bonneterre",
+        "url": "https://c3po.link/QSYeBYFwqv",
+        "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
+        "description": "Garde sa souplesse même après passage au frais."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "champignons-farcis-vegan-facile-et-rapide": {
+    "title": "Pour des champignons farcis ultra gourmands",
+    "products": [
+      {
+        "name": "Levure maltée  - Markal",
+        "url": "https://c3po.link/QdsFCyTuZb",
+        "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
+        "description": "Apporte cette note fromagère tant recherchée."
+      },
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Assure une texture de farce qui se tient parfaitement."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "frangipane-vegan-recette-galette-des-rois": {
+    "title": "Pour une frangipane royale qui bluffe tout le monde",
+    "products": [
+      {
+        "name": "Margarine  - Bonneterre",
+        "url": "https://c3po.link/QSYeBYFwqv",
+        "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
+        "description": "Un goût neutre qui laisse place à l'amande."
+      },
+      {
+        "name": "Poudre d'amandes - Greenweez",
+        "url": "https://c3po.link/nmwevCAZB4",
+        "image": "https://static.vegourmet.fr/img/picks/462c21e5a97b1de6.jpg",
+        "description": "Sa finesse de grain sublime la frangipane."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "pain-d-epices-vegan-recette-de-fin-dannee": {
+    "title": "Pour un pain d'épices d'exception, moelleux à souhait",
+    "products": [
+      {
+        "name": "Sucre de canne  - Ethiquable",
+        "url": "https://c3po.link/QzURvFKUNw",
+        "image": "https://static.vegourmet.fr/img/picks/a967f3ce651d0a16.jpg",
+        "description": "Apporte des notes caramélisées profondes."
+      },
+      {
+        "name": "Lait d'avoine - Evernat",
+        "url": "https://c3po.link/QSPd8NzwZ3",
+        "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
+        "description": "Préserve le moelleux durant plusieurs jours."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "madeleines-vegan-meilleure-recette-moelleuse": {
+    "title": "Pour des madeleines à la bosse parfaite",
+    "products": [
+      {
+        "name": "Lait de soja  - Lima",
+        "url": "https://c3po.link/QYTJjqnRzg",
+        "image": "https://static.vegourmet.fr/img/picks/79ccc2c396849c47.jpg",
+        "description": "Assure une mie légère et aérée."
+      },
+      {
+        "name": "Extrait de vanille - Cook",
+        "url": "https://c3po.link/Q5pBRD4aXc",
+        "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
+        "description": "Le secret d'un parfum envoûtant."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "cookies-vegan-sans-gluten-meilleure-recette": {
+    "title": "Pour des cookies sans gluten fondants en bouche",
+    "products": [
+      {
+        "name": "Margarine  - Bonneterre",
+        "url": "https://c3po.link/QSYeBYFwqv",
+        "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
+        "description": "Garantit le fondant absolu, même sans gluten."
+      },
+      {
+        "name": "Lait d'amande - EcoMil",
+        "url": "https://c3po.link/Qdxyd4swPw",
+        "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
+        "description": "Sublime le goût des pépites de chocolat."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "riz-au-lait-vegan-recette-ultra-cremeuse": {
+    "title": "Pour un riz au lait à l'onctuosité incomparable",
+    "products": [
+      {
+        "name": "Margarine  - Bonneterre",
+        "url": "https://c3po.link/QSYeBYFwqv",
+        "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
+        "description": "Apporte une texture d'une douceur infinie."
+      },
+      {
+        "name": "Lait d'amande - EcoMil",
+        "url": "https://c3po.link/Qdxyd4swPw",
+        "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
+        "description": "Donne ce crémeux qui ne déçoit jamais."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "tarte-aux-pommes-vegan-meilleure-recette": {
+    "title": "Pour une tarte aux pommes dorée et croustillante",
+    "products": [
+      {
+        "name": "Margarine  - Bonneterre",
+        "url": "https://c3po.link/QSYeBYFwqv",
+        "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
+        "description": "La garantie d'une pâte bien dorée."
+      },
+      {
+        "name": "Poudre d'amandes - Greenweez",
+        "url": "https://c3po.link/nmwevCAZB4",
+        "image": "https://static.vegourmet.fr/img/picks/462c21e5a97b1de6.jpg",
+        "description": "Absorbe le jus pour garder le croustillant."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "gratin-de-chou-fleur-vegan-recette-cremeuse": {
+    "title": "Pour un gratin de chou-fleur riche et gratiné",
+    "products": [
+      {
+        "name": "Lait de soja - Lima",
+        "url": "https://c3po.link/QYTJjqnRzg",
+        "image": "https://static.vegourmet.fr/img/picks/79ccc2c396849c47.jpg",
+        "description": "La base parfaite pour une béchamel soyeuse."
+      },
+      {
+        "name": "Levure maltée - Markal",
+        "url": "https://c3po.link/QdsFCyTuZb",
+        "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
+        "description": "Donne ce dessus bien gratiné recherché."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "lemon-curd-vegan-recette-ideale-tarte-citron": {
+    "title": "Pour un lemon curd onctueux et équilibré",
+    "products": [
+      {
+        "name": "Lait d'amande - EcoMil",
+        "url": "https://c3po.link/Qdxyd4swPw",
+        "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
+        "description": "Équilibre la vivacité du citron avec douceur."
+      },
+      {
+        "name": "Margarine bio - Bonneterre",
+        "url": "https://c3po.link/QSYeBYFwqv",
+        "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
+        "description": "Assure une texture lisse digne d'un pâtissier."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "fraisier-vegan-classique-de-la-patisserie": {
+    "title": "Pour un fraisier spectaculaire et aérien",
+    "products": [
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Assure une génoise qui monte généreusement."
+      },
+      {
+        "name": "Pâte d'amande - Jean Hervé",
+        "url": "https://c3po.link/QCZrBJPTRg",
+        "image": "https://static.vegourmet.fr/img/picks/fabf1f1f4e911eb9.jpg",
+        "description": "Apporte une finition d'une grande finesse."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "tarte-au-citron-vegan-recette-patissier-pro": {
+    "title": "Pour une tarte au citron digne des plus grands",
+    "products": [
+      {
+        "name": "Huile de coco bio - Greenweez",
+        "url": "https://c3po.link/QHmbxDefRw",
+        "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
+        "description": "Apporte une tenue et un fondant exceptionnels."
+      },
+      {
+        "name": "Sirop d'agave - Greenweez",
+        "url": "https://c3po.link/QCuE8CC3zt",
+        "image": "https://static.vegourmet.fr/img/picks/da06bf5b4c3c3b7f.jpg",
+        "description": "Sucre sans altérer la fraîcheur du citron."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "flan-vegan-recette-championne-du-monde": {
+    "title": "Pour un flan pâtissier riche et réconfortant",
+    "products": [
+      {
+        "name": "Lait de soja - Lima",
+        "url": "https://c3po.link/QYTJjqnRzg",
+        "image": "https://static.vegourmet.fr/img/picks/79ccc2c396849c47.jpg",
+        "description": "Le secret d'une texture parfaitement prise."
+      },
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Apporte une onctuosité royale en chaque bouchée."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "energy-balls-la-meilleure-recette-healthy": {
+    "title": "Pour des energy balls gourmandes et vitalisantes",
+    "products": [
+      {
+        "name": "Poudre de cacao - Terra Etica",
+        "url": "https://c3po.link/QH72XfDfuM",
+        "image": "https://static.vegourmet.fr/img/picks/8b50a1a7d43b6828.jpg",
+        "description": "Donne un goût de cacao pur et intense."
+      },
+      {
+        "name": "Purée d'amandes - Greenweez",
+        "url": "https://c3po.link/QtWvshAHNj",
+        "image": "https://static.vegourmet.fr/img/picks/fc0eed77fbf265d6.jpg",
+        "description": "Le liant idéal pour une tenue parfaite."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "hachis-parmentier-vegan-recette-hyper-facile": {
+    "title": "Pour un hachis parmentier d'exception",
+    "products": [
+      {
+        "name": "Lentilles vertes - Greenweez",
+        "url": "https://c3po.link/Q9erQje8bC",
+        "image": "https://static.vegourmet.fr/img/picks/f82f167c6a8a21a8.jpg",
+        "description": "Apportent une alternative texturée et savoureuse."
+      },
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Garantit une purée onctueuse."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "moelleux-au-chocolat-vegan-recette-facile": {
+    "title": "Pour un moelleux au chocolat irrésistible",
+    "products": [
+      {
+        "name": "Cacao maigre en poudre - Terra Etica",
+        "url": "https://c3po.link/QH72XfDfuM",
+        "image": "https://static.vegourmet.fr/img/picks/8b50a1a7d43b6828.jpg",
+        "description": "Apporte une profondeur de chocolat intense."
+      },
+      {
+        "name": "Vinaigre de cidre - Huilerie VIGEAN",
+        "url": "https://c3po.link/QCFMQABQHa",
+        "image": "https://static.vegourmet.fr/img/picks/257130367188ee48.jpg",
+        "description": "La touche secrète pour un gâteau bien levé."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "banana-bread-vegan-aux-pepites-de-chocolat": {
+    "title": "Pour un banana bread ultra moelleux",
+    "products": [
+      {
+        "name": "Lait d'avoine - Evernat",
+        "url": "https://c3po.link/QSPd8NzwZ3",
+        "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
+        "description": "Sublime la douceur naturelle des bananes."
+      },
+      {
+        "name": "Chocolat noir bio - Greenweez",
+        "url": "https://c3po.link/QNgMR7fjn4",
+        "image": "https://static.vegourmet.fr/img/picks/69e58fcbf7a6410b.jpg",
+        "description": "Fondent délicatement dans chaque bouchée."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "maki-vegan-meilleure-recette-japonaise": {
+    "title": "Pour des makis maison comme au Japon",
+    "products": [
+      {
+        "name": "Vinaigre de riz - Autour du Riz",
+        "url": "https://c3po.link/Qx6YAkJDqc",
+        "image": "https://static.vegourmet.fr/img/picks/58515dffd2b0bf6f.jpg",
+        "description": "Donne l'équilibre parfait au riz."
+      },
+      {
+        "name": "Tofu fumé - Taifun",
+        "url": "https://c3po.link/QbUYdfeaQF",
+        "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
+        "description": "Apporte un goût fumé qui sublime les makis."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "mafe-vegan-meilleure-recette-ragout-africain": {
+    "title": "Pour un mafé riche et authentique",
+    "products": [
+      {
+        "name": "Beurre de cacahuètes - Go Nuts",
+        "url": "https://c3po.link/QpvEF9SwT8",
+        "image": "https://static.vegourmet.fr/img/picks/8cca17e0963ee688.jpg",
+        "description": "Apporte une texture crémeuse et un goût puissant."
+      },
+      {
+        "name": "Riz basmati - Greenweez",
+        "url": "https://c3po.link/QWknmaCkJf",
+        "image": "https://static.vegourmet.fr/img/picks/6e0bd3e388f50c05.jpg",
+        "description": "Donne des grains longs qui restent bien séparés."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "tarte-a-la-courgette-vegan-facile-gourmande": {
+    "title": "Pour une tarte à la courgette fondante",
+    "products": [
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Assure un liant parfait pour un appareil onctueux."
+      },
+      {
+        "name": "Tofu soyeux - Soy (frais)",
+        "url": "https://c3po.link/QCq4avPtgg",
+        "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
+        "description": "Le secret d'une légèreté aérienne."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "avocat-farci-vegan-nouvelle-recette": {
+    "title": "Pour des avocats farcis pleins de fraîcheur",
+    "products": [
+      {
+        "name": "Quinoa real blanc - Priméal",
+        "url": "https://c3po.link/QynxrRSrhx",
+        "image": "https://static.vegourmet.fr/img/picks/3ff0e503c940f1b2.jpg",
+        "description": "Apporte un apport nutritif et croquant."
+      },
+      {
+        "name": "Huile d'olive - Emile Noel",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Sa finesse sublime les avocats."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "baeckeoffe-vegan-recette-alsacienne-revisite": {
+    "title": "Pour un baeckeoffe traditionnel revisité",
+    "products": [
+      {
+        "name": "Champignons de Paris - Luce",
+        "url": "https://c3po.link/Qe4ZQkwV8Z",
+        "image": "https://static.vegourmet.fr/img/picks/dfd40fe45d047eea.jpg",
+        "description": "Apportent une mâche généreuse et savoureuse."
+      },
+      {
+        "name": "Huile d'olive - Emile Noel",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Parfaite pour sublimer les marinades."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "galette-de-sarrasin-vegan-recette-breteonne": {
+    "title": "Pour des galettes bretonnes authentiques",
+    "products": [
+      {
+        "name": "Farine de sarrasin - Greenweez",
+        "url": "https://c3po.link/Qzn8Cqu4dY",
+        "image": "https://static.vegourmet.fr/img/picks/1ff103140b4811ba.jpg",
+        "description": "Donne le vrai goût du terroir breton."
+      },
+      {
+        "name": "Tofu fumé - Moulin des Moines",
+        "url": "https://c3po.link/QRexJatvby",
+        "image": "https://static.vegourmet.fr/img/picks/26b2f283e6c7e9d4.jpg",
+        "description": "Remplace le lard avec gourmandise."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "ganache-vegan-recette-ultra-facile-revisitee": {
+    "title": "Pour une ganache miroir et onctueuse",
+    "products": [
+      {
+        "name": "Tablette chocolat noir - Bonneterre",
+        "url": "https://c3po.link/nQ5h2jryTC",
+        "image": "https://static.vegourmet.fr/img/picks/cca9e62f3cd58e7f.jpg",
+        "description": "Apporte une brillance et une fluidité parfaites."
+      },
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Assure un mélange homogène et lisse."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "potimarron-farci-vegan-recette-automne": {
+    "title": "Pour un potimarron farci réconfortant",
+    "products": [
+      {
+        "name": "Quinoa - Priméal",
+        "url": "https://c3po.link/QynxrRSrhx",
+        "image": "https://static.vegourmet.fr/img/picks/3ff0e503c940f1b2.jpg",
+        "description": "Donne une garniture moelleuse à souhait."
+      },
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Lie harmonieusement tous les ingrédients."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "creme-au-chocolat-vegan-recette-cremeuse": {
+    "title": "Pour une crème chocolatée soyeuse",
+    "products": [
+      {
+        "name": "Tofu soyeux - Soy",
+        "url": "https://c3po.link/QCq4avPtgg",
+        "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
+        "description": "Apporte une onctuosité bluffante, sans goût de soja."
+      },
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Permet de régler la texture avec précision."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "quenelles-vegan-meilleure-recette-lyonnaise": {
+    "title": "Pour des quenelles lyonnaises légères",
+    "products": [
+      {
+        "name": "Semoule de blé - Priméal",
+        "url": "https://c3po.link/QYUWprxjCA",
+        "image": "https://static.vegourmet.fr/img/picks/3d975f41eaa925ec.jpg",
+        "description": "Sa finesse assure des quenelles aériennes."
+      },
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Apporte le crémeux indispensable à la sauce."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "choucroute-vegan-meilleure-recette-familiale": {
+    "title": "Pour une choucroute généreuse et croquante",
+    "products": [
+      {
+        "name": "Choucroute bio - Priméal",
+        "url": "https://c3po.link/Qd38fpH5nr",
+        "image": "https://static.vegourmet.fr/img/picks/4747baf77b83d884.jpg",
+        "description": "Apporte un croquant et une acidité maîtrisés."
+      },
+      {
+        "name": "Saucisse de seitan - Wheaty",
+        "url": "https://c3po.link/QpfPSEsEyk",
+        "image": "https://static.vegourmet.fr/img/picks/c96bca8a50c67919.jpg",
+        "description": "Donne une saveur fumée bluffante."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "kimchi-vegan-meilleure-recette-authentique": {
+    "title": "Pour un kimchi piquant et équilibré",
+    "products": [
+      {
+        "name": "Sauce soja shoyu - Autour du Riz",
+        "url": "https://c3po.link/QBBZcpBNqF",
+        "image": "https://static.vegourmet.fr/img/picks/b485bcfdb927e2a1.jpg",
+        "description": "Apporte le goût authentique du Japon."
+      },
+      {
+        "name": "Sucre de coco - Greenweez",
+        "url": "https://c3po.link/QZHTweWDWH",
+        "image": "https://static.vegourmet.fr/img/picks/e8433246413518c9.jpg",
+        "description": "Adoucit le piquant avec élégance."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "polenta-vegan-recette-cremeuse-champignons": {
+    "title": "Pour une polenta fondante et savoureuse",
+    "products": [
+      {
+        "name": "Semoule maïs fine - Markal",
+        "url": "https://c3po.link/QtPNRTFtaV",
+        "image": "https://static.vegourmet.fr/img/picks/383d1159604cf568.jpg",
+        "description": "Garantit une onctuosité parfaite."
+      },
+      {
+        "name": "Lait d'avoine - Evernat",
+        "url": "https://c3po.link/QSPd8NzwZ3",
+        "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
+        "description": "Apporte une douceur onctueuse."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "gyozas-vegan-meilleure-reccette-voyage": {
+    "title": "Pour des gyozas croustillants et juteux",
+    "products": [
+      {
+        "name": "Tofu fumé - Taifun",
+        "url": "https://c3po.link/QbUYdfeaQF",
+        "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
+        "description": "Apporte le goût fumé qui rappelle la viande."
+      },
+      {
+        "name": "Sauce soja shoyu - Autour du Riz",
+        "url": "https://c3po.link/QBBZcpBNqF",
+        "image": "https://static.vegourmet.fr/img/picks/b485bcfdb927e2a1.jpg",
+        "description": "Donne l'umami fondamental des gyozas."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "curry-vert-vegan-recette-thai-facile": {
+    "title": "Pour un curry vert thaï authentique",
+    "products": [
+      {
+        "name": "Pâte de curry vert - Le Voyage de Mamabé",
+        "url": "https://c3po.link/QdfPjZX2sq",
+        "image": "https://static.vegourmet.fr/img/picks/d38c5fc5611c8267.jpg",
+        "description": "Apporte des arômes explosifs authentiques."
+      },
+      {
+        "name": "Sauce soja shoyu - Autour du Riz",
+        "url": "https://c3po.link/QBBZcpBNqF",
+        "image": "https://static.vegourmet.fr/img/picks/b485bcfdb927e2a1.jpg",
+        "description": "Équilibre le piquant avec finesse."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "salade-de-pates-vegan-recette-facile": {
+    "title": "Pour une salade de pâtes fraîche et colorée",
+    "products": [
+      {
+        "name": "Pesto au basilic vegan - La Selva",
+        "url": "https://c3po.link/Qt34h9vnPk",
+        "image": "https://static.vegourmet.fr/img/picks/67f5f6d800d3930e.jpg",
+        "description": "Donne un basilic intense prêt à l'emploi."
+      },
+      {
+        "name": "Tofu fumé bio - Moulin des Moines",
+        "url": "https://c3po.link/QRexJatvby",
+        "image": "https://static.vegourmet.fr/img/picks/26b2f283e6c7e9d4.jpg",
+        "description": "Apportent des protéines fumées qui relèvent."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "mascarpone-vegan-recette-star-desserts": {
+    "title": "Pour un mascarpone onctueux et ferme",
+    "products": [
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Apporte la neutralité parfaite d'un fromage blanc."
+      },
+      {
+        "name": "Huile de coco - Greenweez",
+        "url": "https://c3po.link/QHmbxDefRw",
+        "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
+        "description": "Assure tenue et onctuosité."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "tajine-vegan-recette-coup-de-coeur-famille": {
+    "title": "Pour un tajine généreux et parfumé",
+    "products": [
+      {
+        "name": "Pois chiches bio - Greenweez",
+        "url": "https://c3po.link/Qe982PJmPt",
+        "image": "https://static.vegourmet.fr/img/picks/1429ce5cd1fb5577.png",
+        "description": "Restent tendres et nourrissants."
+      },
+      {
+        "name": "Huile d'olive - Emile Noel",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Sublime les épices orientales."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "sables-de-noel-vegan-recette-fetes-reussies": {
+    "title": "Pour des sablés de Noël qui fondent",
+    "products": [
+      {
+        "name": "Extrait de vanille - Cook",
+        "url": "https://c3po.link/Q5pBRD4aXc",
+        "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
+        "description": "Apporte le parfum des fêtes par excellence."
+      },
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Donne une pâte facile à travailler."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "tourte-vegan-recette-facile-champignons": {
+    "title": "Pour une tourte aux champignons généreuse",
+    "products": [
+      {
+        "name": "Tofu fumé bio - Moulin des Moines",
+        "url": "https://c3po.link/QRexJatvby",
+        "image": "https://static.vegourmet.fr/img/picks/26b2f283e6c7e9d4.jpg",
+        "description": "Magnifie le goût des champignons."
+      },
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Apporte l'onctuosité parfaite d'une garniture riche."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "buche-de-noel-vegan-recette-toute-famille": {
+    "title": "Pour une bûche de Noël spectaculaire",
+    "products": [
+      {
+        "name": "Extrait de vanille - Cook",
+        "url": "https://c3po.link/Q5pBRD4aXc",
+        "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
+        "description": "Apporte l'essence même de Noël."
+      },
+      {
+        "name": "Sirop d'agave Bio - Greenweez",
+        "url": "https://c3po.link/QCuE8CC3zt",
+        "image": "https://static.vegourmet.fr/img/picks/da06bf5b4c3c3b7f.jpg",
+        "description": "Sucre naturellement pour imbiber délicatement."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "creme-citron-vegan-desserts-inratables": {
+    "title": "Pour une crème citron brillante et acidulée",
+    "products": [
+      {
+        "name": "Margarine bio - Bonneterre",
+        "url": "https://c3po.link/QSYeBYFwqv",
+        "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
+        "description": "Assure une texture lisse et brillante."
+      },
+      {
+        "name": "Fécule de maïs - Ma Vie Sans Gluten",
+        "url": "https://c3po.link/QSuPzkkka9",
+        "image": "https://static.vegourmet.fr/img/picks/3e77aa5514b26003.jpg",
+        "description": "Épaissit sans former de grumeaux."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "creme-au-beurre-vegan-recette-secrete": {
+    "title": "Pour une crème au beurre légère et aérée",
+    "products": [
+      {
+        "name": "Extrait de vanille - Cook",
+        "url": "https://c3po.link/Q5pBRD4aXc",
+        "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
+        "description": "Parfume délicatement la crème."
+      },
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Permet une montée parfaite en chantilly."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "pate-a-choux-vegan-recette-choux-parfaits": {
+    "title": "Pour une pâte à choux bien gonflée",
+    "products": [
+      {
+        "name": "Margarine bio - Bonneterre",
+        "url": "https://c3po.link/QSYeBYFwqv",
+        "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
+        "description": "Assure gonflage et dorure."
+      },
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Garantit une pâte légère et croustillante."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "porridge-vegan-recette-dejeuner-healthy": {
+    "title": "Pour un porridge crémeux et réconfortant",
+    "products": [
+      {
+        "name": "Flocons d'avoine - Greenweez",
+        "url": "https://c3po.link/QhHSxPaPT3",
+        "image": "https://static.vegourmet.fr/img/picks/babd10e434047b6c.jpg",
+        "description": "Donnent une texture crémeuse en quelques minutes."
+      },
+      {
+        "name": "Sirop d'érable - Terre d'Erable",
+        "url": "https://c3po.link/QH7jP2KkeQ",
+        "image": "https://static.vegourmet.fr/img/picks/71923d2df3fd25c6.jpg",
+        "description": "Apporte une douceur naturelle incomparable."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "crumble-sale-vegan-recette-reconfortante": {
+    "title": "Pour un crumble salé doré et croustillant",
+    "products": [
+      {
+        "name": "Huile de coco - Greenweez",
+        "url": "https://c3po.link/QHmbxDefRw",
+        "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
+        "description": "Assure un croustillant doré à chaque fois."
+      },
+      {
+        "name": "Farine de blé - Greenweez",
+        "url": "https://c3po.link/Q3FEbHRMjq",
+        "image": "https://static.vegourmet.fr/img/picks/1d1ed7ee7f1508e6.jpg",
+        "description": "S'adapte à toutes les garnitures."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "cookies-flocons-davoine-vegan-recette": {
+    "title": "Pour des cookies aux flocons moelleux",
+    "products": [
+      {
+        "name": "Farine d'épeautre - Moulin des Moines",
+        "url": "https://c3po.link/QNy2eSrXZE",
+        "image": "https://static.vegourmet.fr/img/picks/3b2cb6a8d8842699.jpg",
+        "description": "Apporte un goût rustique apprécié."
+      },
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Conserve le moelleux plusieurs jours."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "poutine-vegan-recette-quebecoise-familiale": {
+    "title": "Pour une poutine québécoise généreuse",
+    "products": [
+      {
+        "name": "Huile d'olive - Emile Noel",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Donne des frites dorées et croustillantes."
+      },
+      {
+        "name": "Levure maltée - Markal",
+        "url": "https://c3po.link/QdsFCyTuZb",
+        "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
+        "description": "Apporte la sauce fromagée incontournable."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "gratin-d-endives-vegan-recette-familiale": {
+    "title": "Pour un gratin d'endives fondant",
+    "products": [
+      {
+        "name": "Lait d'avoine bio - Evernat",
+        "url": "https://c3po.link/QSPd8NzwZ3",
+        "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
+        "description": "Assure une béchamel légère et onctueuse."
+      },
+      {
+        "name": "Margarine bio - Bonneterre",
+        "url": "https://c3po.link/QSYeBYFwqv",
+        "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
+        "description": "Garantit un dessus gratiné à perfection."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "ganache-chocolat-vegan-recette-inratable": {
+    "title": "Pour une ganache chocolat brillante",
+    "products": [
+      {
+        "name": "Chocolat noir bio - Greenweez",
+        "url": "https://c3po.link/QNgMR7fjn4",
+        "image": "https://static.vegourmet.fr/img/picks/69e58fcbf7a6410b.jpg",
+        "description": "Assure une fonte homogène."
+      },
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Garantit une texture lisse qui ne tranche pas."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "rocher-coco-vegan-recette-express-cuisson": {
+    "title": "Pour des rochers coco croustillants",
+    "products": [
+      {
+        "name": "Noix de coco râpée - Markal",
+        "url": "https://c3po.link/QCwV9e5Qhv",
+        "image": "https://static.vegourmet.fr/img/picks/a9212a8303ffa3d8.jpg",
+        "description": "Apporte un goût de coco intense et authentique."
+      },
+      {
+        "name": "Pépites de chocolat noir - Kaoka",
+        "url": "https://c3po.link/QJXSPa8tnr",
+        "image": "https://static.vegourmet.fr/img/picks/63e67f3946f66a85.jpg",
+        "description": "Fondent délicatement dans chaque bouchée."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "cake-aux-legumes-vegan-recette-parfaite": {
+    "title": "Pour un cake aux légumes moelleux",
+    "products": [
+      {
+        "name": "Lait d'avoine - Evernat",
+        "url": "https://c3po.link/QSPd8NzwZ3",
+        "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
+        "description": "Assure une légèreté et un moelleux parfaits."
+      },
+      {
+        "name": "Feta vegan Janis - Jay&Joy",
+        "url": "https://c3po.link/Q7gpFptYZp",
+        "image": "https://static.vegourmet.fr/img/picks/aa1edde1d8d098d3.jpg",
+        "description": "Apporte la touche fromagère qui fait la différence."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "ravioles-vegan-recette-facile-version-maison": {
+    "title": "Pour des ravioles crémeuses maison",
+    "products": [
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Enrobe délicatement chaque raviole."
+      },
+      {
+        "name": "Levure maltée - Markal",
+        "url": "https://c3po.link/QdsFCyTuZb",
+        "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
+        "description": "Apporte un goût subtil de fromage affiné."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "financier-vegan-recette-parfaite-moelleuse": {
+    "title": "Pour des financiers moelleux à cœur",
+    "products": [
+      {
+        "name": "Poudre d'amandes - Greenweez",
+        "url": "https://c3po.link/nmwevCAZB4",
+        "image": "https://static.vegourmet.fr/img/picks/462c21e5a97b1de6.jpg",
+        "description": "Sa finesse de grain sublime les financiers."
+      },
+      {
+        "name": "Yaourt de soja - Sojade",
+        "url": "https://c3po.link/Qe8bmYMjbb",
+        "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
+        "description": "Conserve le moelleux plusieurs jours."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "spring-rolls-vegan-meilleure-recette-asie": {
+    "title": "Pour des spring rolls frais et croquants",
+    "products": [
+      {
+        "name": "Tofu fumé - Moulin des moines",
+        "url": "https://c3po.link/QRexJatvby",
+        "image": "https://static.vegourmet.fr/img/picks/26b2f283e6c7e9d4.jpg",
+        "description": "Apporte des protéines fumées savoureuses."
+      },
+      {
+        "name": "Sauce soja tamari - Lima",
+        "url": "https://c3po.link/QBEVqZgaNE",
+        "image": "https://static.vegourmet.fr/img/picks/9a620ffa46bd997c.jpg",
+        "description": "Donne la sauce parfaite pour accompagner."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "canneles-vegan-meilleure-recette-bordelaise": {
+    "title": "Pour des cannelés croustillants dehors",
+    "products": [
+      {
+        "name": "Lait de soja bio - Lima",
+        "url": "https://c3po.link/QYTJjqnRzg",
+        "image": "https://static.vegourmet.fr/img/picks/79ccc2c396849c47.jpg",
+        "description": "Assure une texture traditionnelle réussie."
+      },
+      {
+        "name": "Farine de blé bio - Greenweez",
+        "url": "https://c3po.link/Q3FEbHRMjq",
+        "image": "https://static.vegourmet.fr/img/picks/1d1ed7ee7f1508e6.jpg",
+        "description": "Garantit une caramélisation dorée à tous les coups."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "brookies-vegan-recette-alliance-incroyable": {
+    "title": "Pour des brookies mi-brownie mi-cookie",
+    "products": [
+      {
+        "name": "Chocolat noir bio - Greenweez",
+        "url": "https://c3po.link/QNgMR7fjn4",
+        "image": "https://static.vegourmet.fr/img/picks/69e58fcbf7a6410b.jpg",
+        "description": "Apporte un chocolat intense à chaque bouchée."
+      },
+      {
+        "name": "Lait d'avoine - Evernat",
+        "url": "https://c3po.link/QSPd8NzwZ3",
+        "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
+        "description": "Donne la texture parfaite entre les deux."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "creme-brulee-vegan-recette-facile": {
+    "title": "Pour une crème brûlée craquante dessus",
+    "products": [
+      {
+        "name": "Lait de coco - Evernat",
+        "url": "https://c3po.link/QMSk64XRY8",
+        "image": "https://static.vegourmet.fr/img/picks/c516d57f316dada2.jpg",
+        "description": "Assure une texture crémeuse sans lourdeur."
+      },
+      {
+        "name": "Lait d'avoine - Evernat",
+        "url": "https://c3po.link/QSPd8NzwZ3",
+        "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
+        "description": "Équilibre la richesse de la coco."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "quiche-aux-poireaux-vegan-recette-fondante": {
+    "title": "Pour une quiche aux poireaux fondante",
+    "products": [
+      {
+        "name": "Tofu soyeux nature - Soy",
+        "url": "https://c3po.link/QCq4avPtgg",
+        "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
+        "description": "Donne un appareil soyeux comme une vraie quiche."
+      },
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Assure une tenue qui ne retombe jamais."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "tarte-tatin-vegan-recette-traditionnelle": {
+    "title": "Pour une tarte tatin caramélisée",
+    "products": [
+      {
+        "name": "Farine de blé - Greenweez",
+        "url": "https://c3po.link/QRCjHubvQs",
+        "image": "https://static.vegourmet.fr/img/picks/54861fc9ad7af1c2.jpg",
+        "description": "Assure une pâte qui tient bien au caramel."
+      },
+      {
+        "name": "Margarine bio - Bonneterre",
+        "url": "https://c3po.link/QSYeBYFwqv",
+        "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
+        "description": "Garantit une caramélisation dorée incomparable."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "cake-au-citron-vegan-meilleure-recette-2025": {
+    "title": "Pour un cake au citron ultra moelleux",
+    "products": [
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Sublime l'acidité du citron."
+      },
+      {
+        "name": "Yaourt de soja - Sojade",
+        "url": "https://c3po.link/Qe8bmYMjbb",
+        "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
+        "description": "Conserve un moelleux qui dure toute la semaine."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "kebab-vegan-recette-geniale-sans-voix": {
+    "title": "Pour un kebab vegan ultra savoureux",
+    "products": [
+      {
+        "name": "Seitan Ã  cuisiner - Soy",
+        "url": "https://c3po.link/QHh8Xg3g7m",
+        "image": "https://static.vegourmet.fr/img/picks/4d6117da0c96bae6.jpg",
+        "description": "Apporte une texture qui rappelle la viande."
+      },
+      {
+        "name": "Yaourt de soja - Sojade",
+        "url": "https://c3po.link/Qe8bmYMjbb",
+        "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
+        "description": "Donne la sauce blanche crémeuse authentique."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "pot-au-feu-vegan-meilleure-recette-grandmere": {
+    "title": "Pour un pot-au-feu réconfortant",
+    "products": [
+      {
+        "name": "Tofu fumé - Moulin des Moines",
+        "url": "https://c3po.link/QRexJatvby",
+        "image": "https://static.vegourmet.fr/img/picks/26b2f283e6c7e9d4.jpg",
+        "description": "Apporte un goût fumé qui rappelle le lard."
+      },
+      {
+        "name": "Clous de girofle - Greenweez",
+        "url": "https://c3po.link/QY2ZXPNnAh",
+        "image": "https://static.vegourmet.fr/img/picks/5e1f0a1a46b468eb.jpg",
+        "description": "Donne le parfum des grands-mères."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "mayonnaise-vegan-recette-sauce-emblematique": {
+    "title": "Pour une mayonnaise onctueuse express",
+    "products": [
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Monte en émulsion en 2 minutes."
+      },
+      {
+        "name": "Vinaigre de cidre - Huilerie VIGEAN",
+        "url": "https://c3po.link/QCFMQABQHa",
+        "image": "https://static.vegourmet.fr/img/picks/257130367188ee48.jpg",
+        "description": "Apporte l'acidité juste ce qu'il faut."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "salade-vegan-recette-1-decouvrir-cette-annee": {
+    "title": "Pour une salade complète et nourrissante",
+    "products": [
+      {
+        "name": "Quinoa Real blanc - Priméal",
+        "url": "https://c3po.link/QynxrRSrhx",
+        "image": "https://static.vegourmet.fr/img/picks/3ff0e503c940f1b2.jpg",
+        "description": "Apportent des protéines complètes qui rassasient."
+      },
+      {
+        "name": "Vinaigre de cidre - Huilerie VIGEAN",
+        "url": "https://c3po.link/QCFMQABQHa",
+        "image": "https://static.vegourmet.fr/img/picks/257130367188ee48.jpg",
+        "description": "Donne une vinaigrette équilibrée."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "gratin-dauphinois-vegan-recette-preferee-fr": {
+    "title": "Pour un gratin dauphinois crémeux",
+    "products": [
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Enrobe délicatement chaque pomme de terre."
+      },
+      {
+        "name": "Lait d'avoine - Evernat",
+        "url": "https://c3po.link/QSPd8NzwZ3",
+        "image": "https://static.vegourmet.fr/img/picks/251ef61c14886c90.jpg",
+        "description": "Apporte une légèreté qui fait fondre."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "carrot-cake-vegan-recette-moelleuse": {
+    "title": "Pour un carrot cake ultra moelleux",
+    "products": [
+      {
+        "name": "Farine de blé bio - Greenweez",
+        "url": "https://c3po.link/QRCjHubvQs",
+        "image": "https://static.vegourmet.fr/img/picks/54861fc9ad7af1c2.jpg",
+        "description": "Garantit une texture aérienne."
+      },
+      {
+        "name": "Yaourt de soja - Sojade",
+        "url": "https://c3po.link/Qe8bmYMjbb",
+        "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
+        "description": "Conserve le moelleux qui dure."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "brioche-vegan-recette-ultra-moelleuse-tester": {
+    "title": "Pour une brioche filante et parfumée",
+    "products": [
+      {
+        "name": "Lait d'amande - Ecomil",
+        "url": "https://c3po.link/Qdxyd4swPw",
+        "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
+        "description": "Apporte une douceur parfaite pour brioche."
+      },
+      {
+        "name": "Extrait de vanille - Cook",
+        "url": "https://c3po.link/Q5pBRD4aXc",
+        "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
+        "description": "Donne un parfum qui embaume la maison."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "crumble-vegan-recette-fondre-tout-le-monde": {
+    "title": "Pour un crumble croustillant irrésistible",
+    "products": [
+      {
+        "name": "Sucre complet de canne - Ethiquable",
+        "url": "https://c3po.link/QzURvFKUNw",
+        "image": "https://static.vegourmet.fr/img/picks/a967f3ce651d0a16.jpg",
+        "description": "Apporte une caramélisation dorée parfaite."
+      },
+      {
+        "name": "Poudre d'amandes bio - Greenweez",
+        "url": "https://c3po.link/nmwevCAZB4",
+        "image": "https://static.vegourmet.fr/img/picks/462c21e5a97b1de6.jpg",
+        "description": "Donne ce croustillant fondant incomparable."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "pad-thai-vegan-decouvrez-meilleure-recette": {
+    "title": "Pour un pad thaï authentique",
+    "products": [
+      {
+        "name": "Tofu fumé - Taifun",
+        "url": "https://c3po.link/QbUYdfeaQF",
+        "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
+        "description": "Apporte la saveur fumée indispensable."
+      },
+      {
+        "name": "Sucre de coco bio - Greenweez",
+        "url": "https://c3po.link/QZHTweWDWH",
+        "image": "https://static.vegourmet.fr/img/picks/e8433246413518c9.jpg",
+        "description": "Donne le goût caramélisé typique de Thaïlande."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "lasagnes-vegan-meilleure-recette-bolognaise": {
+    "title": "Pour des lasagnes gratinées généreuses",
+    "products": [
+      {
+        "name": "Double concentré de tomates - Priméal",
+        "url": "https://c3po.link/QSe6VwkHJj",
+        "image": "https://static.vegourmet.fr/img/picks/eb4217a932b5f765.jpg",
+        "description": "Apporte un goût de tomate vraiment intense."
+      },
+      {
+        "name": "Levure maltée - Markal",
+        "url": "https://c3po.link/QdsFCyTuZb",
+        "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
+        "description": "Donne une béchamel fromagée parfaite."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "quiche-vegan-secrets-recette-inratable": {
+    "title": "Pour une quiche inratable",
+    "products": [
+      {
+        "name": "Tofu soyeux nature - Soy",
+        "url": "https://c3po.link/QCq4avPtgg",
+        "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
+        "description": "Garantit un appareil lisse et crémeux."
+      },
+      {
+        "name": "Fécule de maïs - Ma Vie Sans Gluten",
+        "url": "https://c3po.link/QSuPzkkka9",
+        "image": "https://static.vegourmet.fr/img/picks/3e77aa5514b26003.jpg",
+        "description": "Assure une tenue parfaite à la cuisson."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "samoussas-vegan-meilleure-recette-indienne": {
+    "title": "Pour des samoussas croustillants",
+    "products": [
+      {
+        "name": "Feuilles de brick - Biobleud",
+        "url": "https://c3po.link/QyXdf658r8",
+        "image": "https://static.vegourmet.fr/img/picks/189b9512f1619714.jpg",
+        "description": "Garantissent un croustillant doré à chaque fois."
+      },
+      {
+        "name": "Cumin poudre bio - Cook",
+        "url": "https://c3po.link/QtYe9VeB4A",
+        "image": "https://static.vegourmet.fr/img/picks/3c93f9775c789714.jpg",
+        "description": "Apporte le parfum indien authentique."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "bechamel-vegan-meilleure-recette-magique": {
+    "title": "Pour une béchamel onctueuse",
+    "products": [
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Donne la base neutre d'une béchamel classique."
+      },
+      {
+        "name": "Levure maltée - Markal",
+        "url": "https://c3po.link/QdsFCyTuZb",
+        "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
+        "description": "Apporte un goût fromager qui change tout."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "rouleaux-de-printemps-vegan-recette-vietnam": {
+    "title": "Pour des rouleaux de printemps frais",
+    "products": [
+      {
+        "name": "Tofu fumé - Taifun",
+        "url": "https://c3po.link/QbUYdfeaQF",
+        "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
+        "description": "Apportent des protéines savoureuses."
+      },
+      {
+        "name": "Huile de sésame - Emile Noel",
+        "url": "https://c3po.link/QCzEj6CkSC",
+        "image": "https://static.vegourmet.fr/img/picks/b235f6654b29ba40.jpg",
+        "description": "Donne un parfum asiatique authentique."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "wraps-vegan-meilleure-recette-10-minutes": {
+    "title": "Pour des wraps rapides et savoureux",
+    "products": [
+      {
+        "name": "Tortilla wraps au blé - Acapulco",
+        "url": "https://c3po.link/QBRBC3JDzt",
+        "image": "https://static.vegourmet.fr/img/picks/b2cfa773b782f8a0.jpg",
+        "description": "Restent souples et faciles à rouler."
+      },
+      {
+        "name": "Pois chiches bio - Greenweez",
+        "url": "https://c3po.link/Qe982PJmPt",
+        "image": "https://static.vegourmet.fr/img/picks/1429ce5cd1fb5577.png",
+        "description": "Apportent des protéines qui calent bien."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "nuggets-vegan-meilleure-recette-facon-kfc-7": {
+    "title": "Pour des nuggets croustillants façon fast-food",
+    "products": [
+      {
+        "name": "Flocons d'avoine - Greenweez",
+        "url": "https://c3po.link/QhHSxPaPT3",
+        "image": "https://static.vegourmet.fr/img/picks/babd10e434047b6c.jpg",
+        "description": "Donnent une texture croustillante incomparable."
+      },
+      {
+        "name": "Pois chiches bio - Greenweez",
+        "url": "https://c3po.link/Qe982PJmPt",
+        "image": "https://static.vegourmet.fr/img/picks/1429ce5cd1fb5577.png",
+        "description": "Garantissent un intérieur moelleux."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "gateau-au-yaourt-vegan-recette-facile-etapes": {
+    "title": "Pour un gâteau au yaourt moelleux",
+    "products": [
+      {
+        "name": "Yaourt de soja - Sojade",
+        "url": "https://c3po.link/Qe8bmYMjbb",
+        "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
+        "description": "Apporte une texture qui fond en bouche."
+      },
+      {
+        "name": "Extrait de vanille - Cook",
+        "url": "https://c3po.link/Q5pBRD4aXc",
+        "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
+        "description": "Donne un parfum gourmand irrésistible."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "cassoulet-vegan-meilleure-recette-plaisir": {
+    "title": "Pour un cassoulet généreux",
+    "products": [
+      {
+        "name": "Haricots blancs bio - Luce",
+        "url": "https://c3po.link/Qtz3WA7sta",
+        "image": "https://static.vegourmet.fr/img/picks/07a8bd6db22ba9da.jpg",
+        "description": "Absorbent bien la sauce."
+      },
+      {
+        "name": "Saucisse de seitan - Wheaty",
+        "url": "https://c3po.link/QgjBsNx5Pv",
+        "image": "https://static.vegourmet.fr/img/picks/c96bca8a50c67919.jpg",
+        "description": "Apporte un goût fumé typique du cassoulet."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "cinnamon-rolls-vegan-meilleure-recette-5": {
+    "title": "Pour des cinnamon rolls ultra moelleux",
+    "products": [
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Donne une brioche filante comme au café."
+      },
+      {
+        "name": "Huile de coco bio - Greenweez",
+        "url": "https://c3po.link/QHmbxDefRw",
+        "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
+        "description": "Conserve le moelleux plusieurs jours."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "couscous-vegan-meilleure-recette-maghreb": {
+    "title": "Pour un couscous parfumé",
+    "products": [
+      {
+        "name": "Pois chiches bio - Greenweez",
+        "url": "https://c3po.link/Qe982PJmPt",
+        "image": "https://static.vegourmet.fr/img/picks/1429ce5cd1fb5577.png",
+        "description": "Restent fondants et nourrissants."
+      },
+      {
+        "name": "Cannelle poudre bio - Cook",
+        "url": "https://c3po.link/QBHVk6FPq3",
+        "image": "https://static.vegourmet.fr/img/picks/c27fe11a881d5ddd.jpg",
+        "description": "Apporte un parfum chaleureux typique."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "panna-cotta-vegan-recette-expresse-15-mins": {
+    "title": "Pour une panna cotta onctueuse",
+    "products": [
+      {
+        "name": "Lait de coco - Evernat",
+        "url": "https://c3po.link/QMSk64XRY8",
+        "image": "https://static.vegourmet.fr/img/picks/c516d57f316dada2.jpg",
+        "description": "Garantit une texture soyeuse à tous les coups."
+      },
+      {
+        "name": "Lait d'amande - Ecomil",
+        "url": "https://c3po.link/Qdxyd4swPw",
+        "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
+        "description": "Équilibre la richesse de la coco."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "poivrons-farcis-vegan-recette-preferee-fr": {
+    "title": "Pour des poivrons farcis colorés",
+    "products": [
+      {
+        "name": "Quinoa Real blanc - Priméal",
+        "url": "https://c3po.link/QynxrRSrhx",
+        "image": "https://static.vegourmet.fr/img/picks/3ff0e503c940f1b2.jpg",
+        "description": "Apportent des grains légers et complets."
+      },
+      {
+        "name": "Huile d'olive - Emile Noel",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Sublime les légumes avec finesse."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "biscuits-vegan-meilleure-recette-a-refaire": {
+    "title": "Pour des biscuits croustillants maison",
+    "products": [
+      {
+        "name": "Huile de coco bio - Greenweez",
+        "url": "https://c3po.link/QHmbxDefRw",
+        "image": "https://static.vegourmet.fr/img/picks/34caa9666d6ca576.jpg",
+        "description": "Assure des biscuits croustillants sans beurre."
+      },
+      {
+        "name": "Extrait de vanille - Cook",
+        "url": "https://c3po.link/Q5pBRD4aXc",
+        "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
+        "description": "Apporte un parfum gourmand addictif."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "risotto-vegan-recette-la-plus-cremeuse": {
+    "title": "Pour un risotto crémeux à l'italienne",
+    "products": [
+      {
+        "name": "Riz risotto arborio - Priméal",
+        "url": "https://c3po.link/QehVC8wKeM",
+        "image": "https://static.vegourmet.fr/img/picks/70fbe5602f06a983.jpg",
+        "description": "Libère parfaitement l'amidon pour la crème."
+      },
+      {
+        "name": "Purée de noix de cajou - Jean Hervé",
+        "url": "https://c3po.link/QdU8QfpRzz",
+        "image": "https://static.vegourmet.fr/img/picks/fd704bfe5ddf7c38.jpg",
+        "description": "Apporte une texture crémeuse incomparable."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "bo-bun-vegan-meilleure-recette-vietnamienne": {
+    "title": "Pour un bo bun frais et équilibré",
+    "products": [
+      {
+        "name": "Vermicelles de riz - Autour du Riz",
+        "url": "https://c3po.link/QksnWEdh9V",
+        "image": "https://static.vegourmet.fr/img/picks/237a7f51d275a7b5.jpg",
+        "description": "Donnent une texture légère et authentique."
+      },
+      {
+        "name": "Sauce soja shoyu - Autour du Riz",
+        "url": "https://c3po.link/QBBZcpBNqF",
+        "image": "https://static.vegourmet.fr/img/picks/b485bcfdb927e2a1.jpg",
+        "description": "Apporte la profondeur umami indispensable."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "cake-aux-olives-vegan-meilleure-recette": {
+    "title": "Pour un cake aux olives savoureux",
+    "products": [
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Assure un cake salé parfait."
+      },
+      {
+        "name": "Tofu fumé - Taifun",
+        "url": "https://c3po.link/QbUYdfeaQF",
+        "image": "https://static.vegourmet.fr/img/picks/2f707abd4c4c8664.jpg",
+        "description": "Apporte une saveur fumée qui relève."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "fajitas-vegan-meilleure-recette-mexicaine": {
+    "title": "Pour des fajitas épicées",
+    "products": [
+      {
+        "name": "Haricots rouges - Markal",
+        "url": "https://c3po.link/QCDPaAqQaX",
+        "image": "https://static.vegourmet.fr/img/picks/2f3b8d8cfca32aa8.jpg",
+        "description": "Restent fondants et nourrissants."
+      },
+      {
+        "name": "Tortilla wraps au blé - Acapulco",
+        "url": "https://c3po.link/QBRBC3JDzt",
+        "image": "https://static.vegourmet.fr/img/picks/b2cfa773b782f8a0.jpg",
+        "description": "Restent souples et résistantes."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "paella-vegan-meilleure-recette-espagnole-10": {
+    "title": "Pour une paella colorée et généreuse",
+    "products": [
+      {
+        "name": "Bouillon de légumes - Priméal",
+        "url": "https://c3po.link/QyR5322YYV",
+        "image": "https://static.vegourmet.fr/img/picks/87759064825cb9c5.jpg",
+        "description": "Donne un fond savoureux pour le riz."
+      },
+      {
+        "name": "Paprika fumé - Ecoidées",
+        "url": "https://c3po.link/QsVR66jqZZ",
+        "image": "https://static.vegourmet.fr/img/picks/a34626211fbbec73.jpg",
+        "description": "Apporte la saveur fumée espagnole."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "gratin-de-courgettes-vegan-recette-expresse": {
+    "title": "Pour un gratin de courgettes fondant",
+    "products": [
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Parfaite pour gratiner généreusement."
+      },
+      {
+        "name": "Huile d'olive - Emile Noel",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Apporte une dorure méditerranéenne."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "boudin-blanc-vegan-decouvrez-recette-etapes": {
+    "title": "Pour un boudin blanc festif",
+    "products": [
+      {
+        "name": "Tofu soyeux nature - Soy",
+        "url": "https://c3po.link/QCq4avPtgg",
+        "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
+        "description": "Apporte une texture crémeuse authentique."
+      },
+      {
+        "name": "Farine de riz - Moulin des Moines",
+        "url": "https://c3po.link/QzzeqQ8439",
+        "image": "https://static.vegourmet.fr/img/picks/ac3fe0ea84605577.jpg",
+        "description": "Donne un liant délicat et léger."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "tomates-farcies-vegan-recette-traditionnelle": {
+    "title": "Pour des tomates farcies savoureuses",
+    "products": [
+      {
+        "name": "Protéines de soja - Greenweez",
+        "url": "https://c3po.link/QPpAzJqhQz",
+        "image": "https://static.vegourmet.fr/img/picks/c429648ef497c918.jpg",
+        "description": "Apportent cette texture viande parfaite."
+      },
+      {
+        "name": "Riz Rond Complet - Priméal",
+        "url": "https://c3po.link/QY5rgpFRk4",
+        "image": "https://static.vegourmet.fr/img/picks/ab8d71d5ed3921d3.jpg",
+        "description": "Donnent une farce qui tient bien."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "courgette-farcie-vegan-recette-facile": {
+    "title": "Pour des courgettes farcies légères",
+    "products": [
+      {
+        "name": "Riz Rond Complet - Priméal",
+        "url": "https://c3po.link/QY5rgpFRk4",
+        "image": "https://static.vegourmet.fr/img/picks/ab8d71d5ed3921d3.jpg",
+        "description": "Absorbent bien les saveurs."
+      },
+      {
+        "name": "Huile d'olive - Emile Noel",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Apporte un parfum méditerranéen délicieux."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "tartiflette-vegan-meilleure-recette-6-etapes": {
+    "title": "Pour une tartiflette fondante",
+    "products": [
+      {
+        "name": "Crème de soja - Soy",
+        "url": "https://c3po.link/QJ6azVkSBA",
+        "image": "https://static.vegourmet.fr/img/picks/bac460d6f76bdaf4.jpg",
+        "description": "Enrobe délicatement chaque pomme de terre."
+      },
+      {
+        "name": "Levure maltée - Markal",
+        "url": "https://c3po.link/QdsFCyTuZb",
+        "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
+        "description": "Apporte un goût de reblochon sans fromage."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "clafoutis-vegan-recette-facile-10-mins": {
+    "title": "Pour un clafoutis moelleux express",
+    "products": [
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Garantit un appareil toujours lisse."
+      },
+      {
+        "name": "Fécule de maïs - Ma Vie Sans Gluten",
+        "url": "https://c3po.link/QSuPzkkka9",
+        "image": "https://static.vegourmet.fr/img/picks/3e77aa5514b26003.jpg",
+        "description": "Assure une texture fondante."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "omelette-vegan-decouvrez-preparer-7-minutes": {
+    "title": "Pour une omelette moelleuse rapide",
+    "products": [
+      {
+        "name": "Tofu soyeux nature - Soy",
+        "url": "https://c3po.link/QCq4avPtgg",
+        "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
+        "description": "Donne cette texture d'œuf parfaite."
+      },
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Assure une omelette légère et moelleuse."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "pain-perdu-vegan-meilleure-recette-3-minutes": {
+    "title": "Pour un pain perdu doré",
+    "products": [
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Assure un pain bien imbibé."
+      },
+      {
+        "name": "Fécule de maïs - Ma Vie Sans Gluten",
+        "url": "https://c3po.link/QSuPzkkka9",
+        "image": "https://static.vegourmet.fr/img/picks/3e77aa5514b26003.jpg",
+        "description": "Garantit une croûte dorée et croustillante."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "burrito-vegan-meilleure-crette-mexicaine-9": {
+    "title": "Pour un burrito bien garni",
+    "products": [
+      {
+        "name": "Haricots noirs - Markal",
+        "url": "https://c3po.link/QBYntTvntM",
+        "image": "https://static.vegourmet.fr/img/picks/f9d9a491b5683835.jpg",
+        "description": "Apportent une saveur mexicaine authentique."
+      },
+      {
+        "name": "Juliette râpé végétal - Jay&Joy",
+        "url": "https://c3po.link/nQB6pwtV92",
+        "image": "https://static.vegourmet.fr/img/picks/1f9fa2a22186aaad.jpg",
+        "description": "Gratine vraiment bien."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "pesto-vegan-meilleure-recette-italienne-4": {
+    "title": "Pour un pesto basilic intense",
+    "products": [
+      {
+        "name": "Levure maltée - Markal",
+        "url": "https://c3po.link/QdsFCyTuZb",
+        "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
+        "description": "Remplace parfaitement le parmesan."
+      },
+      {
+        "name": "Huile d'olive - Emile Noel",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Apporte une onctuosité pour pesto parfait."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "pudding-de-chia-4-astuces-recette-parfaite": {
+    "title": "Pour un pudding de chia onctueux",
+    "products": [
+      {
+        "name": "Graines de chia - Greenweez",
+        "url": "https://c3po.link/QbT7HfQ2Y6",
+        "image": "https://static.vegourmet.fr/img/picks/f4efc4927608322c.jpg",
+        "description": "Gonflent parfaitement pour une texture gel."
+      },
+      {
+        "name": "Sirop d'érable - Terre d'Erable",
+        "url": "https://c3po.link/QH7jP2KkeQ",
+        "image": "https://static.vegourmet.fr/img/picks/71923d2df3fd25c6.jpg",
+        "description": "Apporte le sucrant noble par excellence."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "houmous-4-secrets-pour-une-recette-parfaite": {
+    "title": "Pour un houmous ultra crémeux",
+    "products": [
+      {
+        "name": "Pois chiches bio - Greenweez",
+        "url": "https://c3po.link/Qe982PJmPt",
+        "image": "https://static.vegourmet.fr/img/picks/1429ce5cd1fb5577.png",
+        "description": "Se mixent facilement pour un houmous lisse."
+      },
+      {
+        "name": "Huile d'olive - Emile Noel",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Apporte une onctuosité soyeuse garantie."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "falafels-4-astuces-magiques-recette-parfaite": {
+    "title": "Pour des falafels croustillants",
+    "products": [
+      {
+        "name": "Cumin poudre bio - COOK",
+        "url": "https://c3po.link/QtYe9VeB4A",
+        "image": "https://static.vegourmet.fr/img/picks/3c93f9775c789714.jpg",
+        "description": "Le parfum oriental authentique."
+      },
+      {
+        "name": "Farine de pois chiches - Markal",
+        "url": "https://c3po.link/QfDsHJ8DgZ",
+        "image": "https://static.vegourmet.fr/img/picks/0b32d1eeeb2a3a98.jpg",
+        "description": "Le secret d'une croûte dorée parfaite."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "guacamole-la-meilleure-recette-en-5-minutes": {
+    "title": "Pour un guacamole frais et crémeux",
+    "products": [
+      {
+        "name": "Avocat Hass - Pérou",
+        "url": "https://c3po.link/QxnqE5ZXeW",
+        "image": "https://static.vegourmet.fr/img/picks/de008be2f2a533bb.jpg",
+        "description": "À maturité parfaite, apporte une chair onctueuse."
+      },
+      {
+        "name": "Tomate en grappe - Italie",
+        "url": "https://c3po.link/QRh49Ttrwj",
+        "image": "https://static.vegourmet.fr/img/picks/e1cee66a8a988668.jpg",
+        "description": "Apporte cette fraîcheur croquante essentielle."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "dahl-de-lentilles-corail-recette-complete-30": {
+    "title": "Pour un dahl de lentilles réconfortant",
+    "products": [
+      {
+        "name": "Lentilles corail - Priméal",
+        "url": "https://c3po.link/QW7gR5zYgx",
+        "image": "https://static.vegourmet.fr/img/picks/9400c4bb3cb8ef15.jpg",
+        "description": "Cuisent vite et donnent une texture crémeuse."
+      },
+      {
+        "name": "Bouillon de légumes - Priméal",
+        "url": "https://c3po.link/QyR5322YYV",
+        "image": "https://static.vegourmet.fr/img/picks/87759064825cb9c5.jpg",
+        "description": "Apporte un fond savoureux pour dahl parfumé."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "chili-sin-carne-vegan-la-meilleure-recette": {
+    "title": "Pour un chili sin carne épicé",
+    "products": [
+      {
+        "name": "Haricots rouges bio - Markal",
+        "url": "https://c3po.link/QCDPaAqQaX",
+        "image": "https://static.vegourmet.fr/img/picks/2f3b8d8cfca32aa8.jpg",
+        "description": "Absorbent parfaitement les épices."
+      },
+      {
+        "name": "Paprika fumé - Ecoidées",
+        "url": "https://c3po.link/QsVR66jqZZ",
+        "image": "https://static.vegourmet.fr/img/picks/a34626211fbbec73.jpg",
+        "description": "Apporte cette profondeur fumée incomparable."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "curry-de-pois-chiches-la-recette-ideale": {
+    "title": "Pour un curry de pois chiches parfumé",
+    "products": [
+      {
+        "name": "Lait de coco - Evernat",
+        "url": "https://c3po.link/QMSk64XRY8",
+        "image": "https://static.vegourmet.fr/img/picks/c516d57f316dada2.jpg",
+        "description": "Apporte une onctuosité exotique."
+      },
+      {
+        "name": "Huile d'olive - Emile Noel",
+        "url": "https://c3po.link/QVEvzZrk97",
+        "image": "https://static.vegourmet.fr/img/picks/391ce11a4137d884.png",
+        "description": "Restent bien fermes après cuisson."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "flan-de-courgette-vegan-la-meilleure-recette": {
+    "title": "Pour un flan de courgettes léger",
+    "products": [
+      {
+        "name": "Tofu soyeux nature - Soy",
+        "url": "https://c3po.link/QCq4avPtgg",
+        "image": "https://static.vegourmet.fr/img/picks/b62b01a8a329fdb8.jpg",
+        "description": "Assure une texture aérienne et fondante."
+      },
+      {
+        "name": "Levure maltée - Markal",
+        "url": "https://c3po.link/QdsFCyTuZb",
+        "image": "https://static.vegourmet.fr/img/picks/7fd3f1ec11d7cadd.jpg",
+        "description": "Apporte une saveur fromagée délicate."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "milkshake-vegan-meilleure-recette-ete-7-mins": {
+    "title": "Pour un milkshake onctueux",
+    "products": [
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Mousse vraiment bien."
+      },
+      {
+        "name": "Cacao maigre - Terra Etica",
+        "url": "https://c3po.link/QH72XfDfuM",
+        "image": "https://static.vegourmet.fr/img/picks/8b50a1a7d43b6828.jpg",
+        "description": "Apporte un chocolat intense sans amertume."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "cheesecake-vegan-5-secrets-irresistible": {
+    "title": "Pour un cheesecake crémeux",
+    "products": [
+      {
+        "name": "Crème coco bio - Bonneterre",
+        "url": "https://c3po.link/QgqEeCevzs",
+        "image": "https://static.vegourmet.fr/img/picks/b9aa73a586ec0afe.jpg",
+        "description": "Apporte une onctuosité riche incomparable."
+      },
+      {
+        "name": "Sirop d'érable - Terre d'Erable",
+        "url": "https://c3po.link/QH7jP2KkeQ",
+        "image": "https://static.vegourmet.fr/img/picks/71923d2df3fd25c6.jpg",
+        "description": "Équilibre parfaitement."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "banana-bread-vegan-5-secrets-recette": {
+    "title": "Pour un banana bread qui dure",
+    "products": [
+      {
+        "name": "Farine de lin - MARKAL",
+        "url": "https://c3po.link/nQAauUcpTN",
+        "image": "https://static.vegourmet.fr/img/picks/622782bc591cdbb4.jpg",
+        "description": "Remplace parfaitement les œufs."
+      },
+      {
+        "name": "Lait d'amande - ECOMIL",
+        "url": "https://c3po.link/Qdxyd4swPw",
+        "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
+        "description": "Ne dessèche jamais le banana bread."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "muffins-sales-vegan-recette-simple-rapide": {
+    "title": "Pour des muffins salés moelleux",
+    "products": [
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Assure des muffins toujours aériens."
+      },
+      {
+        "name": "Tomates séchées - Bio Organica Italia",
+        "url": "https://c3po.link/QkDQq4ftsm",
+        "image": "https://static.vegourmet.fr/img/picks/7a175f4ed6dec5a8.jpg",
+        "description": "Apporte une saveur méditerranéenne intense."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "muffins-vegan-5-ingredients-texture-parfaite": {
+    "title": "Pour des muffins ultra moelleux",
+    "products": [
+      {
+        "name": "Bicarbonate alimentaire - GREENWEEZ",
+        "url": "https://c3po.link/QpKdtA8k8V",
+        "image": "https://static.vegourmet.fr/img/picks/3549d2a92e7001ce.jpg",
+        "description": "Assure une levée toujours parfaite."
+      },
+      {
+        "name": "Yaourt de soja - Sojade",
+        "url": "https://c3po.link/Qe8bmYMjbb",
+        "image": "https://static.vegourmet.fr/img/picks/a77c47d243cb28d7.jpg",
+        "description": "Conserve le moelleux toute la semaine."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "tiramisu-vegan-5-etapes-irresistible": {
+    "title": "Pour un tiramisu crémeux",
+    "products": [
+      {
+        "name": "Lait de coco - Evernat",
+        "url": "https://c3po.link/QMSk64XRY8",
+        "image": "https://static.vegourmet.fr/img/picks/c516d57f316dada2.jpg",
+        "description": "Monte en chantilly parfaitement."
+      },
+      {
+        "name": "Extrait de vanille - COOK",
+        "url": "https://c3po.link/Q5pBRD4aXc",
+        "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
+        "description": "Sublime délicatement le café."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "brownie-vegan-3-secrets-texture-parfaite": {
+    "title": "Pour un brownie fondant au cœur",
+    "products": [
+      {
+        "name": "Farine de lin bio - Markal",
+        "url": "https://c3po.link/nQAauUcpTN",
+        "image": "https://static.vegourmet.fr/img/picks/622782bc591cdbb4.jpg",
+        "description": "Garantit cette texture fudgy parfaite."
+      },
+      {
+        "name": "Cacao maigre - Terra Etica",
+        "url": "https://c3po.link/QH72XfDfuM",
+        "image": "https://static.vegourmet.fr/img/picks/8b50a1a7d43b6828.jpg",
+        "description": "Apporte un chocolat ultra intense."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "gaufres-vegan-5-etapes-recette-parfaite": {
+    "title": "Pour des gaufres croustillantes",
+    "products": [
+      {
+        "name": "Farine d'amande - Greenweez",
+        "url": "https://c3po.link/QsPrJeaE8c",
+        "image": "https://static.vegourmet.fr/img/picks/fb33ef4ae1c5c537.jpg",
+        "description": "Donne des gaufres légères et croustillantes."
+      },
+      {
+        "name": "Lait de coco - Evernat",
+        "url": "https://c3po.link/QMSk64XRY8",
+        "image": "https://static.vegourmet.fr/img/picks/c516d57f316dada2.jpg",
+        "description": "Assure un intérieur toujours moelleux."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "mousse-au-chocolat-vegan-3-astuces": {
+    "title": "Pour une mousse au chocolat aérienne",
+    "products": [
+      {
+        "name": "Chocolat noir 60% - Bonneterre",
+        "url": "https://c3po.link/nQ5h2jryTC",
+        "image": "https://static.vegourmet.fr/img/picks/cca9e62f3cd58e7f.jpg",
+        "description": "Fond toujours bien pour une mousse lisse."
+      },
+      {
+        "name": "Extrait de vanille - Cook",
+        "url": "https://c3po.link/Q5pBRD4aXc",
+        "image": "https://static.vegourmet.fr/img/picks/86b07e179ad88aee.jpg",
+        "description": "Apporte une profondeur aromatique subtile."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "crepes-vegan-7-secrets-recette-parfaite": {
+    "title": "Pour des crêpes fines et souples",
+    "products": [
+      {
+        "name": "Farine de lin bio - Markal",
+        "url": "https://c3po.link/nQAauUcpTN",
+        "image": "https://static.vegourmet.fr/img/picks/622782bc591cdbb4.jpg",
+        "description": "Assure une pâte qui ne colle jamais."
+      },
+      {
+        "name": "Lait de soja - Bonneterre",
+        "url": "https://c3po.link/QJ2x88jgnu",
+        "image": "https://static.vegourmet.fr/img/picks/ff3e95fe92cbcfad.jpg",
+        "description": "Garantit des crêpes fines et légères."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "pancakes-vegan-3-secrets-irresistibles": {
+    "title": "Pour des pancakes bien épais",
+    "products": [
+      {
+        "name": "Farine de lin bio - Markal",
+        "url": "https://c3po.link/nQAauUcpTN",
+        "image": "https://static.vegourmet.fr/img/picks/622782bc591cdbb4.jpg",
+        "description": "Garantit une levée parfaite."
+      },
+      {
+        "name": "Lait d'amande - EcoMil",
+        "url": "https://c3po.link/Qdxyd4swPw",
+        "image": "https://static.vegourmet.fr/img/picks/5b7ddc106c9af066.jpg",
+        "description": "Apporte un moelleux qui fond en bouche."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "burger-vegan-4-secrets-recette-parfaite": {
+    "title": "Pour un burger vegan ultra savoureux",
+    "products": [
+      {
+        "name": "Huile d'avocat - Bio Planète",
+        "url": "https://c3po.link/QqQf6jfZjd",
+        "image": "https://static.vegourmet.fr/img/picks/3a891e8eb0ecbfed.jpg",
+        "description": "Assure un steak qui ne s'émiette jamais."
+      },
+      {
+        "name": "Miso Grande Bio - Vegetalia",
+        "url": "https://c3po.link/Q9zTTj2CNg",
+        "image": "https://static.vegourmet.fr/img/picks/d26cf3073b2f52c3.jpg",
+        "description": "Apporte cet umami profond qui change tout."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "cookies-vegan-10-minutes-chrono": {
+    "title": "Pour des cookies express ultra rapides",
+    "products": [
+      {
+        "name": "Farine de lin bio - Markal",
+        "url": "https://c3po.link/nQAauUcpTN",
+        "image": "https://static.vegourmet.fr/img/picks/622782bc591cdbb4.jpg",
+        "description": "Le substitut d'œuf parfait pour une tenue idéale."
+      },
+      {
+        "name": "Margarine bio - Bonneterre",
+        "url": "https://c3po.link/QSYeBYFwqv",
+        "image": "https://static.vegourmet.fr/img/picks/5e139b84b342f0a0.jpg",
+        "description": "Garantit un fondant immédiat dès la sortie du four."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "gateau-au-chocolat-vegan-recette-moelleuse": {
+    "title": "Pour un gâteau au chocolat fondant",
+    "products": [
+      {
+        "name": "Farine T55 Bio France - Greenweez",
+        "url": "https://c3po.link/QRCjHubvQs",
+        "image": "https://static.vegourmet.fr/img/picks/54861fc9ad7af1c2.jpg",
+        "description": "La garantie d'une mie souple et légère."
+      },
+      {
+        "name": "Cacao maigre - Terra Etica",
+        "url": "https://c3po.link/QH72XfDfuM",
+        "image": "https://static.vegourmet.fr/img/picks/8b50a1a7d43b6828.jpg",
+        "description": "Apporte une intensité cacaotée remarquable."
+      }
+    ],
+    "ctaUrl": "https://c3po.link/QhRf59V267"
+  },
+  "cake-courgette-vegan": {
+    "title": "Pour un cake courgette moelleux et parfumé",
+    "products": [
+      {
+        "name": "Levure maltée paillette - Markal",
+        "url": "https://www.greenweez.com/produit/levure-maltee-paillette-250g/1MKAL0002?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+        "image": "https://veg.s3.fr-par.scw.cloud/img/picks/cake-courgette-vegan-levure.jpg",
+        "description": "Le petit goût fromager qui fait son effet à l'apéro."
+      },
+      {
+        "name": "Farine de blé T65 - Celnat",
+        "url": "https://www.greenweez.com/produit/farine-de-ble-blanche-t65-bio-1kg/1CELN0011?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+        "image": "https://veg.s3.fr-par.scw.cloud/img/picks/cake-courgette-vegan-farine.jpg",
+        "description": "Du corps sans alourdir, la base d'une mie tendre."
+      },
+      {
+        "name": "Huile d'olive vierge extra - Luce",
+        "url": "https://www.greenweez.com/produit/huile-dolive-vierge-extra-1l-1/1LUCE0020?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+        "image": "https://veg.s3.fr-par.scw.cloud/img/picks/cake-courgette-vegan-huile.jpg",
+        "description": "Elle parfume la pâte tout en discrétion."
+      }
+    ],
+    "ctaUrl": null
+  }
 }

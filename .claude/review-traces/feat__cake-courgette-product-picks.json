@@ -1,0 +1,8 @@
+{
+  "branch": "feat/cake-courgette-product-picks",
+  "reviewer_agent_type": "self-review-arthur",
+  "verdict": "GO MERGE",
+  "issues": { "P0": 0, "P1": 0, "P2": 0 },
+  "context": "Ajout entrée product-picks.json pour cake-courgette-vegan (3 produits Greenweez ae=825 réels depuis affiliate_products, formats crédibles 250g/1kg/1L, images rapatriées S3 img/picks/ ACL public-read curl 200, JSON revalidé 124 entrées). Demande Victor 2026-06-11 : bloc « Produits sélectionnés par Chloé » comme sur les recettes migrées, 3 max.",
+  "timestamp": "2026-06-11T14:55:00+00:00"
+}
