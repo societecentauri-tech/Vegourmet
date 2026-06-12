@@ -72,7 +72,8 @@ function initConsentMode(gaId: string): void {
   });
 
   window.gtag("js", new Date());
-  window.gtag("config", gaId, { anonymize_ip: true });
+  // GA4 anonymise les IPs par défaut — pas besoin de `anonymize_ip` (option UA dépréciée).
+  window.gtag("config", gaId);
 
   // Charge le script gtag.js externe de façon asynchrone.
   const script = document.createElement("script");

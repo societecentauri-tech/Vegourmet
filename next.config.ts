@@ -28,7 +28,7 @@ const CSP_REPORT_ONLY = [
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com",
   "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com",
-  "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net",
+  "connect-src 'self' https://www.google-analytics.com https://region1.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net",
 ].join("; ");
 
 const SECURITY_HEADERS: { key: string; value: string }[] = [
