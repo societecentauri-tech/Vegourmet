@@ -1,0 +1,11 @@
+{
+  "branch": "feature/perf-region-cdg1",
+  "reviewer": "09-Yvain",
+  "date": "2026-06-12",
+  "verdict": "GO",
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "findings": [],
+  "summary": "Création de vercel.json avec regions=[cdg1]. Changement minimal, additif, sans impact sur le build. Aucune route edge détectée. JSON validé. Pas de clé supplémentaire nécessaire (pas de framework override, pas de rewrites, pas de headers spécifiques à Vercel dans ce fichier — next.config.ts gère les headers). Auto-deploy Vercel actif sur push main."
+}
