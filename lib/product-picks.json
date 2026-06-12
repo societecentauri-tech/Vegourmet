@@ -2260,5 +2260,29 @@
    }
   ],
   "ctaUrl": null
+ },
+ "boudoirs-vegan-maison": {
+  "title": "Les indispensables pour des boudoirs maison réussis",
+  "products": [
+   {
+    "name": "Pois chiches bio - Greenweez",
+    "url": "https://www.greenweez.com/produit/pois-chiches-bio-400g-1/2WEEZ0245?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/boudoirs-vegan-maison-pois-chiches.jpg",
+    "description": "Garde le jus : c'est lui, l'aquafaba qui monte en neige !"
+   },
+   {
+    "name": "Fécule de maïs bio - Priméal",
+    "url": "https://www.greenweez.com/produit/fecule-de-mais-250g/1PRIM0319?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/boudoirs-vegan-maison-fecule-de-mais.jpg",
+    "description": "Pour une mie fine et des biscuits qui se tiennent."
+   },
+   {
+    "name": "Sucre glace bio - Jean Hervé",
+    "url": "https://www.greenweez.com/produit/sucre-glace-260g/1HERV0020?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/boudoirs-vegan-maison-sucre-glace.jpg",
+    "description": "Pour la croûte perlée du double saupoudrage."
+   }
+  ],
+  "ctaUrl": null
  }
 }
