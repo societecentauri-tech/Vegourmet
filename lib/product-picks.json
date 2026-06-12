@@ -2236,5 +2236,29 @@
    }
   ],
   "ctaUrl": null
+ },
+ "tiramisu-pistache-vegan": {
+  "title": "Mes indispensables pour une crème pistache inratable",
+  "products": [
+   {
+    "name": "Purée de pistache bio - Jean Hervé",
+    "url": "https://www.greenweez.com/produit/puree-de-pistache-350g/1HERV0026?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/tiramisu-pistache-vegan-puree-de-pistache.jpg",
+    "description": "100 % pistache, le secret d'une crème vert vif et intense."
+   },
+   {
+    "name": "Tofu soyeux bio - Taifun",
+    "url": "https://www.greenweez.com/produit/tofu-soyeux-bio-400g/1TAIF0031?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/tiramisu-pistache-vegan-tofu-soyeux.jpg",
+    "description": "La base fondante qui remplace le mascarpone."
+   },
+   {
+    "name": "Pistaches décortiquées bio - Greenweez",
+    "url": "https://www.greenweez.com/produit/pistaches-decortiquees-bio-500g/2WEEZ0614?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/tiramisu-pistache-vegan-pistaches-decortiquees.jpg",
+    "description": "À concasser pour le croquant du dressage."
+   }
+  ],
+  "ctaUrl": null
  }
 }
