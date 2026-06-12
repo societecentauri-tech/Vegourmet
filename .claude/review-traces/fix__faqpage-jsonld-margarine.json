@@ -1,0 +1,9 @@
+{
+  "branch": "fix/faqpage-jsonld-margarine",
+  "reviewer_agent_id": "abf2fd3cb716f3871",
+  "reviewer_agent_type": "feature-dev:code-reviewer",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "timestamp": "2026-06-12T09:10:00.000000+00:00",
+  "scope": ["lib/content.ts"]
+}

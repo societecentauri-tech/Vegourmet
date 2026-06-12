@@ -45,7 +45,13 @@ export function normalizeFaqItems(
           : typeof raw.answer === "string"
             ? raw.answer
             : "";
-      if (!q || !a) return null;
+      if (!q || !a) {
+        console.warn("[faq] item ignoré (q ou a manquant)", {
+          hasQ: Boolean(q),
+          hasA: Boolean(a),
+        });
+        return null;
+      }
       return { q, a };
     })
     .filter((x): x is { q: string; a: string } => x !== null);
