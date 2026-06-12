@@ -63,12 +63,14 @@ function initConsentMode(gaId: string): void {
   // Consent Mode v2 : toutes les catégories refusées par défaut.
   // GA4 ne posera aucun cookie et n'enverra aucun hit individuel avant accord.
   // Les modèles de conversion (aggregated measurement) restent actifs.
+  // wait_for_update à 2000ms : laisse le temps au script async de se charger
+  // (~200-500ms réseau) et à la bannière de répondre pour les nouveaux visiteurs.
   window.gtag("consent", "default", {
     ad_storage: "denied",
     ad_user_data: "denied",
     ad_personalization: "denied",
     analytics_storage: "denied",
-    wait_for_update: 500,
+    wait_for_update: 2000,
   });
 
   window.gtag("js", new Date());
