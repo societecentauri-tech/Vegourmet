@@ -16,17 +16,19 @@ import type { NextConfig } from "next";
 // CSP en mode Report-Only (P1-2) : on observe les violations sans rien casser.
 // Autorise : self, fonts Google (fonts.googleapis.com / fonts.gstatic.com),
 // images depuis le bucket S3 `veg` Scaleway + data: (icônes inline éventuelles).
+// GA4 Consent Mode v2 : ajout de googletagmanager.com (script) et
+// google-analytics.com + analytics.google.com (collecte) dans les directives.
 const CSP_REPORT_ONLY = [
   "default-src 'self'",
   "base-uri 'self'",
   "frame-ancestors 'self'",
   "form-action 'self'",
   "object-src 'none'",
-  "img-src 'self' data: https://static.vegourmet.fr",
+  "img-src 'self' data: https://static.vegourmet.fr https://www.google-analytics.com",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com",
-  "script-src 'self' 'unsafe-inline'",
-  "connect-src 'self'",
+  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com",
+  "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net",
 ].join("; ");
 
 const SECURITY_HEADERS: { key: string; value: string }[] = [

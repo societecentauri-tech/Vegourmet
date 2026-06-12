@@ -1,16 +1,24 @@
 "use client";
 
 /**
- * Analytics.tsx — Chargement GA4 conditionné au consentement RGPD.
+ * Analytics.tsx — GA4 avec Consent Mode v2 (CNIL-conforme).
  *
- * Ne charge aucun script Google tant que l'utilisateur n'a pas accordé la
- * catégorie "analytics" dans la bannière cookies (cookie `vegourmet_consent`).
- * Écoute l'événement `vegourmet:consent-update` pour réagir en temps réel.
+ * Architecture :
+ *   1. Le script gtag.js est TOUJOURS chargé (nécessaire pour le Consent Mode v2).
+ *   2. Le consentement analytics est déclaré "denied" par défaut → GA4 ne pose
+ *      aucun cookie _ga et n'envoie aucun hit individuel sans accord.
+ *   3. Quand l'utilisateur accepte la catégorie "analytics" via la bannière
+ *      cookies, gtag.consent('update') est appelé avec 'granted' → GA4 active
+ *      la mesure complète et les modèles de conversion même sans cookie.
  *
- * Approche : injection manuelle via document.createElement (useEffect) plutôt
- * que next/script avec children inline. Next/script inline monté dynamiquement
- * post-hydratation n'exécute pas son contenu de façon fiable → SyntaxError +
- * window.gtag jamais défini.
+ * Pourquoi le Consent Mode v2 vs l'ancienne approche conditionnelle :
+ *   L'ancienne implémentation (PR #31-#34) ne chargeait gtag.js QUE si l'utilisateur
+ *   acceptait. Résultat : 0 sessions GA4 pour les visiteurs qui refusent ou ignorent
+ *   la bannière (comportement par défaut CNIL France = refus). La modélisation GA4
+ *   (server-side conversion modeling) nécessite que le script soit chargé même en
+ *   mode "denied" → Consent Mode v2 est la solution officielle Google/CNIL.
+ *
+ * Référence : https://developers.google.com/tag-platform/security/guides/consent
  */
 
 import { useEffect } from "react";
@@ -41,41 +49,62 @@ function readAnalyticsConsent(): boolean {
   }
 }
 
-/** Injecte le script externe gtag.js + initialise dataLayer/window.gtag. */
-function injectGA4(gaId: string): void {
-  // Déclare window.dataLayer et window.gtag avant le script externe.
+/**
+ * Initialise dataLayer, window.gtag, et configure le Consent Mode v2 par défaut.
+ * Doit être appelé AVANT le chargement du script gtag.js externe.
+ */
+function initConsentMode(gaId: string): void {
+  // Déclare window.dataLayer et window.gtag.
   window.dataLayer = window.dataLayer ?? [];
   window.gtag = function gtag(...args: GtagArgs): void {
     window.dataLayer.push(args);
   };
+
+  // Consent Mode v2 : toutes les catégories refusées par défaut.
+  // GA4 ne posera aucun cookie et n'enverra aucun hit individuel avant accord.
+  // Les modèles de conversion (aggregated measurement) restent actifs.
+  window.gtag("consent", "default", {
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied",
+    analytics_storage: "denied",
+    wait_for_update: 500,
+  });
+
   window.gtag("js", new Date());
   window.gtag("config", gaId, { anonymize_ip: true });
 
-  // Injecte le script externe async dans <head>.
+  // Charge le script gtag.js externe de façon asynchrone.
   const script = document.createElement("script");
   script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
   script.async = true;
   document.head.appendChild(script);
 }
 
+/** Met à jour le consentement GA4 selon les choix de l'utilisateur. */
+function updateConsentMode(analyticsGranted: boolean): void {
+  if (typeof window.gtag !== "function") return;
+  const status = analyticsGranted ? "granted" : "denied";
+  window.gtag("consent", "update", {
+    analytics_storage: status,
+  });
+}
+
 export function Analytics() {
   useEffect(() => {
-    // Flag interne : évite la double-injection si le composant est re-rendu.
-    let injected = false;
-
-    function tryInject() {
-      if (!injected && readAnalyticsConsent()) {
-        injected = true;
-        injectGA4(GA_ID);
+    // Initialise le Consent Mode v2 et charge le script gtag.js une seule fois.
+    if (!window.dataLayer) {
+      const alreadyGranted = readAnalyticsConsent();
+      initConsentMode(GA_ID);
+      // Si le visiteur avait déjà accepté (cookie présent), on accorde immédiatement.
+      if (alreadyGranted) {
+        updateConsentMode(true);
       }
     }
 
-    // Vérification immédiate (visiteur revenant avec consentement déjà enregistré).
-    tryInject();
-
-    // Réaction en temps réel quand l'utilisateur accepte/refuse via la bannière.
+    // Réaction en temps réel quand l'utilisateur interagit avec la bannière.
     const handleConsentUpdate = () => {
-      tryInject();
+      updateConsentMode(readAnalyticsConsent());
     };
     window.addEventListener("vegourmet:consent-update", handleConsentUpdate);
     return () => {
