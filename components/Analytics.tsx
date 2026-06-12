@@ -91,14 +91,6 @@ function updateConsentMode(analyticsGranted: boolean): void {
   window.gtag("consent", "update", {
     analytics_storage: status,
   });
-  // Re-flush explicite du page_view : le hit initial émis par gtag('config')
-  // a été traité en mode "denied" (script async pas encore chargé). Le consent
-  // update seul ne suffit pas — gtag ne rejoue pas automatiquement les hits
-  // précédents. On émet donc un page_view après le grant pour enregistrer la
-  // session dès l'accord du visiteur.
-  if (analyticsGranted) {
-    window.gtag("event", "page_view");
-  }
 }
 
 export function Analytics() {
