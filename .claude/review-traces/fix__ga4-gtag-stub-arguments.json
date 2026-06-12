@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-06-12T10:00:00Z",
+  "branch": "fix/ga4-gtag-stub-arguments",
+  "reviewer_agent_type": "feature-dev:code-reviewer",
+  "verdict": "GO MERGE",
+  "issues": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0
+  },
+  "summary": "Fix chirurgical du stub gtag : remplacement de ...args + push(args) par arguments natif. Cause racine prouvée en live par Arthur (console patch → /g/collect immédiat). Consent Mode v2 (wait_for_update:2000) inchangé. Aucun autre fichier modifié."
+}

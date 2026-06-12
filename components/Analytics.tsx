@@ -56,8 +56,11 @@ function readAnalyticsConsent(): boolean {
 function initConsentMode(gaId: string): void {
   // Déclare window.dataLayer et window.gtag.
   window.dataLayer = window.dataLayer ?? [];
-  window.gtag = function gtag(...args: GtagArgs): void {
-    window.dataLayer.push(args);
+  window.gtag = function gtag(): void {
+    // gtag.js n'interprète QUE l'objet `arguments` (array-like natif), pas un Array JS.
+    // Ne PAS utiliser de rest param (...args) + push(args) : les commandes ne seraient jamais traitées.
+    // eslint-disable-next-line prefer-rest-params
+    window.dataLayer.push(arguments as unknown as Parameters<typeof window.gtag>);
   };
 
   // Consent Mode v2 : toutes les catégories refusées par défaut.
