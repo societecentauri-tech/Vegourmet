@@ -63,12 +63,14 @@ function initConsentMode(gaId: string): void {
   // Consent Mode v2 : toutes les catégories refusées par défaut.
   // GA4 ne posera aucun cookie et n'enverra aucun hit individuel avant accord.
   // Les modèles de conversion (aggregated measurement) restent actifs.
+  // wait_for_update à 2000ms : laisse le temps au script async de se charger
+  // (~200-500ms réseau) et à la bannière de répondre pour les nouveaux visiteurs.
   window.gtag("consent", "default", {
     ad_storage: "denied",
     ad_user_data: "denied",
     ad_personalization: "denied",
     analytics_storage: "denied",
-    wait_for_update: 500,
+    wait_for_update: 2000,
   });
 
   window.gtag("js", new Date());
@@ -89,6 +91,14 @@ function updateConsentMode(analyticsGranted: boolean): void {
   window.gtag("consent", "update", {
     analytics_storage: status,
   });
+  // Re-flush explicite du page_view : le hit initial émis par gtag('config')
+  // a été traité en mode "denied" (script async pas encore chargé). Le consent
+  // update seul ne suffit pas — gtag ne rejoue pas automatiquement les hits
+  // précédents. On émet donc un page_view après le grant pour enregistrer la
+  // session dès l'accord du visiteur.
+  if (analyticsGranted) {
+    window.gtag("event", "page_view");
+  }
 }
 
 export function Analytics() {
