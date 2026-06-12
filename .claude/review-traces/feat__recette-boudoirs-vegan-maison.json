@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-06-12T15:20:00Z",
+  "branch": "feature/recette-boudoirs-vegan-maison",
+  "reviewer_agent_type": "general-purpose (adversarial QA recette)",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "notes": "Recette boudoirs vegan (aquafaba) + retrofit maillage tiramisu pistache + ProductPicks. Review adversariale : recette réalisable, 100% vegan, liens internes honnêtes (tiramisu café déconstruit EXCLU des combos, aucun faux claim), retrofit contextuel bien formé. Seul P1 trouvé (lien affilié farine T45 → produit T55, trompeur) CORRIGÉ : lien farine retiré (catalogue sans T45). 4/7 liens affiliés restants tous cohérents (produit = ingrédient). datePublished J-1 (nouvelles règles skill). QA VEG-001..011 PASS, couverture 0.90."
+}
