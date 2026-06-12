@@ -12,6 +12,46 @@ const RECIPES_DIR = path.join(process.cwd(), "content", "recettes");
 const BLOG_DIR = path.join(process.cwd(), "content", "blog");
 
 /**
+ * Normalise les items FAQ issus du frontmatter en `{ q, a }[]`.
+ *
+ * Deux variantes de nommage coexistent dans le contenu :
+ *   - `q` / `a`          : norme du repo, utilisée par les recettes et la plupart des articles
+ *   - `question` / `answer` : variante émise par le pipeline LLM pour certains guides
+ *
+ * Les deux alimentent le même composant `ArticleFaq` et le builder `buildFaqJsonLd`.
+ * Sans normalisation, les items `question`/`answer` produisent un JSON-LD FAQPage
+ * avec `name` et `text` vides (champs `undefined`), ce qui invalide les rich snippets GSC.
+ *
+ * @param input - Valeur brute issue de `data.faq` (inconnue à la parse).
+ * @returns Tableau `{ q, a }` normalisé, entrées incomplètes écartées.
+ */
+export function normalizeFaqItems(
+  input: unknown,
+): { q: string; a: string }[] {
+  if (!Array.isArray(input)) return [];
+  return input
+    .map((item: unknown) => {
+      if (typeof item !== "object" || item === null) return null;
+      const raw = item as Record<string, unknown>;
+      const q =
+        typeof raw.q === "string"
+          ? raw.q
+          : typeof raw.question === "string"
+            ? raw.question
+            : "";
+      const a =
+        typeof raw.a === "string"
+          ? raw.a
+          : typeof raw.answer === "string"
+            ? raw.answer
+            : "";
+      if (!q || !a) return null;
+      return { q, a };
+    })
+    .filter((x): x is { q: string; a: string } => x !== null);
+}
+
+/**
  * Normalise un champ `tags` issu du frontmatter gray-matter en tableau de strings propres.
  *
  * Le pipeline n8n de rédaction SEO sérialise parfois `tags` en CSV scalaire
@@ -53,6 +93,7 @@ export function getAllRecipes(): Recipe[] {
         frontmatter: {
           ...d,
           tags: normalizeTags((data as Record<string, unknown>).tags),
+          faq: normalizeFaqItems((data as Record<string, unknown>).faq),
         },
         content,
       };
@@ -78,6 +119,7 @@ export function getAllArticles(): Article[] {
         frontmatter: {
           ...d,
           tags: normalizeTags((data as Record<string, unknown>).tags),
+          faq: normalizeFaqItems((data as Record<string, unknown>).faq),
         },
         content,
       };
