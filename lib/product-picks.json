@@ -2284,5 +2284,29 @@
    }
   ],
   "ctaUrl": null
+ },
+ "cookies-matcha-pistache-vegan": {
+  "title": "Le trio gagnant des cookies matcha",
+  "products": [
+   {
+    "name": "Thé matcha japonais bio - Amoseeds",
+    "url": "https://www.greenweez.com/produit/the-matcha-japonais-en-poudre-bio-70g/1AMOS0020?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/cookies-matcha-pistache-vegan-matcha.jpg",
+    "description": "Un matcha culinaire au vert intense, parfait pour la pâtisserie."
+   },
+   {
+    "name": "Pistaches décortiquées bio - Les Accents du Soleil",
+    "url": "https://www.greenweez.com/produit/pistaches-decortiquees-nature-espagne-100g/1LADS0078?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/cookies-matcha-pistache-vegan-pistaches.jpg",
+    "description": "À concasser pour le croquant et la couleur."
+   },
+   {
+    "name": "Chocolat blanc vegan - Vivani",
+    "url": "https://www.greenweez.com/produit/chocolat-blanc-vanille-80g-bio/1VIVA0022?utm_source=affilae&utm_medium=affiliation&utm_campaign=vegourmet&ae=825",
+    "image": "https://static.vegourmet.fr/img/picks/cookies-matcha-pistache-vegan-chocolat-blanc.jpg",
+    "description": "Les poches fondantes qui équilibrent l'amertume du matcha."
+   }
+  ],
+  "ctaUrl": null
  }
 }

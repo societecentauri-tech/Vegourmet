@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-06-13T13:10:00Z",
+  "branch": "feature/recette-cookies-matcha-pistache-vegan",
+  "reviewer_agent_type": "general-purpose (adversarial QA recette)",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "notes": "Cookies matcha pistache vegan (ouverture pilier matcha). Review adversariale a trouvé 2 P1 + 3 P2, TOUS corrigés : (P1) « le pain n'a rien de vegan » faux → reformulé pain vegan ; (P1) substitution huile→sirop d'érable culinairement fausse → remplacée par swap partiel de sucre ; (P2) totalTime 45→47, amorce « Bonne nouvelle » retirée, titre 56→54 car. Matcha lié = culinaire Amoseeds (cohérent FAQ). 7 liens affiliés ae=825 cohérents, affiliateText⊂name. Couverture 1.00, QA VEG-001..011 PASS."
+}
