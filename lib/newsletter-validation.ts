@@ -35,6 +35,9 @@ export function validateSubscribeInput(raw: unknown): ValidationResult {
     typeof body.source === "string" ? body.source.trim() : "homepage";
 
   if (!EMAIL_RE.test(email)) return { ok: false, reason: "email_invalid" };
+  // Rejette les emails contenant un guillemet simple : la regex EMAIL_RE les autorise
+  // mais ils casseraient le littéral SQL de la query Listmonk (ex. o'neil@x.com).
+  if (email.includes("'")) return { ok: false, reason: "email_invalid" };
   if (email.length > 254) return { ok: false, reason: "email_too_long" };
   if (!consentWording || consentWording.length < 5)
     return { ok: false, reason: "consent_missing" };
@@ -73,6 +76,7 @@ export function validateUnsubscribeInput(raw: unknown): UnsubscribeValidationRes
   const email = typeof body.email === "string" ? body.email.trim() : "";
 
   if (!EMAIL_RE.test(email)) return { ok: false, reason: "email_invalid" };
+  if (email.includes("'")) return { ok: false, reason: "email_invalid" };
   if (email.length > 254) return { ok: false, reason: "email_too_long" };
 
   return { ok: true, email: email.toLowerCase() };

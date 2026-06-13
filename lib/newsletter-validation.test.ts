@@ -52,6 +52,15 @@ describe("validateSubscribeInput", () => {
     assert.equal(r.ok === false && r.reason, "email_invalid");
   });
 
+  test("email avec guillemet simple -> rejet email_invalid (injection query Listmonk)", () => {
+    const r = validateSubscribeInput({
+      email: "o'neil@example.com",
+      consentWording: "J'accepte la newsletter.",
+    });
+    assert.equal(r.ok, false);
+    assert.equal(r.ok === false && r.reason, "email_invalid");
+  });
+
   test("email trop long (>254) -> rejet email_too_long", () => {
     const r = validateSubscribeInput({
       email: `${"a".repeat(250)}@x.fr`,
@@ -137,6 +146,12 @@ describe("validateUnsubscribeInput", () => {
 
   test("email invalide -> rejet email_invalid", () => {
     const r = validateUnsubscribeInput({ email: "pas-valide" });
+    assert.equal(r.ok, false);
+    assert.equal(r.ok === false && r.reason, "email_invalid");
+  });
+
+  test("email avec guillemet simple -> rejet email_invalid (injection query Listmonk)", () => {
+    const r = validateUnsubscribeInput({ email: "o'neil@example.com" });
     assert.equal(r.ok, false);
     assert.equal(r.ok === false && r.reason, "email_invalid");
   });

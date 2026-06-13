@@ -9,6 +9,7 @@
 // L'API est exposée via Tailscale uniquement ; les routes Vercel appellent
 // LISTMONK_API_URL (ex. https://listmonk.alpha.cntri.cloud) via Tailscale.
 // ─────────────────────────────────────────────────────────────────────────────
+import "server-only";
 
 /** Vérifications de configuration au démarrage (pas au build). */
 function listmonkConfig(): { baseUrl: string; auth: string } {
@@ -91,8 +92,10 @@ async function listmonkFetch(
 async function getSubscriberByEmail(
   email: string,
 ): Promise<ListmonkSubscriber | null> {
+  // Échappement du guillemet simple pour le littéral SQL Listmonk (ex. o'neil → o''neil).
+  const safeEmail = email.replace(/'/g, "''");
   const res = await listmonkFetch(
-    `/api/subscribers?query=email+%3D+%27${encodeURIComponent(email)}%27&per_page=1`,
+    `/api/subscribers?query=email+%3D+%27${encodeURIComponent(safeEmail)}%27&per_page=1`,
     { method: "GET" },
   );
   if (res.status === 404) return null;
@@ -195,7 +198,10 @@ export async function subscribeToVegourmet(
     return { ok: true, alreadySubscribed: true };
   }
 
-  const detail = await res.text().catch(() => "");
+  const rawDetail = await res.text().catch(() => "");
+  // Sanitisation : tronque à 100 car. et retire les caractères non-ASCII pour éviter
+  // qu'un corps d'erreur Listmonk (qui peut refléter l'email) ne se retrouve en log.
+  const safeDetail = rawDetail.slice(0, 100).replace(/[^\x20-\x7E]/g, "");
   console.error(
     JSON.stringify({
       level: "error",
@@ -206,7 +212,7 @@ export async function subscribeToVegourmet(
   );
   return {
     ok: false,
-    error: `Inscription refusée (HTTP ${res.status}) ${detail}`.trim(),
+    error: `Inscription refusée (HTTP ${res.status}) ${safeDetail}`.trim(),
   };
 }
 
@@ -251,7 +257,8 @@ export async function unsubscribeFromVegourmet(
     return { ok: true };
   }
 
-  const detail = await res.text().catch(() => "");
+  const rawDetail = await res.text().catch(() => "");
+  const safeDetail = rawDetail.slice(0, 100).replace(/[^\x20-\x7E]/g, "");
   console.error(
     JSON.stringify({
       level: "error",
@@ -262,6 +269,6 @@ export async function unsubscribeFromVegourmet(
   );
   return {
     ok: false,
-    error: `Désabonnement refusé (HTTP ${res.status}) ${detail}`.trim(),
+    error: `Désabonnement refusé (HTTP ${res.status}) ${safeDetail}`.trim(),
   };
 }

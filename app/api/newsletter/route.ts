@@ -1,6 +1,10 @@
 // ─────────────────────────────────────────────────────────────────────────────
 // /api/newsletter
 //
+// DEPRECATED — remplacée par /api/newsletter/subscribe + /api/newsletter/unsubscribe
+// (feature/newsletter-collecte-v2, Listmonk double opt-in, 2026-06-13).
+// À supprimer après validation en prod de la migration Listmonk (décision Victor).
+//
 // POST { email, firstName?, consent }
 //      Inscrit une adresse à la newsletter (single opt-in, consentement explicite
 //      requis). Stocke la preuve RGPD (texte de consentement, horodatage, IP, UA).
