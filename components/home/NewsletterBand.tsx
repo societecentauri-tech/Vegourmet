@@ -3,10 +3,16 @@
 import { useState, type FormEvent } from "react";
 
 /**
- * NewsletterBand — bandeau newsletter (ancre #newsletter, héritée du thème Yummy Bites).
- * Formulaire fonctionnel : inscription via la route BFF `/api/newsletter`
- * (single opt-in avec consentement RGPD explicite, stocké en base vegourmet_prod).
+ * NewsletterBand — bandeau newsletter (ancre #newsletter).
+ * Inscription via BFF `POST /api/newsletter/subscribe/` → Listmonk double opt-in.
+ * Affiche « Vérifie ta boîte mail pour confirmer » après soumission (voix Chloé).
  */
+
+/** Libellé de consentement canonique envoyé côté serveur pour preuve RGPD. */
+const CONSENT_WORDING =
+  "J'accepte de recevoir la newsletter de Vegourmet (recettes, conseils et offres) " +
+  "et que mon adresse e-mail soit utilisée à cette fin. Désinscription possible à tout moment.";
+
 type Status = "idle" | "loading" | "success" | "already" | "error";
 
 export function NewsletterBand() {
@@ -19,32 +25,38 @@ export function NewsletterBand() {
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setError("");
+
     if (!consent) {
       setError("Coche la case de consentement pour t'inscrire.");
       return;
     }
+
     setStatus("loading");
+
     try {
-      const res = await fetch("/api/newsletter/", {
+      const res = await fetch("/api/newsletter/subscribe/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           email,
-          firstName: firstName || undefined,
-          consent,
+          firstName: firstName.trim() || undefined,
+          consentWording: CONSENT_WORDING,
           source: "homepage",
         }),
       });
+
       const data = (await res.json().catch(() => ({}))) as {
         ok?: boolean;
         alreadySubscribed?: boolean;
         error?: string;
       };
+
       if (!res.ok || !data.ok) {
         setStatus("error");
         setError(data.error ?? "Une erreur est survenue. Réessaie plus tard.");
         return;
       }
+
       setStatus(data.alreadySubscribed ? "already" : "success");
       setEmail("");
       setFirstName("");
@@ -76,7 +88,7 @@ export function NewsletterBand() {
           <p className="vgh-newsletter-success" role="status">
             {status === "already"
               ? "Tu es déjà inscrit·e — merci ! 💚"
-              : "Merci ! Ton inscription est bien enregistrée. 💚"}
+              : "C'est presque fait ! Vérifie ta boîte mail et clique sur le lien de confirmation. 💚"}
           </p>
         ) : (
           <form
