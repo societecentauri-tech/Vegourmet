@@ -184,6 +184,9 @@ export async function subscribeToVegourmet(
   }
 
   // ── 2. Appel POST /subscribe ──────────────────────────────────────────────
+  // Cas restants (non blocklisted, non déjà inscrit) : `unsubscribed` = réinscription
+  // intentionnelle ; `disabled` (soft-disable Listmonk) = on laisse le BFF trancher si
+  // la réinscription est autorisée. Dans les deux cas, POST /subscribe (idempotent côté BFF).
   const body = {
     email,
     list_uuids: [listUuid],
