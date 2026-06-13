@@ -1,63 +1,66 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// Couche d'accès serveur (BFF) vers l'API Listmonk.
+// Couche d'accès serveur (BFF) vers le BFF Listmonk interne.
 //
-// server-only : utilise LISTMONK_API_TOKEN (Infisical /_infra/listmonk).
-// Jamais importé côté client. Tout trafic passe par les routes API Next.js
-// (standard BFF Centauri bff-2026.md).
+// server-only : jamais importé côté client.
+// Tout trafic passe par les routes API Next.js (standard BFF Centauri bff-2026.md).
 //
-// Listmonk v6.1.0 — HTTP Basic auth (username:password) via Authorization header.
-// L'API est exposée via Tailscale uniquement ; les routes Vercel appellent
-// LISTMONK_API_URL (ex. https://listmonk.alpha.cntri.cloud) via Tailscale.
+// Le BFF Listmonk (listmonk-bff.alpha.cntri.cloud) expose un contrat simplifié
+// sécurisé par header X-Listmonk-BFF-Key. Listmonk lui-même n'est pas exposé
+// directement — aucune HTTP Basic auth ici.
 // ─────────────────────────────────────────────────────────────────────────────
 import "server-only";
 
-/** Vérifications de configuration au démarrage (pas au build). */
-function listmonkConfig(): { baseUrl: string; auth: string } {
-  const url = process.env.LISTMONK_API_URL;
-  const user = process.env.LISTMONK_API_USER;
-  const token = process.env.LISTMONK_API_TOKEN;
+// ── Configuration ────────────────────────────────────────────────────────────
 
-  if (!url || !user || !token) {
+interface BffConfig {
+  baseUrl: string;
+  key: string;
+  listUuid: string;
+}
+
+function bffConfig(): BffConfig {
+  const baseUrl = process.env.LISTMONK_BFF_URL;
+  const key = process.env.LISTMONK_BFF_KEY;
+  const listUuid = process.env.LISTMONK_LIST_UUID_VEGOURMET;
+
+  if (!baseUrl || !key || !listUuid) {
     throw new Error(
-      "Config Listmonk incomplète : LISTMONK_API_URL, LISTMONK_API_USER et LISTMONK_API_TOKEN sont requis.",
+      "Config BFF Listmonk incomplète : LISTMONK_BFF_URL, LISTMONK_BFF_KEY " +
+        "et LISTMONK_LIST_UUID_VEGOURMET sont requis.",
     );
   }
 
-  const encoded = Buffer.from(`${user}:${token}`).toString("base64");
-  return { baseUrl: url.replace(/\/$/, ""), auth: `Basic ${encoded}` };
+  return { baseUrl: baseUrl.replace(/\/$/, ""), key, listUuid };
 }
 
-/** Numéro de liste vegourmet dans Listmonk (à provisionner dans Vercel/Infisical). */
-function vegourmetListId(): number {
-  const raw = process.env.LISTMONK_LIST_ID_VEGOURMET;
-  const id = raw ? parseInt(raw, 10) : NaN;
-  if (!raw || isNaN(id) || id <= 0) {
-    throw new Error(
-      "LISTMONK_LIST_ID_VEGOURMET manquant ou invalide (entier > 0 requis).",
-    );
-  }
-  return id;
+// ── Types de réponse BFF ─────────────────────────────────────────────────────
+
+/** Réponse de POST /subscribe */
+interface BffSubscribeResponse {
+  data: { has_optin: boolean };
 }
 
-// ── Types API Listmonk ───────────────────────────────────────────────────────
-
-interface ListmonkSubscriber {
+/** Réponse de GET /subscriber */
+interface BffSubscriberFoundResponse {
+  exists: true;
   id: number;
-  uuid: string;
-  email: string;
-  name: string;
   status: "enabled" | "disabled" | "blocklisted";
-  lists?: Array<{ id: number; subscription_status: string }>;
-  attribs?: Record<string, unknown>;
-  created_at: string;
-  updated_at: string;
+  list_subscription_status: "unconfirmed" | "confirmed" | "unsubscribed";
 }
 
-interface ListmonkApiResponse<T> {
-  data: T;
+interface BffSubscriberNotFoundResponse {
+  exists: false;
 }
 
-// ── Résultats ────────────────────────────────────────────────────────────────
+type BffSubscriberResponse = BffSubscriberFoundResponse | BffSubscriberNotFoundResponse;
+
+/** Réponse de POST /unsubscribe */
+interface BffUnsubscribeResponse {
+  status: "unsubscribed";
+  email: string;
+}
+
+// ── Résultats publics ────────────────────────────────────────────────────────
 
 export type SubscribeResult =
   | { ok: true; alreadySubscribed: boolean }
@@ -67,15 +70,15 @@ export type UnsubscribeResult =
   | { ok: true }
   | { ok: false; error: string };
 
-// ── Helpers ──────────────────────────────────────────────────────────────────
+// ── Helper fetch ─────────────────────────────────────────────────────────────
 
-async function listmonkFetch(
+async function bffFetch(
   path: string,
   options: RequestInit,
 ): Promise<Response> {
-  const { baseUrl, auth } = listmonkConfig();
+  const { baseUrl, key } = bffConfig();
   const headers = new Headers(options.headers ?? {});
-  headers.set("Authorization", auth);
+  headers.set("X-Listmonk-BFF-Key", key);
   if (!headers.has("Content-Type") && options.method !== "GET") {
     headers.set("Content-Type", "application/json");
   }
@@ -83,28 +86,44 @@ async function listmonkFetch(
     ...options,
     headers,
     cache: "no-store",
-    // Timeout 10 s (Listmonk est derrière Tailscale, latence potentielle).
+    // Timeout 10 s — BFF sur Tailscale, latence potentielle.
     signal: AbortSignal.timeout(10_000),
   });
 }
 
-/** Récupère un abonné par email. Retourne null si introuvable. */
-async function getSubscriberByEmail(
+/** Sanitise un corps d'erreur BFF avant de l'inclure dans un message (anti-PII). */
+function safeErrorDetail(raw: string): string {
+  return raw.slice(0, 100).replace(/[^\x20-\x7E]/g, "");
+}
+
+// ── Check statut abonné (GET /subscriber) ────────────────────────────────────
+
+/**
+ * Interroge le BFF pour connaître le statut d'un email sur la liste vegourmet.
+ * Utilisé avant subscribe pour détecter les emails blocklisted et les doublons
+ * déjà confirmés.
+ * Retourne null si l'email n'existe pas dans Listmonk.
+ */
+async function checkSubscriberStatus(
   email: string,
-): Promise<ListmonkSubscriber | null> {
-  // Échappement du guillemet simple pour le littéral SQL Listmonk (ex. o'neil → o''neil).
-  const safeEmail = email.replace(/'/g, "''");
-  const res = await listmonkFetch(
-    `/api/subscribers?query=email+%3D+%27${encodeURIComponent(safeEmail)}%27&per_page=1`,
+): Promise<BffSubscriberResponse> {
+  const { listUuid } = bffConfig();
+
+  // encodeURIComponent suffit ici : le BFF reçoit une query string standard,
+  // pas un littéral SQL — la garde anti-guillemet simple reste dans newsletter-validation.ts.
+  const res = await bffFetch(
+    `/subscriber?email=${encodeURIComponent(email)}&list_uuid=${encodeURIComponent(listUuid)}`,
     { method: "GET" },
   );
-  if (res.status === 404) return null;
+
   if (!res.ok) {
-    const body = await res.text().catch(() => "");
-    throw new Error(`Listmonk getSubscriber HTTP ${res.status}: ${body}`);
+    const rawBody = await res.text().catch(() => "");
+    throw new Error(
+      `BFF checkSubscriber HTTP ${res.status}: ${safeErrorDetail(rawBody)}`,
+    );
   }
-  const json = (await res.json()) as { data: { results: ListmonkSubscriber[] } };
-  return json.data.results[0] ?? null;
+
+  return (await res.json()) as BffSubscriberResponse;
 }
 
 // ── Actions publiques ────────────────────────────────────────────────────────
@@ -117,39 +136,41 @@ export interface SubscribeInput {
 }
 
 /**
- * Inscrit un email à la liste vegourmet avec statut `unconfirmed`.
- * Listmonk envoie l'email de double opt-in via le template id 5 (veg-double-optin).
- * Idempotent : si l'abonné est déjà `unconfirmed` ou `confirmed`, retourne
- * `alreadySubscribed: true` sans créer de doublon.
+ * Inscrit un email à la liste vegourmet (double opt-in).
+ * Le BFF Listmonk crée l'abonné avec statut `unconfirmed` et déclenche
+ * l'email de confirmation automatiquement.
+ *
+ * Idempotent : le BFF /subscribe est idempotent. On effectue un check préalable
+ * via GET /subscriber pour :
+ *   1. Détecter les emails blocklisted (réponse silencieuse sans révéler le statut).
+ *   2. Distinguer « déjà confirmé » vs « nouvelle inscription » dans l'UI.
  */
 export async function subscribeToVegourmet(
   input: SubscribeInput,
 ): Promise<SubscribeResult> {
+  const { listUuid } = bffConfig();
   const email = input.email.trim().toLowerCase();
-  const listId = vegourmetListId();
 
-  // Vérification suppression-list : si l'email est `blocklisted`, on refuse
-  // silencieusement (202 côté client — on ne révèle pas le statut).
-  const existing = await getSubscriberByEmail(email);
-  if (existing?.status === "blocklisted") {
-    // On log sans PII : pas de l'email en clair.
-    console.log(
-      JSON.stringify({
-        level: "info",
-        action: "subscribe_blocklisted",
-        timestamp: new Date().toISOString(),
-      }),
-    );
-    // Retourne un succès apparent (ne pas révéler la suppression-list à l'appelant).
-    return { ok: true, alreadySubscribed: false };
-  }
+  // ── 1. Check préalable du statut abonné ──────────────────────────────────
+  const statusCheck = await checkSubscriberStatus(email);
 
-  // Si déjà inscrit et non blocklisted → idempotent.
-  if (existing) {
-    const myList = existing.lists?.find((l) => l.id === listId);
+  if (statusCheck.exists) {
+    // Email blocklisted : réponse 202 silencieuse (on ne révèle pas le statut).
+    if (statusCheck.status === "blocklisted") {
+      console.log(
+        JSON.stringify({
+          level: "info",
+          action: "subscribe_blocklisted",
+          timestamp: new Date().toISOString(),
+        }),
+      );
+      return { ok: true, alreadySubscribed: false };
+    }
+
+    // Déjà confirmé ou en attente → idempotent, signaler à l'UI.
     if (
-      myList?.subscription_status === "confirmed" ||
-      myList?.subscription_status === "unconfirmed"
+      statusCheck.list_subscription_status === "confirmed" ||
+      statusCheck.list_subscription_status === "unconfirmed"
     ) {
       console.log(
         JSON.stringify({
@@ -162,26 +183,18 @@ export async function subscribeToVegourmet(
     }
   }
 
-  // Création ou mise à jour de l'abonné avec statut `unconfirmed` (double opt-in).
+  // ── 2. Appel POST /subscribe ──────────────────────────────────────────────
   const body = {
     email,
-    name: input.firstName?.trim() || email.split("@")[0],
-    status: "enabled",
-    lists: [listId],
-    preconfirm_subscriptions: false, // déclenche l'email double opt-in
-    attribs: {
-      source: input.source ?? "homepage",
-      consent_wording: input.consentWording,
-      consent_at: new Date().toISOString(),
-    },
+    list_uuids: [listUuid],
   };
 
-  const res = await listmonkFetch("/api/subscribers", {
+  const res = await bffFetch("/subscribe", {
     method: "POST",
     body: JSON.stringify(body),
   });
 
-  if (res.status === 200 || res.status === 201) {
+  if (res.ok) {
     console.log(
       JSON.stringify({
         level: "info",
@@ -193,15 +206,7 @@ export async function subscribeToVegourmet(
     return { ok: true, alreadySubscribed: false };
   }
 
-  // 409 : email déjà présent dans Listmonk (race condition ou autre liste).
-  if (res.status === 409) {
-    return { ok: true, alreadySubscribed: true };
-  }
-
   const rawDetail = await res.text().catch(() => "");
-  // Sanitisation : tronque à 100 car. et retire les caractères non-ASCII pour éviter
-  // qu'un corps d'erreur Listmonk (qui peut refléter l'email) ne se retrouve en log.
-  const safeDetail = rawDetail.slice(0, 100).replace(/[^\x20-\x7E]/g, "");
   console.error(
     JSON.stringify({
       level: "error",
@@ -212,39 +217,24 @@ export async function subscribeToVegourmet(
   );
   return {
     ok: false,
-    error: `Inscription refusée (HTTP ${res.status}) ${safeDetail}`.trim(),
+    error: `Inscription refusée (HTTP ${res.status}) ${safeErrorDetail(rawDetail)}`.trim(),
   };
 }
 
 /**
- * Désabonne un email de la liste vegourmet via l'API Listmonk.
- * Appelé par la route `POST /api/newsletter/unsubscribe` (RFC 8058 one-click).
- * Si l'email est introuvable, retourne ok:true (idempotent).
+ * Désabonne un email de la liste vegourmet (RFC 8058 one-click).
+ * Le BFF /unsubscribe est idempotent : email introuvable → 200 sans erreur.
  */
 export async function unsubscribeFromVegourmet(
   email: string,
 ): Promise<UnsubscribeResult> {
+  const { listUuid } = bffConfig();
   const normalised = email.trim().toLowerCase();
-  const listId = vegourmetListId();
 
-  const subscriber = await getSubscriberByEmail(normalised);
-  if (!subscriber) {
-    // Pas d'abonné trouvé → idempotent.
-    return { ok: true };
-  }
-
-  // Mettre la souscription à `unsubscribed` sur la liste vegourmet.
-  const res = await listmonkFetch(
-    `/api/subscribers/${subscriber.id}/lists`,
-    {
-      method: "PUT",
-      body: JSON.stringify({
-        ids: [listId],
-        action: "unsubscribe",
-        status: "unsubscribed",
-      }),
-    },
-  );
+  const res = await bffFetch("/unsubscribe", {
+    method: "POST",
+    body: JSON.stringify({ email: normalised, list_uuid: listUuid }),
+  });
 
   if (res.ok) {
     console.log(
@@ -258,7 +248,6 @@ export async function unsubscribeFromVegourmet(
   }
 
   const rawDetail = await res.text().catch(() => "");
-  const safeDetail = rawDetail.slice(0, 100).replace(/[^\x20-\x7E]/g, "");
   console.error(
     JSON.stringify({
       level: "error",
@@ -269,6 +258,6 @@ export async function unsubscribeFromVegourmet(
   );
   return {
     ok: false,
-    error: `Désabonnement refusé (HTTP ${res.status}) ${safeDetail}`.trim(),
+    error: `Désabonnement refusé (HTTP ${res.status}) ${safeErrorDetail(rawDetail)}`.trim(),
   };
 }
