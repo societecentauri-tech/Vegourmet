@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-06-13T13:40:00Z",
+  "branch": "fix/article-slug-fallback",
+  "reviewer_agent_type": "build-proof + arthur-self-review",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "notes": "Hotfix P0 (option A) : build vegourmet cassé depuis ~11h par 8 posts blog auto-publiés au frontmatter incomplet (slug/category/datePublished manquants, tags string). (1) Hardening lib/content.ts : slug = frontmatter.slug ?? nom de fichier (getAllArticles + getAllRecipes) — empêche la récidive du build break sur slug manquant. (2) Retrait des 8 posts malformés (contenu sauvegardé /tmp/veg-malformed-blog-backup-2026-06-13 pour re-publication propre en phase C). Preuve : build local vert (359/359 pages, exit 0). Restaure les déploiements + débloque la recette matcha cookies (PR #63)."
+}
