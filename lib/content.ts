@@ -132,6 +132,21 @@ export function getAllArticles(): Article[] {
         content,
       };
     })
+    // Garde-fou build : exclut les articles au frontmatter incomplet (category
+    // ou datePublished manquant) qui casseraient le prerender (/[slug], sitemap,
+    // listings). Ils réapparaissent automatiquement une fois leur frontmatter
+    // corrigé. Cf. mission vegourmet-blog-pipeline-frontmatter-2026-06.
+    .filter((a) => {
+      const ok = Boolean(a.frontmatter.category) && Boolean(a.frontmatter.datePublished);
+      if (!ok) {
+        console.warn(
+          `[content] article ignoré (frontmatter incomplet : ${
+            !a.frontmatter.category ? "category" : "datePublished"
+          } manquant) : ${a.frontmatter.slug}`,
+        );
+      }
+      return ok;
+    })
     .sort(
       (a, b) =>
         new Date(b.frontmatter.datePublished).getTime() -
