@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-06-13T14:00:00Z",
+  "branch": "fix/slugify-taxo-guard",
+  "reviewer_agent_type": "build-proof + arthur-self-review",
+  "verdict": "GO MERGE",
+  "issues": {"P0": 0, "P1": 0, "P2": 0},
+  "notes": "Hardening build robuste (P0) : le pipeline blog publie en continu des posts au frontmatter incomplet (category/datePublished manquants) qui cassaient le build sur chaque consommateur (/[slug], /sitemap.xml...). Fix systémique en 2 points : (1) slugifyTaxo tolère null/undefined → '' (anti-crash getCategoryStyle/Href). (2) getAllArticles filtre les articles sans category/datePublished AVANT le sort (log [content] article ignoré...) — aucun consommateur ne voit un post malformé, le build ne peut plus casser. Les posts réapparaissent automatiquement quand leur frontmatter est corrigé (phase C). Preuve : build local vert (exit 0, sitemap OK, cake-sale-vegetarien-moelleux filtré et loggé)."
+}

@@ -4,7 +4,8 @@
  * Extrait de lib/content.ts pour éviter d'embarquer `node:fs` dans le bundle
  * navigateur via la chaîne categoryStyle → content.
  */
-export function slugifyTaxo(value: string): string {
+export function slugifyTaxo(value: string | null | undefined): string {
+  if (!value) return "";
   return value
     .toLowerCase()
     .normalize("NFD")
