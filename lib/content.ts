@@ -92,12 +92,13 @@ function readMdxFiles(dir: string): { slug: string; raw: string }[] {
 
 export function getAllRecipes(): Recipe[] {
   return readMdxFiles(RECIPES_DIR)
-    .map(({ raw }) => {
+    .map(({ slug, raw }) => {
       const { data, content } = matter(raw);
       const d = data as RecipeFrontmatter;
       return {
         frontmatter: {
           ...d,
+          slug: d.slug ?? slug,
           tags: normalizeTags((data as Record<string, unknown>).tags),
           faq: normalizeFaqItems((data as Record<string, unknown>).faq),
         },
@@ -118,12 +119,13 @@ export function getRecipeBySlug(slug: string): Recipe | null {
 
 export function getAllArticles(): Article[] {
   return readMdxFiles(BLOG_DIR)
-    .map(({ raw }) => {
+    .map(({ slug, raw }) => {
       const { data, content } = matter(raw);
       const d = data as ArticleFrontmatter;
       return {
         frontmatter: {
           ...d,
+          slug: d.slug ?? slug,
           tags: normalizeTags((data as Record<string, unknown>).tags),
           faq: normalizeFaqItems((data as Record<string, unknown>).faq),
         },
