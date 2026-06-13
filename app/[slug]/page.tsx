@@ -30,7 +30,7 @@ interface PageProps {
 export function generateStaticParams(): { slug: string }[] {
   const reserved = getReservedRootSlugs();
   return getAllArticles()
-    .filter((article) => !reserved.has(article.frontmatter.slug))
+    .filter((article) => typeof article.frontmatter.slug === 'string' && article.frontmatter.slug.length > 0 && !reserved.has(article.frontmatter.slug))
     .map((article) => ({ slug: article.frontmatter.slug }));
 }
 

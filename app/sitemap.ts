@@ -40,9 +40,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/blog/`, changeFrequency: "weekly", priority: 0.8 },
   ];
 
+  const parseDate = (raw: string | undefined): Date | undefined => {
+    if (!raw) return undefined;
+    const d = new Date(raw);
+    return isNaN(d.getTime()) ? undefined : d;
+  };
+
   const recipePages: MetadataRoute.Sitemap = recipes.map((recipe) => ({
     url: `${SITE_URL}/recettes/${recipe.frontmatter.slug}/`,
-    lastModified: new Date(
+    lastModified: parseDate(
       recipe.frontmatter.dateModified ?? recipe.frontmatter.datePublished
     ),
     changeFrequency: "monthly",
@@ -54,7 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((article) => !article.frontmatter.noindex)
     .map((article) => ({
     url: `${SITE_URL}/${article.frontmatter.slug}/`,
-    lastModified: new Date(
+    lastModified: parseDate(
       article.frontmatter.dateModified ?? article.frontmatter.datePublished
     ),
     changeFrequency: "monthly",
